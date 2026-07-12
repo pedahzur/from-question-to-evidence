@@ -9,5 +9,40 @@ last-reviewed: "2026-07-12"
 license: "CC BY 4.0"
 ---
 
-The completed map links the question, evidence, gaps, priorities, and stopping rule.
+## Orientation
 
+The final stage does not end research. It converts collection from accumulation into a reasoned plan. The map now shows what the project asks, what evidence bears on it, where the corpus is weak, and what further work is worth its cost.
+
+## Learn
+
+Assemble the six prior artifacts without flattening them into one table. The question frame supplies boundaries. The concept grid supplies dimensions. The source inventory supplies possible record-producing institutions. The search log supplies routes and revisions. The evidence register supplies claim-specific judgments. The gap analysis supplies uncertainty and priority.
+
+The collection plan assigns the next action to each important gap. Search further, seek access, consult an expert, add language competence, triangulate, narrow the claim, or accept the limit. Every action has a reason and a review date.
+
+The stopping rule states when active collection ends for the present phase. It should refer to coverage of important dimensions, diversity of source families, declining information yield, treatment of rivals and negative cases, unresolved contradictions, and practical or ethical constraints. It should also state what new evidence would reopen collection.
+
+## Worked Example
+
+The terrorism map may support a claim about how database procedures create divergent accounts while remaining unable to adjudicate the true global number of events. That is an acceptable result. The map narrows the claim to what the evidence can bear.
+
+The stopping rule might close active collection after the main methodological periods are documented, competing classification systems are represented, important transformations are traced, and new searches yield only dependent repetition. It would reopen if a new codebook, originating archive, or independent event series became available.
+
+## Try It
+
+Write the strongest claim the present corpus can support. Write the strongest claim it cannot support. Then draft the stopping rule in one paragraph that names both evidence and limits.
+
+## Guided AI Workflow
+
+Ask the model to attack the stopping rule. Require it to identify unsupported confidence, neglected rivals, circular dependence, and vague language. Revise only after checking the critique against the map.
+
+## Integrity Checkpoint
+
+Do not convert inaccessible evidence into presumed support. Do not treat silence as absence without examining the record-producing institution. Do not present a practical deadline as methodological sufficiency. Name the constraint.
+
+## Save the Artifact
+
+Freeze a dated version of the evidence map, collection plan, and stopping rule. Preserve editable working files and a stable review copy. Link the release to the question version it answers.
+
+## Advanced Practice
+
+In team projects, the map becomes an instrument of governance. It assigns responsibility, records disagreements, and makes handoffs possible. The map should not become a surveillance device for counting activity. Its unit is a research decision, not an hour worked.

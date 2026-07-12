@@ -9,4 +9,40 @@ last-reviewed: "2026-07-12"
 license: "CC BY 4.0"
 ---
 
-Evaluation determines what each source can support and where its limits lie. The worked example uses the Global Terrorism Database to show how inclusion criteria, coding systems, and collection periods shape the evidence available to researchers [@start2024codebook; @enders2011domestic].
+## Orientation
+
+Collection answers “What did we find?” Evaluation asks “What can this record support?” The two questions should not collapse into one. A source can be relevant and unreliable for a specific claim. It can be accurate and still unrepresentative. It can be biased and indispensable.
+
+## Learn
+
+Evaluate the record in relation to a claim. Authority alone is insufficient. A ministry may be authoritative about its own procedure and self-interested about its success. A participant may recall experience with precision and reconstruct chronology poorly. A database may standardize variables carefully while inheriting uneven news coverage.
+
+Seven judgments belong in the evidence register. Relevance connects the source to a dimension of the question. Proximity describes its relation to the event or process. Provenance records who created and transformed it. Authority concerns competence and institutional position. Dependence identifies shared underlying sources. Representation asks whose experience enters the record. Preservation risk concerns whether the record can be checked later.
+
+These judgments should remain separate. Combining them into one quality score hides the reason a source matters.
+
+## Worked Example
+
+The Global Terrorism Database documents its methodology, inclusion criteria, and variables.^[See @start2024codebook.] That documentation makes evaluation possible. It does not make each observation equally certain. Event records depend on available sources, definitions, collection periods, and coding judgments.
+
+Research that separates domestic and transnational incidents shows how analytical purpose can require transforming a published event universe.^[See @enders2011domestic.] The transformed data may answer a new question. The transformation must remain visible.
+
+## Try It
+
+Select one source that appears strong and one that appears weak. Write what each can establish, what it cannot establish, and which other source family could test it. Then identify whether the two sources depend on the same originating report.
+
+## Guided AI Workflow
+
+Provide a source description and the intended claim, not confidential full text. Ask the model for questions about provenance, dependence, missing actors, and temporal distance. Treat the output as an evaluation checklist. Do not ask for a verdict on credibility.
+
+## Integrity Checkpoint
+
+Evaluation can reproduce status hierarchies. Official sources should not receive an automatic presumption of truth, and participant testimony should not be romanticized as unmediated access. State the source's institutional position and the claim for which it is being used.
+
+## Save the Artifact
+
+Save one evidence-register entry per record or coherent collection. Link it to the source-family inventory, search cycle, relevant concept, and any restriction on use.
+
+## Advanced Practice
+
+Teams should calibrate judgments through difficult examples rather than pursue artificial agreement on every record. Preserve reasoned disagreement when it affects interpretation. Consensus can erase uncertainty that belongs in the final analysis.

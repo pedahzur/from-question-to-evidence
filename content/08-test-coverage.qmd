@@ -9,4 +9,38 @@ last-reviewed: "2026-07-12"
 license: "CC BY 4.0"
 ---
 
-Coverage testing replaces an impossible promise of exhaustiveness with a defensible account of what has and has not been found. The language of saturation is useful only when matched to the research tradition and analytic purpose [@saunders2018saturation; @malterud2016information; @braun2021quality].
+## Orientation
+
+Researchers stop collecting for many reasons. A deadline arrives. Access closes. New searches repeat old results. The corpus seems sufficient. These reasons should not be disguised as one claim that the evidence is complete.
+
+## Learn
+
+Coverage testing compares the developing corpus with the dimensions and source families on the map. Look for empty cells, thin cells, dependent cells, contradictory cells, and cells filled by one institutional perspective. A large number of records can conceal weak coverage when they repeat one source stream.
+
+The language of saturation has several meanings and does not fit every qualitative tradition.^[See @saunders2018saturation and @braun2021quality.] Information power offers another way to reason about adequacy: a focused aim, specific material, strong dialogue with the evidence, theoretical support, and an intensive analytic strategy can reduce the amount required.^[See @malterud2016information.] These ideas concern sampling and analysis. An evidence map adapts them cautiously to documentary collection.
+
+Track information yield. A search cycle has high yield when it adds a new source family, changes a definition, reveals a rival explanation, fills an important gap, or alters the interpretation of existing evidence. Yield declines when new records repeat known information from the same underlying sources.
+
+## Worked Example
+
+A terrorism corpus may contain thousands of event records while remaining thin on coding changes, local reporting gaps, or the institutional reasons that one event entered the database and another did not. Coverage testing shifts attention from event totals to the process that produced them.
+
+## Try It
+
+Mark each evidence-map cell as empty, thin, adequate for the present claim, contradictory, or inaccessible. Write one sentence defending every “adequate” judgment. Then rank the unresolved cells by their likely effect on the argument.
+
+## Guided AI Workflow
+
+Provide a redacted summary of the map. Ask the model to identify repeated dependence, absent actor perspectives, unsupported comparisons, and claims resting on one source family. Verify each observation against the actual register. The model sees the summary supplied to it, not the evidence itself.
+
+## Integrity Checkpoint
+
+Some gaps should remain. Ethical restrictions, participant safety, legal obligations, and community agreements can make collection improper. Record these as protected gaps rather than methodological failures.
+
+## Save the Artifact
+
+Save the gap analysis with priority, consequence, proposed action, access constraint, and decision date. A later researcher should be able to distinguish an overlooked gap from a known limit.
+
+## Advanced Practice
+
+Contradiction is not a defect to eliminate. It may reveal distinct institutional views, temporal change, strategic deception, or differences in measurement. The map should preserve disagreement until the analysis explains why it exists.

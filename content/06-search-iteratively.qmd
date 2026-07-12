@@ -9,5 +9,42 @@ last-reviewed: "2026-07-12"
 license: "CC BY 4.0"
 ---
 
-Iterative searching records routes, discoveries, revisions, and dead ends.
+## Orientation
 
+A search is not a box into which a finished question is typed. It is a sequence of encounters with the vocabulary and organization of a field. The first results teach the researcher how other actors named the subject. Those names alter the next search.
+
+## Learn
+
+Begin with a search cycle rather than a master query. A cycle has a purpose, a route, a date, a set of terms, and a result. It ends with a decision: continue, revise, follow a lead, or stop using that route.
+
+Search across systems because each system orders the world differently. Scholarly indexes privilege publications and citation relations. Archive catalogues describe collections through institutional finding aids. General search engines rank pages through opaque and changing systems. Library catalogues preserve controlled vocabularies. Human experts reveal sources that no public index exposes.
+
+Record failures. A query that returns nothing may show that the vocabulary is wrong, the source is not digitized, the archive uses another name, or the record never existed. These possibilities have different consequences. “No results” is not yet “no evidence.”
+
+Search reporting standards developed for systematic reviews offer a useful discipline: name the information source, preserve the search strategy, record dates, and explain how retrieved records were managed.^[See @rethlefsen2021prismas.] Qualitative projects can adapt this discipline without claiming that every search can be reproduced exactly.
+
+## Worked Example
+
+The terrorism example begins with official database documentation and the scholarship that has tested its classifications. It then moves backward toward originating sources and sideways toward competing databases, government records, and local reporting. Citation chaining identifies studies that transformed the data. Name and event searches reveal changes in terminology.
+
+The log distinguishes a result derived from the database from a result that independently documents the event. This prevents a chain of later publications from being mistaken for multiple sources.
+
+## Try It
+
+Run three short cycles for one source family. The first uses the researcher's terms. The second uses language found in the first results. The third uses the vocabulary of an actor with a different institutional position. Write a short decision note after each cycle.
+
+## Guided AI Workflow
+
+Ask a model to expand candidate terms across historical names, acronyms, translations, institutional titles, and opposing actor vocabularies. Supply no protected information. Verify every proposed proper noun before use. The model can expand a query set. It cannot report what an index contains unless it has inspected the current index.
+
+## Integrity Checkpoint
+
+Searches may reveal personal data, allegations, and material obtained outside its intended context. Discovery does not establish ethical permission to collect, analyze, or publish. Record restrictions at the moment of discovery.
+
+## Save the Artifact
+
+Save the search log with the date, system, purpose, exact terms, filters, result count when meaningful, records retained, new vocabulary, and next decision. Preserve exports when licensing permits.
+
+## Advanced Practice
+
+Search ranking changes. Personalized systems may return different results to different users. Researchers working in teams should compare selected queries across accounts, locations, languages, and systems when ranking itself could shape the corpus.

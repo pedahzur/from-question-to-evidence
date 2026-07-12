@@ -33,7 +33,7 @@ def test_quarto_book_contract() -> None:
 
     assert base["project"]["type"] == "book"
     assert base["book"]["chapters"] == CHAPTERS
-    assert manuscript["project"]["output-dir"] == "_output/manuscript"
+    assert manuscript["project"]["output-dir"] == "build-manuscript"
     assert manuscript["bibliography"] == "bibliography/references.bib"
     assert set(manuscript["format"]) == {"docx", "pdf"}
 
@@ -51,3 +51,12 @@ def test_all_chapters_have_required_metadata() -> None:
 def test_content_checker_rejects_forbidden_markers() -> None:
     errors = validate_text("content/example.qmd", "A paragraph with " + "TO" + "DO inside.")
     assert errors == ["content/example.qmd: contains a forbidden draft marker"]
+
+
+def test_quarto_site_profile() -> None:
+    site = load_yaml(ROOT / "_quarto-site.yml")
+    assert site["project"]["output-dir"] == "build-site"
+    assert "html" in site["format"]
+    assert site["book"]["search"] is True
+    assert site["book"]["page-navigation"] is True
+    assert site["book"]["downloads"] == ["docx", "pdf"]

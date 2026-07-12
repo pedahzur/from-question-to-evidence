@@ -9,5 +9,52 @@ last-reviewed: "2026-07-12"
 license: "CC BY 4.0"
 ---
 
-Framing establishes the provisional boundaries that make disciplined collection possible.
+## Orientation
 
+Research often begins with a subject rather than a question. Political violence, migration, educational inequality, and collective memory can sustain careers. They cannot direct a search. A subject has no internal stopping point. Every document leads to another period, actor, or debate.
+
+Framing creates the first limit. It states what the researcher wants to explain or understand, the unit to which the question applies, the relevant setting, and the period under examination. The limit is provisional. It exists so the collection can begin with discipline.
+
+## Learn
+
+A workable qualitative question establishes an object of inquiry and a relation that requires evidence. “Terrorism databases” names an object. “Why do major terrorism databases report different patterns for the same period?” identifies a relation among classification systems, sources, and observed trends. The second formulation tells the researcher what must be compared.
+
+The question must also expose its assumptions. “Why did the policy fail?” presumes failure before specifying the criterion. “How did officials and affected communities evaluate the policy's effects between 2018 and 2022?” makes evaluation itself part of the inquiry. The revised question does not eliminate judgment. It identifies where the judgment enters.
+
+Boundaries should be stated along five dimensions in running notes: phenomenon, place, period, actors, and outcome or meaning. Not every project needs a narrow value for each dimension. Comparative and transnational studies may require wide geographical scope. Historical research may follow consequences across decades. The researcher should still record what makes the boundary appropriate.
+
+The frame includes exclusions. Exclusion is not dismissal. A study of policy formation may set aside implementation because the causal question concerns agenda access. A study of public memory may exclude private recollection that never entered a public forum. A source can be valuable and remain outside the present question.
+
+## Worked Example
+
+Our initial subject is disagreement among accounts of terrorism. The first question might ask, “Which terrorism database is most accurate?” That formulation is attractive and weak. Accuracy depends on a definition of the event universe and on evidence against which records can be checked. The question also encourages a winner rather than an explanation.
+
+We reframe it: “How do definitions, source systems, and collection procedures produce divergent accounts of domestic and transnational terrorism within the same period?” The new question identifies three possible mechanisms and one comparison. It leaves room for a database to perform well for one purpose and poorly for another.
+
+The frame records a second decision. The module will examine the process through which events become records. It will not estimate a corrected global trend. That task requires data access, calibration choices, and a separate analytical design.
+
+## Try It
+
+Write the present version of the question in one sentence. Then write a second sentence beginning with “This project does not attempt to.” The pair forces inclusion and exclusion into the same frame.
+
+Next, state what would count as an answer. A causal question may require evidence of sequence and mechanism. An interpretive question may require competing meanings and the settings in which actors used them. A descriptive question may require a justified account of variation. If the anticipated answer cannot be described, the question remains too loose.
+
+The saved artifact should contain the question, purpose, unit of inquiry, boundaries, exclusions, assumptions, and evidence needed for an answer. Date it. Later revisions should create a new version rather than erase the first.
+
+## Guided AI Workflow
+
+AI can serve as a critic of the frame. Provide the question and boundary statement without confidential material. Ask the system to identify hidden assumptions, ambiguous concepts, and plausible alternative formulations. Then ask it to explain how each alternative would change the evidence required.
+
+Do not ask the model to choose the “best” question. It lacks the project's intellectual commitments and access constraints. Review each suggestion against the purpose of the study. Record accepted changes, rejected changes, and the reason for each decision.
+
+## Integrity Checkpoint
+
+The frame should not expose participant identities, restricted archival information, or unpublished allegations. It should not define a contested actor in terms that decide the empirical question in advance. It should distinguish the researcher's normative commitments from the evidence required to support a descriptive or causal claim.
+
+## Save the Artifact
+
+Save the question-framing worksheet as version 0.1. Link it to the project log and the later evidence map. The version number matters because later collection decisions will make sense only in relation to the question that guided them at the time.
+
+## Advanced Practice
+
+Some questions should remain open longer than this procedure implies. Ethnographic research may develop its focus through entry into a field. Archival discoveries may shift the relevant period or actor. Participatory research may require the community to redefine the problem. In these cases, framing is an explicit record of the current agreement, not a contract imposed on future evidence.

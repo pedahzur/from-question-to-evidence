@@ -9,4 +9,48 @@ last-reviewed: "2026-07-12"
 license: "CC BY 4.0"
 ---
 
-AI can expand and challenge a research plan, but the researcher remains responsible for verification, inclusion, privacy, and the audit trail. Generative systems introduce risks that include confident fabrication, privacy exposure, bias, and unstable behavior across versions [@autio2024genai].
+## A Division of Labor
+
+Generative AI can accelerate parts of evidence mapping. It can propose synonyms, group candidate records, compare definitions, and question a stopping rule. These are acts of assistance. They are not transfers of authorship or responsibility.
+
+The researcher defines the purpose. The researcher controls the material supplied to the system. The researcher verifies claims and sources. The researcher decides what enters the corpus. The researcher accounts for the result.
+
+This division of labor is necessary because fluent output can contain fabricated references, unsupported inference, privacy disclosure, and bias inherited from training data or the prompt. Current risk guidance treats these as properties that require management across the system's use, not as rare accidents.^[See @autio2024genai.]
+
+## Model-Neutral Workflows
+
+The guide avoids instructions that depend on one product interface. A workflow states the research task, required input, prompt sequence, verification procedure, and audit record. The model may change. The scholarly obligation does not.
+
+A useful prompt gives the system a bounded role. “Identify candidate dimensions missing from this question frame” is inspectable. “Research this topic for me” conceals the stages at which error can enter. Prompts should request candidates, alternatives, or critiques. They should not request certainty the system cannot establish.
+
+Run more than one pass when the task matters. The first pass generates. The second challenges. The third compares the output with the evidence map. Repetition does not guarantee truth, but role separation makes error easier to see.
+
+## Privacy and Data Minimization
+
+Do not place material into an external system merely because it accepts text. Interview transcripts, archival restrictions, personal data, allegations, unpublished findings, and partner-owned datasets may carry legal and ethical limits. Remove identifiers when the task permits. Use abstract descriptions when the full record is unnecessary. Prefer local or institutionally approved systems when protection requires them.
+
+The audit log records what category of material entered the system. It need not reproduce protected content. It should record the model, date, task, input description, relevant settings, output disposition, and human reviewer.
+
+## Verification
+
+Verification follows the claim. A proposed publication must be located through a DOI resolver, library catalogue, publisher, or trusted index. A named archive must be checked through the institution. A quotation must be compared with the source. A classification must be traced to the evidence and decision rule.
+
+An AI-generated reference is not a citation. It is a search lead.
+
+The same rule applies to summaries. A model may produce an elegant account of a document while missing a qualification that changes its meaning. Verify against the original and record which passages support the summary.
+
+## Bias and Missing Perspectives
+
+Models can reproduce the visibility structure of their training material. Well-indexed English-language institutions may appear central because they are easier for the system to name. Local archives, non-English terms, and informal records may disappear from the response. This weakness makes AI useful as one critic among several, never as the sole designer of a source map.
+
+Ask what position the response assumes. Ask which actors it treats as authoritative. Ask which language and region dominate its suggestions. Then use domain expertise and human consultation to correct the map.
+
+## Reproducibility and Drift
+
+The same prompt may produce different outputs across runs. A provider may change the model without preserving the prior version. Search-connected systems may draw on a changing index. The audit record should therefore support reconstruction of the decision, not promise exact reproduction of the text.
+
+Preserve consequential outputs when terms permit. Record accepted and rejected suggestions. State when AI assistance changed the question, search vocabulary, source inventory, or stopping rule. The manuscript needs the decision trail more than it needs a transcript of every exchange.
+
+## The Standard
+
+AI use is defensible when it makes judgment more visible. It fails when it hides judgment behind convenience.

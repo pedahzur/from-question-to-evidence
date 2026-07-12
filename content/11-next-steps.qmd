@@ -9,5 +9,32 @@ last-reviewed: "2026-07-12"
 license: "CC BY 4.0"
 ---
 
-The pilot establishes a reusable pattern for future modules on review, collection, analysis, communication, and preservation.
+## What the Pilot Establishes
 
+The evidence map gives the revived project a center. It connects an intellectual question to the practical work of finding material. It keeps method separate from products whose features and terms change. It gives generative AI a bounded role. It leaves a record another researcher can inspect.
+
+The method also reveals what remains outside this draft. An evidence map does not conduct the literature synthesis. It does not collect an interview, preserve a website, code a document, or write the final analysis. Each task requires its own decisions and artifacts.
+
+## The Larger Field Guide
+
+A later module on literature review should begin where the evidence map leaves scholarly publications. It should address discovery, citation networks, reading, annotation, conceptual comparison, and the relation between review and original collection.
+
+A collection module should address documents, interviews, observations, images, audio, video, and web material. It should connect capture to consent, metadata, storage, naming, backup, preservation, and chain of custody.
+
+A preparation module should examine transcription, OCR, translation, coding, memoing, temporal ordering, entity resolution, and the conversion of unstructured records into structured fields. The original project devoted substantial attention to this border between qualitative material and databases. That contribution deserves reconstruction.
+
+An analysis module should resist a false division between qualitative and quantitative work. Researchers move between close reading, comparison, counting, visualization, and model-based inference. The relevant distinction concerns the claim and evidence, not the brand of software.
+
+A communication module should cover manuscripts, presentations, public data, visual explanation, repositories, and long-term access. Sharing is not the final act after research. Decisions made during collection determine what can later be verified, reused, or protected.
+
+## A Hebrew Edition
+
+English remains the canonical language during the pilot. A Hebrew edition should follow after the content model and navigation stabilize. Translation will require more than sentence substitution. Search terms, institutional examples, interfaces, and right-to-left design must be adapted. Stable page identifiers will keep the two editions connected without forcing them to change at the same pace.
+
+## An Invitation
+
+This draft is an argument and a test. It argues that researchers need a visible structure between question and corpus. It tests whether one module can carry novices and experienced scholars through the same decisions at different depths.
+
+The next step is editorial rather than technical. We need to decide whether the evidence map captures the original project's ambition, whether the terrorism example carries too much of our own disciplinary history, and whether the balance between instruction and argument feels like a book we would write together now.
+
+The old project began with abundance. The revived project begins with limits. This is progress.

@@ -9,5 +9,52 @@ last-reviewed: "2026-07-12"
 license: "CC BY 4.0"
 ---
 
-Decomposition turns the framed question into dimensions that can guide discovery.
+## Orientation
 
+A well-framed question can still hide several inquiries inside one sentence. Each noun may contain a dispute. Each verb may imply a mechanism. Each boundary may conceal variation. Decomposition makes those parts visible before the search engine makes its own choices for the researcher.
+
+## Learn
+
+Begin with concepts. A project on radicalization, trust, resilience, or state capacity cannot search effectively until it records how the term is being used. The task is not to produce a final definition. It is to identify neighboring terms, competing definitions, observable expressions, and words used by the actors themselves.
+
+Then identify context. Time changes institutions and vocabulary. Place changes jurisdiction and source access. Actors occupy positions that shape what they can observe and what they have reason to record. Events create documentary traces, but those traces differ according to the organizations present.
+
+Finally, identify rival explanations and negative cases. A question about technological change may need to consider organizational reform, political pressure, or altered reporting rules. A project that collects evidence only for its favored explanation will produce a dense archive and a weak inference.
+
+Decomposition works through a grid. Rows represent dimensions of the question. Columns record working definitions, synonyms, actor language, likely evidence, rivals, and exclusions. The cells need not be filled before searching. Empty cells are useful. They show where the project is reasoning from habit rather than evidence.
+
+## Worked Example
+
+The worked question contains several terms that require separation. “Terrorism” is a contested category. “Domestic” and “transnational” may refer to the location of an attack, the identity of perpetrators, the nationality of victims, organizational ties, or movement across borders. “Divergent accounts” may mean different event totals, different classifications, or different interpretations of the same underlying record.
+
+The decomposition also reveals institutional actors. Database designers define variables. Coders interpret reports. News organizations decide which events merit coverage. Governments classify incidents for administrative, legal, and political purposes. Researchers transform published data through exclusions, recoding, and aggregation.
+
+Research has shown why separating domestic and transnational incidents can change the question being answered.^[See @enders2011domestic.] The value of the example lies less in the resulting series than in the conceptual work required to produce it.
+
+## Try It
+
+Underline every substantive noun and verb in the question. For each term, write a working meaning, two alternatives, and one observable trace. Then identify actors who would use different language for the same phenomenon.
+
+Add at least one rival explanation. If the project expects a rise in recorded events, ask whether reporting capacity changed. If it expects a shift in public attitudes, ask whether the survey instrument or sampling frame changed. If it expects institutional learning, ask whether staff replacement or external coercion could produce the same observation.
+
+The exercise is complete when each important term has a research use rather than a dictionary definition. The grid should tell the researcher where a term would appear, who would use it, and what could make its apparent presence misleading.
+
+## Guided AI Workflow
+
+Provide the framed question and the research purpose. Ask the model to separate concepts, contexts, actors, mechanisms, rival explanations, and negative cases. Require it to label each suggestion as a candidate rather than a fact.
+
+Run a second prompt that assigns the model an adversarial task: identify dimensions omitted by the first decomposition. A third prompt can ask how the decomposition might differ from the standpoint of an actor poorly represented in official records.
+
+The researcher then checks whether each candidate follows from the question and whether it can guide evidence collection. Broad social categories proposed without a plausible evidentiary route should not enter the grid merely because they sound inclusive.
+
+## Integrity Checkpoint
+
+Concepts can reproduce official categories that the study should examine. They can also impose academic language that participants would reject. Record whose vocabulary each term represents. Where translation is involved, preserve the original expression and the decisions behind the English gloss.
+
+## Save the Artifact
+
+Save the concept-and-context grid with stable identifiers for each row. These identifiers will connect later search terms, source families, and evidence records to the dimension they serve.
+
+## Advanced Practice
+
+Team projects should decompose the question independently before reconciling their grids. Early agreement can conceal shared assumptions. Independent drafts expose differences in training, language, and field knowledge. The reconciliation record should preserve disagreements that affect collection, even when the team adopts one operational definition.

@@ -4,3 +4,6 @@
 /.pytest_cache/
 /**/__pycache__/
 /_output/
+/build-manuscript/
+/build-site/
+/node_modules

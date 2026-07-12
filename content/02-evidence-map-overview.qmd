@@ -52,3 +52,41 @@ AI can assist at four points in this module. It can propose dimensions after the
 These uses share one condition: the system proposes, and the researcher disposes. A plausible archive name must be verified. A suggested source family must be examined for ethical and practical access. A proposed gap must be tested against the question rather than accepted because the model stated it fluently.
 
 The guide records every accepted suggestion and every consequential rejection. This is not clerical burden. It is evidence of judgment.
+
+::: {.content-visible when-profile="site"}
+## Reader Resources
+
+The pilot includes five editable resources. They are separate from the prose so that researchers can use them without adopting a particular software system.
+
+::: {.resource-grid}
+::: {.resource-card}
+### Frame the question
+
+[Download the Word worksheet](../templates/question-framing.docx)
+:::
+
+::: {.resource-card}
+### Decompose concepts
+
+[Download the concept grid](../templates/concept-context-grid.xlsx)
+:::
+
+::: {.resource-card}
+### Map source families
+
+[Download the source inventory](../templates/source-family-inventory.xlsx)
+:::
+
+::: {.resource-card}
+### Record searches and AI
+
+[Download the audit log](../templates/search-ai-audit-log.xlsx)
+:::
+
+::: {.resource-card}
+### Assemble the final map
+
+[Download the evidence-map workbook](../templates/evidence-map-stopping-rule.xlsx)
+:::
+:::
+:::

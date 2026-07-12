@@ -1,0 +1,30 @@
+project:
+  output-dir: build-site
+  resources:
+    - templates/*.xlsx
+    - templates/*.docx
+
+book:
+  favicon: assets/favicon.svg
+  search: true
+  page-navigation: true
+  downloads:
+    - docx
+    - pdf
+  sharing:
+    - linkedin
+  sidebar:
+    style: docked
+    collapse-level: 1
+
+bibliography: bibliography/references.bib
+csl: https://www.zotero.org/styles/chicago-fullnote-bibliography
+
+format:
+  html:
+    theme: cosmo
+    css: styles.scss
+    toc: true
+    toc-depth: 2
+    link-external-newwindow: true
+    smooth-scroll: true
