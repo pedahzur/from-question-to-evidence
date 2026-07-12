@@ -1,0 +1,13 @@
+---
+title: "Stage 7: Produce the Evidence Map"
+description: "Integrate the research artifacts into a collection strategy."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+The completed map links the question, evidence, gaps, priorities, and stopping rule.
+

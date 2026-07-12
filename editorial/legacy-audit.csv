@@ -1,0 +1,25 @@
+id,title,disposition,reason
+root,DATA SCIENCE project index,archive-provenance,Original project architecture
+ch1,Chapter 1 Introduction,retain-rewrite,Original framing and cases
+ch2,Chapter 2 Review,retain-rewrite,Substantial original draft
+ch3,Chapter 3 Research,retain-rewrite,Core data collection argument
+ch4,Chapter 4 Sharing,update,Useful workflow with dated tools
+ch5,Chapter 5,remove-residue,Duplicated and skeletal
+ch6,Chapter 6,remove-residue,Duplicated and misnumbered
+review1,How Not to Drown,retain-rewrite,Long original literature review workflow
+review2,Technology in Literature Review,update,Method sound but tool references dated
+prep,Preparations,retain-rewrite,Strong contextual and codebook material
+field,In the Field,update,Smartphone workflow needs current treatment
+post,Post Production,update,Useful but incomplete
+qual,Preparing Qualitative Historical Data,retain-rewrite,Relevant evidence organization method
+quant,Structuring Unstructured Data,retain-rewrite,Distinctive matrix approach
+conclusion,Conclusion,update,AI and collaboration sections undeveloped
+gtd1,Government Data Case,retain-rewrite,Worked example candidate
+gtd2,Collection Challenges Case,retain-rewrite,Worked example candidate
+gtd3,GTD Flaws Case,retain-rewrite,Worked example candidate
+gtd4,Terrorism Reach Case,retain-rewrite,Worked example candidate
+pdfs,Embedded Reference PDFs,exclude-rights,Third party publications
+images,Embedded Images,exclude-rights,Rights basis not documented
+software1,Software Database Sample,archive-provenance,Historical product catalogue
+software2,October 2018 Software Database,archive-provenance,Historical product catalogue
+csvdupes,Notion CSV all duplicates,remove-residue,Duplicate exports

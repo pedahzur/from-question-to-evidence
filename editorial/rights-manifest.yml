@@ -1,0 +1,21 @@
+- path: content/
+  publish: true
+  creator: Ami Pedahzur and Jonathan Grossman
+  source: Original and substantively rewritten project prose
+  rights_basis: CC BY 4.0 author license
+  attribution: Ami Pedahzur and Jonathan Grossman
+  reviewed_on: 2026-07-12
+- path: templates/
+  publish: true
+  creator: Ami Pedahzur and Jonathan Grossman
+  source: Original field-guide worksheets
+  rights_basis: CC BY 4.0 author license
+  attribution: Ami Pedahzur and Jonathan Grossman
+  reviewed_on: 2026-07-12
+- path: private-archive/embedded-pdfs
+  publish: false
+  creator: Various third parties
+  source: Legacy Notion export
+  rights_basis: No republication basis established
+  attribution: Not applicable
+  reviewed_on: 2026-07-12

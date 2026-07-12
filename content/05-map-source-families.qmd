@@ -1,0 +1,13 @@
+---
+title: "Stage 3: Map Source Families"
+description: "Identify who could have recorded what matters."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+Source-family mapping makes likely evidence and likely silences visible before collection accelerates.
+

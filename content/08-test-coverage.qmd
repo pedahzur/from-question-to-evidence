@@ -1,0 +1,12 @@
+---
+title: "Stage 6: Test Coverage"
+description: "Identify gaps, contradictions, and diminishing yield."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+Coverage testing replaces an impossible promise of exhaustiveness with a defensible account of what has and has not been found. The language of saturation is useful only when matched to the research tradition and analytic purpose [@saunders2018saturation; @malterud2016information; @braun2021quality].

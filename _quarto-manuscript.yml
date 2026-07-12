@@ -1,0 +1,14 @@
+project:
+  output-dir: _output/manuscript
+
+bibliography: bibliography/references.bib
+csl: https://www.zotero.org/styles/chicago-fullnote-bibliography
+
+format:
+  docx:
+    toc: true
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+    documentclass: scrbook

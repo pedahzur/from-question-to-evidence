@@ -1,0 +1,13 @@
+---
+title: "Stage 2: Decompose the Question"
+description: "Identify concepts, contexts, and rival explanations."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+Decomposition turns the framed question into dimensions that can guide discovery.
+

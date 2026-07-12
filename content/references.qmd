@@ -1,0 +1,14 @@
+---
+title: "References"
+description: "Works cited in the discussion draft."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+::: {#refs}
+:::
+

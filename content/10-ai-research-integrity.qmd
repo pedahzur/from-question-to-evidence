@@ -1,0 +1,12 @@
+---
+title: "AI and Research Integrity"
+description: "Use generative AI without surrendering scholarly judgment."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+AI can expand and challenge a research plan, but the researcher remains responsible for verification, inclusion, privacy, and the audit trail. Generative systems introduce risks that include confident fabrication, privacy exposure, bias, and unstable behavior across versions [@autio2024genai].

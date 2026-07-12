@@ -1,0 +1,12 @@
+---
+title: "Stage 5: Evaluate Evidence"
+description: "Assess relevance, provenance, authority, and representation."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+Evaluation determines what each source can support and where its limits lie. The worked example uses the Global Terrorism Database to show how inclusion criteria, coding systems, and collection periods shape the evidence available to researchers [@start2024codebook; @enders2011domestic].

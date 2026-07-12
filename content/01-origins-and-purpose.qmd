@@ -1,0 +1,52 @@
+---
+title: "Origins and Purpose"
+description: "Why this field guide was revived."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+## The First Version
+
+The original project began with a practical frustration. Researchers were being told that digital technology had democratized knowledge, and in an important sense it had. Search engines opened routes into literatures that once required proximity to a major library. Smartphones placed a camera, recorder, scanner, map, and notebook in one pocket. Cloud storage made files available across continents. Yet each gain created another decision that methods training rarely addressed.
+
+What should be collected? How should it be named? Which metadata should travel with it? When should a record enter a reference manager, a qualitative analysis system, a spreadsheet, or an archive? What must remain linked to the original? What does a researcher do when the same event appears in five incompatible forms?
+
+Our early drafts tried to answer these questions by following the research process. They moved from literature review to field collection, from unstructured material to a working database, and from analysis to public communication. Some passages remain useful. Others read like records of a vanished software market. Product descriptions aged faster than the methodological problems they were meant to solve.
+
+This failure taught us something. A book organized around tools will inherit their expiration dates. A book organized around research decisions can survive them.
+
+## The New Pressure
+
+Generative AI changes the scale of the problem, but not its nature. A researcher has always relied on aids to memory and classification. Indexes, catalogues, research assistants, codebooks, and bibliographies all extend individual capacity. The new systems differ in three respects. They respond in natural language. They infer patterns across large bodies of text. They produce answers whose fluency can hide the weakness of their evidentiary basis.
+
+The practical temptation is easy to understand. A researcher facing two hundred articles may ask a model for the dominant themes. A scholar entering an unfamiliar archive may request names, dates, and likely repositories. A doctoral student may ask for missing literature. Each request can produce a useful lead. Each can also collapse the distinction between a plausible sentence and a supported claim.
+
+The distinction matters because qualitative research depends on context that systems often discard. A phrase changes meaning when removed from the institutional conflict that produced it. An interview gains or loses force according to who conducted it, when it was recorded, and what the speaker had reason to conceal. An official document may describe an event precisely while omitting the actors excluded from the bureaucracy that created the record. Metadata is part of the evidence.
+
+This is why provenance sits near the center of the revived project. Provenance records the entities, activities, and agents through which information came into being. It permits a reader to ask who created a record, what transformed it, and how it entered the present collection.^[The formal vocabulary of entities, activities, and agents follows the W3C provenance model. See @lebo2013provo.] The guide does not require researchers to adopt a technical ontology. It requires them to preserve the questions that ontology makes explicit.
+
+## The Argument
+
+We argue that rigorous collection has three requirements. It requires a bounded question. It requires a map of the evidence that could bear on that question. It requires a record of the decisions that shaped the resulting corpus.
+
+The three requirements correct different failures. Without a bounded question, collection expands by association. Without an evidence map, the most visible sources crowd out harder forms of evidence. Without a decision record, later readers cannot distinguish absence in the world from absence in the search.
+
+No software can resolve these failures because none is technical alone. A search engine cannot decide whether a municipal ledger matters more than a minister's memoir. A language model cannot determine whether repeated agreement indicates corroboration or common dependence on one wire report. A reference manager cannot explain why the research team stopped collecting one source family while continuing another.
+
+The researcher must decide. The system should help preserve the decision.
+
+## A Guide with Two Speeds
+
+The novice path makes tacit practice explicit. It explains why a decision matters, presents a worked example, supplies a structured exercise, and identifies common errors. The advanced sections address cases in which the simple procedure breaks down. Concepts remain contested. Teams classify the same source differently. Repositories impose incompatible metadata. Ethical limits create gaps that cannot be filled. The experienced reader can move quickly through the shared method and linger where these complications begin.
+
+The two paths remain on the same page. We do not divide readers into permanent categories. An experienced ethnographer may be a novice in digital preservation. A doctoral student may possess deep knowledge of a language or archive that the senior investigator lacks. Expertise follows the task.
+
+## What This Draft Does
+
+This manuscript tests the method on one complete movement from question to evidence map. It does not yet cover every stage imagined in the original project. Literature synthesis, field collection, coding, analysis, preservation, and public communication will require later modules. The present draft establishes the pattern those modules could follow.
+
+It also opens a conversation between the original authors. The project has changed because the information environment changed. Yet its purpose remains recognizable. We wanted to help researchers collect with greater discipline and less fear of the abundance before them. We still do.

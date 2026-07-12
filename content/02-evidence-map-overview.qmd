@@ -1,0 +1,54 @@
+---
+title: "The Evidence Map"
+description: "The module’s central artifact and logic."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+## The Collection Problem
+
+A folder can contain ten thousand documents and still fail to constitute a corpus. Quantity does not establish relevance. Storage does not create an argument. Search results do not explain what was missed.
+
+An evidence map addresses this problem by placing the research question at the center of collection. Around it sit the concepts that require clarification, the actors and institutions that may have produced records, the periods and places that bound the inquiry, and the source families capable of answering different parts of the question. As collection proceeds, the map records where evidence accumulates and where it does not.
+
+The map borrows the discipline of reproducible search reporting without treating every qualitative project as a systematic review.^[For current reporting standards on information sources, search strategies, and record management, see @rethlefsen2021prismas and @page2021prisma.] A historian cannot always specify the archive's contents in advance. An ethnographer may revise the question after entering the field. A researcher working under authoritarian rule may withhold operational detail to protect participants. Transparency must answer to method and ethics.
+
+The purpose is not mechanical replication. The purpose is reasoned reconstruction. Another scholar should be able to see how the inquiry moved, why some materials entered the corpus, why others did not, and where uncertainty remains.
+
+## The Seven Movements
+
+The evidence map develops through seven movements. The first frames the question. The second decomposes it into concepts and contexts. The third identifies source families. The fourth conducts and records iterative searches. The fifth evaluates individual records and collections. The sixth tests coverage. The seventh turns the accumulated artifacts into a collection strategy and stopping rule.
+
+The sequence is ordered, but research rarely follows it once. A new archive may reveal an actor missing from the original question. A contradictory interview may expose a concept that was defined too narrowly. A failed search may show that a source family never existed. Each discovery sends the researcher backward. Revision is not evidence that the method failed. Revision is the method working.
+
+The map therefore preserves versions. The question recorded on the first day does not disappear when the question changes. The source inventory does not overwrite a mistaken expectation. A rejected AI suggestion remains in the audit log with the reason for rejection. These records show how the project learned.
+
+## The Worked Example
+
+Our running question asks why accounts of terrorism patterns diverge across official records, independent databases, news sources, and scholarly research. The question does not presume that one source class is correct and the others are mistaken. It asks how distinct systems produce different pictures of violence.
+
+The problem begins with definition. A database must decide what counts as terrorism. It must translate that decision into inclusion criteria. It must then apply those criteria to sources created for other purposes. A news report seeks to describe an event under deadline. A police record serves an administrative or legal process. A scholarly database standardizes information across cases. Each source sees something. None sees everything.
+
+Collection practices add another layer. The official documentation for the Global Terrorism Database describes a system built across several historical collection efforts and a codebook designed to let users apply different definitional thresholds.^[See @start2024codebook.] Research using that system has also shown why domestic and transnational events may require analytical separation and why changes in coding or source coverage matter.^[See @enders2011domestic.] The point here is not to settle disputes about terrorism counts. It is to reveal the chain of decisions between event and claim.
+
+This is the pattern. Evidence reaches the researcher through institutions.
+
+## What the Map Contains
+
+The final map contains six connected records. The question frame defines the inquiry and its provisional boundaries. The concept-and-context grid translates the question into searchable dimensions. The source-family inventory identifies who could have recorded each dimension and where those records might reside. The search log records routes, terms, dates, results, and revisions. The evidence register assesses each record's relevance, provenance, and limits. The gap analysis shows empty, weak, or contradictory parts of the map.
+
+The stopping rule sits across all six. It states what conditions justify ending active collection for the present phase. It identifies what remains missing, why the missing material matters, and what would cause the search to reopen.
+
+A stopping rule is not a declaration that nothing else exists. It is an argument that the present corpus can support the next analytical task.
+
+## The Role of AI
+
+AI can assist at four points in this module. It can propose dimensions after the researcher frames the question. It can expand search vocabulary and candidate source families. It can challenge a search plan by adopting neglected perspectives. It can inspect a filled map for weak cells and repeated dependence on one source stream.
+
+These uses share one condition: the system proposes, and the researcher disposes. A plausible archive name must be verified. A suggested source family must be examined for ethical and practical access. A proposed gap must be tested against the question rather than accepted because the model stated it fluently.
+
+The guide records every accepted suggestion and every consequential rejection. This is not clerical burden. It is evidence of judgment.

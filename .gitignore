@@ -1,0 +1,6 @@
+/.quarto/
+**/*.quarto_ipynb
+/.venv/
+/.pytest_cache/
+/**/__pycache__/
+/_output/

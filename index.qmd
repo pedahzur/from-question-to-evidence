@@ -1,0 +1,28 @@
+---
+title: "From Question to Evidence"
+description: "A living field guide for qualitative research"
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+About a decade ago, we began writing a book about a problem that seemed to grow each time we tried to describe it. Social scientists had gained access to more articles, documents, images, recordings, databases, and search systems than any earlier generation of researchers. Access had widened. Control had weakened. A researcher could collect thousands of files before deciding what any of them contributed to the question at hand.
+
+We paused the project. The problem did not pause with us. Generative artificial intelligence has since made the abundance more difficult to interpret. A model can suggest concepts, propose search terms, sort excerpts, and expose gaps within minutes. It can also invent a reference, erase a minority position, disclose protected material, or present an uncertain inference as settled fact. Speed has increased. Scholarly responsibility has not moved.
+
+This discussion draft revives the project around one claim: a researcher needs an evidence map before the collection becomes too large to reason about. The map links a bounded question to concepts, source families, search decisions, evaluated records, known gaps, and a stopping rule. It does not promise omniscience. It makes the limits of collection visible.
+
+The manuscript is written for two readers. The first is beginning a substantial qualitative project and needs a sequence that can be followed without assuming years of tacit experience. The second has conducted research for years but wants to reconsider established practices after the arrival of new search systems and generative AI. Both readers face the same decisions. They differ in how much explanation, contestation, and adaptation they require.
+
+We begin with one exemplary module rather than a complete textbook. The module follows the movement from question to evidence map. It asks how a researcher frames the question, breaks it into searchable dimensions, identifies source families, searches iteratively, evaluates what is found, tests coverage, and decides what to pursue next. Each stage produces an artifact. Together those artifacts form a record of the researcher's judgment.
+
+The worked example concerns competing accounts of terrorism. It suits the method because terrorism data do not arrive as neutral observations waiting to be counted. Definitions vary. Collection systems change. Sources disappear. Governments, news organizations, researchers, and database teams record different parts of the same event. The example is familiar to our own work, but the method travels. A historian studying a strike, a sociologist studying a movement, and a political scientist studying an institution confront the same basic question: who could have recorded what happened, under what rules, and with what silences?
+
+AI enters the guide as an assistant whose work must be inspected. It may help generate candidate dimensions. It may suggest neglected source families. It may challenge a search strategy. It may compare the filled and empty cells of a map. It may not decide that a source exists, that a claim is true, or that collection is complete. Those remain scholarly judgments.
+
+This is a field guide because research proceeds through decisions made under constraint. Time runs out. Archives close. Languages exceed the research team's competence. Files vanish. Ethical obligations place some evidence beyond reach. A useful method does not conceal these conditions. It records them.
+
+That record is the subject of this book.

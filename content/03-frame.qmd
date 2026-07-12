@@ -1,0 +1,13 @@
+---
+title: "Stage 1: Frame the Question"
+description: "Turn a broad interest into a researchable question."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+Framing establishes the provisional boundaries that make disciplined collection possible.
+

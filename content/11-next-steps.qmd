@@ -1,0 +1,13 @@
+---
+title: "Beyond the Pilot"
+description: "How the exemplary module can become a complete field guide."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+The pilot establishes a reusable pattern for future modules on review, collection, analysis, communication, and preservation.
+

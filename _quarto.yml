@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "From Question to Evidence"
+  subtitle: "A Living Field Guide for Qualitative Research"
+  author:
+    - "Ami Pedahzur"
+    - "Jonathan Grossman"
+  date: "2026-07-12"
+  chapters:
+    - index.qmd
+    - content/01-origins-and-purpose.qmd
+    - content/02-evidence-map-overview.qmd
+    - content/03-frame.qmd
+    - content/04-decompose.qmd
+    - content/05-map-source-families.qmd
+    - content/06-search-iteratively.qmd
+    - content/07-evaluate.qmd
+    - content/08-test-coverage.qmd
+    - content/09-produce-evidence-map.qmd
+    - content/10-ai-research-integrity.qmd
+    - content/11-next-steps.qmd
+    - content/references.qmd
+
+lang: en

@@ -1,0 +1,13 @@
+---
+title: "Stage 4: Search Iteratively"
+description: "Treat searching as a documented research process."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-12"
+last-reviewed: "2026-07-12"
+license: "CC BY 4.0"
+---
+
+Iterative searching records routes, discoveries, revisions, and dead ends.
+
