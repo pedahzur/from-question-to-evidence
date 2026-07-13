@@ -104,3 +104,14 @@ def test_literature_module_scope_and_ai_boundaries() -> None:
     assert 8_000 <= word_count <= 10_000
     for label in ("Permitted input", "Do not provide", "Verify", "Record"):
         assert combined.count(label) >= len(LITERATURE_STAGES), label
+
+
+def test_public_project_documents_exist() -> None:
+    for relative in (
+        "README.md",
+        "ROADMAP.md",
+        "CONTRIBUTING.md",
+        "CHANGELOG.md",
+        "docs/PROJECT-ASSESSMENT-HE.md",
+    ):
+        assert (ROOT / relative).is_file(), relative

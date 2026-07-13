@@ -9,17 +9,15 @@ last-reviewed: "2026-07-12"
 license: "CC BY 4.0"
 ---
 
-## What the Pilot Establishes
+## What the Two Modules Establish
 
-The evidence map gives the revived project a center. It connects an intellectual question to the practical work of finding material. It keeps method separate from products whose features and terms change. It gives generative AI a bounded role. It leaves a record another researcher can inspect.
+The evidence map connects an intellectual question to the practical work of finding material. *Literature as Evidence* carries that logic into discovery, reading, comparison, and synthesis. Together, they show that one page pattern can support distinct tasks while keeping method separate from volatile products, giving AI bounded roles, and leaving a record another researcher can inspect.
 
-The method also reveals what remains outside this draft. An evidence map does not conduct the literature synthesis. It does not collect an interview, preserve a website, code a document, or write the final analysis. Each task requires its own decisions and artifacts.
+The modules also reveal what remains outside the draft. They do not collect an interview, preserve a website, prepare an archival corpus, code a document, or write the final empirical analysis. Each task requires its own decisions and artifacts.
 
 ## The Larger Field Guide
 
-A later module on literature review should begin where the evidence map leaves scholarly publications. It should address discovery, citation networks, reading, annotation, conceptual comparison, and the relation between review and original collection.
-
-A collection module should address documents, interviews, observations, images, audio, video, and web material. It should connect capture to consent, metadata, storage, naming, backup, preservation, and chain of custody.
+A collection module should come next. It should address documents, interviews, observations, images, audio, video, and web material. It should connect capture to consent, metadata, storage, naming, backup, preservation, and chain of custody.
 
 A preparation module should examine transcription, OCR, translation, coding, memoing, temporal ordering, entity resolution, and the conversion of unstructured records into structured fields. The original project devoted substantial attention to this border between qualitative material and databases. That contribution deserves reconstruction.
 
@@ -33,8 +31,8 @@ English remains the canonical language during the pilot. A Hebrew edition should
 
 ## An Invitation
 
-This draft is an argument and a test. It argues that researchers need a visible structure between question and corpus. It tests whether one module can carry novices and experienced scholars through the same decisions at different depths.
+This draft is an argument and a test. It argues that researchers need a visible structure between question, corpus, and synthesis. It tests whether two different modules can carry novices and experienced scholars through the same page pattern at different depths.
 
-The next step is editorial rather than technical. We need to decide whether the evidence map captures the original project's ambition, whether the terrorism example carries too much of our own disciplinary history, and whether the balance between instruction and argument feels like a book we would write together now.
+The next step is both editorial and empirical. We need to test the two modules with readers, decide whether the secondary archival example sufficiently widens the guide, and build the collection and post-production module from the strongest legacy material.
 
-The old project began with abundance. The revived project begins with limits. This is progress.
+The old project began with abundance. The revived project begins with limits, artifacts, and reviewable decisions. This is progress.

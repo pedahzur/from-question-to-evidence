@@ -12,6 +12,34 @@
   rights_basis: CC BY 4.0 author license
   attribution: Ami Pedahzur and Jonathan Grossman
   reviewed_on: 2026-07-12
+- path: docs/
+  publish: true
+  creator: Ami Pedahzur and Jonathan Grossman
+  source: Original project design documentation and assessment
+  rights_basis: CC BY 4.0 author license
+  attribution: Ami Pedahzur and Jonathan Grossman
+  reviewed_on: 2026-07-13
+- path: ROADMAP.md
+  publish: true
+  creator: Ami Pedahzur and Jonathan Grossman
+  source: Original project documentation
+  rights_basis: CC BY 4.0 author license
+  attribution: Ami Pedahzur and Jonathan Grossman
+  reviewed_on: 2026-07-13
+- path: CONTRIBUTING.md
+  publish: true
+  creator: Ami Pedahzur and Jonathan Grossman
+  source: Original project documentation
+  rights_basis: CC BY 4.0 author license
+  attribution: Ami Pedahzur and Jonathan Grossman
+  reviewed_on: 2026-07-13
+- path: CHANGELOG.md
+  publish: true
+  creator: Ami Pedahzur and Jonathan Grossman
+  source: Original project documentation
+  rights_basis: CC BY 4.0 author license
+  attribution: Ami Pedahzur and Jonathan Grossman
+  reviewed_on: 2026-07-13
 - path: private-archive/embedded-pdfs
   publish: false
   creator: Various third parties

@@ -23,6 +23,6 @@ images,Embedded Images,exclude-rights,Rights basis not documented
 software1,Software Database Sample,archive-provenance,Historical product catalogue
 software2,October 2018 Software Database,archive-provenance,Historical product catalogue
 csvdupes,Notion CSV all duplicates,remove-residue,Duplicate exports
-drive-outline,TEXTBOOK OUTLINE + TEXT,rewrite,Original mixed-language draft used only as background for the new module
-drive-assessment,24 September 2018 Book Assessment,background only,Internal gap analysis used to identify developed and missing sections
-drive-prospectus,Prospectus,background only,Original project argument and audience statement used for architectural continuity
+drive-outline,TEXTBOOK OUTLINE + TEXT,retain-rewrite,Original mixed-language draft used only as background for the new module
+drive-assessment,24 September 2018 Book Assessment,archive-provenance,Internal gap analysis used to identify developed and missing sections
+drive-prospectus,Prospectus,archive-provenance,Original project argument and audience statement used for architectural continuity

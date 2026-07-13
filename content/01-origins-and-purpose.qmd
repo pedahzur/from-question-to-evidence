@@ -47,6 +47,8 @@ The two paths remain on the same page. We do not divide readers into permanent c
 
 ## What This Draft Does
 
-This manuscript tests the method on one complete movement from question to evidence map. It does not yet cover every stage imagined in the original project. Literature synthesis, field collection, coding, analysis, preservation, and public communication will require later modules. The present draft establishes the pattern those modules could follow.
+This manuscript now tests the method through two complete modules. The first moves from a question to an evidence map and collection strategy. The second turns the scholarly source family into a literature corpus, synthesis, coverage audit, and stopping rule. Both use the same page pattern, preserve consequential decisions, and assign AI bounded roles.
 
-It also opens a conversation between the original authors. The project has changed because the information environment changed. Yet its purpose remains recognizable. We wanted to help researchers collect with greater discipline and less fear of the abundance before them. We still do.
+The draft does not yet cover every stage imagined in the original project. Field collection, post-production, coding, analysis, preservation, and public communication require later modules. The two completed modules establish a repeatable architecture and show that it can support more than one kind of research task.
+
+The manuscript also opens a conversation between the original authors. The information environment changed; the purpose remains recognizable. We wanted to help researchers work with greater discipline and less fear of abundance. We still do.
