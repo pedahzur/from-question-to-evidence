@@ -35,8 +35,8 @@ Requirements are Python 3.12+, `uv`, Quarto, Node.js with the builder dependenci
 uv sync
 uv run pytest -q
 uv run python scripts/check_content.py
-quarto render --profile site
 quarto render --profile manuscript
+quarto render --profile site
 ```
 
 The site is written to `build-site/`. The manuscript profile writes DOCX and PDF files to `build-manuscript/`.

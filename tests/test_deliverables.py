@@ -18,8 +18,11 @@ def test_discussion_draft_has_expected_structure() -> None:
     ]
     assert "Ami Pedahzur" in text
     assert "Jonathan Grossman" in text
-    assert len(headings) >= 12
-    assert len(text.split()) >= 7_500
+    assert len(headings) >= 19
+    assert len(text.split()) >= 15_000
+    assert "Literature as Evidence" in text
+    assert "Synthesis Matrix" in text
+    assert "Stopping Rule" in text
 
 
 def test_discussion_draft_contains_live_notes() -> None:

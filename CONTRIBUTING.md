@@ -60,8 +60,8 @@ Run:
 uv sync
 uv run pytest -q
 uv run python scripts/check_content.py
-quarto render --profile site
 quarto render --profile manuscript
+quarto render --profile site
 ```
 
 Regenerate reader resources before committing changes to their builders:

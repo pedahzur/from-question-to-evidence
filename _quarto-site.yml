@@ -1,5 +1,7 @@
 project:
   output-dir: build-site
+  post-render:
+    - uv run python scripts/copy_manuscript_downloads.py
   resources:
     - templates/*.xlsx
     - templates/*.docx
