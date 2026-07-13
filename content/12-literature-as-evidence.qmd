@@ -9,4 +9,101 @@ last-reviewed: "2026-07-13"
 license: "CC BY 4.0"
 ---
 
-This module turns scholarly publications into an inspectable body of evidence.
+## The Review Problem
+
+A literature review can contain hundreds of summaries and still fail as research. The failure occurs when the reader cannot tell why those works were chosen, what question they answer, how they relate to one another, or which bodies of scholarship remain outside the frame. Accumulation is not synthesis. A long bibliography proves that material was found; it does not show that the material was assembled into an argument.
+
+Discovery now returns more publications and citation paths than one person can follow. Generative systems add fluent accounts without necessarily revealing their basis. Abundance lowers the cost of finding *something* and raises the cost of explaining why the selected literature is adequate.
+
+This module treats scholarly literature as evidence. A publication can provide evidence of a concept's history, a theoretical dispute, an empirical pattern, a methodological choice, or the way a community has organized a problem. It can also repeat an unsupported claim, inherit a classification from an earlier source, exclude cases through its research design, or become influential for reasons that have little to do with evidentiary strength. Reading literature as evidence means asking of a publication many of the questions we ask of an interview, archival record, or dataset: Who produced it? For what purpose? From which materials? Through which transformations? What can it support, and what remains beyond its reach?
+
+The aim is not suspicion for its own sake. It is to make the relation between a review and its claims inspectable.
+
+## From Evidence Map to Literature Corpus
+
+The evidence map identifies scholarship as one source family. This module turns that family into a literature corpus whose composition and limits the researcher can explain.
+
+Scholarly literature performs several jobs at once. It supplies concepts, explanations, methods, cases, and source leads. A work may define a concept, establish a historical baseline, provide a method, or matter because later authors repeatedly cite it. Treating all four as generically “relevant” obscures the work each performs.
+
+The module uses four distinctions:
+
+- A **bibliography** records publications and the information needed to retrieve them.
+- A **reading list** orders publications for learning or teaching.
+- A **literature corpus** is the bounded set of works selected for a stated research purpose.
+- A **synthesis** explains patterns, disputes, lineages, methods, and absences across that corpus.
+
+These objects overlap but are not interchangeable. The protocol and search log explain how the corpus was assembled; the matrix and memo show how it became an account of the field.
+
+## The Six Movements
+
+The first movement defines the review. It states what the review must accomplish, which question it answers, which boundaries guide inclusion, and which exclusions remain provisional. A review designed to clarify a concept will not collect or read in exactly the same way as one designed to identify a causal explanation or compare methods.
+
+The second movement maps concepts and vocabulary. Search systems retrieve strings, while researchers care about meanings. The same phenomenon may travel under different names across periods, languages, and disciplines. The same term may refer to incompatible concepts. A vocabulary map does not resolve those disputes in advance. It makes them searchable.
+
+The third movement discovers publications through multiple routes. Database queries provide one route. Backward and forward citation chaining provide others. Author, institution, journal, handbook, review-article, and targeted web searches reveal work that an initial query can miss. Each route has a different selection mechanism. Recording the route helps distinguish a diverse search from repeated dependence on the same index.
+
+The fourth movement evaluates sources and claims. Evaluation asks whether a work bears on the review question, what evidence supports its claims, how its methods shape what it can see, what lineage it inherits, and what role it should play in the eventual synthesis. Venue and citation counts can provide context. They cannot substitute for reading.
+
+The fifth movement reads, annotates, and compares. Notes preserve the difference between an author's claim, the material offered in support, and the reviewer's interpretation. A synthesis matrix then reorganizes those notes across works. The unit of thought shifts from “What does this article say?” to “What do these works reveal about this concept, mechanism, case, or dispute?”
+
+The sixth movement synthesizes, audits, and stops. Synthesis builds an account across sources. Audit looks for disciplinary, linguistic, geographical, methodological, and citation-network distortions. The stopping rule explains why active searching can end for the present task, what remains missing, and what would cause the review to reopen.
+
+The sequence is recursive. New vocabulary, a shared citation lineage, or an empty matrix cell can reopen an earlier stage. Preserve earlier versions because they show how the review learned.
+
+## Two Worked Examples
+
+The primary example continues our inquiry into terrorism databases. Scholars define categories, select data, transform events, and cite earlier decisions. A review that records conclusions without tracing those choices risks treating constructed categories as found facts.
+
+The secondary example follows a researcher studying how a municipal housing agency changed its treatment of informal settlements between the 1970s and the 1990s. The relevant scholarship is dispersed across urban history, public administration, planning, law, and local-language publications. Terminology changes across the period: the people, places, and administrative practices are not described consistently. Digitization is uneven. The example shows why absence from a database is not evidence of absence from scholarship, and why a review can become narrower than its question without the researcher noticing.
+
+## The Artifact Chain
+
+Five resources connect the workflow: review protocol, concept-and-vocabulary map, search-and-AI log, source-evaluation register, and synthesis-and-stopping workbook.
+
+Stable identifiers connect concepts, searches, sources, claims, and synthesis cells. They prevent the prose from becoming detached from the record that produced it.
+
+## The Role of AI
+
+AI can generate vocabulary, transform researcher-written notes into a provisional table, compare entries across a matrix, and audit the review for missing perspectives. It can do these tasks quickly because the researcher supplies a bounded object and a defined operation. It becomes less reliable when asked to “review the literature” without a corpus, a purpose, or a verification rule.
+
+The division of labor is simple. The system may propose. It may reorganize. It may point to possible inconsistencies. The researcher decides which publications enter the corpus, reads the works that carry argumentative weight, verifies every citation and quotation, and writes the synthesis. A model output is a lead or transformation record, not a scholarly source unless the model itself is the object of study.
+
+The audit log records consequential assistance rather than every keystroke. Document AI actions that could change the corpus or the claims drawn from it.
+
+::: {.content-visible when-profile="site"}
+## Reader Resources
+
+Five editable resources accompany the module. They are model-neutral and can be used with a word processor, spreadsheet application, reference manager, or qualitative analysis environment.
+
+::: {.resource-grid}
+::: {.resource-card}
+### Define the review
+
+[Download the Literature Review Protocol](../templates/literature-review-protocol.docx)
+:::
+
+::: {.resource-card}
+### Map concepts and terms
+
+[Download the Concept and Vocabulary Map](../templates/literature-concept-vocabulary-map.xlsx)
+:::
+
+::: {.resource-card}
+### Record discovery and AI
+
+[Download the Literature Search and AI Log](../templates/literature-search-ai-log.xlsx)
+:::
+
+::: {.resource-card}
+### Evaluate sources and claims
+
+[Download the Source Evaluation Register](../templates/literature-source-evaluation.xlsx)
+:::
+
+::: {.resource-card}
+### Synthesize and stop
+
+[Download the Synthesis and Stopping-Rule Workbook](../templates/literature-synthesis-stopping-rule.xlsx)
+:::
+:::
+:::

@@ -11,16 +11,87 @@ license: "CC BY 4.0"
 
 ## Orientation
 
+Researchers ask questions in concepts; search systems retrieve representations of words. Between the two sits a translation problem. A well-framed review can still retrieve a distorted literature if the query uses only the researcher's preferred term. Older scholarship may use a discarded label. Another discipline may study the same process under a different name. A local-language literature may divide one English concept into several terms. Conversely, a familiar word may collect incompatible meanings and flood the search with false matches.
+
+The concept-and-vocabulary map turns this problem into an explicit research task. It links what the researcher means to the terms that different authors, institutions, periods, and systems may use.
+
 ## Learn
+
+Start with the concepts in the review question, but do not treat them as settled. For each concept, record a working meaning, rival meanings, observable implications, and exclusions. The working meaning is a provisional guide, not a definition imposed on every source. A literature review often needs to discover how the concept has changed.
+
+Build several vocabulary families around each concept:
+
+- **Preferred terms** are the labels used in the current review.
+- **Synonyms and near-synonyms** identify alternative labels while noting differences in meaning.
+- **Broader and narrower terms** connect the concept to categories above and below it.
+- **Historical terms** capture labels used during earlier periods, including terms now considered inaccurate or offensive.
+- **Disciplinary terms** record how neighboring fields formulate the issue.
+- **Actor terms** preserve the vocabulary used by institutions, participants, or communities.
+- **Translations and transliterations** record language variants, scripts, spelling systems, and false equivalents.
+- **Acronyms, abbreviations, and names** capture institutional and technical shorthand.
+- **Exclusion terms** reduce recurring irrelevant results without erasing genuinely ambiguous uses.
+
+Do not collapse these entries into one undifferentiated synonym list. A historical administrative label is not equivalent to a community's self-description. A legal category may resemble a social-scientific concept while carrying a different threshold. Those differences belong in the map because they may later explain disagreements in the literature.
+
+Vocabulary comes from several places. Begin with the research question and a small orientation set: a recent handbook chapter, authoritative review, known foundational work, codebook, glossary, or policy document. Extract terms from titles, abstracts, keywords, subject headings, indexes, and the vocabulary authors use when disagreeing. Search promising terms and inspect what they retrieve. New results supply new vocabulary. The map and the search therefore develop together.
+
+Controlled vocabulary can connect inconsistent language but represents a cataloguing system whose coverage varies. Record the heading and system. Treat names as concepts when institutions, programs, places, or authors have consequential variants.
+
+The map should also preserve relationships. Mark terms as equivalent, overlapping, nested, opposed, historically successive, actor-specific, or contested. These relations help construct queries and later interpret results. If two terms are only partially overlapping, searching them with `OR` broadens retrieval but does not make them conceptually identical.
 
 ## Worked Example
 
+The terrorism review begins with apparently stable terms: *terrorism*, *event data*, *domestic*, *transnational*, *database*, *dataset*, *coding*, and *validation*. Each quickly divides.
+
+Research may distinguish terrorism from insurgency, guerrilla violence, hate crime, state repression, or armed conflict, while particular datasets include or exclude boundary cases differently. *Domestic* may describe the nationality of perpetrators and victims, the location of an event, the target's identity, or the absence of foreign involvement. *Event data* appears alongside incident data, conflict events, political violence data, and machine-coded events. Validation may mean checking events against sources, comparing datasets, measuring coding reliability, or assessing whether a variable captures a theoretical construct.
+
+The vocabulary map records these as contested relations rather than interchangeable strings. A query cycle might join `(terror* OR political violence)` with `(database* OR dataset* OR event data)` and `(valid* OR compar* OR coverage OR coding)`, then test narrower terms learned from relevant works. The researcher records which additions improve retrieval and which create noise. A model's suggestion to add *benchmark* may be useful in computational work but less so in historical validation; the map keeps that decision visible.
+
+In the municipal case, agency names and settlement labels change across periods and actors. The map connects terms to period, actor, language, and evidentiary risk so historical vocabulary can support retrieval without becoming the researcher's unmarked description.
+
 ## Try It
+
+Choose three concepts central to the review. For each, create entries for working meaning, at least two rival meanings, one broader term, one narrower term, two disciplinary or actor terms, relevant historical terms, translations, and exclusions. If a category does not apply, record why rather than leaving an unexplained blank.
+
+Select one orientation source and trace its vocabulary. Highlight the terms used in the title and abstract, the keywords supplied by the author, subject headings supplied by an index, and alternative terms used in the body. Mark who supplied each term. This small exercise shows how a publication receives several layers of description.
+
+Construct three query variants from the map:
+
+1. a precise query using the preferred term and one methodological term;
+2. a broad query using synonyms, historical terms, or disciplinary variants;
+3. a boundary query designed to find neighboring concepts that may challenge the review's definition.
+
+Run the queries in one appropriate system. Sample the results rather than collecting everything. Record which kinds of work each query reveals, which irrelevant literatures appear, and which new terms deserve another cycle. Revise the map, retaining the earlier version.
 
 ## Guided AI Workflow
 
+AI can accelerate vocabulary expansion when it is given a defined concept and asked to separate kinds of terms. Provide the working meaning, period, setting, disciplines, and languages. Ask for candidate historical labels, disciplinary variants, actor vocabulary, translations, acronyms, and neighboring concepts. Require a reason for each candidate and a proposed way to verify actual usage.
+
+**Permitted input:** Public definitions, verified excerpts, project scope, languages, and non-sensitive example queries.  
+**Do not provide:** Restricted archival descriptions, participant language that could identify a person, unpublished peer-review text, or entire copyrighted works.  
+**Verify:** Confirm every candidate term in a source created by the relevant field, actor, institution, or period. Test the term in an appropriate search system and inspect results.  
+**Record:** Log terms that enter or leave the map, the model and date, the verification source, query effect, and the researcher's decision.
+
+Ask the system to flag false friends and semantic drift rather than merely translate. A literal translation may be linguistically correct and absent from the field. A term used today may not have existed during the period under study. A model can propose these risks; it cannot establish historical usage without sources.
+
+A second pass can ask for terms associated with a neighboring discipline or affected community. Treat the output as a coverage challenge, never as a substitute for scholarship or testimony from that community.
+
 ## Integrity Checkpoint
+
+Vocabulary is never merely technical. Labels can stigmatize, legitimize, or erase. Preserve historically necessary terms with context and quotation marks when appropriate. Distinguish the language used to find a source from the language used to describe people in the manuscript.
+
+Search vocabulary can also reproduce disciplinary hierarchy. Terms familiar to dominant English-language journals may crowd out local conceptual traditions. Translation into English can make distinct categories appear equivalent. Record the original-language term beside the translation and note whether equivalence is exact, approximate, contested, or unknown.
+
+Do not optimize only for recall. Adding every imaginable synonym can produce a corpus so noisy that selection becomes opaque. Each term needs a relation to the concept and a reason for inclusion. Exclusion terms require equal care: removing a word to reduce noise may also remove a relevant minority usage.
 
 ## Save the Artifact
 
+Save `literature-concept-vocabulary-map-v0.1.xlsx`. Assign stable concept IDs and term IDs. Required concept fields are working meaning, rival meanings, boundaries, observable implications, period, setting, and linked review-question component. Required vocabulary fields are term, language, script or transliteration, term type, actor or discipline, period of use, relation to concept, verification source, query tested, retrieval effect, decision, and notes on responsible usage.
+
+Link every consequential query in the search log to the relevant term IDs. When a term changes the corpus, preserve the map version that preceded the change. The provenance of the term matters: a candidate proposed by a model and verified in an archival thesaurus has a different history from a subject heading copied from a database.
+
 ## Advanced Practice
+
+Concept formation may be the review's central analytical task rather than a preliminary step. In that case, do not force all works into a single definition. Build a definition matrix that compares attributes, extension, cases included and excluded, causal role, normative content, and measurement. Track lineages: which authors adopt, modify, or reject earlier definitions? The resulting map can reveal that an apparent empirical disagreement is conceptual, or that verbal disagreement hides similar case boundaries.
+
+Multilingual teams should calibrate concepts, not only translate queries, and record non-equivalence as a finding. Stable IDs and explicit relations usually suffice; formalize the map only for a real downstream task.

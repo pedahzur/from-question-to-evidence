@@ -95,3 +95,12 @@ def test_literature_stages_follow_page_pattern() -> None:
         text = (ROOT / relative).read_text(encoding="utf-8")
         headings = re.findall(r"^## (.+)$", text, flags=re.MULTILINE)
         assert headings == STAGE_SECTIONS, relative
+
+
+def test_literature_module_scope_and_ai_boundaries() -> None:
+    paths = ["content/12-literature-as-evidence.qmd", *LITERATURE_STAGES]
+    combined = "\n".join((ROOT / path).read_text(encoding="utf-8") for path in paths)
+    word_count = len(re.findall(r"\b[\w’'-]+\b", combined))
+    assert 8_000 <= word_count <= 10_000
+    for label in ("Permitted input", "Do not provide", "Verify", "Record"):
+        assert combined.count(label) >= len(LITERATURE_STAGES), label

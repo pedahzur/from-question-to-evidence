@@ -11,16 +11,90 @@ license: "CC BY 4.0"
 
 ## Orientation
 
+The easiest literature notes to write are often the hardest to use. A page of prose beginning “Smith argues…” may preserve an article's order while doing little for the reviewer's question. When every note mirrors one publication, the eventual review tends to become a procession of authors. The reader learns that Smith said one thing and Jones said another, but not what the disagreement concerns, which evidence separates them, or how the field changed.
+
+Reading for synthesis requires two linked records: a faithful source note and a comparison structure that reorganizes information across sources. The first protects accuracy. The second enables analysis.
+
 ## Learn
+
+Read in passes. Screen for identity, relevance, version, and role; analyze claims, evidence, method, and relations; then verify passages and locations that will carry the synthesis.
+
+Start each source note with retrieval and version information. Record the source ID, complete citation, file or lawful location, version, date read, and reviewer. Preprints and published versions may differ. Pagination can change. A stable record prevents later quotations from pointing to the wrong manifestation.
+
+Within the note, distinguish four voices:
+
+1. **Author:** an accurate account of what the work claims.
+2. **Evidence:** the material and analytical steps offered in support.
+3. **Reviewer:** your interpretation, questions, and assessment.
+4. **Relation:** agreements, disputes, dependencies, or contrasts with other works.
+
+Use explicit labels or separate fields. Without them, a critical observation written beside a paraphrase can later be mistaken for the author's admission. This is especially dangerous when notes are transformed by software or AI.
+
+Annotate selectively. Highlighting everything records attention, not meaning. Each annotation should have a function tied to the review: definition, mechanism, empirical pattern, case, method, source lead, limitation, counterevidence, quotation candidate, or synthesis connection. A small controlled set of annotation types improves retrieval; free-form memos preserve ideas that do not fit the scheme.
+
+After reading, write a source memo stating contribution, strongest support, important limit, and the work to which it should be compared.
+
+Then move information into a **synthesis matrix**. Rows usually represent works or claim IDs. Columns represent questions that cut across them: concept definition, mechanism, cases, period, evidence base, method, finding, limitation, lineage, or another dimension derived from the review protocol. The right columns depend on the intended synthesis. A matrix for concept formation will differ from one comparing causal explanations.
+
+Cells should be concise and traceable. Include a claim ID or page location. Do not paste whole abstracts. Empty cells are informative: the source may not address the dimension, the information may be unavailable, or the reviewer may not yet have read the relevant section. Use explicit states such as not addressed, not reported, not yet checked, inaccessible, or not applicable.
+
+Comparison produces **analytic memos**. Ask what patterns appear across columns. Which differences follow method, period, case selection, definition, or source base? Which works appear to disagree only because they answer different questions? Which share a conclusion but rely on one lineage? Memos capture these emerging relations without pretending that the final synthesis is settled.
 
 ## Worked Example
 
+In the terrorism review, the matrix columns include definition of terrorism, domestic/transnational rule, event unit, database or source system, period, handling of ambiguous cases, analytical transformation, reported divergence, explanation, and limitation. One article compares aggregate counts. Another validates individual events. A third decomposes domestic and transnational series. Their findings cannot be placed in a single “result” column without losing the level at which each comparison occurs.
+
+The source notes preserve this difference. The aggregate article claims that trends diverge after a particular date and supports the claim with time-series comparison. The validation study reports mismatched events found through record linkage and source checking. The decomposition study shows that a combined series conceals different dynamics under its classification rule. A synthesis memo observes that “database divergence” names at least three problems: universe coverage, event matching, and category construction. The literature becomes more intelligible when those problems are separated.
+
+The matrix also exposes dependence. Several works describe historical collection changes using the same documentation. Their cells receive different source IDs but the same dependence marker. The synthesis can report broad acknowledgment of the issue while avoiding the claim that multiple independent studies established it.
+
 ## Try It
+
+Choose six evaluated works that differ in route, method, period, or position. Create a source note for each with the four voices clearly marked. Limit the initial source memo to four sentences: contribution, support, limit, comparison.
+
+Design five to eight matrix columns from the review question. Before filling the matrix, write what each column means and what an acceptable cell contains. Add explicit missing-value states. Populate the matrix from your notes, including source or claim IDs.
+
+Read by column. Write three analytic memos:
+
+- one pattern or convergence that survives comparison;
+- one apparent disagreement that may be caused by definition, method, period, or case selection;
+- one silence, dependence, or empty cell that requires another search or closer reading.
+
+Return to two publications and verify the passages on which the memos depend. Revise the matrix if the comparison overstated what an author claimed. This return is essential: abstraction increases the risk of losing qualification.
 
 ## Guided AI Workflow
 
+AI can transform structured notes into a provisional matrix or compare populated cells. It should not read unseen publications on the researcher's behalf. Provide a fixed schema, source IDs, and notes whose author/evidence/reviewer/relation voices are already separated. Ask the model to populate only supported fields, preserve identifiers, and mark uncertainty.
+
+**Permitted input:** Researcher-authored notes, short verified excerpts, bibliographic metadata, source/claim IDs, and the blank matrix schema.  
+**Do not provide:** Full copyrighted publications without permission, confidential manuscripts, restricted archives, identifiable participant information, or mixed notes whose attribution is unclear.  
+**Verify:** Compare every populated cell and proposed pattern with the source notes and, for load-bearing claims, the publication. Check quotations, page locations, negation, attribution, and qualifications.  
+**Record:** Save the schema, model/version, input description, output, corrected cells, accepted patterns, rejected patterns, reviewer, and decision date.
+
+A second prompt can flag reviewer inferences, false independence, and patterns resting on one source. These audit questions do not grant the system authority to resolve them.
+
+Do not ask the model to write the final review from the matrix. The matrix is a compressed representation. It omits rhetoric, context, uncertainty, and many source details. Drafting directly from it can turn analytical shorthand into unsupported certainty.
+
 ## Integrity Checkpoint
+
+Notes can expose copyrighted text, confidential arguments, peer-review identities, or sensitive source descriptions. Store them according to the most restrictive material they contain. A collaborative matrix should not become an accidental redistribution channel.
+
+Compression can also create epistemic harm. Removing qualifiers may make a cautious finding appear universal. Combining historically offensive actor language under a neutral category may hide how classification operated. Preserve meaningful wording and context where the language itself is evidence.
+
+AI transformation introduces another source of error: attribution drift. A model may merge the author's claim with the reviewer's criticism or assign a finding to the wrong source. Voice labels and stable IDs reduce the risk but do not remove the need for verification.
+
+Accessible formats often receive deeper analysis. Record and correct that imbalance when the review purpose requires.
 
 ## Save the Artifact
 
+Save `literature-synthesis-stopping-rule-v0.1.xlsx` after populating its Synthesis Matrix sheet. Required row identifiers are source ID and relevant claim IDs. Required columns follow the review question and must include method, evidence base, finding or contribution, limitation, dependence, reviewer interpretation, and verification location.
+
+Save source notes in the project's notes environment using the source ID in the filename or metadata. Link notes to lawful source locations rather than embedding entire publications. Save analytic memos with dates and the matrix version they interpret.
+
+When the matrix changes substantially, preserve the earlier version so the synthesis remains connected to the corpus state that produced it.
+
 ## Advanced Practice
+
+Qualitative analysis software can support document-level coding, retrieval, queries, and memos when the corpus warrants it. A spreadsheet may be better for a smaller review whose central operation is cross-source comparison. A database may suit a team handling many claims and relations. Choose the environment from the analytical task, collaboration needs, exportability, and preservation requirements—not from the number of available features.
+
+Large reviews may sample for deep reading while retaining a broader screened corpus. Team projects should calibrate a shared schema while preserving minority interpretations that reveal genuine ambiguity.

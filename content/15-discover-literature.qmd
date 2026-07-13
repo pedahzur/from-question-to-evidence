@@ -11,16 +11,87 @@ license: "CC BY 4.0"
 
 ## Orientation
 
+No single discovery route reveals “the literature.” A database query retrieves records covered by that database, described in the fields it indexes, and matched by the query at that moment. Citation chaining follows relationships created by authors and indexing systems. An author search follows careers. A handbook follows an editor's map of a field. Each route makes some scholarship visible and leaves other scholarship in shadow.
+
+Discovery becomes more defensible when routes are combined and recorded. The aim is not to search everywhere. It is to understand how each route selects and to use complementary routes for the review's purpose.
+
 ## Learn
+
+Begin with a small orientation set rather than a massive download. Select a recent authoritative review or handbook chapter, one or two known foundational works, and a work close to the empirical setting. Read enough to learn the field's vocabulary, main disputes, cited lineages, relevant publication types, and likely indexes. Orientation sources are maps, not automatic members of the final corpus.
+
+Use **structured database searching** when bibliographic fields and repeatable queries matter. Record the system, collection or index, date, exact query, fields searched, filters, result count, and records retained. A query copied from one system may behave differently in another because field codes, stemming, phrase handling, subject vocabularies, and coverage differ. Preserve the executed form rather than an idealized description.
+
+Use **backward citation chaining** to inspect the works a relevant publication cites. This route can reveal concepts, methods, datasets, and disputes that predate the vocabulary used in the query. It can also reproduce the author's exclusions. Follow references selectively and record why a cited work appears promising.
+
+Use **forward citation chaining** to find later works that cite a relevant publication. This route shows uptake, criticism, replication, application, or ceremonial citation. A citing work may mention the source without engaging its argument. Screen the citation context when possible.
+
+Use **author and institution tracing** when a research program, laboratory, archive, public agency, or data-producing organization shapes the field. Search name variants, affiliations, project pages, series titles, and successor institutions. This route is especially important when outputs include reports, documentation, working papers, or datasets that journal indexes handle unevenly.
+
+Use **venue browsing** when indexing is incomplete, while recognizing that it overrepresents one scholarly community.
+
+Use **targeted web discovery** for institutional publications, repositories, conference programs, preprints, data documentation, and hard-to-index material. Record the domain, query, date, and access status. General web ranking is personalized and unstable; save enough metadata to retrieve the item independently.
+
+Discovery proceeds in cycles. Each cycle has a purpose: test a concept, locate a lineage, fill a geographical gap, follow a method, or challenge a suspected consensus. Screen enough results to decide whether the route is productive. Retain records with a reason, not because downloading is easy. At the end of the cycle, record new vocabulary, new source types, duplications, and the next decision.
+
+Deduplicate at the work level while linking preprint, conference, accepted, and published versions. Do not count manifestations as independent evidence.
 
 ## Worked Example
 
+The terrorism review begins with an orientation set: database codebooks, a methodological comparison, and an empirical study whose findings depend on the domestic/transnational distinction. From these works we learn terms such as *event data*, *inclusion criteria*, *source coverage*, *duplicate events*, *classification*, and *validation*. We also identify data-producing institutions and earlier collection projects.
+
+The first database cycle combines terrorism terms with dataset and validation terms. It retrieves direct comparisons but also many articles that validate predictive models rather than data construction. We record that ambiguity and refine the methodological vocabulary. A second cycle searches the names and acronyms of major datasets with terms for coding, coverage, and bias. A third follows references from comparison studies to codebooks and earlier critiques. Forward chaining shows whether documented limitations were later addressed, repeated, or ignored.
+
+The routes reveal that several later articles repeat one methodological source. The search log marks the shared lineage rather than treating repetition as independent confirmation.
+
+For the municipal agency, backward chaining reveals a former agency name; a local catalogue then uncovers dissertations and reports, while legal journals reveal a tenure vocabulary absent from planning queries. Each route corrects another's selection mechanism.
+
 ## Try It
+
+Plan three discovery cycles, each with a different route and purpose. For example:
+
+1. a structured query to test the current concept vocabulary;
+2. backward and forward chaining from one anchor work;
+3. author, institution, venue, or repository tracing to address a known coverage risk.
+
+Before running a cycle, write what success would look like. A cycle may succeed by finding relevant works, exposing a vocabulary problem, showing that a route is exhausted, or revealing that the expected literature does not exist in that form. “More results” is not a sufficient criterion.
+
+For every retained record, assign a provisional source ID and one retention reason: concept, theory, empirical finding, method, lineage, context, critique, or source lead. Use “uncertain” only with a next action. Sample rejected records and record the recurring rejection reasons. This helps determine whether the query is poorly calibrated or the corpus boundaries are working.
+
+At the end, identify where routes converged and where the search depends on a single index or citation lineage. Mark that area as a coverage risk for Stage 6.
 
 ## Guided AI Workflow
 
+AI can help design and audit search routes when it operates on verified vocabulary and source metadata. Provide the review question, concept map, attempted routes, and a list of verified anchor works. Ask for candidate query variations and complementary routes. Require the system to state which coverage risk each proposal addresses.
+
+**Permitted input:** Public bibliographic metadata, verified search terms, route summaries, and non-sensitive project boundaries.  
+**Do not provide:** Licensed full text in violation of terms, confidential manuscripts, private reviewer comments, credentials, or participant data.  
+**Verify:** Run proposed queries in the named system; independently verify every title, author, DOI, repository, and dataset. Reject invented or untraceable items.  
+**Record:** Save consequential query proposals, route suggestions, dates, model/version, executed forms, result effects, accepted and rejected recommendations, and verification actions.
+
+Do not ask a model for “the ten most important sources.” Importance depends on the review purpose, and the response may reproduce popularity, language, and training-data biases. A safer task is: “Given these attempted routes, propose three *types of route* that might reveal scholarship selected by a different mechanism. Do not provide publication titles.” The researcher can then search those routes directly.
+
+When a model does propose citations, quarantine them in a candidate table. Nothing enters the bibliography or source register until it resolves to an authentic record and has been screened against the protocol. Fluency does not lower the verification threshold.
+
 ## Integrity Checkpoint
+
+Discovery systems observe users. Queries may reveal sensitive topics, populations, locations, or intentions. Use institutional or privacy-preserving access where appropriate, and do not paste sensitive project descriptions into external services merely to improve convenience.
+
+Access affects visibility. Scholarship behind paywalls, in print, in other languages, or outside major indexes is more expensive to discover. Do not translate cost into quality. Record inaccessible items and the lawful steps attempted to obtain them. If access limitations cluster by region, language, or publication type, treat that as a potential bias in the corpus.
+
+Citation networks encode social structure as well as intellectual relevance. Highly connected works become easier to find and then more likely to be cited again. Forward chaining can amplify prestige. Backward chaining can reproduce canonical exclusions. Complement citation routes with searches designed around cases, actors, concepts, and venues outside the dominant network.
+
+Automated bulk retrieval may violate platform terms or overload services. Follow access rules, rate limits, and copyright restrictions. The fact that a script can download material does not establish permission to do so or to redistribute it.
 
 ## Save the Artifact
 
+Save `literature-search-ai-log-v0.1.xlsx`. The Search Routes sheet should include cycle ID, date, purpose, route type, system or repository, exact query or action, fields, filters, result count, screened count, retained source IDs, rejection pattern, new vocabulary, coverage risk, decision, and next step.
+
+The Citation Chaining sheet should include chain ID, seed source ID, backward or forward direction, candidate citation, citation context, authenticity check, relevance decision, shared-lineage warning, and resulting action. The AI Audit sheet should include model/version, task, input description, protected data status, output summary, accepted and rejected suggestions, verification, reviewer, and decision.
+
+Export or save search histories when systems permit, but keep the human-readable log. Platform exports can become unreadable when subscriptions or interfaces change.
+
 ## Advanced Practice
+
+Complex reviews benefit from route-level sampling. Instead of screening an unbounded result set, define a reproducible slice appropriate to the route: all results through a date, the first fixed number under a documented sort order, or all citations linked to an anchor work. Explain the trade-off. Ranking-based samples are convenient but inherit opaque ranking systems.
+
+Research librarians can improve recall and documentation. Record who designed and checked each strategy. Living reviews should separate the multi-route baseline from monitoring and version both.

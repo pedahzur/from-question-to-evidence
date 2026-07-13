@@ -11,16 +11,84 @@ license: "CC BY 4.0"
 
 ## Orientation
 
+Discovery produces candidates, not authorities. A publication can be relevant to the question and weak support for a claim. It can be methodologically rigorous and irrelevant to the present review. It can be widely cited because it supplied a memorable label, a convenient dataset, or a position that later scholars reject. Evaluation separates these dimensions before prestige or familiarity turns them into one vague judgment of “quality.”
+
+The purpose is not to assign every publication a universal score. It is to decide what work a source can responsibly perform in this review.
+
 ## Learn
+
+Evaluate first for **relevance**. Identify which review-question component, concept, case, method, or dispute the work addresses. Relevance can be direct or contextual. A direct source analyzes database divergence. A contextual source may explain how news production shapes the reports on which databases depend. Record the relation rather than relying on a tag called “relevant.”
+
+Then identify **publication context and provenance**. Who wrote the work, in what role, for which audience, and through what review or editorial process? Is it a journal article, scholarly book, chapter, dissertation, report, working paper, preprint, codebook, commentary, or correction? Publication type affects expectations but does not decide value. A codebook may be the primary source for a dataset's stated rules. A peer-reviewed article may be necessary to test whether those rules were applied as intended.
+
+Move to the **claim level**. What does the author claim? Is the claim descriptive, conceptual, causal, interpretive, normative, or methodological? What evidence supports it? Which cases, sources, observations, or data transformations connect the evidence to the claim? A single publication often contains several claims with different support. Evaluating the work as one unit can hide that variation.
+
+Assess **method–claim fit**. A close archival study may provide strong evidence about sequence and institutional meaning in one case but weak evidence for prevalence across cases. A large database comparison may show systematic differences but say little about how a particular event was recorded. An interview study may reveal actors' interpretations while requiring care about retrospective memory and selection. The question is not whether one method is superior. It is whether the method can support the claim for which the review will use it.
+
+Record **source dependence**. Authors may cite the same dataset, document collection, press archive, or foundational claim. Apparent agreement across publications can arise from common input. Trace citations when a proposition carries significant argumentative weight. If five works repeat a statistic from one report, the review has one evidentiary origin and five instances of uptake.
+
+Identify **limitations and uncertainty** as reported by the author and as observed by the reviewer. Preserve the difference. “The authors note that source coverage changes after 1997” is not the same as “we infer that the reported trend may reflect coverage change.” Both can be useful if attributed correctly.
+
+Finally, assign an **intended role** in the synthesis. Possible roles include definition, theoretical proposition, empirical support, counterevidence, method, historical context, lineage, boundary case, source lead, or limitation. A work may have several roles, but each should point to a specific claim or section.
+
+Metrics enter only after these judgments. They vary by field, age, language, document type, and index. Influence and validity are different variables.
 
 ## Worked Example
 
+Consider an article reporting that domestic and transnational terrorism follow different temporal patterns. Its relevance is direct because the review concerns divergent accounts and definitional choices. At the claim level, however, the article does several things. It defines categories, decomposes event records, estimates trends, and interprets the differences. Each step depends on the database's inclusion criteria and on the operational rule used to classify domestic and transnational events.
+
+The source-evaluation register therefore creates separate claim entries. One records the conceptual distinction and its rationale. Another records the empirical pattern, data source, period, and transformation. A third records the causal or policy interpretation. The article may strongly support the existence of different patterns within its operationalization while providing less support for the claim that the categories represent distinct causal processes. The review can use the first without silently adopting the third.
+
+Now suppose several later studies cite the empirical pattern. We inspect whether they reproduce the analysis, apply it to another dataset, or cite the result as settled background. The source register marks shared dependence. Agreement in prose does not automatically become independent corroboration.
+
 ## Try It
+
+Select five candidates from at least two discovery routes. For each, write one sentence answering each question:
+
+1. Which part of the review question does this work bear on?
+2. What are its two most consequential claims for this review?
+3. What evidence and method support each claim?
+4. What can the design not establish?
+5. Which earlier source, dataset, or classification does it depend on?
+6. What role might it play in the synthesis?
+
+Then compare the five works without using citation counts or venue rankings. Rank neither the authors nor the publications. Instead, group claim entries by the kind of support they offer. Only after that exercise, add publication context and influence indicators. Note whether the new information changes an intended role and why.
+
+Trace one repeated proposition back a citation step and read the cited passage. Record qualification loss, miscitation, or common dependence.
 
 ## Guided AI Workflow
 
+AI can help normalize researcher-written evaluation notes and expose missing fields. Supply a fixed schema and notes derived from works you have read. Ask the system to separate author claims, evidence, methods, author-stated limitations, reviewer inferences, and proposed synthesis roles. Require it to quote only text included in the prompt and to mark absent information as unknown.
+
+**Permitted input:** Your own notes, public abstracts, short lawfully quoted excerpts, verified bibliographic metadata, and a blank evaluation schema.  
+**Do not provide:** Full copyrighted texts without permission, confidential manuscripts, identifiable participant material, or notes whose disclosure violates agreements.  
+**Verify:** Compare every populated field with the publication and your notes. Confirm that author claims and reviewer interpretations remain distinct. Independently verify citations and metrics.  
+**Record:** Save model/version, input description, schema, output, corrected fields, consequential classifications, reviewer, and final decision.
+
+A useful prompt forbids global scores and flags unsupported fields, shared sources, and roles that exceed the method. The answers remain hypotheses until checked against the publications.
+
+Do not ask a model to evaluate a work from its title or abstract. Abstracts are selective representations designed to communicate contribution. They rarely provide enough information to judge evidence, transformations, limitations, or citation dependence.
+
 ## Integrity Checkpoint
+
+Evaluation can become a disguise for status judgment. Researchers may treat unfamiliar venues, regions, languages, methods, or institutional authors as inherently weak. Apply the same claim-level questions to every source while retaining relevant differences in publication process and conflicts of interest.
+
+Do not punish transparency. Record stated uncertainty as guidance for interpretation, not an automatic negative score.
+
+Conflicts of interest and institutional position matter when they bear on source production. A database team's methods article is indispensable for understanding stated procedures and may also have an interest in defending the project. An advocacy report may provide unique evidence and a normative purpose. Position does not erase evidence; it shapes the questions asked of it.
+
+Avoid laundering unsupported claims through citation. If a statement matters to the synthesis, verify that the cited source supports it. If the source cannot be obtained, label the claim as second-hand or exclude it from load-bearing prose.
 
 ## Save the Artifact
 
+Save `literature-source-evaluation-v0.1.xlsx`. The Source Register should include source ID, complete citation, version, source type, publication context, discovery route, review-question linkage, full-text status, method, evidence base, population or cases, period, declared limitations, conflicts or position, dependence, intended roles, reviewer, date, and decision.
+
+The Claim Register should include claim ID, source ID, claim type, accurate paraphrase, page or location, supporting evidence, transformation or analytical step, author qualification, reviewer assessment, linked concept IDs, related or dependent claim IDs, synthesis role, and verification status.
+
+Do not place long copyrighted passages in the workbook. Use short quotations only when necessary for precision and record page numbers. Keep the source file in its lawful location and link through a stable source ID.
+
 ## Advanced Practice
+
+Team evaluation benefits from claim-level calibration on a shared small set. Compare extracted claims and roles, then revise ambiguous rules before scaling.
+
+Use formal appraisal tools only when they fit the claims and design. Computational reviews should preserve seed sets, thresholds, validation samples, errors, and versions; relevance scores are system outputs, not source properties.

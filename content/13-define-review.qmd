@@ -11,16 +11,76 @@ license: "CC BY 4.0"
 
 ## Orientation
 
+A review begins to drift when its purpose remains implicit. “I need to know the literature” sounds responsible but supplies no rule for deciding what to find, read, compare, or leave outside. The researcher alternates between fear of missing a canonical work and fascination with whatever appeared most recently. Every reference opens another branch. Because the task has no defined answer, it has no defensible stopping point.
+
+Define the review before searching. The definition is provisional, just as the research question is provisional, but it should state what the review must enable the researcher to do. It converts reading from an aspiration into an inquiry.
+
 ## Learn
+
+Begin by naming the review's function. Most reviews supporting empirical projects combine several functions, but one should lead.
+
+A **conceptual review** clarifies how a term has been defined, contested, measured, or used in practice. A **theoretical review** compares explanations, mechanisms, or expectations. An **empirical review** establishes what is known about a phenomenon, population, case, period, or relationship. A **methodological review** examines how research designs, sources, instruments, or analytical procedures shape findings. An **orienting review** helps a researcher enter an unfamiliar field and learn its central questions, lineages, and vocabulary. A review may also justify a new study by showing a consequential limitation or unanswered question. “Finding a gap,” however, is too weak as a purpose on its own. A gap matters only when filling it could change understanding.
+
+Turn the function into a review question. “The literature on terrorism databases” names a collection. “How have scholars explained divergence among terrorism databases, and what roles do definitions, source systems, and coding procedures play in those explanations?” names an analytical task. The review question should be narrower than the book or dissertation question because literature is only one source family. It should also state what kind of answer the review will produce: a taxonomy, a comparison, a causal account of intellectual change, an assessment of evidence, or a set of propositions to test.
+
+Next define boundaries. Relevant dimensions include period of publication, period studied, geography, language, discipline, publication type, population, method, and evidentiary threshold. These are not filters to apply mechanically. They are decisions to justify. A review of contemporary municipal governance might include historical studies because present administrative categories emerged earlier. A review conducted in English may need local-language search routes if the institutions under study operate elsewhere. A dissertation chapter may include unpublished doctoral work when it contains the only close examination of a particular archive, while treating its status explicitly.
+
+Write inclusion and exclusion logic as sentences, not only as filter settings. “Include publications that compare at least two event datasets or examine how terrorism events are defined, sourced, or coded” tells a reader why a work belongs. “Exclude works that use a single dataset without discussing its construction” identifies a defensible limit. The excluded work may remain important to the larger project; it simply does not answer this review question.
+
+Separate substantive exclusions from practical constraints. Being outside scope differs from remaining unread because of access, language, or time. The first defines the corpus; the second may bias it.
+
+State the anticipated product, audience, deadline, collaborators, and threshold for full-text reading. A dissertation section and a review article require different depth. The protocol makes later changes visible.
 
 ## Worked Example
 
+For the terrorism-database inquiry, the initial purpose combines conceptual, methodological, and empirical functions. We want to understand how scholars define divergence, what explanations they offer, and how their own data choices affect the patterns they report. We are not attempting a complete review of terrorism research or a ranking of every database.
+
+The review question becomes: “How has research since the expansion of event-based terrorism datasets explained divergent counts and patterns, and what evidence supports claims about the effects of definitions, sources, and coding?” We include comparative database studies, methodological articles on event-data construction, validation studies, codebook analyses, and empirical articles that demonstrate a consequential change caused by database choice. We exclude studies that merely name a database in the methods section. They may later enter the project as evidence of usage, but they cannot answer the present review question.
+
+Both protocols record language and access constraints and assign reopening triggers.
+
 ## Try It
+
+Write a one-sentence review question. Under it, complete four prompts:
+
+1. “This review will enable me to…”
+2. “A work belongs when…”
+3. “A work remains outside when…”
+4. “The review will be adequate for its purpose when…”
+
+Then list the boundaries you expect to use and label each one **substantive**, **ethical**, or **practical**. A substantive boundary follows from the question. An ethical boundary protects people or restricted information. A practical boundary reflects time, access, language, or resources. Do not hide the third category inside the first.
+
+Write what would change the protocol, such as a new historical term, revised period, or added language capacity. These are version triggers.
+
+The exercise is complete when another researcher can apply the inclusion logic to three sample publications and explain their decisions. Agreement is not required. If the protocol cannot support a reasoned disagreement, it remains too vague.
 
 ## Guided AI Workflow
 
+Use AI as a protocol critic, not as an authority on the field. Give the system the review question, purpose, boundaries, and inclusion/exclusion statements. Ask it to identify hidden assumptions, ambiguous terms, boundary conflicts, and types of scholarship that the protocol may systematically miss. Request alternative formulations and require an explanation of how each would change the corpus.
+
+**Permitted input:** The review protocol, public project description, and invented examples.  
+**Do not provide:** Confidential peer-review material, restricted research plans, participant information, or unpublished allegations.  
+**Verify:** Test every suggested boundary or publication type against the research purpose and an independently verified example. The model's claim that a field uses a term is not evidence that it does.  
+**Record:** Save suggestions that change scope, inclusion logic, language coverage, or the anticipated product. Record rejected consequential suggestions and the reason for rejection.
+
+A useful prompt ends with a required table: assumption; why it matters; possible revision; effect on evidence required; verification action. The structure makes proposals easier to inspect. Do not ask the model to select the “best” protocol. That choice depends on the project's intellectual commitments and constraints.
+
 ## Integrity Checkpoint
+
+Scope can encode bias while appearing neutral. Language limits may remove scholarship produced by the communities being studied. Date limits may privilege contemporary terminology. Journal-only rules may exclude books in fields where books carry central arguments, or reports in fields where institutions produce the relevant evidence. Citation thresholds can exclude new work and scholarship outside dominant networks.
+
+Review protocols also create strategic temptations. A researcher may define inclusion after seeing which works support the preferred argument. Versioning does not prohibit change; it distinguishes learning from retrospective tailoring. Date the initial protocol, state why it changed, and preserve both versions.
+
+Copyright and access deserve separate attention. A paywall is not evidence of low relevance. An illegally obtained copy does not become safe to redistribute because it supports open scholarship. Record access barriers and seek lawful routes through libraries, authors, repositories, or interlibrary services.
 
 ## Save the Artifact
 
+Save `literature-review-protocol-v0.1.docx`. Required fields are project ID, review question, leading function, secondary functions, anticipated product, audience, boundaries, inclusion logic, exclusion logic, languages, publication types, discovery routes to be attempted, full-text threshold, AI/data restrictions, practical constraints, initial stopping rule, reopening triggers, date, author, and reviewer.
+
+Link the protocol to the evidence map and project log. When it changes, create version 0.2 and add a short change note. Do not overwrite the reasoning that governed earlier searches.
+
 ## Advanced Practice
+
+Some reviews cannot specify all inclusion criteria in advance. An interpretive review may discover that the field's categories are part of the phenomenon under study. A critical review may deliberately trace how a dominant vocabulary excluded alternative traditions. A realist synthesis may refine its program theory while searching. In these cases, the protocol should define the process of adaptation rather than pretend that the final boundaries existed at the start.
+
+Team reviews should calibrate inclusion rules on a shared small set before scaling. Living reviews also require monitoring routes, maintenance ownership, and conditions for a new synthesis.

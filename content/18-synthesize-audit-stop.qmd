@@ -11,16 +11,97 @@ license: "CC BY 4.0"
 
 ## Orientation
 
+Synthesis is the point at which a literature corpus becomes an argument. The researcher no longer asks what each publication says in turn. The task is to explain a pattern across works while preserving the differences that make the pattern meaningful. This requires compression, and compression creates risk: distinct questions become one debate, common dependence becomes consensus, and missing scholarship becomes absence in the world.
+
+The final movement therefore joins three activities. Synthesize what the corpus can support. Audit how the corpus was assembled and represented. State why searching and reading can stop for the present purpose.
+
 ## Learn
+
+Begin with the review question and the matrix, not a blank document. Select an organizing logic that answers the question. Common structures include:
+
+- **Problem or proposition:** organize around the explanations or claims the review must assess.
+- **Conceptual dispute:** compare definitions, attributes, extensions, and consequences.
+- **Intellectual lineage:** trace adoption, modification, criticism, and abandonment across time.
+- **Method or evidence base:** show how sources, cases, measures, or analytical procedures shape findings.
+- **Empirical pattern:** compare findings across settings, periods, populations, or case types.
+- **Tension or paradox:** explain why apparently incompatible findings coexist.
+
+Chronology can support any of these structures, but a year-by-year list rarely constitutes synthesis. Neither does a sequence of author summaries. Each section should make a claim across multiple works, identify the evidence and dependence behind that claim, explain consequential variation, and state the limit.
+
+For each section, state the pattern, show its basis, explain variation, and state the consequence for the review question.
+
+Distinguish consensus, convergence, and repetition. Consensus refers to a field-level pattern of agreement, which requires evidence about coverage and dissent. Convergence refers to different sources or methods reaching compatible conclusions. Repetition means that multiple publications state the same proposition. The third can occur without the first two. Use the dependence fields and citation chains to decide which term is warranted.
+
+Integrate counterevidence early. A contrary work should not be placed in a final “criticism” paragraph after the main account has already hardened. Ask whether it identifies a boundary condition, uses different definitions, observes another population, relies on another evidence base, or directly contradicts the pattern. A synthesis becomes stronger when it explains what would have to be true for different findings to coexist.
+
+Run a **coverage audit** before finalizing. Compare the corpus with the protocol and evidence map across language, geography, period, discipline, publication type, method, actor perspective, discovery route, and citation lineage. Count where useful, but interpret the counts. Ten articles from one special issue may provide less source diversity than three works found through independent routes.
+
+Audit expected literatures or perspectives that did not appear. Classify the absence as substantive, terminological, index-related, inaccessible, ethical, or protocol-produced. A failed search does not prove that no scholarship exists.
+
+The stopping rule asks whether additional searching is likely to change the answer needed for the current product. Criteria may include conceptual coverage, representation of principal explanations, route diversity, attention to counterevidence, stabilized vocabulary, diminishing returns in relevant new claims, and completion of verification for load-bearing sources. Stopping is a decision under limits, not a discovery that the literature has ended.
+
+Add **reopening triggers**. A newly released archive, a major review, a revised dataset, an unsearched language, a credible contrary study, or a change in the research question may justify another cycle. Living scholarship requires a way to change without pretending that every page is continuously current.
 
 ## Worked Example
 
+The terrorism review does not conclude that databases “disagree” for one reason. Its matrix supports a more differentiated synthesis. Divergence appears at several layers: inclusion definitions shape the event universe; source systems affect what becomes observable; matching and deduplication affect whether records refer to the same event; category rules alter domestic/transnational assignments; and historical collection changes can create apparent trends. Different studies illuminate different layers.
+
+The written review organizes sections around those layers. Within each, it distinguishes direct comparisons from repeated methodological warnings. It shows where works converge across databases or source-checking procedures and where later authors cite a single earlier account. It identifies a limit: English-language publications and publicly documented datasets are better represented than local validation work or proprietary systems. The consequence for the empirical project is a validation design that samples events at each transformation layer rather than searching for one universally correct count.
+
+The coverage audit exposes an imbalance. Many works analyze outputs, fewer examine the news and administrative sources feeding the databases, and few center people or places whose experiences are reduced to event records. The review cannot repair that gap through one more database query. It records the gap in the evidence map and redirects collection toward source production.
+
+In the municipal case, planning, legal, and local histories observe different institutional arenas and actors. The synthesis explains why they produce different chronologies instead of selecting one as universally correct.
+
+The stopping rule notes that searches across five routes now recover familiar conceptual and empirical patterns; key works have been verified; local-language and dissertation coverage has been attempted; and contrary accounts are represented. It also records incomplete access to older internal reports. Discovery stops for the chapter, while a newly digitized report series or evidence that another agency name was used would reopen it.
+
 ## Try It
+
+Write a one-sentence answer to the review question using only claims supported by the matrix. Underline every term that implies coverage—words such as *most*, *widely*, *consensus*, *established*, or *the field*. For each, identify the evidence that justifies it. Replace terms that exceed the corpus.
+
+Draft a synthesis outline with three to five section claims. Under each claim, list:
+
+1. representative claim IDs;
+2. contrary or boundary claim IDs;
+3. shared-dependence risks;
+4. the source of variation;
+5. the consequence for the research question;
+6. the limit that the section must state.
+
+Next complete the coverage audit. Choose at least six dimensions appropriate to the review and mark coverage as strong, adequate for purpose, weak, constrained, or unknown. Provide evidence and an action for every weak or unknown dimension. Some actions will be another search. Others will be a limitation statement or a change to the empirical design.
+
+Finally, write the stopping rule in one paragraph and a separate list of reopening triggers. Give the corpus and protocol versions to which the rule applies. Ask a colleague to identify what evidence would make the stopping decision unreasonable.
 
 ## Guided AI Workflow
 
+AI can audit a populated synthesis plan for overclaiming and missing contrasts. Provide the review question, section claims, matrix rows represented by source/claim IDs, dependence markers, coverage table, and proposed stopping rule. Ask the system to identify claims resting on one source, words that imply unsupported coverage, neglected contrary entries, and stopping criteria not backed by the audit.
+
+**Permitted input:** Researcher-authored synthesis plans, structured matrix excerpts, verified metadata, IDs, and non-sensitive coverage summaries.  
+**Do not provide:** Copyrighted full text, confidential manuscripts, restricted source descriptions, participant data, or sensitive findings that should not leave the approved environment.  
+**Verify:** Trace every critique to the supplied matrix and then to the underlying source for load-bearing issues. Confirm that the model did not treat empty cells as negative findings or dependence as independence.  
+**Record:** Save model/version, input description, audit output, accepted revisions, rejected critiques with reasons, reviewer, matrix/protocol versions, and date.
+
+Use the system as an adversarial reader, not a ghostwriter. A useful prompt asks: “What is the strongest alternative account compatible with these entries?” The response can reveal a missing comparison. It does not establish that the alternative is true.
+
+Do not ask a model to infer field-level consensus from citation counts or snippets. Do not allow it to fill gaps with general knowledge. Require it to say “not supported by the supplied record” when the matrix lacks evidence.
+
 ## Integrity Checkpoint
+
+Synthesis allocates visibility. Cite works that contribute evidence or ideas, not only surveys, and preserve credit across languages, regions, and publication forms.
+
+Avoid false transparency. A public search log can expose sensitive topics, proprietary access routes, reviewer identities, or the location of vulnerable archives. Release a calibrated record or redacted version when necessary, and explain the omission.
+
+Do not convert lawful access limits, unsuccessful searches, or a model's failure to recall a source into evidence that no scholarship exists.
+
+Corrections are part of a living review. Provide a version, review date, citation form, change log, and route for reporting errors. Preserve previous releases when feasible so readers can identify which account they used.
 
 ## Save the Artifact
 
+Complete the workbook's Coverage Audit, Memo Plan, and Stopping Rule sheets. Record evidence, dependence, constraints, claims, counterevidence, limits, decisions, owners, and reopening triggers.
+
+Save a synthesis memo keyed to the workbook version. State the review's answer, strongest basis, most consequential disagreement, coverage limit, implications for empirical collection, and stopping decision. The memo is the bridge between the working artifacts and the written chapter.
+
+Archive the review artifacts together, prefer open formats, and preserve only material that rights and ethics permit.
+
 ## Advanced Practice
+
+Formal synthesis traditions require their own standards. Living reviews additionally require ownership, review intervals, corrections, and version rules.
