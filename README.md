@@ -15,6 +15,8 @@ Version `0.2.0-draft` contains two complete exemplary modules:
 
 The next planned module covers collection and post-production. See [ROADMAP.md](ROADMAP.md).
 
+The latest discussion-draft release packages the manuscript as both Word and PDF, together with a browsable site preview and a reproducible source archive: [v0.2.0-draft](https://github.com/pedahzur/from-question-to-evidence/releases/tag/v0.2.0-draft).
+
 ## Repository Layout
 
 - `content/` — canonical Quarto manuscript pages.
