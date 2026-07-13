@@ -16,6 +16,25 @@ EXPECTED = {
         "Stopping Rule",
         "Instructions",
     ],
+    "literature-concept-vocabulary-map.xlsx": ["Concepts", "Vocabulary", "Instructions"],
+    "literature-search-ai-log.xlsx": [
+        "Search Routes",
+        "Citation Chaining",
+        "AI Audit",
+        "Instructions",
+    ],
+    "literature-source-evaluation.xlsx": [
+        "Source Register",
+        "Claim Register",
+        "Instructions",
+    ],
+    "literature-synthesis-stopping-rule.xlsx": [
+        "Synthesis Matrix",
+        "Coverage Audit",
+        "Memo Plan",
+        "Stopping Rule",
+        "Instructions",
+    ],
 }
 
 
@@ -46,3 +65,19 @@ def test_question_framing_word_template() -> None:
     assert "Question-Framing Worksheet" in text
     assert "This project does not attempt to" in text
     assert "CC BY 4.0" in text
+
+
+def test_literature_review_protocol_word_template() -> None:
+    document = Document(ROOT / "templates/literature-review-protocol.docx")
+    paragraph_text = [paragraph.text for paragraph in document.paragraphs]
+    table_text = [cell.text for table in document.tables for row in table.rows for cell in row.cells]
+    text = "\n".join(paragraph_text + table_text)
+    for expected in (
+        "Literature Review Protocol",
+        "Review purpose",
+        "Inclusion logic",
+        "Exclusion logic",
+        "Reopening trigger",
+        "CC BY 4.0",
+    ):
+        assert expected in text

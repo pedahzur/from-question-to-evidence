@@ -76,6 +76,81 @@ const workbooks = [
       },
     ],
   },
+  {
+    file: "literature-concept-vocabulary-map.xlsx",
+    sheets: [
+      {
+        name: "Concepts",
+        title: "Literature Concept Map",
+        headers: ["Concept ID", "Concept", "Working Meaning", "Rival Meanings", "Boundaries", "Observable Implications", "Period", "Setting", "Review Question Link", "Reviewer", "Review Date"],
+      },
+      {
+        name: "Vocabulary",
+        title: "Literature Vocabulary Map",
+        headers: ["Term ID", "Concept ID", "Term", "Language", "Script or Transliteration", "Term Type", "Actor or Discipline", "Period of Use", "Relation to Concept", "Verification Source", "Query Tested", "Retrieval Effect", "Decision", "Responsible-Use Note"],
+      },
+    ],
+  },
+  {
+    file: "literature-search-ai-log.xlsx",
+    sheets: [
+      {
+        name: "Search Routes",
+        title: "Literature Search Routes",
+        headers: ["Cycle ID", "Date", "Purpose", "Route Type", "System or Repository", "Exact Query or Action", "Fields and Filters", "Results", "Screened", "Retained Source IDs", "Rejection Pattern", "New Term IDs", "Coverage Risk", "Decision", "Next Step"],
+      },
+      {
+        name: "Citation Chaining",
+        title: "Citation Chaining Log",
+        headers: ["Chain ID", "Date", "Seed Source ID", "Direction", "Candidate Citation", "Citation Context", "Authenticity Check", "Relevance Decision", "Shared-Lineage Warning", "Resulting Action"],
+      },
+      {
+        name: "AI Audit",
+        title: "Literature AI Assistance Audit",
+        headers: ["Entry ID", "Date", "Model and Version", "Task", "Input Description", "Protected Data Included?", "Output Summary", "Accepted Suggestions", "Rejected Suggestions", "Verification", "Reviewer", "Decision"],
+      },
+    ],
+  },
+  {
+    file: "literature-source-evaluation.xlsx",
+    sheets: [
+      {
+        name: "Source Register",
+        title: "Literature Source Register",
+        headers: ["Source ID", "Complete Citation", "Version", "Source Type", "Publication Context", "Discovery Route", "Review Question Link", "Full-Text Status", "Method", "Evidence Base", "Cases or Population", "Period", "Declared Limitations", "Position or Conflict", "Dependence", "Intended Roles", "Reviewer", "Review Date", "Decision"],
+      },
+      {
+        name: "Claim Register",
+        title: "Literature Claim Register",
+        headers: ["Claim ID", "Source ID", "Claim Type", "Accurate Paraphrase", "Page or Location", "Supporting Evidence", "Transformation or Analysis", "Author Qualification", "Reviewer Assessment", "Linked Concept IDs", "Related Claim IDs", "Synthesis Role", "Verification Status"],
+      },
+    ],
+  },
+  {
+    file: "literature-synthesis-stopping-rule.xlsx",
+    sheets: [
+      {
+        name: "Synthesis Matrix",
+        title: "Literature Synthesis Matrix",
+        headers: ["Matrix Row ID", "Source ID", "Claim IDs", "Concept or Problem", "Method", "Evidence Base", "Finding or Contribution", "Limitation", "Dependence", "Reviewer Interpretation", "Verification Location"],
+      },
+      {
+        name: "Coverage Audit",
+        title: "Literature Coverage Audit",
+        headers: ["Dimension", "Expected Coverage", "Observed Corpus", "Discovery Routes", "Dependence", "Constraint", "Assessment", "Action", "Reviewer", "Review Date"],
+      },
+      {
+        name: "Memo Plan",
+        title: "Literature Synthesis Memo Plan",
+        headers: ["Section ID", "Section Claim", "Supporting Claim IDs", "Counterevidence", "Variation Explained", "Consequence", "Limitation", "Verification Owner", "Status"],
+      },
+      {
+        name: "Stopping Rule",
+        title: "Literature Review Stopping Rule",
+        headers: ["Criterion", "Evidence Required", "Current Assessment", "Unresolved Limit", "Decision", "Reopening Trigger"],
+      },
+    ],
+  },
 ];
 
 function addDataSheet(workbook, spec) {
@@ -129,9 +204,10 @@ function addInstructions(workbook, names) {
     ["AI", "Record consequential AI assistance in the AI Audit sheet or linked project log. Verify every proposed source independently."],
     ["Privacy", "Do not enter protected participant data or restricted archival information into an external AI service."],
     ["License", "CC BY 4.0. Attribution: Ami Pedahzur and Jonathan Grossman, From Question to Evidence (2026)."],
-    ["Version", "0.1 discussion draft, 2026-07-12"],
+    ["Version", "0.2 discussion draft, 2026-07-13"],
   ];
   sheet.getRange("A1:B1").format = { fill: palette.navy, font: { bold: true, color: "#FFFFFF", size: 15 }, rowHeight: 28 };
+  sheet.getRange("A2:B7").format.fill = "#FFFFFF";
   sheet.getRange("A2:A7").format = { fill: palette.pale, font: { bold: true, color: palette.navy } };
   sheet.getRange("A1:B7").format.wrapText = true;
   sheet.getRange("A:A").format.columnWidth = 16;
@@ -145,6 +221,8 @@ for (const spec of workbooks) {
   addInstructions(workbook, spec.sheets.map((sheet) => sheet.name));
   const exported = await SpreadsheetFile.exportXlsx(workbook);
   await exported.save(path.join(outputDir, spec.file));
+  const instructionsPreview = await workbook.render({ sheetName: "Instructions", range: "A1:B7", scale: 1.2, format: "png" });
+  await fs.writeFile(path.join(previewDir, `${spec.file}-Instructions.png`), new Uint8Array(await instructionsPreview.arrayBuffer()));
   for (const sheetSpec of spec.sheets) {
     const preview = await workbook.render({ sheetName: sheetSpec.name, range: `A1:${String.fromCharCode(64 + sheetSpec.headers.length)}8`, scale: 1.2, format: "png" });
     await fs.writeFile(path.join(previewDir, `${spec.file}-${sheetSpec.name.replaceAll(" ", "-")}.png`), new Uint8Array(await preview.arrayBuffer()));
