@@ -21,7 +21,7 @@ Begin with a small orientation set rather than a massive download. Select a rece
 
 Use **structured database searching** when bibliographic fields and repeatable queries matter. Record the system, collection or index, date, exact query, fields searched, filters, result count, and records retained. A query copied from one system may behave differently in another because field codes, stemming, phrase handling, subject vocabularies, and coverage differ. Preserve the executed form rather than an idealized description.
 
-Use **backward citation chaining** to inspect the works a relevant publication cites. This route can reveal concepts, methods, datasets, and disputes that predate the vocabulary used in the query. It can also reproduce the author's exclusions. Follow references selectively and record why a cited work appears promising.
+Use **backward citation chaining** to inspect the works a relevant publication cites.[@wohlin2014snowballing] This route can reveal concepts, methods, datasets, and disputes that predate the vocabulary used in the query. It can also reproduce the author's exclusions. Follow references selectively and record why a cited work appears promising.
 
 Use **forward citation chaining** to find later works that cite a relevant publication. This route shows uptake, criticism, replication, application, or ceremonial citation. A citing work may mention the source without engaging its argument. Screen the citation context when possible.
 
@@ -31,7 +31,7 @@ Use **venue browsing** when indexing is incomplete, while recognizing that it ov
 
 Use **targeted web discovery** for institutional publications, repositories, conference programs, preprints, data documentation, and hard-to-index material. Record the domain, query, date, and access status. General web ranking is personalized and unstable; save enough metadata to retrieve the item independently.
 
-Discovery proceeds in cycles. Each cycle has a purpose: test a concept, locate a lineage, fill a geographical gap, follow a method, or challenge a suspected consensus. Screen enough results to decide whether the route is productive. Retain records with a reason, not because downloading is easy. At the end of the cycle, record new vocabulary, new source types, duplications, and the next decision.
+Discovery proceeds in cycles.[@greenhalgh2005search; @booth2016systematic] Each cycle has a purpose: test a concept, locate a lineage, fill a geographical gap, follow a method, or challenge a suspected consensus. Screen enough results to decide whether the route is productive. Retain records with a reason, not because downloading is easy. At the end of the cycle, record new vocabulary, new source types, duplications, and the next decision.
 
 Deduplicate at the work level while linking preprint, conference, accepted, and published versions. Do not count manifestations as independent evidence.
 

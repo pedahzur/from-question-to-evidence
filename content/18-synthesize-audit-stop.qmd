@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 
 Synthesis is the point at which a literature corpus becomes an argument. The researcher no longer asks what each publication says in turn. The task is to explain a pattern across works while preserving the differences that make the pattern meaningful. This requires compression, and compression creates risk: distinct questions become one debate, common dependence becomes consensus, and missing scholarship becomes absence in the world.
 
-The final movement therefore joins three activities. Synthesize what the corpus can support. Audit how the corpus was assembled and represented. State why searching and reading can stop for the present purpose.
+The final movement therefore joins three activities.[@page2021prisma; @rethlefsen2021prismas] Synthesize what the corpus can support. Audit how the corpus was assembled and represented. State why searching and reading can stop for the present purpose.
 
 ## Learn
 

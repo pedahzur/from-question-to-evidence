@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def test_bibliography_has_verified_foundation() -> None:
     bibliography = (ROOT / "bibliography/references.bib").read_text(encoding="utf-8")
     keys = re.findall(r"^@\w+\{([^,]+),", bibliography, flags=re.MULTILINE)
-    assert len(keys) >= 8
+    assert len(keys) >= 16
     assert len(keys) == len(set(keys))
 
 

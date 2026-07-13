@@ -11,7 +11,7 @@ license: "CC BY 4.0"
 
 ## The Review Problem
 
-A literature review can contain hundreds of summaries and still fail as research. The failure occurs when the reader cannot tell why those works were chosen, what question they answer, how they relate to one another, or which bodies of scholarship remain outside the frame. Accumulation is not synthesis. A long bibliography proves that material was found; it does not show that the material was assembled into an argument.
+A literature review can contain hundreds of summaries and still fail as research.[@snyder2019literature; @grant2009typology] The failure occurs when selection, purpose, relationships, and exclusions remain unexplained. Accumulation is not synthesis. A long bibliography proves that material was found; it does not show that the material was assembled into an argument.
 
 Discovery now returns more publications and citation paths than one person can follow. Generative systems add fluent accounts without necessarily revealing their basis. Abundance lowers the cost of finding *something* and raises the cost of explaining why the selected literature is adequate.
 
@@ -36,7 +36,7 @@ These objects overlap but are not interchangeable. The protocol and search log e
 
 ## The Six Movements
 
-The first movement defines the review. It states what the review must accomplish, which question it answers, which boundaries guide inclusion, and which exclusions remain provisional. A review designed to clarify a concept will not collect or read in exactly the same way as one designed to identify a causal explanation or compare methods.
+The first movement defines the review.[@littell2018classification] It states what the review must accomplish, which question it answers, which boundaries guide inclusion, and which exclusions remain provisional. A review designed to clarify a concept will not collect or read in exactly the same way as one designed to identify a causal explanation or compare methods.
 
 The second movement maps concepts and vocabulary. Search systems retrieve strings, while researchers care about meanings. The same phenomenon may travel under different names across periods, languages, and disciplines. The same term may refer to incompatible concepts. A vocabulary map does not resolve those disputes in advance. It makes them searchable.
 

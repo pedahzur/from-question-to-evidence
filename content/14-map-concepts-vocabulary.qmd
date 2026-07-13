@@ -17,7 +17,7 @@ The concept-and-vocabulary map turns this problem into an explicit research task
 
 ## Learn
 
-Start with the concepts in the review question, but do not treat them as settled. For each concept, record a working meaning, rival meanings, observable implications, and exclusions. The working meaning is a provisional guide, not a definition imposed on every source. A literature review often needs to discover how the concept has changed.
+Start with the concepts in the review question, but do not treat them as settled.[@gerring2012methodology] For each concept, record a working meaning, rival meanings, observable implications, and exclusions. The working meaning is a provisional guide, not a definition imposed on every source. A literature review often needs to discover how the concept has changed.
 
 Build several vocabulary families around each concept:
 

@@ -17,7 +17,7 @@ Define the review before searching. The definition is provisional, just as the r
 
 ## Learn
 
-Begin by naming the review's function. Most reviews supporting empirical projects combine several functions, but one should lead.
+Begin by naming the review's function.[@grant2009typology; @littell2018classification] Most reviews supporting empirical projects combine several functions, but one should lead.
 
 A **conceptual review** clarifies how a term has been defined, contested, measured, or used in practice. A **theoretical review** compares explanations, mechanisms, or expectations. An **empirical review** establishes what is known about a phenomenon, population, case, period, or relationship. A **methodological review** examines how research designs, sources, instruments, or analytical procedures shape findings. An **orienting review** helps a researcher enter an unfamiliar field and learn its central questions, lineages, and vocabulary. A review may also justify a new study by showing a consequential limitation or unanswered question. “Finding a gap,” however, is too weak as a purpose on its own. A gap matters only when filling it could change understanding.
 
