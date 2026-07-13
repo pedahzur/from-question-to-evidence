@@ -1,4 +1,5 @@
 from pathlib import Path
+import re
 
 import yaml
 
@@ -17,9 +18,36 @@ CHAPTERS = [
     "content/07-evaluate.qmd",
     "content/08-test-coverage.qmd",
     "content/09-produce-evidence-map.qmd",
-    "content/10-ai-research-integrity.qmd",
-    "content/11-next-steps.qmd",
+    "content/12-literature-as-evidence.qmd",
+    "content/13-define-review.qmd",
+    "content/14-map-concepts-vocabulary.qmd",
+    "content/15-discover-literature.qmd",
+    "content/16-evaluate-literature.qmd",
+    "content/17-read-annotate-compare.qmd",
+    "content/18-synthesize-audit-stop.qmd",
+    "content/19-ai-research-integrity.qmd",
+    "content/20-next-steps.qmd",
     "content/references.qmd",
+]
+
+LITERATURE_STAGES = [
+    "content/13-define-review.qmd",
+    "content/14-map-concepts-vocabulary.qmd",
+    "content/15-discover-literature.qmd",
+    "content/16-evaluate-literature.qmd",
+    "content/17-read-annotate-compare.qmd",
+    "content/18-synthesize-audit-stop.qmd",
+]
+
+STAGE_SECTIONS = [
+    "Orientation",
+    "Learn",
+    "Worked Example",
+    "Try It",
+    "Guided AI Workflow",
+    "Integrity Checkpoint",
+    "Save the Artifact",
+    "Advanced Practice",
 ]
 
 
@@ -60,3 +88,10 @@ def test_quarto_site_profile() -> None:
     assert site["book"]["search"] is True
     assert site["book"]["page-navigation"] is True
     assert site["book"]["downloads"] == ["docx", "pdf"]
+
+
+def test_literature_stages_follow_page_pattern() -> None:
+    for relative in LITERATURE_STAGES:
+        text = (ROOT / relative).read_text(encoding="utf-8")
+        headings = re.findall(r"^## (.+)$", text, flags=re.MULTILINE)
+        assert headings == STAGE_SECTIONS, relative

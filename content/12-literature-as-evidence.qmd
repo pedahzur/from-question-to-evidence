@@ -1,0 +1,12 @@
+---
+title: "Literature as Evidence"
+description: "Move from an evidence map to a defensible literature synthesis."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-13"
+last-reviewed: "2026-07-13"
+license: "CC BY 4.0"
+---
+
+This module turns scholarly publications into an inspectable body of evidence.

@@ -1,0 +1,26 @@
+---
+title: "Stage 1: Define the Review"
+description: "State what the review must accomplish and where it stops."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-13"
+last-reviewed: "2026-07-13"
+license: "CC BY 4.0"
+---
+
+## Orientation
+
+## Learn
+
+## Worked Example
+
+## Try It
+
+## Guided AI Workflow
+
+## Integrity Checkpoint
+
+## Save the Artifact
+
+## Advanced Practice

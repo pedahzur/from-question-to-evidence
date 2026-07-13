@@ -19,8 +19,15 @@ book:
     - content/07-evaluate.qmd
     - content/08-test-coverage.qmd
     - content/09-produce-evidence-map.qmd
-    - content/10-ai-research-integrity.qmd
-    - content/11-next-steps.qmd
+    - content/12-literature-as-evidence.qmd
+    - content/13-define-review.qmd
+    - content/14-map-concepts-vocabulary.qmd
+    - content/15-discover-literature.qmd
+    - content/16-evaluate-literature.qmd
+    - content/17-read-annotate-compare.qmd
+    - content/18-synthesize-audit-stop.qmd
+    - content/19-ai-research-integrity.qmd
+    - content/20-next-steps.qmd
     - content/references.qmd
 
 lang: en
