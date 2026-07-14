@@ -41,13 +41,18 @@ Write the present version of the question in one sentence. Then write a second s
 
 Next, state what would count as an answer. A causal question may require evidence of sequence and mechanism. An interpretive question may require competing meanings and the settings in which actors used them. A descriptive question may require a justified account of variation. If the anticipated answer cannot be described, the question remains too loose.
 
-The saved artifact should contain the question, purpose, unit of inquiry, boundaries, exclusions, assumptions, and evidence needed for an answer. Date it. Later revisions should create a new version rather than erase the first.
+Save the result as this stage's artifact, described under Save the Artifact below.
 
 ## Guided AI Workflow
 
-AI can serve as a critic of the frame. Provide the question and boundary statement without confidential material. Ask the system to identify hidden assumptions, ambiguous concepts, and plausible alternative formulations. Then ask it to explain how each alternative would change the evidence required.
+AI can serve as a critic of the frame. Provide the question and boundary statement without confidential material. Ask the system to identify hidden assumptions, ambiguous concepts, and plausible alternative formulations. Then ask it to explain how each alternative would change the evidence required. A usable prompt: “Identify hidden assumptions and ambiguous concepts in this question, and propose alternative formulations. Do not choose the best one.”
 
-Do not ask the model to choose the “best” question. It lacks the project's intellectual commitments and access constraints. Review each suggestion against the purpose of the study. Record accepted changes, rejected changes, and the reason for each decision.
+**Permitted input:** The question, the boundary and exclusion statement, and the stated purpose, with no confidential or participant-identifying material.  
+**Do not provide:** Restricted archival detail, participant identities, unpublished allegations, or partner-owned data.  
+**Verify:** Test each suggested assumption, concept, or alternative against the project's purpose and access constraints. The model lacks the study's intellectual commitments; it cannot choose the question.  
+**Record:** Log accepted changes, rejected changes, the reason for each, and the model and date.
+
+Do not ask the model to choose the “best” question. Review each suggestion against the purpose of the study.
 
 ## Integrity Checkpoint
 
@@ -55,7 +60,7 @@ The frame should not expose participant identities, restricted archival informat
 
 ## Save the Artifact
 
-Save the question-framing worksheet as version 0.1. Link it to the project log and the later evidence map. The version number matters because later collection decisions will make sense only in relation to the question that guided them at the time.
+Save `question-framing-v0.1.docx`. Required fields are the question, purpose, unit of inquiry, boundaries along the five dimensions, exclusions, assumptions, and the evidence that would count as an answer. Date it. Link it to the project log and the later evidence map. The version number matters because later collection decisions will make sense only in relation to the question that guided them at the time. Later revisions create a new version rather than erase the first.
 
 ## Advanced Practice
 
