@@ -15,6 +15,8 @@ Research often begins with a subject rather than a question. Political violence,
 
 Framing creates the first limit. It states what the researcher wants to explain or understand, the unit to which the question applies, the relevant setting, and the period under examination. The limit is provisional. It exists so the collection can begin with discipline.
 
+Framing sets an intellectual limit, not an ethical clearance. Deciding what to collect does not decide whether collection is permitted. Some source families cannot be gathered at all without ethics approval, informed consent, or a data agreement, and those permissions govern whether the work may begin, not only how it proceeds. This guide defers the mechanics of collection to a later module, but the researcher should confirm the ethical preconditions before the search starts.
+
 ## Learn
 
 A workable qualitative question establishes an object of inquiry and a relation that requires evidence. “Terrorism databases” names an object. “Why do major terrorism databases report different patterns for the same period?” identifies a relation among classification systems, sources, and observed trends. The second formulation tells the researcher what must be compared.

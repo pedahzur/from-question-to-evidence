@@ -15,13 +15,15 @@ A folder can contain ten thousand documents and still fail to constitute a corpu
 
 An evidence map addresses this problem by placing the research question at the center of collection. Around it sit the concepts that require clarification, the actors and institutions that may have produced records, the periods and places that bound the inquiry, and the source families capable of answering different parts of the question. As collection proceeds, the map records where evidence accumulates and where it does not.
 
+The term echoes the evidence gap map of systematic-review practice, a matrix of interventions against outcomes that shows where published findings are dense or thin. The evidence map here serves a different task. It charts not published findings but the sources that could bear on a single question, and it grows as the collection grows.
+
 The map borrows the discipline of reproducible search reporting without treating every qualitative project as a systematic review.^[For current reporting standards on information sources, search strategies, and record management, see @rethlefsen2021prismas and @page2021prisma.] A historian cannot always specify the archive's contents in advance. An ethnographer may revise the question after entering the field. A researcher working under authoritarian rule may withhold operational detail to protect participants. Transparency must answer to method and ethics.
 
-The purpose is not mechanical replication. The purpose is reasoned reconstruction. Another scholar should be able to see how the inquiry moved, why some materials entered the corpus, why others did not, and where uncertainty remains.
+The purpose is not mechanical replication. The purpose is reasoned reconstruction. The record is intended to let another scholar reconstruct how the inquiry moved, why some materials entered the corpus, why others did not, and where uncertainty remains.
 
 ## The Seven Stages
 
-The evidence map develops through seven stages. The first frames the question. The second decomposes it into concepts and contexts. The third identifies source families. The fourth conducts and records iterative searches. The fifth evaluates individual records and collections. The sixth tests coverage. The seventh turns the accumulated artifacts into a collection strategy and stopping rule.
+The evidence map develops through seven stages. The first frames the question. The second decomposes it into concepts and contexts. The third identifies source families. The fourth conducts and records iterative searches. The fifth evaluates individual records and collections. The sixth tests coverage. The seventh turns the accumulated artifacts into a collection plan and stopping rule.
 
 The sequence is ordered, but research rarely follows it once. A new archive may reveal an actor missing from the original question. A contradictory interview may expose a concept that was defined too narrowly. A failed search may show that a source family never existed. Each discovery sends the researcher backward. Revision is not evidence that the method failed. Revision is the method working.
 
@@ -39,7 +41,9 @@ This is the pattern. Evidence reaches the researcher through institutions.
 
 ## What the Map Contains
 
-The final map contains six connected records. The question frame defines the inquiry and its provisional boundaries. The concept-and-context grid translates the question into searchable dimensions. The source-family inventory identifies who could have recorded each dimension and where those records might reside. The search log records routes, terms, dates, results, and revisions. The evidence register assesses each record's relevance, provenance, and limits. The gap analysis shows empty, weak, or contradictory parts of the map.
+The map exists in two states. A working map grows and changes from the first stage, as searches run and records accumulate. A frozen map, dated and set aside at the seventh stage, marks the end of a collection phase. The frozen map contains six connected records, and the seventh stage assembles them rather than adding a record of its own. The question frame defines the inquiry and its provisional boundaries. The concept-and-context grid translates the question into searchable dimensions. The source-family inventory identifies who could have recorded each dimension and where those records might reside. The search log records routes, terms, dates, results, and revisions. The evidence register assesses each record's relevance, provenance, and limits. The gap analysis shows empty, weak, or contradictory parts of the map.
+
+Two of these records form a matrix. The concept-and-context grid supplies the rows, the question's dimensions. The source-family inventory supplies the columns. Each cell asks whether a dimension has been recorded by a given family, and with what quality. Coverage testing and gap analysis read these cells: which are filled, which are empty, and which rest on a single dependent source.
 
 The stopping rule sits across all six. It states what conditions justify ending active collection for the present phase. It identifies what remains missing, why the missing material matters, and what would cause the search to reopen.
 

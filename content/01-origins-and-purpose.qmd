@@ -27,17 +27,19 @@ The practical temptation is easy to understand. A researcher facing two hundred 
 
 The distinction matters because qualitative research depends on context that systems often discard. A phrase changes meaning when removed from the institutional conflict that produced it. An interview gains or loses force according to who conducted it, when it was recorded, and what the speaker had reason to conceal. An official document may describe an event precisely while omitting the actors excluded from the bureaucracy that created the record. Metadata is part of the evidence.
 
-This is why provenance sits near the center of the revived project. Provenance records the entities, activities, and agents through which information came into being. It permits a reader to ask who created a record, what transformed it, and how it entered the present collection.^[The formal vocabulary of entities, activities, and agents follows the W3C provenance model. See @lebo2013provo.] The guide does not require researchers to adopt a technical ontology. It requires them to preserve the questions that ontology makes explicit.
+This is why provenance sits near the center of the revived project. Provenance records three things: the record itself, the activities that created or transformed it, and the agents responsible for those activities. These are the entities, activities, and agents of the W3C provenance model.^[The formal vocabulary of entities, activities, and agents follows the W3C provenance model. See @lebo2013provo.] It lets a reader ask what a record is, what produced or altered it, and who answered for each step. The model was built for data workflows. Social evidence adds questions it does not name, among them intent, silence, and power. The guide borrows the vocabulary as a heuristic, not a foundation. It does not require researchers to adopt a technical ontology. It requires them to preserve the questions that ontology makes explicit.
 
 ## The Argument
 
-We argue that rigorous collection has three requirements. It requires a bounded question. It requires a map of the evidence that could bear on that question. It requires a record of the decisions that shaped the resulting corpus.
+We argue that disciplined collection rests on three commitments. A bounded question limits what enters the corpus. A map of the evidence that could bear on the question guides the search. A record of the decisions that shaped the corpus preserves the reasoning. Not every tradition accepts the first commitment in the same form. Grounded and interpretive projects often hold the question open longer, and the map and the record then travel with a question still in motion.
 
-The three requirements correct different failures. Without a bounded question, collection expands by association. Without an evidence map, the most visible sources crowd out harder forms of evidence. Without a decision record, later readers cannot distinguish absence in the world from absence in the search.
+The three commitments correct different failures. Without a bounded question, collection expands by association. Without an evidence map, the most visible sources crowd out harder forms of evidence. Without a decision record, later readers cannot distinguish absence in the world from absence in the search.
 
 No software can resolve these failures because none is technical alone. A search engine cannot decide whether a municipal ledger matters more than a minister's memoir. A language model cannot determine whether repeated agreement indicates corroboration or common dependence on one wire report. A reference manager cannot explain why the research team stopped collecting one source family while continuing another.
 
 The researcher must decide. The system should help preserve the decision.
+
+The vocabulary of this guide carries a commitment. Words such as evidence, coverage, and gap assume that a collection can be more or less complete for a stated purpose, and that a reader can judge the difference. Strong interpretive and constructivist traditions contest that assumption. They treat a field's categories as part of the phenomenon and resist measuring a corpus against the world. This guide does not claim to serve those traditions on their own terms. It offers a structure for making collection decisions visible, and it expects researchers in every tradition to adapt or reject the parts that do not fit their own.
 
 ## A Guide with Two Speeds
 
@@ -47,7 +49,7 @@ The two paths remain on the same page. We do not divide readers into permanent c
 
 ## What This Draft Does
 
-This manuscript now tests the method through two complete modules. The first moves from a question to an evidence map and collection strategy. The second turns the scholarly source family into a literature corpus, synthesis, coverage audit, and stopping rule. Both use the same page pattern, preserve consequential decisions, and assign AI bounded roles.
+This manuscript now tests the method through two complete modules. The first moves from a question to an evidence map and collection plan. The second turns the scholarly source family into a literature corpus, synthesis, coverage audit, and stopping rule. Both use the same page pattern, preserve consequential decisions, and assign AI bounded roles.
 
 The draft does not yet cover every stage imagined in the original project. Field collection, post-production, coding, analysis, preservation, and public communication require later modules. The two completed modules establish a repeatable architecture and show that it can support more than one kind of research task.
 
