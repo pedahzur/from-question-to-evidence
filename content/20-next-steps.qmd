@@ -1,6 +1,6 @@
 ---
 title: "Beyond the Pilot"
-description: "How the exemplary module can become a complete field guide."
+description: "How the two modules can become a complete field guide."
 author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"

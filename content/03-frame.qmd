@@ -21,7 +21,7 @@ A workable qualitative question establishes an object of inquiry and a relation 
 
 The question must also expose its assumptions. “Why did the policy fail?” presumes failure before specifying the criterion. “How did officials and affected communities evaluate the policy's effects between 2018 and 2022?” makes evaluation itself part of the inquiry. The revised question does not eliminate judgment. It identifies where the judgment enters.
 
-Boundaries should be stated along five dimensions in running notes: phenomenon, place, period, actors, and outcome or meaning. Not every project needs a narrow value for each dimension. Comparative and transnational studies may require wide geographical scope. Historical research may follow consequences across decades. The researcher should still record what makes the boundary appropriate.
+State boundaries along five dimensions in running notes: phenomenon, place, period, actors, and outcome or meaning. Not every project needs a narrow value for each dimension. Comparative and transnational studies may require wide geographical scope. Historical research may follow consequences across decades. The researcher should still record what makes the boundary appropriate.
 
 The frame includes exclusions. Exclusion is not dismissal. A study of policy formation may set aside implementation because the causal question concerns agenda access. A study of public memory may exclude private recollection that never entered a public forum. A source can be valuable and remain outside the present question.
 

@@ -34,19 +34,19 @@ The module uses four distinctions:
 
 These objects overlap but are not interchangeable. The protocol and search log explain how the corpus was assembled; the matrix and memo show how it became an account of the field.
 
-## The Six Movements
+## The Six Stages
 
-The first movement defines the review.[@littell2018classification] It states what the review must accomplish, which question it answers, which boundaries guide inclusion, and which exclusions remain provisional. A review designed to clarify a concept will not collect or read in exactly the same way as one designed to identify a causal explanation or compare methods.
+The first stage defines the review.[@littell2018classification] It states what the review must accomplish, which question it answers, which boundaries guide inclusion, and which exclusions remain provisional. A review designed to clarify a concept will not collect or read in exactly the same way as one designed to identify a causal explanation or compare methods.
 
-The second movement maps concepts and vocabulary. Search systems retrieve strings, while researchers care about meanings. The same phenomenon may travel under different names across periods, languages, and disciplines. The same term may refer to incompatible concepts. A vocabulary map does not resolve those disputes in advance. It makes them searchable.
+The second stage maps concepts and vocabulary. Search systems retrieve strings, while researchers care about meanings. The same phenomenon may travel under different names across periods, languages, and disciplines. The same term may refer to incompatible concepts. A vocabulary map does not resolve those disputes in advance. It makes them searchable.
 
-The third movement discovers publications through multiple routes. Database queries provide one route. Backward and forward citation chaining provide others. Author, institution, journal, handbook, review-article, and targeted web searches reveal work that an initial query can miss. Each route has a different selection mechanism. Recording the route helps distinguish a diverse search from repeated dependence on the same index.
+The third stage discovers publications through multiple routes. Database queries provide one route. Backward and forward citation chaining provide others. Author, institution, journal, handbook, review-article, and targeted web searches reveal work that an initial query can miss. Each route has a different selection mechanism. Recording the route helps distinguish a diverse search from repeated dependence on the same index.
 
-The fourth movement evaluates sources and claims. Evaluation asks whether a work bears on the review question, what evidence supports its claims, how its methods shape what it can see, what lineage it inherits, and what role it should play in the eventual synthesis. Venue and citation counts can provide context. They cannot substitute for reading.
+The fourth stage evaluates sources and claims. Evaluation asks whether a work bears on the review question, what evidence supports its claims, how its methods shape what it can see, what lineage it inherits, and what role it should play in the eventual synthesis. Venue and citation counts can provide context. They cannot substitute for reading.
 
-The fifth movement reads, annotates, and compares. Notes preserve the difference between an author's claim, the material offered in support, and the reviewer's interpretation. A synthesis matrix then reorganizes those notes across works. The unit of thought shifts from “What does this article say?” to “What do these works reveal about this concept, mechanism, case, or dispute?”
+The fifth stage reads, annotates, and compares. Notes preserve the difference between an author's claim, the material offered in support, and the reviewer's interpretation. A synthesis matrix then reorganizes those notes across works. The unit of thought shifts from “What does this article say?” to “What do these works reveal about this concept, mechanism, case, or dispute?”
 
-The sixth movement synthesizes, audits, and stops. Synthesis builds an account across sources. Audit looks for disciplinary, linguistic, geographical, methodological, and citation-network distortions. The stopping rule explains why active searching can end for the present task, what remains missing, and what would cause the review to reopen.
+The sixth stage synthesizes, audits, and stops. Synthesis builds an account across sources. Audit looks for disciplinary, linguistic, geographical, methodological, and citation-network distortions. The stopping rule explains why active searching can end for the present task, what remains missing, and what would cause the review to reopen.
 
 The sequence is recursive. New vocabulary, a shared citation lineage, or an empty matrix cell can reopen an earlier stage. Preserve earlier versions because they show how the review learned.
 

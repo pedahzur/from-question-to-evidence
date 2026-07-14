@@ -50,7 +50,7 @@ The matrix also exposes dependence. Several works describe historical collection
 
 ## Try It
 
-Choose six evaluated works that differ in route, method, period, or position. Create a source note for each with the four voices clearly marked. Limit the initial source memo to four sentences: contribution, support, limit, comparison.
+Choose six evaluated works that differ in route, method, period, or position. Create a source note for each with the four voices distinctly marked. Limit the initial source memo to four sentences: contribution, support, limit, comparison.
 
 Design five to eight matrix columns from the review question. Before filling the matrix, write what each column means and what an acceptable cell contains. Add explicit missing-value states. Populate the matrix from your notes, including source or claim IDs.
 
@@ -95,6 +95,6 @@ When the matrix changes substantially, preserve the earlier version so the synth
 
 ## Advanced Practice
 
-Qualitative analysis software can support document-level coding, retrieval, queries, and memos when the corpus warrants it. A spreadsheet may be better for a smaller review whose central operation is cross-source comparison. A database may suit a team handling many claims and relations. Choose the environment from the analytical task, collaboration needs, exportability, and preservation requirements—not from the number of available features.
+Qualitative analysis software can support document-level coding, retrieval, queries, and memos when the corpus warrants it. A spreadsheet may be better for a smaller review whose central operation is cross-source comparison. A database may suit a team handling many claims and relations. Choose the environment from the analytical task, collaboration needs, exportability, and preservation requirements, not from the number of available features.
 
 Large reviews may sample for deep reading while retaining a broader screened corpus. Team projects should calibrate a shared schema while preserving minority interpretations that reveal genuine ambiguity.
