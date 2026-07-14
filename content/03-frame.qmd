@@ -56,7 +56,11 @@ Do not ask the model to choose the “best” question. Review each suggestion a
 
 ## Integrity Checkpoint
 
-The frame should not expose participant identities, restricted archival information, or unpublished allegations. It should not define a contested actor in terms that decide the empirical question in advance. It should distinguish the researcher's normative commitments from the evidence required to support a descriptive or causal claim.
+Confirm before saving:
+
+**No sensitive exposure:** the frame does not expose participant identities, restricted archival information, or unpublished allegations.  
+**No question-begging definition:** no contested actor is defined in terms that decide the empirical question in advance.  
+**Commitments separated:** the researcher's normative commitments are distinguished from the evidence a descriptive or causal claim requires.
 
 ## Save the Artifact
 

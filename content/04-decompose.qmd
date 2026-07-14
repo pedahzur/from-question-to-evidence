@@ -31,6 +31,16 @@ The decomposition also reveals institutional actors. Database designers define v
 
 Research has shown why separating domestic and transnational incidents can change the question being answered.^[See @enders2011domestic.] The value of the example lies less in the resulting series than in the conceptual work required to produce it.
 
+A fragment of the grid shows the work.
+
+| Dimension | Working definition | Actor language | Likely evidence | Rival or exclusion |
+|---|---|---|---|---|
+| Terrorism | Violence by non-state actors for political aims | terrorism, extremism, insurgency, armed struggle | Inclusion criteria; codebooks; incident reports | Excludes state violence; rival: ordinary crime miscoded |
+| Domestic vs. transnational | Whether actors, victims, or targets cross a border | domestic, international, home-grown | Coding of perpetrator and target nationality | Rival: reporting capacity, not real incidence, drives the gap |
+| Divergent accounts | Differences in counts, classification, or interpretation | discrepancy, undercount, coding change | Cross-database comparison; codebook revisions | Excludes simple data-entry error |
+
+The empty cells would matter as much as the filled ones.
+
 ## Try It
 
 Underline every substantive noun and verb in the question. For each term, write a working meaning, two alternatives, and one observable trace. Then identify actors who would use different language for the same phenomenon.
@@ -41,19 +51,26 @@ The exercise is complete when each important term has a research use rather than
 
 ## Guided AI Workflow
 
-Provide the framed question and the research purpose. Ask the model to separate concepts, contexts, actors, mechanisms, rival explanations, and negative cases. Require it to label each suggestion as a candidate rather than a fact.
+Provide the framed question and the research purpose. Ask the model to separate concepts, contexts, actors, mechanisms, rival explanations, and negative cases. Require it to label each suggestion as a candidate rather than a fact. A usable prompt: “Separate this question into concepts, contexts, actors, mechanisms, and rival explanations. Label each as a candidate, and name one observable trace for each.”
+
+**Permitted input:** The framed question, the research purpose, and the boundary statement, with no confidential or participant-identifying material.  
+**Do not provide:** Restricted archival detail, participant identities, or partner-owned data.  
+**Verify:** Check that each candidate follows from the question and can guide evidence collection. A broad category with no plausible evidentiary route does not enter the grid merely because it sounds inclusive.  
+**Record:** Log accepted and rejected candidates, the reason for each, and the model and date.
 
 Run a second prompt that assigns the model an adversarial task: identify dimensions omitted by the first decomposition. A third prompt can ask how the decomposition might differ from the standpoint of an actor poorly represented in official records.
 
-The researcher then checks whether each candidate follows from the question and whether it can guide evidence collection. Broad social categories proposed without a plausible evidentiary route should not enter the grid merely because they sound inclusive.
-
 ## Integrity Checkpoint
 
-Concepts can reproduce official categories that the study should examine. They can also impose academic language that participants would reject. Record whose vocabulary each term represents. Where translation is involved, preserve the original expression and the decisions behind the English gloss.
+Concepts can reproduce official categories that the study should examine. They can also impose academic language that participants would reject. Confirm before saving:
+
+**Whose vocabulary:** each term records whose language it represents.  
+**No smuggled category:** no official or academic label has become the study's own without examination.  
+**Translation preserved:** every translated term keeps its original expression and the reason for the English gloss.
 
 ## Save the Artifact
 
-Save the concept-and-context grid with stable identifiers for each row. These identifiers will connect later search terms, source families, and evidence records to the dimension they serve.
+Save `concept-context-grid-v0.1.xlsx`. Give each row a stable identifier. Required columns are dimension, working definition, synonyms, actor language, likely evidence, rival explanations, and exclusions. These identifiers will connect later search terms, source families, and evidence records to the dimension they serve.
 
 ## Advanced Practice
 

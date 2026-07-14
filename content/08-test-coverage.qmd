@@ -25,21 +25,42 @@ Track information yield. A search cycle has high yield when it adds a new source
 
 A terrorism corpus may contain thousands of event records while remaining thin on coding changes, local reporting gaps, or the institutional reasons that one event entered the database and another did not. Coverage testing shifts attention from event totals to the process that produced them.
 
+A fragment of the coverage matrix marks dimensions against source families.
+
+| Dimension (row) / family (column) | Scholarly database | Local reporting | Government records |
+|---|---|---|---|
+| Event counts | Adequate | Thin | Dependent on database |
+| Coding changes | Thin | Empty | Empty |
+| Local meaning | Empty | Thin | Contradictory |
+
+Thousands of records can leave whole rows empty. A dependent cell repeats a source already counted elsewhere.
+
 ## Try It
 
 Mark each evidence-map cell as empty, thin, adequate for the present claim, contradictory, or inaccessible. Write one sentence defending every “adequate” judgment. Then rank the unresolved cells by their likely effect on the argument.
 
 ## Guided AI Workflow
 
-Provide a redacted summary of the map. Ask the model to identify repeated dependence, absent actor perspectives, unsupported comparisons, and claims resting on one source family. Verify each observation against the actual register. The model sees the summary supplied to it, not the evidence itself.
+Provide a redacted summary of the map. Ask the model to identify repeated dependence, absent actor perspectives, unsupported comparisons, and claims resting on one source family. A usable prompt: “From this summary of an evidence map, identify repeated dependence, absent perspectives, and claims resting on a single source family.”
+
+**Permitted input:** A redacted summary of the map, with no participant identities or protected locations.  
+**Do not provide:** The evidence itself, restricted records, or protected collection detail.  
+**Verify:** Check each observation against the actual register. A model with web or retrieval access may consult sources you cannot see; treat its inputs as unverified.  
+**Record:** Log which observations changed the gap analysis, and the model and date.
+
+The model sees the summary supplied to it, not the evidence, unless the tool has retrieval access. When the map cannot be summarized without exposing protected material, run this stage without the model.
 
 ## Integrity Checkpoint
 
-Some gaps should remain. Ethical restrictions, participant safety, legal obligations, and community agreements can make collection improper. Record these as protected gaps rather than methodological failures.
+Some gaps should remain. Ethical restrictions, participant safety, legal obligations, and community agreements can make collection improper. Confirm before saving:
+
+**Protected gaps marked:** gaps that ethics or agreements require are recorded as protected, not as failures.  
+**Overlooked gaps separated:** a gap left by oversight is distinguished from one left by principle.  
+**No pressure to fill:** no protected gap is filled to improve apparent coverage.
 
 ## Save the Artifact
 
-Save the gap analysis with priority, consequence, proposed action, access constraint, and decision date. A later researcher should be able to distinguish an overlooked gap from a known limit.
+Save `gap-analysis-v0.1.xlsx`. Required fields are the cell (dimension and source family), status (empty, thin, adequate, dependent, contradictory, or inaccessible), priority, consequence, proposed action, access constraint, and decision date. A later researcher should be able to distinguish an overlooked gap from a known limit.
 
 ## Advanced Practice
 

@@ -41,17 +41,24 @@ For each family, record five judgments in prose: what it can observe, why it cre
 
 ## Guided AI Workflow
 
-AI can generate candidate source families when the researcher supplies a concept, period, place, and actor set. Ask for institutional record types, vernacular sources, retrospective accounts, and material or visual traces. Require the model to state why each family might exist and why it might not.
+AI can generate candidate source families when the researcher supplies a concept, period, place, and actor set. Ask for institutional record types, vernacular sources, retrospective accounts, and material or visual traces. Require the model to state why each family might exist and why it might not. A usable prompt: “For this concept, period, and place, list candidate source families, including vernacular and retrospective ones. For each, state why it might exist, why it might not, and how to verify it.”
 
-Every named archive, collection, database, or repository must be verified through an official catalogue or institutional source. Fabricated repository names are a predictable failure. Record them as rejected suggestions rather than deleting them from the audit trail.
+**Permitted input:** The concept, period, place, and actor set, with no sensitive source locations or participant identities.  
+**Do not provide:** Restricted collection details, protected repository locations, or participant-identifying material.  
+**Verify:** Confirm every named archive, collection, database, or repository through an official catalogue or institutional source. Fabricated repository names are a predictable failure.  
+**Record:** Log candidate families accepted and rejected, the verification source, and the model and date. Keep fabricated suggestions as rejected rather than deleting them from the audit trail.
 
 ## Integrity Checkpoint
 
-Do not place sensitive source locations, participant identities, or restricted collection details into an external model. Access conditions are part of the evidence map, but public disclosure can harm people and violate agreements. Use abstract descriptions when the operational detail is protected.
+Access conditions are part of the evidence map, but public disclosure can harm people and violate agreements. Confirm before saving:
+
+**No sensitive detail exposed:** no source location, participant identity, or restricted collection detail entered an external model.  
+**Abstraction where protected:** protected operational detail appears only in abstract description.  
+**Access recorded:** each family's access status and governing conditions are noted.
 
 ## Save the Artifact
 
-Save the source-family inventory with one row per family and links to the concept identifiers it may serve. Add fields for repository, access status, language, temporal coverage, likely dependence on other families, and known silences.
+Save `source-family-inventory-v0.1.xlsx` with one row per family and links to the concept identifiers it may serve. Required fields are family, producing institution, repository, access status, language, temporal coverage, likely dependence on other families, and known silences.
 
 ## Advanced Practice
 

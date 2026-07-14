@@ -33,15 +33,24 @@ Write the strongest claim the present corpus can support. Write the strongest cl
 
 ## Guided AI Workflow
 
-Ask the model to attack the stopping rule. Require it to identify unsupported confidence, neglected rivals, circular dependence, and vague language. Revise only after checking the critique against the map.
+Ask the model to attack the stopping rule. Require it to identify unsupported confidence, neglected rivals, circular dependence, and vague language. Revise only after checking the critique against the map. A usable prompt: “Attack this stopping rule. Identify unsupported confidence, neglected rivals, circular dependence, and vague language.”
+
+**Permitted input:** The stopping rule and a redacted summary of coverage, with no protected records.  
+**Do not provide:** The evidence itself, restricted records, or protected collection detail.  
+**Verify:** Check each objection against the map before revising. An objection is a prompt to reexamine, not a verdict.  
+**Record:** Log which objections changed the stopping rule, and the model and date.
 
 ## Integrity Checkpoint
 
-Do not convert inaccessible evidence into presumed support. Do not treat silence as absence without examining the record-producing institution. Do not present a practical deadline as methodological sufficiency. Name the constraint.
+Do not convert inaccessible evidence into presumed support. Do not treat silence as absence without examining the record-producing institution. Do not present a practical deadline as methodological sufficiency. Confirm before saving:
+
+**No presumed support:** inaccessible evidence is not counted as if it agreed.  
+**Silence examined:** an absence is traced to the record-producing institution before it is read as evidence.  
+**Constraint named:** a deadline or access limit is stated as itself, not as sufficiency.
 
 ## Save the Artifact
 
-Freeze a dated version of the evidence map, collection plan, and stopping rule. Preserve editable working files and a stable review copy. Link the release to the question version it answers.
+Save `evidence-map-stopping-rule-v1.0.xlsx`, a dated release that links the six prior artifacts rather than flattening them: the question frame, concept grid, source-family inventory, search log, evidence register, and gap analysis, together with the collection plan and stopping rule. Preserve editable working files and a stable review copy. Link the release to the question version it answers.
 
 ## Advanced Practice
 

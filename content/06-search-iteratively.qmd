@@ -29,21 +29,40 @@ The terrorism example begins with official database documentation and the schola
 
 The log distinguishes a result derived from the database from a result that independently documents the event. This prevents a chain of later publications from being mistaken for multiple sources.
 
+A fragment of the log shows three cycles for the database source family.
+
+| Cycle | System | Terms | Result | Decision |
+|---|---|---|---|---|
+| 1 | GTD codebook and START site | inclusion criteria, domestic, transnational | Definitional thresholds and collection history located | Continue; extract coding rules |
+| 2 | Scholarly index | GTD, coding change, undercount | Studies testing the classification retrieved | Follow citations backward |
+| 3 | News archive | event name, place, date range | Contemporary report of a coded event | Retain as independent trace, not database-derived |
+
+Each row records whether a result independently documents an event or derives from the database.
+
 ## Try It
 
-Run three short cycles for one source family. The first uses the researcher's terms. The second uses language found in the first results. The third uses the vocabulary of an actor with a different institutional position. Write a short decision note after each cycle.
+Run three short cycles for one source family. The first uses the researcher's terms. The second uses language found in the first results. The third uses the vocabulary of an actor with a different institutional position. Write a short decision note after each cycle. Each note states one of four choices, with a reason: continue, revise the terms, follow a lead, or stop using the route.
 
 ## Guided AI Workflow
 
-Ask a model to expand candidate terms across historical names, acronyms, translations, institutional titles, and opposing actor vocabularies. Supply no protected information. Verify every proposed proper noun before use. The model can expand a query set. It cannot report what an index contains unless it has inspected the current index.
+Ask a model to expand candidate terms across historical names, acronyms, translations, institutional titles, and opposing actor vocabularies. The model can expand a query set. It cannot report what an index contains unless it has inspected the current index. A usable prompt: “Expand these search terms across historical names, acronyms, translations, and opposing actors' vocabulary. Mark any proper noun I must verify.”
+
+**Permitted input:** Concepts, existing search terms, and source-family names, with no protected information.  
+**Do not provide:** Restricted archival detail, participant identities, or partner-owned data.  
+**Verify:** Confirm every proposed proper noun before use, and test each term in an appropriate system.  
+**Record:** Log terms that entered or left the query set, the query effect, and the model and date.
 
 ## Integrity Checkpoint
 
-Searches may reveal personal data, allegations, and material obtained outside its intended context. Discovery does not establish ethical permission to collect, analyze, or publish. Record restrictions at the moment of discovery.
+Searches may reveal personal data, allegations, and material obtained outside its intended context. Discovery does not establish ethical permission to collect, analyze, or publish. Confirm before saving:
+
+**Permission separate from discovery:** finding material is not treated as permission to collect or publish it.  
+**Restrictions recorded at discovery:** any access or use restriction is noted at the moment the record is found.  
+**Sensitive material quarantined:** personal data or allegations found in passing are set aside, not folded into the corpus without review.
 
 ## Save the Artifact
 
-Save the search log with the date, system, purpose, exact terms, filters, result count when meaningful, records retained, new vocabulary, and next decision. Preserve exports when licensing permits.
+Save `search-ai-audit-log-v0.1.xlsx`. Required fields for each cycle are date, system, purpose, exact terms, filters, result count when meaningful, records retained, new vocabulary, and next decision. Preserve exports when licensing permits.
 
 ## Advanced Practice
 

@@ -13,6 +13,19 @@ license: "CC BY 4.0"
 
 The evidence map connects an intellectual question to the practical work of finding material. *Literature as Evidence* carries that logic into discovery, reading, comparison, and synthesis. Together, they show that one page pattern can support distinct tasks while keeping method separate from volatile products, giving AI bounded roles, and leaving a record another researcher can inspect.
 
+The two modules share one architecture at different lengths. The evidence map runs seven stages and stops before analysis. The literature review runs six stages and includes reading, because synthesis is its product. Grouped by function, they align as follows.
+
+| Function | Evidence map | Literature review |
+|---|---|---|
+| Frame | Frame the question | Define the review |
+| Decompose | Decompose into concepts | Map concepts and vocabulary |
+| Discover | Map source families; search iteratively | Discover through multiple routes |
+| Evaluate | Evaluate evidence | Evaluate sources and claims |
+| Read | Outside this module | Read, annotate, and compare |
+| Close | Test coverage; produce the map | Synthesize, audit, and stop |
+
+The evidence map devotes two stages to discovery where the review devotes one, because a collection project separates who could have recorded evidence from how to search for it. The review adds a reading stage because it must interpret what it finds.
+
 The modules also reveal what remains outside the draft. They do not collect an interview, preserve a website, prepare an archival corpus, code a document, or write the final empirical analysis. Each task requires its own decisions and artifacts.
 
 ## The Larger Field Guide

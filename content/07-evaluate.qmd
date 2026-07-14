@@ -27,21 +27,44 @@ The Global Terrorism Database documents its methodology, inclusion criteria, and
 
 Research that separates domestic and transnational incidents shows how analytical purpose can require transforming a published event universe.^[See @enders2011domestic.] The transformed data may answer a new question. The transformation must remain visible.
 
+One evidence-register entry for a single GTD event record shows the seven judgments.
+
+| Judgment | Assessment for one GTD event record |
+|---|---|
+| Relevance | Bears on the divergent-accounts dimension: shows how one event is coded |
+| Proximity | Retrospective; coded from published reports, not observed directly |
+| Provenance | Created by GTD coders from news sources; transformed through the codebook |
+| Authority | Authoritative on GTD coding rules, not on the ground truth of the event |
+| Dependence | May share an originating wire report with database and news entries |
+| Representation | Reflects events that reached English-language reporting; local silences likely |
+| Preservation risk | Stable while START hosts the release; version and access date recorded |
+
+The entry keeps the judgments separate rather than collapsing them into one score.
+
 ## Try It
 
 Select one source that appears strong and one that appears weak. Write what each can establish, what it cannot establish, and which other source family could test it. Then identify whether the two sources depend on the same originating report.
 
 ## Guided AI Workflow
 
-Provide a source description and the intended claim, not confidential full text. Ask the model for questions about provenance, dependence, missing actors, and temporal distance. Treat the output as an evaluation checklist. Do not ask for a verdict on credibility.
+Provide a source description and the intended claim, not confidential full text. Ask the model for questions about provenance, dependence, missing actors, and temporal distance. Treat the output as an evaluation checklist. Do not ask for a verdict on credibility. A usable prompt: “Given this source description and the claim I want to make, list questions about provenance, dependence, missing actors, and temporal distance. Do not judge credibility.”
+
+**Permitted input:** A source description and the intended claim, with no confidential full text or participant identities.  
+**Do not provide:** Restricted full text, participant-identifying material, or protected collection details.  
+**Verify:** Answer each question against the source itself and the source-family inventory. The model raises questions; it does not rate credibility.  
+**Record:** Log which questions changed the evaluation, and the model and date.
 
 ## Integrity Checkpoint
 
-Evaluation can reproduce status hierarchies. Official sources should not receive an automatic presumption of truth, and participant testimony should not be romanticized as unmediated access. State the source's institutional position and the claim for which it is being used.
+Evaluation can reproduce status hierarchies. Official sources should not receive an automatic presumption of truth, and participant testimony should not be romanticized as unmediated access. Confirm before saving:
+
+**No automatic authority:** no source is trusted by rank alone; each is tied to a claim.  
+**Position stated:** the source's institutional position is recorded beside the use made of it.  
+**Judgments kept separate:** the seven judgments are not collapsed into a single quality score.
 
 ## Save the Artifact
 
-Save one evidence-register entry per record or coherent collection. Link it to the source-family inventory, search cycle, relevant concept, and any restriction on use.
+Save `evidence-register-v0.1.xlsx` with one entry per record or coherent collection. Required fields are the seven judgments (relevance, proximity, provenance, authority, dependence, representation, preservation risk), plus links to the source-family inventory, the search cycle, the relevant concept, and any restriction on use.
 
 ## Advanced Practice
 
