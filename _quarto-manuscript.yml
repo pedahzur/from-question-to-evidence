@@ -2,7 +2,7 @@ project:
   output-dir: build-manuscript
 
 bibliography: bibliography/references.bib
-csl: https://www.zotero.org/styles/chicago-fullnote-bibliography
+csl: bibliography/styles/chicago-fullnote-bibliography.csl
 
 format:
   docx:
@@ -11,5 +11,6 @@ format:
   pdf:
     toc: true
     number-sections: true
+    pdf-engine: xelatex
     documentclass: scrbook
     classoption: openany

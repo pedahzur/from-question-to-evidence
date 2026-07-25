@@ -12,6 +12,20 @@
   rights_basis: CC BY 4.0 author license
   attribution: Ami Pedahzur and Jonathan Grossman
   reviewed_on: 2026-07-12
+- path: assets/evidence-map-pathway.svg and assets/evidence-map-pathway.png
+  publish: true
+  creator: Ami Pedahzur and Jonathan Grossman
+  source: Original visual companion for the evidence-map module
+  rights_basis: CC BY 4.0 author license
+  attribution: Ami Pedahzur and Jonathan Grossman
+  reviewed_on: 2026-07-25
+- path: bibliography/styles/chicago-fullnote-bibliography.csl
+  publish: true
+  creator: Citation Style Language contributors
+  source: Zotero Style Repository, Chicago Manual of Style 17th edition (full note)
+  rights_basis: Creative Commons Attribution-ShareAlike 3.0
+  attribution: Citation Style Language contributors
+  reviewed_on: 2026-07-25
 - path: docs/
   publish: true
   creator: Ami Pedahzur and Jonathan Grossman
