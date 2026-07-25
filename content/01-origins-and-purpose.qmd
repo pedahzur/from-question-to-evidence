@@ -5,13 +5,13 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-12"
-last-reviewed: "2026-07-25"
+last-reviewed: "2026-07-26"
 license: "CC BY 4.0"
 ---
 
 ## The First Version
 
-The original project began with a practical frustration. Researchers were being told that digital technology had democratized knowledge, and in an important sense it had. Search engines opened routes into literatures that once required proximity to a major library. Smartphones placed a camera, recorder, scanner, map, and notebook in one pocket. Cloud storage made files available across continents. Yet each gain created another decision that methods training rarely addressed.
+The original project began nearly a decade ago with a practical frustration. We could see the workflow a qualitative project required, from its conceptual foundations through collection, structure, preservation, analysis, and a reproducible path from evidence to claim. But the available tools could manage only fragments of that chain. Researchers were being told that digital technology had democratized knowledge, and in an important sense it had. Search engines opened routes into literatures that once required proximity to a major library. Smartphones placed a camera, recorder, scanner, map, and notebook in one pocket. Cloud storage made files available across continents. Yet each gain created another decision that methods training rarely addressed.
 
 What should be collected? How should it be named? Which metadata should travel with it? When should a record enter a reference manager, a qualitative analysis system, a spreadsheet, or an archive? What must remain linked to the original? What does a researcher do when the same event appears in five incompatible forms?
 
@@ -21,7 +21,7 @@ This failure taught us something. A book organized around tools will inherit the
 
 ## The New Pressure
 
-Generative AI changes the scale of the problem, but not its nature. A researcher has always relied on aids to memory and classification. Indexes, catalogues, research assistants, codebooks, and bibliographies all extend individual capacity. The new systems differ in three respects. They respond in natural language. They infer patterns across large bodies of text. They produce answers whose fluency can hide the weakness of their evidentiary basis.
+Large language models supply some of the processing power the original workflow lacked. They change the scale of the problem, but not its nature. A researcher has always relied on aids to memory and classification. Indexes, catalogues, research assistants, codebooks, and bibliographies all extend individual capacity. The new systems differ in three respects. They respond in natural language. They infer patterns across large bodies of text. They produce answers whose fluency can hide the weakness of their evidentiary basis.
 
 The practical temptation is easy to understand. A researcher facing two hundred articles may ask a model for the dominant themes. A scholar entering an unfamiliar archive may request names, dates, and likely repositories. A doctoral student may ask for missing literature. Each request can produce a useful lead. Each can also collapse the distinction between a plausible sentence and a supported claim.
 

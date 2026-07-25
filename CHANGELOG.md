@@ -9,11 +9,13 @@ All notable changes to this project are documented here. Dates use ISO 8601.
 - Interactive seven-stage pathway and worked evidence-map explorer for the web edition.
 - Keyboard-accessible stage navigation, layer filters, node inspection, and responsive map connections.
 - Static seven-stage pathway figure for the PDF and Word editions.
+- Prominent opening account of the book's decade-long development and the processing capacity introduced by large language models.
 
 ### Changed
 
 - Site styling now compiles through Quarto's theme pipeline.
 - Citation styling is stored locally, and the PDF profile uses XeLaTeX for reproducible offline builds.
+- Reading typography, paragraph spacing, sidebar width, navigation spacing, focus states, and narrow-screen layout now follow an accessible long-form reading system.
 
 ## 0.2.0-draft - 2026-07-13
 

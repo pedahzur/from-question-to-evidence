@@ -28,6 +28,11 @@ format:
     theme:
       - cosmo
       - styles.scss
+    grid:
+      sidebar-width: 300px
+      body-width: 800px
+      margin-width: 240px
+      gutter-width: 2rem
     toc: true
     toc-depth: 2
     link-external-newwindow: true
