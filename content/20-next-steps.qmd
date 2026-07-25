@@ -1,15 +1,15 @@
 ---
-title: "Beyond the Pilot"
-description: "How the two modules can become a complete field guide."
+title: "Building the Full Field Guide"
+description: "How the tested modules extend across the research lifecycle."
 author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-12"
-last-reviewed: "2026-07-12"
+last-reviewed: "2026-07-25"
 license: "CC BY 4.0"
 ---
 
-## What the Two Modules Establish
+## What the Current Modules Establish
 
 The evidence map connects an intellectual question to the practical work of finding material. *Literature as Evidence* carries that logic into discovery, reading, comparison, and synthesis. Together, they show that one page pattern can support distinct tasks while keeping method separate from volatile products, giving AI bounded roles, and leaving a record another researcher can inspect.
 
@@ -28,15 +28,15 @@ The evidence map devotes two stages to discovery where the review devotes one, b
 
 The modules also reveal what remains outside the draft. They do not collect an interview, preserve a website, prepare an archival corpus, code a document, or write the final empirical analysis. Each task requires its own decisions and artifacts.
 
-## The Larger Field Guide
+## The Full Field Guide
 
-A collection module should come next. It should address documents, interviews, observations, images, audio, video, and web material. It should connect capture to consent, metadata, storage, naming, backup, preservation, and chain of custody.
+The next module treats collection as evidence. It addresses documents, interviews, observations, images, audio, video, and web material. It connects capture to consent, metadata, storage, naming, backup, preservation, and chain of custody. A composite oral-history case will show where evidence co-produced with participants requires different decisions from retrieved documentary evidence.
 
-A preparation module should examine transcription, OCR, translation, coding, memoing, temporal ordering, entity resolution, and the conversion of unstructured records into structured fields. The original project devoted substantial attention to this border between qualitative material and databases. That contribution deserves reconstruction.
+A preparation module will examine transcription, OCR, translation, coding, memoing, temporal ordering, entity resolution, and the conversion of unstructured records into structured fields. The original project devoted substantial attention to this border between qualitative material and databases. We will reconstruct that contribution around transformations whose lineage remains visible.
 
-An analysis module should resist a false division between qualitative and quantitative work. Researchers move between close reading, comparison, counting, visualization, and model-based inference. The relevant distinction concerns the claim and evidence, not the brand of software.
+An analysis module will resist a false division between qualitative and quantitative work. Researchers move between close reading, comparison, counting, visualization, and model-based inference. The relevant distinction concerns the claim and evidence, not the brand of software.
 
-A communication module should cover manuscripts, presentations, public data, visual explanation, repositories, and long-term access. Sharing is not the final act after research. Decisions made during collection determine what can later be verified, reused, or protected.
+A communication module will cover manuscripts, presentations, public data, visual explanation, repositories, and long-term access. Sharing is not the final act after research. Decisions made during collection determine what can later be verified, reused, or protected.
 
 ## A Hebrew Edition
 
@@ -44,8 +44,8 @@ English remains the canonical language during the pilot. A Hebrew edition should
 
 ## An Invitation
 
-This draft is an argument and a test. It argues that researchers need a visible structure between question, corpus, and synthesis. It tests whether two different modules can carry novices and experienced scholars through the same page pattern at different depths.
+This draft is an argument and a test. It argues that researchers need a visible structure between question, corpus, analysis, and claim. It tests whether two different modules can carry novices and experienced scholars through the same page pattern at different depths.
 
-The next step is both editorial and empirical. We need to test the two modules with readers, decide whether the secondary municipal example sufficiently widens the guide, and build the collection and post-production module from the strongest legacy material.
+The next step is both editorial and empirical. We will test the current modules with readers, carry the municipal oral-history example through every stage, and build the Collection as Evidence module from the strongest legacy material.
 
 The old project began with abundance. The revived project begins with limits, artifacts, and reviewable decisions. This is progress.

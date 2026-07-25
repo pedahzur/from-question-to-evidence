@@ -4,6 +4,7 @@ project:
 book:
   title: "From Question to Evidence"
   subtitle: "A Living Field Guide for Qualitative Research"
+  description: "An open-access guide to building, collecting, analyzing, and communicating qualitative evidence through a reviewable scholarly Second Brain."
   author:
     - "Ami Pedahzur"
     - "Jonathan Grossman"

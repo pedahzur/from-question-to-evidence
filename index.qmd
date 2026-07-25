@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-12"
-last-reviewed: "2026-07-12"
+last-reviewed: "2026-07-25"
 license: "CC BY 4.0"
 ---
 
@@ -13,13 +13,15 @@ About a decade ago, we began writing a book about a problem that seemed to grow 
 
 We paused the project. The problem did not pause with us. Generative artificial intelligence has since made the abundance more difficult to interpret. A model can suggest concepts, propose search terms, sort excerpts, and expose gaps within minutes. It can also invent a reference, erase a minority position, disclose protected material, or present an uncertain inference as settled fact. Speed has increased. Scholarly responsibility has not moved.
 
-This discussion draft revives the project around one claim: a researcher needs an evidence map before the collection becomes too large to reason about. The map links a bounded question to concepts, source families, search decisions, evaluated records, known gaps, and a stopping rule. It does not promise omniscience. It makes the limits of collection visible.
+We have revived the project around one claim: a researcher needs an evidence map before the collection becomes too large to reason about. The map links a bounded question to concepts, source families, search decisions, evaluated records, known gaps, and a stopping rule. It does not promise omniscience. It makes the limits of collection visible.
+
+The book treats this record as a scholarly Second Brain. Its purpose is not to store more material. It connects capture, organization, distillation, and expression to a visible chain of evidence. Each stage ends with an artifact that records a consequential choice. Taken together, those artifacts show how a question became a corpus, how the corpus became an analysis, and how the analysis became a claim.
 
 The manuscript is written for two readers. The first is beginning a substantial qualitative project and needs a sequence that can be followed without assuming years of tacit experience. The second has conducted research for years but wants to reconsider established practices after the arrival of new search systems and generative AI. Both readers face the same decisions. They differ in how much explanation, contestation, and adaptation they require.
 
-We begin with two modules rather than a complete textbook. The first follows the path from a question to an evidence map. It asks how a researcher frames the question, breaks it into searchable dimensions, identifies source families, searches iteratively, evaluates what is found, tests coverage, and decides what to pursue next. The second carries the same logic into a literature review, from defining the review to synthesizing sources and setting a stopping rule. Each stage produces an artifact. Together those artifacts form a record of the researcher's judgment.
+The full field guide follows a qualitative project from its first question to a documented corpus, an analysis, and a public claim. We are publishing it in reviewed modules so readers can use, test, and challenge each part before the first edition closes. The current revision contains two complete modules. The first follows the path from a question to an evidence map. The second carries the same logic into a literature review. A third will connect the collection plan to a responsibly assembled research corpus. Later modules will address preparation, analysis, disconfirmation, writing, sharing, and maintenance.
 
-The worked example concerns competing accounts of terrorism. It suits the method because terrorism data do not arrive as neutral observations waiting to be counted. Definitions vary. Collection systems change. Sources disappear. Governments, news organizations, researchers, and database teams record different parts of the same event. The example is familiar to our own work. We believe the method travels. A historian studying a strike, a sociologist studying a movement, and a political scientist studying an institution confront the same basic question: who could have recorded what happened, under what rules, and with what silences? This draft demonstrates the method on one case and illustrates it on a second. A fully worked historical or ethnographic case remains future work.
+The first worked example concerns competing accounts of terrorism. It suits the method because terrorism data do not arrive as neutral observations waiting to be counted. Definitions vary. Collection systems change. Sources disappear. Governments, news organizations, researchers, and database teams record different parts of the same event. The example is familiar to our own work. But the method must also survive evidence that researchers help produce. The revised book therefore adds a composite oral-history study of how tenants experienced and remembered municipal redevelopment. That case will carry interviews, consent records, field notes, administrative documents, researcher memos, silence, refusal, and unequal access through the same sequence of decisions.
 
 AI enters the guide as an assistant whose work must be inspected. It may help generate candidate dimensions. It may suggest neglected source families. It may challenge a search strategy. It may compare the filled and empty cells of a map. It may not decide that a source exists, that a claim is true, or that collection is complete. Those remain scholarly judgments.
 
