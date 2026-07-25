@@ -131,7 +131,7 @@ def test_literature_stages_follow_page_pattern() -> None:
 
 ## Task 7: Refresh the Sharing Package
 
-**Files:** canonical manuscript, site ZIP, source ZIP, and verification report under `/Users/amipedahzur/Documents/Codex/2026-07-12/new-chat/outputs/`.
+**Files:** canonical manuscript, site ZIP, source ZIP, and verification report under the project-local `outputs/` directory.
 
 - [ ] Copy verified DOCX/PDF to the canonical discussion-draft filenames without overwriting the user's separately renamed PDF copy.
 - [ ] Zip `build-site/` as the preview and create the source ZIP from `git ls-files`, excluding Git metadata, builds, caches, and private material.

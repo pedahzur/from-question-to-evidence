@@ -29,6 +29,143 @@ The sequence is ordered, but research rarely follows it once. A new archive may 
 
 The map therefore preserves versions. The question recorded on the first day does not disappear when the question changes. The source inventory does not overwrite a mistaken expectation. A rejected AI suggestion remains in the audit log with the reason for rejection. These records show how the project learned.
 
+::: {.content-visible when-profile="site"}
+```{=html}
+<div class="visual-companion" role="region" data-evidence-map-pilot aria-labelledby="visual-companion-title">
+  <header class="visual-companion-header">
+    <div>
+      <p class="visual-kicker">Interactive visual companion</p>
+      <h3 id="visual-companion-title">Follow the method. Inspect the map.</h3>
+      <p>Select a stage to see its decision, artifact, and appropriate AI role. Then explore how the running example connects concepts, source families, and reviewable research records.</p>
+    </div>
+    <p class="visual-companion-note"><strong>Web enrichment</strong><br>This companion adds exploration to the stable method described in the text. It does not replace the worksheets or the frozen evidence map.</p>
+  </header>
+
+  <div class="stage-lab" aria-labelledby="stage-lab-title">
+    <div class="visual-section-heading">
+      <div>
+        <p class="visual-kicker">Seven-stage pathway</p>
+        <h4 id="stage-lab-title">From question to stopping rule</h4>
+      </div>
+      <p>Research moves forward, but discoveries can send the inquiry back to an earlier decision.</p>
+    </div>
+
+    <div class="stage-rail" role="tablist" aria-label="Evidence-map stages">
+      <button id="stage-tab-frame" class="stage-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="stage-detail" data-stage="frame"><span>01</span>Frame</button>
+      <button id="stage-tab-decompose" class="stage-tab" type="button" role="tab" aria-selected="false" aria-controls="stage-detail" data-stage="decompose" tabindex="-1"><span>02</span>Decompose</button>
+      <button id="stage-tab-sources" class="stage-tab" type="button" role="tab" aria-selected="false" aria-controls="stage-detail" data-stage="sources" tabindex="-1"><span>03</span>Map sources</button>
+      <button id="stage-tab-search" class="stage-tab" type="button" role="tab" aria-selected="false" aria-controls="stage-detail" data-stage="search" tabindex="-1"><span>04</span>Search</button>
+      <button id="stage-tab-evaluate" class="stage-tab" type="button" role="tab" aria-selected="false" aria-controls="stage-detail" data-stage="evaluate" tabindex="-1"><span>05</span>Evaluate</button>
+      <button id="stage-tab-coverage" class="stage-tab" type="button" role="tab" aria-selected="false" aria-controls="stage-detail" data-stage="coverage" tabindex="-1"><span>06</span>Test coverage</button>
+      <button id="stage-tab-freeze" class="stage-tab" type="button" role="tab" aria-selected="false" aria-controls="stage-detail" data-stage="freeze" tabindex="-1"><span>07</span>Freeze map</button>
+    </div>
+
+    <article id="stage-detail" class="stage-detail" role="tabpanel" aria-live="polite" aria-labelledby="stage-tab-frame" tabindex="0">
+      <div class="stage-detail-number" aria-hidden="true">01</div>
+      <div class="stage-detail-copy">
+        <p class="stage-detail-label">Frame the question</p>
+        <h5>Decide what the inquiry is trying to explain.</h5>
+        <p class="stage-detail-summary">State the purpose, unit of analysis, provisional boundaries, and what the project will not attempt to answer.</p>
+      </div>
+      <dl class="stage-detail-grid">
+        <div><dt>Decision</dt><dd data-stage-field="decision">Which question is specific enough to guide collection without foreclosing discovery?</dd></div>
+        <div><dt>Artifact</dt><dd data-stage-field="artifact">Question-framing worksheet</dd></div>
+        <div><dt>AI role</dt><dd data-stage-field="ai">Challenge boundaries after the researcher has stated the purpose.</dd></div>
+      </dl>
+      <a class="stage-detail-link" data-stage-link href="03-frame.html">Open the stage chapter <span aria-hidden="true">→</span></a>
+    </article>
+  </div>
+
+  <div class="map-lab" aria-labelledby="map-lab-title">
+    <div class="visual-section-heading">
+      <div>
+        <p class="visual-kicker">Worked example</p>
+        <h4 id="map-lab-title">Why do accounts of terrorism patterns diverge?</h4>
+      </div>
+      <p>Filter the map by layer or inspect a node. Lines indicate a research dependency, not proof of a causal relationship.</p>
+    </div>
+
+    <div class="map-toolbar" role="group" aria-label="Filter evidence-map nodes">
+      <button class="map-filter is-active" type="button" data-map-filter="all" aria-pressed="true">All layers</button>
+      <button class="map-filter" type="button" data-map-filter="concept" aria-pressed="false">Concepts</button>
+      <button class="map-filter" type="button" data-map-filter="source" aria-pressed="false">Source families</button>
+      <button class="map-filter" type="button" data-map-filter="artifact" aria-pressed="false">Artifacts</button>
+      <button class="map-filter" type="button" data-map-filter="gap" aria-pressed="false">Weak or missing</button>
+    </div>
+
+    <div class="evidence-map-canvas">
+      <svg class="evidence-map-edges" aria-hidden="true"></svg>
+
+      <button class="map-node map-node-question" type="button" data-map-node="question" data-layer="question" data-status="anchor">
+        <span>Research question</span>
+        Why do accounts of terrorism patterns diverge?
+      </button>
+
+      <button class="map-node" type="button" data-map-node="definition" data-connects="question" data-layer="concept" data-status="mixed">
+        <span>Concept</span>
+        Definition
+      </button>
+      <button class="map-node" type="button" data-map-node="coverage" data-connects="question" data-layer="concept" data-status="gap">
+        <span>Concept</span>
+        Coverage
+      </button>
+      <button class="map-node" type="button" data-map-node="institutions" data-connects="question" data-layer="concept" data-status="strong">
+        <span>Context</span>
+        Institutional purpose
+      </button>
+
+      <button class="map-node" type="button" data-map-node="official" data-connects="definition coverage institutions" data-layer="source" data-status="mixed">
+        <span>Source family</span>
+        Official records
+      </button>
+      <button class="map-node" type="button" data-map-node="independent" data-connects="definition coverage institutions" data-layer="source" data-status="strong">
+        <span>Source family</span>
+        Independent databases
+      </button>
+      <button class="map-node" type="button" data-map-node="news" data-connects="definition coverage institutions" data-layer="source" data-status="mixed">
+        <span>Source family</span>
+        News sources
+      </button>
+      <button class="map-node" type="button" data-map-node="scholarship" data-connects="definition coverage institutions" data-layer="source" data-status="mixed">
+        <span>Source family</span>
+        Scholarly research
+      </button>
+
+      <button class="map-node" type="button" data-map-node="register" data-connects="official independent news scholarship" data-layer="artifact" data-status="strong">
+        <span>Research record</span>
+        Evidence register
+      </button>
+      <button class="map-node" type="button" data-map-node="gaps" data-connects="register" data-layer="artifact" data-status="gap">
+        <span>Research record</span>
+        Gap analysis
+      </button>
+      <button class="map-node" type="button" data-map-node="stopping" data-connects="register gaps" data-layer="artifact" data-status="gap">
+        <span>Research record</span>
+        Stopping rule
+      </button>
+    </div>
+
+    <div class="map-inspector" role="status" aria-live="polite">
+      <div>
+        <p class="map-inspector-label">Selected node</p>
+        <h5 data-map-detail-title>Research question</h5>
+      </div>
+      <p data-map-detail-copy>The question organizes collection without presuming that one source family contains the complete or correct account.</p>
+      <p class="map-inspector-status"><span data-map-detail-status>Anchor</span></p>
+    </div>
+
+    <noscript><p class="visual-noscript">The interactive filters require JavaScript. All nodes remain visible, and the chapter text provides the complete method.</p></noscript>
+  </div>
+</div>
+```
+:::
+
+::: {.content-visible when-profile="manuscript"}
+### Seven-stage pathway
+
+![The evidence map develops through seven ordered but revisable stages. Discoveries can reopen an earlier decision.](../assets/evidence-map-pathway.png){#fig-evidence-map-pathway fig-cap="The evidence map develops through seven ordered but revisable stages."}
+:::
+
 ## The Worked Example
 
 Our running question asks why accounts of terrorism patterns diverge across official records, independent databases, news sources, and scholarly research. The question does not presume that one source class is correct and the others are mistaken. It asks how distinct systems produce different pictures of violence.
