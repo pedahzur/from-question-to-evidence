@@ -11,6 +11,7 @@ All notable changes to this project are documented here. Dates use ISO 8601.
 - Static seven-stage pathway figure for the PDF and Word editions.
 - Prominent opening account of the book's decade-long development and the processing capacity introduced by large language models.
 - A new chapter on AI-assisted event databases, including source frames, candidate-record verification, event resolution, dynamic codebooks, validation, and explicit Bayesian updating.
+- A new chapter on contemporary review articles and meta-analysis, including review-form selection, estimands, heterogeneity, dependent effects, publication bias, open synthesis, living reviews, and bounded AI assistance.
 - An automatic complete-manuscript Markdown export generated after every manuscript render.
 
 ### Changed

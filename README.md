@@ -19,7 +19,7 @@ Version `0.2.0-draft` contains the first two complete modules:
 1. **From Question to Evidence Map** — seven stages from framing to a collection strategy and stopping rule.
 2. **Literature as Evidence** — six stages from review protocol to synthesis, coverage audit, and stopping rule.
 
-The working branch also contains **Building Event Databases with AI**, a bridge chapter on large-scale source discovery, candidate-record verification, event resolution, dynamic codebooks, validation, and explicit Bayesian updating. The next revision program adds an early chapter on epistemic judgment and limits, moves AI integrity before the first guided workflow, carries a composite oral-history case through the method, supplies complete artifact specimens, and adds the Collection as Evidence module. See [ROADMAP.md](ROADMAP.md).
+The working branch also contains **Review Articles and Meta-Analysis in Transition**, which connects the literature workflow to contemporary evidence synthesis, and **Building Event Databases with AI**, a bridge chapter on large-scale source discovery, candidate-record verification, event resolution, dynamic codebooks, validation, and explicit Bayesian updating. The next revision program adds an early chapter on epistemic judgment and limits, moves AI integrity before the first guided workflow, carries a composite oral-history case through the method, supplies complete artifact specimens, and adds the Collection as Evidence module. See [ROADMAP.md](ROADMAP.md).
 
 The latest discussion-draft release packages the manuscript as both Word and PDF, together with a browsable site preview and a reproducible source archive: [v0.2.0-draft](https://github.com/pedahzur/from-question-to-evidence/releases/tag/v0.2.0-draft).
 

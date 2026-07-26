@@ -23,6 +23,15 @@
 - Read, annotate, and compare.
 - Synthesize, audit, and stop.
 
+### Synthesis Chapter: Review Articles and Meta-Analysis in Transition
+
+- Select a review form that fits the intended claim.
+- Distinguish systematic review from statistical synthesis.
+- Treat heterogeneity, dependence, and selective reporting as substantive problems.
+- Release protocols, coded corpora, data, code, and citable snapshots.
+- Govern living reviews through triggers, versions, corrections, and retirement rules.
+- Validate AI assistance within the intended corpus and preserve human adjudication.
+
 ### Bridge Chapter: Building Event Databases with AI
 
 - Define a source frame and retrieve candidate records at scale.

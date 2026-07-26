@@ -25,6 +25,7 @@ CHAPTERS = [
     "content/16-evaluate-literature.qmd",
     "content/17-read-annotate-compare.qmd",
     "content/18-synthesize-audit-stop.qmd",
+    "content/19-review-articles-and-meta-analysis.qmd",
     "content/19-building-event-databases-with-ai.qmd",
     "content/19-ai-research-integrity.qmd",
     "content/20-next-steps.qmd",
@@ -105,6 +106,41 @@ def test_literature_module_scope_and_ai_boundaries() -> None:
     assert 8_000 <= word_count <= 10_000
     for label in ("Permitted input", "Do not provide", "Verify", "Record"):
         assert combined.count(label) >= len(LITERATURE_STAGES), label
+
+
+def test_review_articles_and_meta_analysis_chapter_contract() -> None:
+    path = ROOT / "content/19-review-articles-and-meta-analysis.qmd"
+    text = path.read_text(encoding="utf-8")
+    headings = re.findall(r"^## (.+)$", text, flags=re.MULTILINE)
+    assert headings == STAGE_SECTIONS
+
+    required_language = (
+        "review family",
+        "meta-analysis is not",
+        "dependent effect",
+        "prediction interval",
+        "publication bias",
+        "living review",
+        "versioned",
+        "human validation",
+        "conditional future",
+    )
+    lowered = text.lower()
+    for phrase in required_language:
+        assert phrase in lowered, phrase
+
+    required_citations = (
+        "@pigott2020meta",
+        "@hedges2010robust",
+        "@irsova2024meta",
+        "@moreau2022open",
+        "@elliott2017living",
+        "@sousa2026ai",
+    )
+    for citation in required_citations:
+        assert citation in text, citation
+
+    assert "AI will replace" not in text
 
 
 def test_public_project_documents_exist() -> None:

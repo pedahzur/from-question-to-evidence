@@ -14,7 +14,7 @@ def test_event_database_chapter_is_in_the_book_sequence() -> None:
 
     assert event_chapter in chapters
     assert chapters.index(event_chapter) == chapters.index(
-        "content/18-synthesize-audit-stop.qmd"
+        "content/19-review-articles-and-meta-analysis.qmd"
     ) + 1
     assert chapters.index(event_chapter) < chapters.index(
         "content/19-ai-research-integrity.qmd"
