@@ -25,6 +25,7 @@ CHAPTERS = [
     "content/16-evaluate-literature.qmd",
     "content/17-read-annotate-compare.qmd",
     "content/18-synthesize-audit-stop.qmd",
+    "content/19-building-event-databases-with-ai.qmd",
     "content/19-ai-research-integrity.qmd",
     "content/20-next-steps.qmd",
     "content/references.qmd",

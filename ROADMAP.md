@@ -23,6 +23,15 @@
 - Read, annotate, and compare.
 - Synthesize, audit, and stop.
 
+### Bridge Chapter: Building Event Databases with AI
+
+- Define a source frame and retrieve candidate records at scale.
+- Verify source spans before promoting records.
+- Resolve dependent reports into stable event identifiers.
+- Extend a versioned codebook without silently changing measurement.
+- Validate automated coding on a researcher-coded sample.
+- Use AI for explicit Bayesian arithmetic and sensitivity analysis while researchers retain causal judgment.
+
 ## Revision Program for `0.3.0-draft`
 
 The next revision will make the book's methodological position explicit before the first procedural stage. It will state what an evidence map can and cannot claim, explain how the workflow changes when questions remain emergent, and show how judgment becomes open to criticism without pretending that a corpus represents the world.
@@ -37,7 +46,7 @@ This module will connect a collection plan to a documented research corpus. It w
 
 ## First-Edition Modules After `0.3.0-draft`
 
-1. Structuring unstructured material: events, entities, units, fields, uncertainty, and context.
+1. Extending the bridge chapter across unstructured material: events, entities, units, fields, uncertainty, and context.
 2. Analysis across modes: close reading, coding, comparison, chronology, process tracing, counting, and visualization.
 3. Testing claims and seeking disconfirmation.
 4. Writing from an audit trail.

@@ -1,5 +1,7 @@
 project:
   output-dir: build-manuscript
+  post-render:
+    - python3 scripts/export_complete_markdown.py
 
 bibliography: bibliography/references.bib
 csl: bibliography/styles/chicago-fullnote-bibliography.csl

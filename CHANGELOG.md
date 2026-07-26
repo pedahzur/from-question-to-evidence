@@ -2,7 +2,7 @@
 
 All notable changes to this project are documented here. Dates use ISO 8601.
 
-## Unreleased - 2026-07-25
+## Unreleased - 2026-07-26
 
 ### Added
 
@@ -10,12 +10,15 @@ All notable changes to this project are documented here. Dates use ISO 8601.
 - Keyboard-accessible stage navigation, layer filters, node inspection, and responsive map connections.
 - Static seven-stage pathway figure for the PDF and Word editions.
 - Prominent opening account of the book's decade-long development and the processing capacity introduced by large language models.
+- A new chapter on AI-assisted event databases, including source frames, candidate-record verification, event resolution, dynamic codebooks, validation, and explicit Bayesian updating.
+- An automatic complete-manuscript Markdown export generated after every manuscript render.
 
 ### Changed
 
 - Site styling now compiles through Quarto's theme pipeline.
 - Citation styling is stored locally, and the PDF profile uses XeLaTeX for reproducible offline builds.
 - Reading typography, paragraph spacing, sidebar width, navigation spacing, focus states, and narrow-screen layout now follow an accessible long-form reading system.
+- The roadmap now treats the event-database chapter as a bridge to the planned preparation and analysis modules.
 
 ## 0.2.0-draft - 2026-07-13
 

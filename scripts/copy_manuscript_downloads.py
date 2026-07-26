@@ -5,7 +5,11 @@ import shutil
 ROOT = Path(__file__).resolve().parents[1]
 MANUSCRIPT = ROOT / "build-manuscript"
 SITE = ROOT / "build-site"
-FILENAMES = ("From-Question-to-Evidence.docx", "From-Question-to-Evidence.pdf")
+FILENAMES = (
+    "From-Question-to-Evidence.docx",
+    "From-Question-to-Evidence.pdf",
+    "From-Question-to-Evidence.md",
+)
 
 
 def main() -> int:
