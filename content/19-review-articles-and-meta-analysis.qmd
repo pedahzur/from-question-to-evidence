@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-26"
-last-reviewed: "2026-07-26"
+last-reviewed: "2026-07-27"
 license: "CC BY 4.0"
 ---
 
@@ -99,6 +99,68 @@ Use AI as a proposal layer. The system can suggest records, fields, links, and c
 
 Human validation is not a ceremonial final glance. It is a measured procedure. Record the validation sample, sampling rule, reference coding, error categories, model and prompt version, decision threshold, and response to failure. Revalidate after material changes in the corpus or system.
 
+### Build skills, agents, and project context as separate layers
+
+Repeated AI use becomes more reliable when a project separates procedure, execution, and memory. A **skill is a reusable research procedure**. It specifies when a task should run, what inputs it accepts, which steps it follows, what it must produce, and how its output will be checked. An **agent is a bounded executor** that receives a goal, approved tools, selected context, stopping conditions, and an output schema. It may combine several skills and adjust its plan as evidence appears. Neither should become the authority that decides what the project means.
+
+This distinction prevents a common design error. A long prompt may contain a useful procedure, but it remains difficult to test, version, and reuse. A general agent may take many actions, but breadth makes its errors harder to locate. Skills should hold stable method. Agents should coordinate bounded work. Human gates should control consequential changes to the corpus, protocol, argument, and public record.
+
+#### Design a minimal research skill stack
+
+A skill should encode knowledge that the project would otherwise have to reconstruct. Its manifest should name its purpose, triggers, required inputs, procedure, output schema, verification rules, failure conditions, permissions, version, and benchmark cases. High-risk operations need narrow instructions and deterministic checks. Interpretive tasks need room for alternatives, but they still require evidence identifiers and an abstention route.
+
+Five skills provide a useful starting stack for review-based social research:
+
+| Research function | Reusable skill | Required artifact | Human gate |
+|---|---|---|---|
+| Literature discovery | **Literature-discovery skill** | Candidate register, query history, discovery-route coverage | Approve final inclusion and exclusion |
+| Gap identification | **Gap-analysis skill** | Gap-claim register with supporting and contrary corpus entries | Authorize any claim that a field lacks evidence |
+| Methodology | **Methodology-audit skill** | Question-design alignment memo, threat register, proposed tests | Approve protocol or analysis changes |
+| Data collection | **Data-collection skill** | Candidate records, provenance links, validation report | Promote records into the research corpus |
+| Project continuity | **Project-context skill** | Versioned project context packet and proposed change log | Modify the project charter, concepts, or accepted claims |
+
+The literature-discovery skill should translate concepts into search vocabulary, vary discovery routes, preserve queries, deduplicate candidates, and flag coverage risks. It should not produce a list of “the most important” publications from model recall. Its unit of output is a candidate with a discovery route and verification status.
+
+The gap-analysis skill should distinguish several kinds of gap. A corpus may lack evidence about a population, setting, period, mechanism, measure, comparison, or method. It may contain contradictory findings, weak replication, or a concept that has not been operationalized consistently. These are different research problems. The skill must also distinguish absence in the bounded corpus from absence in the field. A **false gap** occurs when failed retrieval, unfamiliar vocabulary, access limits, language bias, or an incorrect boundary is presented as a missing body of knowledge.
+
+The methodology-audit skill should compare the research question with the evidence, design, unit of analysis, estimand, inferential claim, and known threats. It can propose alternative designs or sensitivity tests. It should not silently rewrite the approved protocol. Every recommendation needs a location, a reason, the evidence affected, and the decision that remains with the researcher.
+
+The data-collection skill should enforce the transformations defined elsewhere in this book. It can create candidate records, check required fields, preserve source spans, detect likely duplicates, and route uncertain cases. It should write only to a staging area. Promotion into the verified corpus requires source review, rights and ethics checks, and a named human decision.
+
+The project-context skill is different from the other four. Its task is not to perform a substantive review operation. It prepares the smallest sufficient account of the project for another task. It retrieves the current research question, approved scope, working concepts, source hierarchy, ethical limits, corpus and codebook versions, accepted decisions, unresolved disputes, artifact locations, and active release. It also reports conflicts among these objects rather than resolving them through a plausible summary.
+
+Skills need tests before routine use. Discovery can be evaluated through recall, false exclusions, route diversity, and labor saved. Gap analysis needs cases where a missing concept is genuine and cases where it is only hidden by vocabulary or indexing. Methodology audits need known design defects and defensible designs that should not be criticized. Data collection needs stratified extraction and provenance benchmarks. Project-context tests should include stale decisions, conflicting versions, renamed concepts, and inaccessible artifacts.
+
+#### Assign agents work packages, not identities
+
+Language-model agents can interleave planning, retrieval, tool use, and revision.[@yao2023react] Research prototypes have also combined observation, retrieval, reflection, and planning in persistent agent architectures.[@park2023generative] These patterns make multi-step research assistance possible. They do not show that an agent can independently establish relevance, a scholarly gap, methodological validity, or causal interpretation.
+
+A research agent should therefore receive a work order. The order names one goal, the skill versions it may invoke, permitted collections and tools, project context version, expected artifacts, prohibited actions, stopping rule, and escalation conditions. The agent should return evidence-linked proposals and an execution log. It should not inherit an open-ended instruction to “finish the literature review.”
+
+The five skills above can support corresponding agents. A literature scout executes searches and updates the candidate register but cannot reject the final record. A gap analyst compares the verified corpus with the review protocol and produces candidate gap claims with counterevidence. A methodology critic tests alignment and assumptions without editing the protocol. A collection steward prepares and validates candidate data while leaving promotion to a reviewer. A context curator assembles the current project packet and proposes corrections without overwriting canonical project records.
+
+Agent specialization should reduce ambiguity, not imitate an academic department. Adding several agents that use the same model, sources, and instructions does not create independent corroboration. Their errors remain correlated. Agreement among them is not consensus, and disagreement is not automatically informative. Use multiple agents when tasks can be separated by evidence, method, or validation role. Do not create a panel merely to generate more text.
+
+Apply least privilege. A discovery agent usually needs search and read access, not permission to change the corpus. A methodology critic needs the protocol and selected artifacts, not participant data. A context curator needs approved project records, but it should not publish, delete, or revise them. Rights, privacy, security, and cost boundaries belong in the work order rather than in an informal reminder.
+
+Consequential decisions require explicit human gates. These include approving inclusion and exclusion, declaring a research gap, changing the research question or protocol, promoting a candidate record, accepting a new variable, interpreting a causal relationship, and releasing a public claim. The gate should record who decided, which agent output was reviewed, what evidence supported the decision, and what changed downstream.
+
+#### Preserve broad context through governed retrieval
+
+The broad project context should live outside the conversation. A chat transcript mixes instructions, exploration, corrections, and obsolete claims. Treating all of it as memory makes current and superseded decisions difficult to distinguish. Supplying the entire project archive is not a solution either. Empirical work on long-context models shows that access to a long input does not ensure reliable use of information throughout that input.[@liu2024lost]
+
+Create a **project context packet** with three layers. The stable layer contains the research question, scope, central concepts, evidence standards, ethics and rights constraints, and authority for decisions. The current-state layer names the active stage, corpus and codebook versions, accepted claims, unresolved questions, recent decisions, and release status. The task layer contains only the materials, instructions, and stopping rule needed for the present work.
+
+Use progressive disclosure. Every agent receives a short project card and the task layer. It retrieves method, corpus, or source details only when the work requires them. Each retrieved item carries a stable identifier, version, date, and authority status. This design preserves the global argument while reducing irrelevant material and exposure of sensitive records.
+
+The project context packet is a map, not a substitute for evidence. It may say that a definition was adopted in decision `D-014`, that corpus `C-03` supports claim `CL-08`, and that a contrary memo remains unresolved. The agent must follow those identifiers to the relevant artifact before making a consequential recommendation. A compressed statement without provenance remains a lead.
+
+Context updates should follow the same proposal boundary as data extraction. An agent may identify that the active question conflicts with the latest protocol or that a manuscript cites an obsolete corpus. It writes the proposed correction to a staging area. A researcher decides whether to update the canonical packet, records the reason, and increments its version.
+
+This architecture supports continuity across literature review, gap analysis, methodology, and collection. The literature scout sees the current vocabulary and boundaries. The gap analyst sees the verified coverage audit. The methodology critic sees the approved estimand and threats. The collection steward sees the source frame and codebook. The context curator sees how their artifacts connect, but it does not turn their provisional outputs into settled project knowledge.
+
+Evaluate the system as a chain. Record whether a task used the correct context version, whether the appropriate skill triggered, whether the agent stayed within permissions, whether its evidence links resolved, whether it abstained when required, and whether the human gate caught consequential errors. Productivity matters, but speed without these measures can make an incoherent project move faster.
+
 ### Separate the present from the forecast
 
 The current review article can already be modular and open. Protocols, machine-readable data, executable analysis, linked corrections, and citable releases are available practices. Semi-automated screening and extraction are emerging practices whose value must be demonstrated in the local corpus. Continuous synthesis across interoperable evidence registries remains a conditional future.
@@ -131,6 +193,10 @@ The public package contains the protocol, search histories, decision log, coded 
 
 An AI system expands intervention names and ranks new search results. It proposes extraction fields with source spans. Researchers validate screening recall on a stratified sample and adjudicate all exclusions near the decision boundary. The system never decides whether a program belongs in the same causal family or whether a trust measure is substantively comparable. Those judgments remain part of the review's argument.
 
+The team implements this arrangement as separate skills and agents. The literature-discovery skill records every query and route. A scout agent runs that skill against approved databases and deposits candidates in a staging register. The gap-analysis skill compares the verified corpus with the protocol. Its agent proposes a geographic gap, but the coverage audit shows that two relevant local-language indexes were never searched. The team records an unresolved coverage limit instead of claiming that no such research exists.
+
+The context curator prepares project packet 1.3 for the annual update. It includes the current question, intervention taxonomy, approved trust measures, corpus release, open disagreement about quasi-experimental designs, and links to every decision. The methodology critic identifies that a proposed new synthesis would mix immediate and long-term outcomes. It recommends a protocol amendment but cannot make it. Researchers review the affected records, approve a revised timing rule, and issue packet 1.4 before the other agents resume work.
+
 ## Try It
 
 Start with one review question and write the decision it must support. Name the review form that best fits that purpose. Then state why two neighboring forms would answer different questions.
@@ -143,9 +209,13 @@ Draft a result paragraph that reports the mean, its uncertainty, heterogeneity, 
 
 Finally, write an update policy. Specify surveillance sources, cadence, update triggers, owner, release format, correction route, and retirement condition. Label each planned feature as current, emerging, or conditional future. This prevents an aspiration from being presented as an implemented method.
 
+Design one research skill for the review. Write its trigger, required inputs, procedure, output schema, verification rule, permissions, failure condition, and three benchmark cases. Then write an agent work order that may invoke the skill. Give the agent one goal, a context version, approved tools, a stopping rule, and an escalation route.
+
+Create project context packet 0.1. Limit its stable layer to one page. Add a current-state table and a task layer for one operation. Ask a colleague to locate one accepted decision, one unresolved dispute, and one source artifact using only the packet. Revise any entry that cannot be traced.
+
 ## Guided AI Workflow
 
-Use AI in four bounded passes. In the design pass, provide the research question and intended decision. Ask the system to compare plausible review forms and list the evidence each would require. In the structure pass, provide verified study metadata and researcher-defined fields. Ask it to flag possible construct mismatch, dependence, and missing values without deciding eligibility. In the audit pass, provide the analysis plan and output. Ask for unsupported inferences, omitted sensitivity tests, and discrepancies between the estimand and conclusion. In the update pass, ask it to rank new candidate records and explain each ranking.
+Begin by issuing a versioned project context packet and work order. Then use AI in four bounded passes. In the design pass, provide the research question and intended decision. Ask the system to compare plausible review forms and list the evidence each would require. In the structure pass, provide verified study metadata and researcher-defined fields. Ask it to flag possible construct mismatch, dependence, and missing values without deciding eligibility. In the audit pass, provide the analysis plan and output. Ask for unsupported inferences, omitted sensitivity tests, and discrepancies between the estimand and conclusion. In the update pass, ask it to rank new candidate records and explain each ranking.
 
 A useful audit prompt is:
 
@@ -154,7 +224,7 @@ A useful audit prompt is:
 **Permitted input:** Verified metadata, researcher-authored protocols, rights-cleared text, structured extraction fields, de-identified effect data, code, and public analytical output.  
 **Do not provide:** Licensed full text without permission, confidential peer-review material, protected participant data, restricted archives, or identifiable sensitive records.  
 **Verify:** Check every proposed inclusion, exclusion, extracted value, source span, transformation, dependence link, citation, and analytical claim. Test screening and extraction performance on a representative human-coded sample.  
-**Record:** Save model and version, prompt, input description, output, reviewer decision, error category, protocol and corpus versions, analysis release, and date.
+**Record:** Save model and version, skill and agent versions, project context packet, work order, prompt, input description, tool actions, output, reviewer decision, error category, protocol and corpus versions, analysis release, and date.
 
 Do not ask a model to select the final review form, infer missing statistics without a declared method, adjudicate risk of bias alone, or choose a publication-bias correction after seeing which result is favorable. Do not accept a causal or policy conclusion that cannot be reconstructed from the reviewed evidence objects.
 
@@ -168,6 +238,10 @@ Open release also has limits. Study-level data may contain confidential informat
 
 AI assistance creates additional disclosure duties. Name the operations it supported, the system version, validation procedure, and known failures. Do not list a general-purpose model as an author or allow it to conceal who made consequential decisions.
 
+Agent delegation can obscure responsibility. A coordinating agent may summarize another agent's output and remove its qualifications. Several agents may repeat one mistaken extraction and make it appear independently confirmed. Preserve the complete provenance chain, label shared models and inputs, and route agent outputs through the same evidence checks as direct model output.
+
+Project context can contain unpublished arguments, access credentials, participant information, and restricted source locations. Give each agent only the layer required for its task. A context packet prepared for discovery should not expose material needed only for confidential analysis.
+
 Finally, resist prestige by method. A complex model cannot compensate for a weak corpus. A transparent narrative synthesis can be more informative than an invalid pooled estimate. The review earns trust by matching its claim to its evidence and preserving the path between them.
 
 ## Save the Artifact
@@ -177,6 +251,8 @@ Save a review design memo that links the question, intended decision, review for
 Maintain a source register, screening log, extraction dictionary, coded corpus, dependence map, and synthesis memo. For meta-analysis, add raw and transformed effect data, executable code, session information, model diagnostics, prediction intervals, and sensitivity results.
 
 Create a release manifest. It should name the corpus version, protocol version, codebook version, analysis commit, public files, restricted files, license, citation, review date, correction route, update trigger, and retirement condition. Give each release a stable identifier and preserve earlier releases.
+
+Maintain a research-automation register. For every skill, save its manifest, instructions, scripts or schemas, benchmark set, evaluation results, permissions, owner, and version. For every agent, save its work-order template, permitted skills and tools, expected output, escalation rule, and tests. Archive each project context packet and its approved change log. Do not store credentials or protected source content in these public or reusable definitions.
 
 The article, dataset, code, and review website should point to the same manifest. This shared reference prevents a current webpage from silently changing the evidence behind an older citation.
 
@@ -191,5 +267,9 @@ Bayesian meta-analysis can encode uncertainty about heterogeneity, combine prior
 Multiverse meta-analysis can reveal how defensible choices about inclusion, effect selection, dependence, and modeling affect the conclusion. The set of specifications must follow substantive and methodological reasoning. A large grid of arbitrary models can obscure judgment as easily as one preferred model.
 
 The mature review program connects these methods to a Second Brain without collapsing private work into public evidence. Source notes, decision records, and synthesis memos support learning. Stable public releases support scrutiny and reuse. The boundary between them is deliberate.
+
+An advanced system may use a coordinating agent to divide a review update into discovery, gap analysis, methods audit, and collection tasks. Coordination should occur through artifacts rather than conversational summaries. Each specialist receives the same approved project card, a distinct work order, and only the context needed for its task. The coordinator can detect missing outputs and schema conflicts, but human reviewers still control the gates between candidate, verified, accepted, and published states.
+
+Treat the context curator as a librarian, not an executive. It maintains indexes, reports contradictions, assembles task packets, and proposes version changes. It does not decide that a disputed claim has become accepted or that an old limitation no longer matters. Keeping this boundary protects the project's intellectual history from being rewritten for the convenience of the current task.
 
 The future review article is therefore neither a traditional essay with added links nor a database without an argument. It is a governed scholarly claim over a versioned evidence system. Its authority comes from the fit among question, corpus, method, and interpretation. Its capacity to change becomes a strength only when readers can see what changed, why it changed, and which conclusion the earlier evidence supported.

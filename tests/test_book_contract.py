@@ -136,11 +136,35 @@ def test_review_articles_and_meta_analysis_chapter_contract() -> None:
         "@moreau2022open",
         "@elliott2017living",
         "@sousa2026ai",
+        "@liu2024lost",
+        "@yao2023react",
     )
     for citation in required_citations:
         assert citation in text, citation
 
     assert "AI will replace" not in text
+
+
+def test_review_chapter_defines_research_skills_agents_and_context() -> None:
+    text = (
+        ROOT / "content/19-review-articles-and-meta-analysis.qmd"
+    ).read_text(encoding="utf-8").lower()
+    required_language = (
+        "skill is a reusable",
+        "agent is a bounded",
+        "literature-discovery skill",
+        "gap-analysis skill",
+        "methodology-audit skill",
+        "data-collection skill",
+        "project-context skill",
+        "project context packet",
+        "human gate",
+        "least privilege",
+        "staging area",
+        "false gap",
+    )
+    for phrase in required_language:
+        assert phrase in text, phrase
 
 
 def test_public_project_documents_exist() -> None:

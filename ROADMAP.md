@@ -31,6 +31,7 @@
 - Release protocols, coded corpora, data, code, and citable snapshots.
 - Govern living reviews through triggers, versions, corrections, and retirement rules.
 - Validate AI assistance within the intended corpus and preserve human adjudication.
+- Develop reusable skills and bounded agents for discovery, gap analysis, methodology, collection, and project-context continuity.
 
 ### Bridge Chapter: Building Event Databases with AI
 
