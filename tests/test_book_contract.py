@@ -28,6 +28,7 @@ CHAPTERS = [
     "content/19-review-articles-and-meta-analysis.qmd",
     "content/19-building-event-databases-with-ai.qmd",
     "content/19-ai-research-integrity.qmd",
+    "content/20-pkm-and-ai-research-infrastructure.qmd",
     "content/skills-and-agents-lab.qmd",
     "content/20-next-steps.qmd",
     "content/references.qmd",
@@ -166,6 +167,33 @@ def test_review_chapter_defines_research_skills_agents_and_context() -> None:
     )
     for phrase in required_language:
         assert phrase in text, phrase
+
+
+def test_pkm_ai_chapter_is_operational_and_source_audited() -> None:
+    chapter = ROOT / "content/20-pkm-and-ai-research-infrastructure.qmd"
+    register = ROOT / "editorial/readwise-pkm-ai-source-register.md"
+    assert chapter.is_file()
+    assert register.is_file()
+
+    text = chapter.read_text(encoding="utf-8").lower()
+    required_language = (
+        "pkm and ai solve different research problems",
+        "persistent context",
+        "provenance",
+        "human gate",
+        "pkm-ai research loop",
+        "candidate register",
+        "negative evidence",
+        "what ai must not do",
+    )
+    for phrase in required_language:
+        assert phrase in text, phrase
+
+    register_text = register.read_text(encoding="utf-8").lower()
+    for label in ("📄academic article", "🗃️pkm", "🤖ai"):
+        assert label in register_text
+    assert "connector limit" in register_text
+    assert "readwise content inspected" in register_text
 
 
 def test_public_project_documents_exist() -> None:

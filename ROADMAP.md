@@ -42,6 +42,15 @@
 - Validate automated coding on a researcher-coded sample.
 - Use AI for explicit Bayesian arithmetic and sensitivity analysis while researchers retain causal judgment.
 
+### Bridge Chapter: From Notes to Research Infrastructure
+
+- Reconstruct the movement from networked notes to persistent project context.
+- Distinguish PKM's contribution to continuity and provenance from AI's contribution to scale, retrieval, transformation, comparison, and iteration.
+- Connect local, inspectable knowledge objects to bounded skills and agents.
+- Preserve negative evidence, transformation history, and prior versions.
+- Use a seven-stage PKM-AI research loop with a named human gate at every consequential transition.
+- Test the method through a candidate register, audit log, coverage memo, and operative chapter exercise.
+
 ## Revision Program for `0.3.0-draft`
 
 The next revision will make the book's methodological position explicit before the first procedural stage. It will state what an evidence map can and cannot claim, explain how the workflow changes when questions remain emergent, and show how judgment becomes open to criticism without pretending that a corpus represents the world.
