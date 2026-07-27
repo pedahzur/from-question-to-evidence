@@ -202,6 +202,18 @@ def test_public_project_documents_exist() -> None:
         "ROADMAP.md",
         "CONTRIBUTING.md",
         "CHANGELOG.md",
+        "docs/hebrew-table-of-contents.md",
         "docs/PROJECT-ASSESSMENT-HE.md",
     ):
         assert (ROOT / relative).is_file(), relative
+
+
+def test_hebrew_table_of_contents_tracks_current_book() -> None:
+    path = ROOT / "docs/hebrew-table-of-contents.md"
+    text = path.read_text(encoding="utf-8")
+    chapter_numbers = re.findall(r"^### (\d+)\.", text, flags=re.MULTILINE)
+
+    assert chapter_numbers == [str(number) for number in range(1, 25)]
+    assert "direction: rtl" in text
+    assert "## חלק ראשון: ממחקר ראשוני למפת ראיות" in text
+    assert "### 22. מעבדת סקילים וסוכנים" in text
