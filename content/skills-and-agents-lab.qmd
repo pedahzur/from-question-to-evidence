@@ -24,7 +24,7 @@ declare a research gap, or promote a record into the verified corpus.
 ::: {.lab-actions}
 [Download ZIP 0.1.0](../downloads/skills-and-agents-lab-v0.1.0.zip){.btn .btn-primary}
 [Verify checksum](../downloads/skills-and-agents-lab-v0.1.0.zip.sha256){.btn .btn-outline-secondary}
-[Inspect source](https://github.com/pedahzur/from-question-to-evidence/tree/main/lab){.btn .btn-outline-secondary}
+[Inspect source](https://github.com/pedahzur/from-question-to-evidence/tree/revise/referee-pass-2026-07-14/lab){.btn .btn-outline-secondary}
 :::
 
 ## What the Release Contains
