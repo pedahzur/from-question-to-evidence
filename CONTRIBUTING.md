@@ -14,6 +14,14 @@ Open an issue before undertaking a substantial change. Describe:
 
 Small corrections may proceed directly to a pull request.
 
+For the Skills and Agents Lab, use the dedicated issue forms:
+
+- [report a reproducible problem](https://github.com/pedahzur/from-question-to-evidence/issues/new?template=lab-problem.yml);
+- [propose a governed revision](https://github.com/pedahzur/from-question-to-evidence/issues/new?template=lab-revision.yml).
+
+Name the package version and affected artifact. Use synthetic or redacted inputs and
+report both observed and expected behavior.
+
 ## Editorial Rules
 
 - Organize stable prose around research decisions rather than products.
@@ -78,6 +86,8 @@ node scripts/build_literature_protocol.mjs
 - Both Quarto profiles render.
 - New citations resolve.
 - New templates open and have been visually inspected.
+- Skills pass the official validator, agents remain least-privilege, and benchmark contracts pass.
+- The lab ZIP and SHA-256 checksum are regenerated when a package file changes.
 - Links resolve in the rendered site.
 - The rights manifest and fact-check log are current.
 - No private paths, credentials, restricted files, build directories, or cache files are tracked.

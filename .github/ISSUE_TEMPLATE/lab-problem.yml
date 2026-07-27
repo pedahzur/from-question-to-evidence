@@ -1,0 +1,65 @@
+name: Skills and Agents Lab problem
+description: Report a reproducible failure, ambiguity, or boundary violation.
+title: "[Lab problem]: "
+labels:
+  - lab
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include participant data, credentials, restricted material, confidential manuscripts, or copyrighted full text.
+  - type: input
+    id: version
+    attributes:
+      label: Release version
+      description: The version shown in VERSION or MANIFEST.yml.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: artifact
+    attributes:
+      label: Affected artifact
+      placeholder: "literature-discovery skill, literature-scout agent, benchmark ID, or context template"
+    validations:
+      required: true
+  - type: textarea
+    id: conditions
+    attributes:
+      label: Reproduction conditions
+      description: Describe the synthetic or redacted input, system, skill or agent version, and steps.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: dropdown
+    id: consequence
+    attributes:
+      label: Consequence
+      options:
+        - Incorrect or missing candidate
+        - Fabricated or mismatched source
+        - Lost provenance or discovery route
+        - Unauthorized or excessive access
+        - Final decision made without a human gate
+        - Package, validator, or documentation failure
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I removed participant data, credentials, restricted sources, confidential text, and copyrighted full text.
+          required: true

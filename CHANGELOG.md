@@ -13,6 +13,7 @@ All notable changes to this project are documented here. Dates use ISO 8601.
 - A new chapter on AI-assisted event databases, including source frames, candidate-record verification, event resolution, dynamic codebooks, validation, and explicit Bayesian updating.
 - A new chapter on contemporary review articles and meta-analysis, including review-form selection, estimands, heterogeneity, dependent effects, publication bias, open synthesis, living reviews, and bounded AI assistance.
 - A research-automation architecture for literature discovery, gap analysis, methodology review, data collection, specialized agents, human gates, and versioned project context.
+- Skills and Agents Lab 0.1.0 with a literature-discovery skill, bounded read-only scout agent, project-context packet, three synthetic benchmark cases, candidate-register validator, explicit failure report, deterministic ZIP, checksum, and dedicated feedback routes.
 - An automatic complete-manuscript Markdown export generated after every manuscript render.
 
 ### Changed

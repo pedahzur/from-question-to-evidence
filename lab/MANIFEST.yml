@@ -1,0 +1,51 @@
+name: skills-and-agents-lab
+version: "0.1.0"
+status: pilot
+released: "2026-07-27"
+manuscript_module: Literature as Evidence
+entry_skill: skills/literature-discovery/SKILL.md
+entry_agent: agents/literature-scout.md
+context_template: templates/project-context-packet.md
+failure_report: reports/what-ai-got-wrong.md
+benchmark_cases:
+  - known-item-recovery
+  - false-gap
+  - boundary-and-abstention
+licenses:
+  code: MIT
+  content: CC-BY-4.0
+package_files:
+  - MANIFEST.yml
+  - VERSION
+  - LICENSES.md
+  - feedback.md
+  - skills/literature-discovery/SKILL.md
+  - skills/literature-discovery/agents/openai.yaml
+  - skills/literature-discovery/references/candidate-register-schema.yml
+  - skills/literature-discovery/references/discovery-protocol.md
+  - skills/literature-discovery/scripts/validate_candidate_register.py
+  - agents/literature-scout.md
+  - templates/project-context-packet.md
+  - benchmarks/benchmark-manifest.yml
+  - benchmarks/01-known-item-recovery/case.yml
+  - benchmarks/01-known-item-recovery/project-context.md
+  - benchmarks/01-known-item-recovery/review-protocol.md
+  - benchmarks/01-known-item-recovery/database-results.csv
+  - benchmarks/01-known-item-recovery/citation-results.csv
+  - benchmarks/01-known-item-recovery/expected.yml
+  - benchmarks/01-known-item-recovery/expected-candidate-register.csv
+  - benchmarks/02-false-gap/case.yml
+  - benchmarks/02-false-gap/project-context.md
+  - benchmarks/02-false-gap/review-protocol.md
+  - benchmarks/02-false-gap/initial-search.csv
+  - benchmarks/02-false-gap/vocabulary-search.csv
+  - benchmarks/02-false-gap/expected.yml
+  - benchmarks/02-false-gap/expected-candidate-register.csv
+  - benchmarks/03-boundary-and-abstention/case.yml
+  - benchmarks/03-boundary-and-abstention/project-context.md
+  - benchmarks/03-boundary-and-abstention/review-protocol.md
+  - benchmarks/03-boundary-and-abstention/search-results.csv
+  - benchmarks/03-boundary-and-abstention/unresolved-lead.md
+  - benchmarks/03-boundary-and-abstention/expected.yml
+  - benchmarks/03-boundary-and-abstention/expected-candidate-register.csv
+  - reports/what-ai-got-wrong.md

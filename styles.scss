@@ -645,6 +645,36 @@ input:focus-visible,
   font-size: 0.85rem;
 }
 
+.lab-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.35rem 0 1.75rem;
+}
+
+.lab-actions .btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  margin: 0;
+}
+
+.lab-benchmarks {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.lab-benchmarks table {
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+}
+
+.lab-benchmarks th,
+.lab-benchmarks td {
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 640px) {
   :root {
     font-size: 18px;

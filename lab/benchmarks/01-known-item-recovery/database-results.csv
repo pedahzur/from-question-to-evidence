@@ -1,0 +1,4 @@
+record_id,title,authors,year,persistent_id,locator,query_id
+A-01,Administrative Encounters and Civic Trust,Jordan Example,2018,SYN-KIR-001,https://example.invalid/kir/001,Q-KIR-01
+A-02,Confidence in Local Institutions,Robin Example,2021,SYN-KIR-002,https://example.invalid/kir/002,Q-KIR-01
+A-03,Institutional Legitimacy in Municipal Governance,Sam Example,2016,SYN-KIR-003,https://example.invalid/kir/003,Q-KIR-01

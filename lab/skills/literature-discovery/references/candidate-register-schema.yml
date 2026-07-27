@@ -1,0 +1,39 @@
+schema_version: "1.0"
+fields:
+  - candidate_id
+  - title
+  - authors
+  - year
+  - source_type
+  - persistent_id
+  - source_locator
+  - discovery_route
+  - query_id
+  - verification_status
+  - duplicate_of
+  - scope_signal
+  - notes
+required:
+  - candidate_id
+  - title
+  - source_type
+  - source_locator
+  - discovery_route
+  - query_id
+  - verification_status
+  - scope_signal
+verification_status:
+  - verified
+  - partially-verified
+  - unverified
+  - unavailable
+scope_signal:
+  - known-item
+  - possible
+  - unlikely
+  - uncertain
+prohibited_fields:
+  - included
+  - excluded
+  - eligibility_decision
+  - final_decision

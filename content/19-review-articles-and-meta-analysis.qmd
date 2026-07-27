@@ -254,6 +254,8 @@ Create a release manifest. It should name the corpus version, protocol version, 
 
 Maintain a research-automation register. For every skill, save its manifest, instructions, scripts or schemas, benchmark set, evaluation results, permissions, owner, and version. For every agent, save its work-order template, permitted skills and tools, expected output, escalation rule, and tests. Archive each project context packet and its approved change log. Do not store credentials or protected source content in these public or reusable definitions.
 
+The accompanying [Skills and Agents Lab](skills-and-agents-lab.qmd) provides the first complete implementation of this architecture. Release 0.1.0 contains a literature-discovery skill, a read-only scout agent, a three-layer project-context packet, three synthetic benchmark cases, a candidate-register validator, an explicit failure report, and a versioned download. It is a pilot procedure to inspect and test, not evidence that autonomous discovery is reliable.
+
 The article, dataset, code, and review website should point to the same manifest. This shared reference prevents a current webpage from silently changing the evidence behind an older citation.
 
 ## Advanced Practice

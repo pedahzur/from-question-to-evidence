@@ -1,0 +1,3 @@
+candidate_id,title,authors,year,source_type,persistent_id,source_locator,discovery_route,query_id,verification_status,duplicate_of,scope_signal,notes
+C-FG-001,Public Confidence after Municipal Encounters,Alex Example,2020,journal article,SYN-FG-001,https://example.invalid/fg/001,conceptual-proxy-search,Q-FG-02,verified,,possible,Recovered only after vocabulary expansion
+C-FG-002,Confianza institucional y servicios municipales,Mar Example,2022,journal article,SYN-FG-002,https://example.invalid/fg/002,local-language-search,Q-FG-03,verified,,possible,Spanish-language discovery route

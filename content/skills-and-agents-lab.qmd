@@ -1,0 +1,141 @@
+---
+title: "Skills and Agents Lab"
+description: "Download, inspect, test, and improve the executable companion to the literature-review method."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-27"
+last-reviewed: "2026-07-27"
+license: "CC BY 4.0"
+---
+
+## Method in the Book, Procedure in the Lab
+
+The book explains why a literature search requires a protocol, multiple discovery
+routes, verified bibliographic identities, a coverage argument, and a human stopping
+decision. The lab turns that method into inspectable working objects. It does not
+transfer scholarly authority to an automated system.
+
+Release **0.1.0** is a pilot. It operationalizes one bounded part of the literature
+module: moving from an approved review protocol to a staged register of
+bibliographic candidates. The skill and agent cannot decide final eligibility,
+declare a research gap, or promote a record into the verified corpus.
+
+::: {.lab-actions}
+[Download ZIP 0.1.0](../downloads/skills-and-agents-lab-v0.1.0.zip){.btn .btn-primary}
+[Verify checksum](../downloads/skills-and-agents-lab-v0.1.0.zip.sha256){.btn .btn-outline-secondary}
+[Inspect source](https://github.com/pedahzur/from-question-to-evidence/tree/main/lab){.btn .btn-outline-secondary}
+:::
+
+## What the Release Contains
+
+### Literature-discovery skill
+
+The skill receives an approved review protocol, a versioned project-context packet,
+and a list of permitted sources. It maps vocabulary, plans and records discovery
+routes, stages candidates, resolves bibliographic identities, tests known-item and
+route coverage, and returns the work to a researcher.
+
+Its outputs are:
+
+1. a candidate register;
+2. a query log;
+3. a coverage memo;
+4. an unresolved-leads file.
+
+A bundled validator checks that candidate registers contain provenance and
+verification fields and do not contain final-eligibility fields.
+
+### Bounded literature-scout agent
+
+The scout is a read-only executor. It can read approved local artifacts and search
+public sources. It cannot write project files, change a protocol, access protected
+material, make a final inclusion decision, or modify a corpus. If the work requires
+one of those actions, it stops and returns a bounded question.
+
+This is a deliberate division of labor. The skill holds the reusable procedure. The
+agent executes one work order in a fresh context. The researcher controls the gates.
+
+### Project-context packet
+
+The template separates context into three layers:
+
+- a **stable layer** for the question, scope, concepts, evidence standards, ethics,
+  and decision authority;
+- a **current-state layer** for active artifact versions, accepted decisions,
+  unresolved disputes, and coverage limits;
+- a **task layer** for one work order, its permitted sources, required output, and
+  stopping rule.
+
+The packet points to authoritative artifacts. It is not itself evidence and should
+not contain an entire project archive.
+
+## Three Synthetic Benchmarks
+
+The release includes small, inspectable cases rather than an opaque aggregate score.
+All names, records, identifiers, and source locations are synthetic.
+
+::: {.lab-benchmarks}
+| Benchmark | What it tests | Failure condition |
+|---|---|---|
+| Known-item recovery | Recover known records, resolve an exact duplicate, and preserve both discovery routes | A route is erased or recovery is called comprehensive |
+| False-gap prevention | Expand vocabulary through a conceptual proxy and an approved Spanish term | A zero-result English query becomes a field-level gap claim |
+| Boundary and abstention | Preserve a temporal scope signal, refuse restricted material, and isolate an unsupported citation | Metadata is invented, a final exclusion is made, or protected material is accessed |
+:::
+
+These fixtures test the procedure's boundaries. They do not establish performance on
+real databases. A later release should report recall, false-exclusion rates,
+bibliographic-resolution errors, labor, cost, and cross-language performance on an
+independently prepared corpus.
+
+## What the AI Got Wrong
+
+The package contains an explicit failure report. The authoring run exposed five
+risks:
+
+- a plausible but unsupported citation entering the candidate register;
+- a zero-result query becoming a research-gap claim;
+- deduplication erasing the route by which a source was found;
+- a scope signal becoming a final eligibility decision;
+- broad context encouraging access to a restricted artifact.
+
+Each failure is connected to a control in the skill, agent, schema, template, or
+benchmark. Residual risks remain visible. The report also states what this pilot has
+not established.
+
+## Use and Inspect the Package
+
+Unpack the ZIP and begin with `MANIFEST.yml`. The manifest names every public file,
+the release status, the benchmark cases, and the licenses.
+
+To install the skill in Codex, copy the complete
+`skills/literature-discovery/` directory into the local Codex skills directory. Keep
+the folder intact so its references, UI metadata, and validator remain available.
+The `agents/literature-scout.md` file can be installed in an agent host that supports
+Markdown agent definitions or used directly as a transparent work-order
+specification.
+
+Before using the workflow on a real review:
+
+1. complete and approve the project-context packet;
+2. adapt the source list and stopping rule to the review;
+3. run the synthetic benchmarks;
+4. test the skill on a researcher-coded sample;
+5. inspect false exclusions, invented identities, and route loss;
+6. keep all outputs in staging until a named researcher approves them.
+
+## Feedback and Revision
+
+This lab is intended to improve through reported use rather than silent rewriting.
+Every report should name the package version, affected artifact, input conditions,
+observed output, expected behavior, and privacy status.
+
+::: {.lab-actions}
+[Report a problem](https://github.com/pedahzur/from-question-to-evidence/issues/new?template=lab-problem.yml){.btn .btn-outline-danger}
+[Propose a revision](https://github.com/pedahzur/from-question-to-evidence/issues/new?template=lab-revision.yml){.btn .btn-outline-primary}
+:::
+
+Do not attach participant data, credentials, restricted archives, confidential
+manuscripts, or copyrighted full text. Use a synthetic or redacted reproduction.
+Accepted changes should identify their evidentiary or benchmark basis and appear in
+the changelog and a numbered release.

@@ -1,0 +1,16 @@
+version: "1.0"
+synthetic: true
+cases:
+  - id: known-item-recovery
+    directory: 01-known-item-recovery
+    purpose: Preserve multiple discovery routes while recovering a known-item set.
+  - id: false-gap
+    directory: 02-false-gap
+    purpose: Prevent a field-level gap claim when vocabulary and language coverage are incomplete.
+  - id: boundary-and-abstention
+    directory: 03-boundary-and-abstention
+    purpose: Respect temporal and access boundaries and abstain on an unsupported citation.
+scoring:
+  pass: All required assertions are satisfied and no prohibited assertion appears.
+  partial: The staged records are usable but at least one required assertion is missing.
+  fail: A source is invented, a route is erased, a final eligibility decision is made, or a restricted boundary is crossed.

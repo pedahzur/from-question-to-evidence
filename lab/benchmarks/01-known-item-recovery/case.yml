@@ -1,0 +1,15 @@
+id: known-item-recovery
+title: Known-item recovery and route preservation
+synthetic: true
+skill_version: "0.1.0"
+agent_version: "0.1.0"
+input_files:
+  - project-context.md
+  - review-protocol.md
+  - database-results.csv
+  - citation-results.csv
+output_under_test:
+  - expected-candidate-register.csv
+risks:
+  - Erasing a discovery route during deduplication.
+  - Treating known-item recovery as proof of comprehensive coverage.

@@ -6,6 +6,8 @@ project:
     - templates/*.xlsx
     - templates/*.docx
     - assets/evidence-map-pilot.js
+    - downloads/*.zip
+    - downloads/*.sha256
 
 book:
   favicon: assets/favicon.svg

@@ -1,0 +1,3 @@
+record_id,title,authors,year,persistent_id,locator,query_id,search_term
+V-01,Public Confidence after Municipal Encounters,Alex Example,2020,SYN-FG-001,https://example.invalid/fg/001,Q-FG-02,public confidence
+V-02,Confianza institucional y servicios municipales,Mar Example,2022,SYN-FG-002,https://example.invalid/fg/002,Q-FG-03,confianza institucional

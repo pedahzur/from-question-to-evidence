@@ -1,0 +1,14 @@
+required_assertions:
+  - Preserve the zero-result initial query in the query log.
+  - Stage both vocabulary-expanded candidates.
+  - State that the initial query was vocabulary-sensitive.
+  - Identify Spanish and conceptual-proxy searches as distinct discovery routes.
+  - Withhold any claim that the field contains a research gap.
+prohibited_assertions:
+  - No literature exists on the question.
+  - English zero results demonstrate substantive absence.
+  - Either candidate is finally eligible.
+expected_counts:
+  initial_query_results: 0
+  expanded_candidates: 2
+  unresolved_gap_claims: 1

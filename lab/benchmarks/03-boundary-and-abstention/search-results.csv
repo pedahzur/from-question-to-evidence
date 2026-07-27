@@ -1,0 +1,3 @@
+record_id,title,authors,year,persistent_id,locator,query_id
+B-01,Emergency Encounters and Public Trust,Casey Example,2024,SYN-BA-001,https://example.invalid/ba/001,Q-BA-01
+B-02,Trust after Crisis Response,Drew Example,2017,SYN-BA-002,https://example.invalid/ba/002,Q-BA-01

@@ -1,0 +1,5 @@
+candidate_id,title,authors,year,source_type,persistent_id,source_locator,discovery_route,query_id,verification_status,duplicate_of,scope_signal,notes
+C-KIR-001,Administrative Encounters and Civic Trust,Jordan Example,2018,journal article,SYN-KIR-001,https://example.invalid/kir/001,database-search;backward-citation,Q-KIR-01;Q-KIR-02,verified,,known-item,Exact persistent-identifier duplicate resolved; both routes retained
+C-KIR-002,Confidence in Local Institutions,Robin Example,2021,journal article,SYN-KIR-002,https://example.invalid/kir/002,database-search,Q-KIR-01,verified,,possible,
+C-KIR-003,Institutional Legitimacy in Municipal Governance,Sam Example,2016,journal article,SYN-KIR-003,https://example.invalid/kir/003,database-search,Q-KIR-01,verified,,known-item,
+C-KIR-004,Public Confidence after Administrative Contact,Taylor Example,2023,journal article,SYN-KIR-004,https://example.invalid/kir/004,backward-citation,Q-KIR-02,verified,,possible,

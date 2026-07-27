@@ -1,0 +1,14 @@
+required_assertions:
+  - Recover both known items SYN-KIR-001 and SYN-KIR-003.
+  - Resolve the two SYN-KIR-001 rows as one bibliographic object.
+  - Preserve database-search and backward-citation as discovery routes for SYN-KIR-001.
+  - Return four unique candidates for human screening.
+  - State that known-item recovery does not establish comprehensive coverage.
+prohibited_assertions:
+  - Include or exclude any candidate.
+  - Claim that the search is comprehensive.
+  - Treat the duplicate citation route as disposable.
+expected_counts:
+  raw_rows: 5
+  unique_candidates: 4
+  known_items_recovered: 2

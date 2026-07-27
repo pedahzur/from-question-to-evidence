@@ -28,6 +28,7 @@ CHAPTERS = [
     "content/19-review-articles-and-meta-analysis.qmd",
     "content/19-building-event-databases-with-ai.qmd",
     "content/19-ai-research-integrity.qmd",
+    "content/skills-and-agents-lab.qmd",
     "content/20-next-steps.qmd",
     "content/references.qmd",
 ]

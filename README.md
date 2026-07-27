@@ -26,6 +26,8 @@ The latest discussion-draft release packages the manuscript as both Word and PDF
 ## Repository Layout
 
 - `content/` — canonical Quarto manuscript pages.
+- `lab/` — versioned skills, agents, context templates, synthetic benchmarks, and failure reports.
+- `downloads/` — deterministic public release archives and checksums.
 - `templates/` — editable DOCX and XLSX reader resources.
 - `scripts/` — content checks and deterministic resource builders.
 - `bibliography/` — verified BibTeX records.
@@ -55,7 +57,12 @@ Reader-resource builders:
 node scripts/build_templates.mjs
 node scripts/build_question_worksheet.mjs
 node scripts/build_literature_protocol.mjs
+uv run python scripts/build_lab_package.py
 ```
+
+The first lab release operationalizes the literature-review workflow without granting
+the system authority over final eligibility or corpus promotion. Its public page is
+included in the book as **Skills and Agents Lab**.
 
 ## Contributing
 

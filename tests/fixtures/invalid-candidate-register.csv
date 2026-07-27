@@ -1,0 +1,2 @@
+candidate_id,title,authors,year,source_type,persistent_id,source_locator,discovery_route,query_id,verification_status,duplicate_of,scope_signal,notes
+C-INVALID,An unsupported candidate,Example Author,2025,journal article,,,model recall,Q-01,unverified,,possible,

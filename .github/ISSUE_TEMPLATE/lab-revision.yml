@@ -1,0 +1,62 @@
+name: Skills and Agents Lab revision
+description: Propose a methodological, pedagogical, accessibility, or maintenance improvement.
+title: "[Lab revision]: "
+labels:
+  - lab
+  - enhancement
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Release version reviewed
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: artifact
+    attributes:
+      label: Artifact or benchmark affected
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Research or reader problem
+      description: Explain the decision or use case the current release does not support adequately.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed revision
+    validations:
+      required: true
+  - type: textarea
+    id: basis
+    attributes:
+      label: Evidence or benchmark basis
+      description: Cite a method, standard, observed failure, or synthetic benchmark that supports the change.
+    validations:
+      required: true
+  - type: dropdown
+    id: dimension
+    attributes:
+      label: Primary dimension
+      options:
+        - Methodology
+        - Evidence and provenance
+        - Ethics, privacy, or rights
+        - Pedagogy
+        - Accessibility
+        - Maintenance or interoperability
+    validations:
+      required: true
+  - type: checkboxes
+    id: gates
+    attributes:
+      label: Boundary check
+      options:
+        - label: The proposal preserves human authority over eligibility, gap claims, corpus promotion, and publication.
+          required: true
+        - label: The proposal contains no participant data, credentials, restricted material, or copyrighted full text.
+          required: true
