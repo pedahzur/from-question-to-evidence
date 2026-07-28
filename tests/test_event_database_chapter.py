@@ -68,5 +68,20 @@ def test_event_database_chapter_has_guided_workflow_and_sources() -> None:
         "@beelen2023bias",
         "@fairfield2017bayesian",
         "@xiong2024uncertainty",
+        "@weidmann2026democracy",
     ):
         assert citation in text
+
+
+def test_event_database_chapter_distinguishes_correlation_from_agreement() -> None:
+    text = CHAPTER.read_text(encoding="utf-8").lower()
+
+    for required in (
+        "absolute agreement",
+        "not ground truth",
+        "more pessimistic",
+        "more optimistic",
+        "averaging is not a substitute for calibration",
+        "model-specific outputs",
+    ):
+        assert required in text

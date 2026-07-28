@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-26"
-last-reviewed: "2026-07-26"
+last-reviewed: "2026-07-28"
 license: "CC BY 4.0"
 ---
 
@@ -13,7 +13,7 @@ license: "CC BY 4.0"
 
 Event databases convert dispersed accounts into comparable records. A researcher may begin with a question about protest, repression, political violence, institutional reform, migration, or disaster response. The relevant traces may appear across newspapers, archival catalogues, government reports, organizational records, and born-digital collections. Before generative AI, much of the work required repetitive searching, copying, normalization, and initial classification. These tasks consumed time that researchers needed for interpretation.
 
-AI changes the feasible scale of this work. A system can expand queries, search an authorized collection, extract candidate fields, compare reports, and flag records that may describe the same occurrence. It can apply a preliminary codebook to thousands of passages and identify dimensions the original codebook omitted. Studies of text annotation show that language models can perform some bounded classification tasks quickly and inexpensively. Performance, however, varies substantially across tasks and datasets, which makes local validation indispensable.[@gilardi2023chatgpt; @pangakis2023annotation; @ziems2024transform]
+AI changes the feasible scale of this work. A system can expand queries, search an authorized collection, extract candidate fields, compare reports, and flag records that may describe the same occurrence. It can apply a preliminary codebook to thousands of passages and identify dimensions the original codebook omitted. Studies of text annotation show that language models can perform some bounded classification tasks quickly and inexpensively. Performance, however, varies substantially across tasks and datasets, which makes local validation indispensable.[@gilardi2023chatgpt; @pangakis2023annotation; @ziems2024transform] A useful distinction separates tasks by whether the coding material is supplied and by how much interpretation the coder must contribute. Extracting a date or place from a specified report is a different automation problem from rating a regime by drawing on unspecified material and tacit political knowledge.[@weidmann2026democracy, 18--19]
 
 The resulting speed creates a methodological danger. A fluent extraction can make an uncertain mention look like an observed event. Several articles can make one wire report look like independent confirmation. A model can produce a precise code for an ambiguous passage or a causal probability without defining the comparison that gives the number meaning. Faster processing does not remove these problems. It can reproduce them at scale.
 
@@ -66,6 +66,8 @@ This workflow turns AI into a critic of the original design. The model may notic
 ### Validate before scaling
 
 Automated coding should be evaluated against researcher-coded material drawn from the intended corpus. The validation sample should include different periods, sources, languages, common classes, rare classes, and difficult boundary cases. A temporal holdout helps expose drift. A source holdout tests whether the system has learned one outlet's style instead of the event concept.
+
+Validation must test absolute agreement, not only association. Weidmann, Faulborn, and García asked GPT-4o and Llama-3.1-70B to code 53 expert-rated V-Dem indicators for 171 countries in 2023. The zero-shot ratings correlated positively with the aggregated expert scores, but the models shifted the scales in opposite directions: GPT-4o was generally more pessimistic and Llama-3.1 more optimistic. Both diverged more as disagreement among human coders increased.[@weidmann2026democracy, 19--21] The study calls these values *differences*, not errors, because the expert aggregate is not ground truth. Its design nevertheless demonstrates why a system can reproduce relative ordering while remaining unsuitable for absolute classification.
 
 Report performance by variable and class. Overall accuracy can conceal failure on rare but substantively important events. Precision, recall, and error types usually provide more useful guidance. Double-code a consequential or ambiguous subset, adjudicate disagreements, and record whether each error arose from retrieval, source quality, event resolution, the codebook, or the model. Contemporary event-data research treats this as a measurement problem, not merely a software benchmark.[@brandt2025measurement]
 
@@ -153,6 +155,8 @@ A mature pipeline separates retrieval, extraction, verification, resolution, cod
 Consider a model cascade. A low-cost system can rank documents, a stronger system can extract difficult candidates, and a researcher can adjudicate the consequential cases. Route rare classes, low-confidence outputs, conflicting source spans, and causal evidence to expert review. Measure how the routing rule changes both error and labor.
 
 Test model and source drift. Recode a fixed benchmark after provider updates. Sample new records by period and outlet. Compare human disagreement with model error without treating one as a substitute for the other.
+
+Multiple models can be informative, but averaging is not a substitute for calibration. In the V-Dem experiment, averaging a pessimistic and an optimistic model reduced the mean difference from expert coding. The authors still caution that the direction and strength of each model's tendency must be measured beforehand and checked on difficult cases.[@weidmann2026democracy, 21--23] A useful ensemble benchmark therefore preserves model-specific outputs, tests each against the same frozen human-coded sample, and records when apparent balance merely cancels opposing errors.
 
 For causal inference, compare several defensible prior and likelihood specifications. Run the analysis with and without dependent reports, contested documents, and exploratory variables. The aim is not to manufacture a precise posterior. It is to show which evidence changes the argument, which assumptions carry the result, and what new observation would alter the conclusion.
 

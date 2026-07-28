@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-12"
-last-reviewed: "2026-07-12"
+last-reviewed: "2026-07-28"
 license: "CC BY 4.0"
 ---
 
@@ -44,6 +44,8 @@ The same rule applies to summaries. A model may produce an elegant account of a 
 ## Bias and Missing Perspectives
 
 Models can reproduce the visibility structure of their training material. Well-indexed English-language institutions may appear central because they are easier for the system to name. Local archives, non-English terms, and informal records may disappear from the response. This weakness makes AI useful as one critic among several, never as the sole designer of a source map.
+
+Bias can also appear as a stable direction of judgment rather than as an omitted perspective. In a zero-shot comparison with aggregated V-Dem expert ratings, GPT-4o tended to assign lower democracy scores while Llama-3.1-70B tended to assign higher ones; the differences grew for countries on which human coders disagreed most.[@weidmann2026democracy, 20--22] The direction was model-specific and not known in advance. Do not assume that replacing one model with another removes bias. Benchmark the actual model and version on locally relevant, researcher-coded cases, inspect directional differences by subgroup and difficulty, and retain the individual results when models are combined.
 
 Ask what position the response assumes. Ask which actors it treats as authoritative. Ask which language and region dominate its suggestions. Then use domain expertise and human consultation to correct the map.
 
