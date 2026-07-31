@@ -18,6 +18,7 @@ CHAPTERS = [
     "content/07-evaluate.qmd",
     "content/08-test-coverage.qmd",
     "content/09-produce-evidence-map.qmd",
+    "content/10-mirrored-newspaper-evidence.qmd",
     "content/12-literature-as-evidence.qmd",
     "content/13-define-review.qmd",
     "content/14-map-concepts-vocabulary.qmd",
@@ -213,7 +214,7 @@ def test_hebrew_table_of_contents_tracks_current_book() -> None:
     text = path.read_text(encoding="utf-8")
     chapter_numbers = re.findall(r"^### (\d+)\.", text, flags=re.MULTILINE)
 
-    assert chapter_numbers == [str(number) for number in range(1, 25)]
+    assert chapter_numbers == [str(number) for number in range(1, 26)]
     assert "direction: rtl" in text
     assert "## חלק ראשון: ממחקר ראשוני למפת ראיות" in text
-    assert "### 22. מעבדת סקילים וסוכנים" in text
+    assert "### 23. מעבדת סקילים וסוכנים" in text

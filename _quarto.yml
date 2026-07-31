@@ -20,6 +20,7 @@ book:
     - content/07-evaluate.qmd
     - content/08-test-coverage.qmd
     - content/09-produce-evidence-map.qmd
+    - content/10-mirrored-newspaper-evidence.qmd
     - content/12-literature-as-evidence.qmd
     - content/13-define-review.qmd
     - content/14-map-concepts-vocabulary.qmd

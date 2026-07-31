@@ -1,0 +1,107 @@
+---
+title: "Mirrored Newspaper Evidence"
+description: "Reconstruct a contested event across languages, newspapers, and record-producing institutions."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-07-31"
+last-reviewed: "2026-07-31"
+license: "CC BY 4.0"
+---
+
+## A Question with Two Archives
+
+In July 1939, the Hebrew newspaper *Davar* described the Special Night Squads as the institutional expression of a new operational principle. Passive defense could not restore order. The force had to leave the fence, move at night, and meet armed groups in the hills. The article placed Orde Wingate at the center of the story and linked his squads to members of the earlier Jewish Field Companies.[@davar19390716sns]
+
+The Arabic press recorded the same campaign from a different position. Its reports rarely used the institutional names by which the units later entered Israeli military history. They reported places and consequences: Hanita, the Iraq Petroleum Company pipeline, Kawkab al-Hawa, Dabburiya, patrols, casualties, aircraft, tracking dogs, village cordons, searches, and arrests. The two archives did not answer a shared query in parallel. They had to be brought into relation.
+
+This case study reconstructs that process. The question was narrow: how did the Arabic-language press portray the activities that Hebrew accounts associated with the Field Companies and the Special Night Squads during 1938? The purpose was not to decide which press tradition told the truth. It was to recover what each source could see, identify the institutions through which its information passed, and compare accounts only when date, place, and operational details warranted the comparison.
+
+## The Eight-Step Reconstruction
+
+The procedure produced four durable records: a search log, a source manifest, an event crosswalk, and an interpretive memo. Each record captured a different decision.
+
+| Step | Research decision | Demonstration from the case |
+|---|---|---|
+| 1. Bound the inquiry | Specify period, languages, archive, units, and non-goals. | The pilot covered Arabic and Hebrew newspapers in the National Library of Israel, chiefly March–July 1938. It did not claim full coverage of the Arab press or insurgent communications. |
+| 2. Build multilingual vocabulary | Translate concepts, then add historical spellings, transliterations, places, and operational terms. | Searches included five Arabic spellings of Wingate, four spellings of Hanita, unit-name candidates, villages, the oil pipeline, patrols, ambushes, cordons, and searches. |
+| 3. Preserve failed searches | Record zero results and false positives before changing strategy. | Exact Arabic equivalents for “Field Companies” and “night squads” returned no useful results. A short Wingate spelling returned fourteen OCR false positives. |
+| 4. Pivot from organizations to events | Search by date, place, infrastructure, casualty, and method. | “Oil pipelines” returned 221 results. “Dabburiya” returned eighteen. “Kawkab al-Hawa” returned thirty-six. |
+| 5. Verify the record | Open the article record, compare OCR with the scan, and preserve the stable link. | The headline in *al-Jāmiʿa al-Islāmiyya* connected four aircraft, an Arab killed in the pipeline zone, and the cordon of Beisan. The scan confirmed the headline, but the body remained unavailable through OCR.[@jamiaislamia19380615pipeline] |
+| 6. Classify information origin | Distinguish local reporting, official communiqué, and dependent repetition. | One *Filasṭīn* report came from its Beisan correspondent.[@falastin19380601pipeline] Another translated Public Security Department bulletins.[@falastin19380614security] Its Hanita account explicitly summarized Hebrew newspapers.[@falastin19380325hanita] |
+| 7. Crosswalk events | Match accounts only when date, place, and at least two operational details overlap. | The Dabburiya reports identified Wingate, a mixed British-Jewish force, three dead armed men, a dead Jewish guard, and wounded personnel. They also described the cordon and search that followed.[@falastin19380712dabburiyya; @difaa19380712dabburiyya] |
+| 8. State a stopping rule | Separate confirmed matches, probable matches, theater-level parallels, and unresolved leads. | Dabburiya was a confirmed Wingate event. A possible match between a Hebrew diary entry near Dana and an Arabic headline about a man killed in the pipeline zone remained probable, not confirmed. |
+
+The sequence matters. A model asked to find “Arabic reports about the Special Night Squads” would probably understate the surviving record because the Arabic press seldom used that name. The useful shift came when failed organizational searches became evidence about the archive rather than a reason to stop.
+
+## The Search Pivot
+
+The first searches tested names. The exact phrase `الكابتن ونجيت` (“Captain Wingate”) produced one decisive result. Two proposed Arabic equivalents for the Field Companies produced none. The exact phrase for “night squads” also produced none. These failures narrowed the route by which the newspapers could be entered.
+
+The second searches tested the operational geography. The oil pipeline generated a large candidate set because sabotage, patrols, and security measures repeatedly entered the news. Place names then reduced that set. A local report from 1 June described unknown persons damaging the pipeline near al-Tayyiba, setting the oil alight, and drawing police, border forces, and tracking dogs to the scene.[@falastin19380601pipeline] Six days later, *al-Difāʿ* reported that the British government would send four Royal Air Force aircraft to protect the pipeline in Palestine and Transjordan.[@difaa19380607aircraft] On 17 June, a *Filasṭīn* correspondent reported that an armed group attacked the pipeline near Kawkab al-Hawa, fired on it, and ignited oil visible from a distance.[@falastin19380617kawkab]
+
+The Hebrew retrospective turned these flames into the operational problem Wingate set out to solve. The Arabic reports restored the intervening scale: damaged infrastructure, aircraft, patrols, searches, casualties, and restrictions on movement. The accounts refer to the same theater, but they perform different narrative work.
+
+## A Crosswalk, Not a Merger
+
+The event crosswalk prevents thematic similarity from becoming false identity. Each row retains both source records and records the quality of the match.
+
+| Event | Shared record | Hebrew frame | Arabic frame | Status |
+|---|---|---|---|---|
+| Hanita, March 1938 | New settlement, Jewish guards, night attack, guard commander killed, police response | The Field Companies move from exercises to mobile battle. | The settlement is described as a Jewish occupation of land; arrests in al-Bassa follow the attack. | Confirmed event, but the Arabic articles depend on Hebrew newspaper reports. |
+| Pipeline near al-Tayyiba, 31 May 1938 | Pipeline damaged, oil ignited, security forces respond | Burning oil justifies operational innovation. | Sabotage is followed by police, border forces, and tracking dogs. | Confirmed event at theater level; no direct unit identification. |
+| Dana and the pipeline zone, 13–15 June 1938 | Pipeline zone, Jewish additional police, armed Arabs, one Arab killed, Jewish personnel wounded | A squad diary describes a dawn ambush near Dana. | Separate reports describe pipeline damage near Dana, a clash near Sarid, and a man killed crossing the pipeline zone. | Probable. The records may combine more than one incident. |
+| Kawkab al-Hawa, 6 July 1938 | Armed group, military patrol, Jewish guards, prolonged exchange, British and Jewish wounded | Night patrol and counter-ambush form the method. | *al-Difāʿ* separates a “Jewish version” from the government communiqué.[@difaa19380707kawkab] | Confirmed Arabic event; medium-confidence match to the Hebrew retrospective. |
+| Dabburiya, 11 July 1938 | Wingate, mixed force, three armed men killed, Jewish guard killed, Wingate and others wounded | Wingate is remembered as the organizer of a method. | Casualties, injured villagers, cordon, and house searches structure the account. | Confirmed Wingate event; the compared sources belong to different genres. |
+
+This record is a crosswalk rather than a merged narrative. A merged row would erase the fact that the Arabic report sometimes originated in a British communiqué or a Hebrew newspaper. Dependence does not make the report useless. It changes what the report can support.
+
+## What the Comparison Revealed
+
+The Hebrew and Arabic records differ first in their unit of observation. The Hebrew retrospective looks outward from the training camp. It sees leadership, doctrine, discipline, mobility, and organizational lineage. The Arabic daily report looks inward from the village, road, or pipeline. It sees gunfire, bodies, cordons, searches, arrests, and interruptions of movement.
+
+They differ next in chronology. The Hebrew articles that made the institutional argument appeared mainly in 1939 and looked back on the previous year. Most of the Arabic sources were published within a day or two of the reported event. One source therefore possesses retrospective coherence; the other preserves contemporary fragmentation.
+
+They also differ in informational independence. *al-Difāʿ* made this visible on 7 July when it labeled one section `رواية يهودية`, a “Jewish version,” and placed it beside the official government account.[@difaa19380707kawkab] This was not merely another description of a firefight. It exposed the chain through which descriptions became news.
+
+The comparison supports a modest claim. The same operational practice could appear as military adaptation in one archive and as a coercive security presence in another. The crosswalk does not reconcile those views. It shows why both belong in the explanation.
+
+## The AI Contribution
+
+AI assisted with search-vocabulary expansion, OCR triage, translation, candidate grouping, and comparison across records. It also preserved the trail of negative searches that motivated the shift from units to events. These tasks reduced the cost of navigating a multilingual newspaper collection.
+
+The model did not establish event identity. It did not correct uncertain names or casualty numbers without the scan. It did not treat an Arabic newspaper as an unmediated voice of the Arab revolt. It did not infer absence from a failed OCR search. Those decisions remained with the researcher.
+
+A bounded prompt for this task reads:
+
+> Given this dated source manifest and these article transcriptions, propose event matches across languages. For each proposed match, list the shared date, place, actors, and operational details. Classify the match as confirmed, probable, theater-level, or rejected. Identify whether each report is local, official, or dependent on another newspaper. Do not merge records, repair unreadable text, or infer that a missing unit name means the unit was absent.
+
+The output becomes a candidate crosswalk. It enters the research record only after the researcher checks the article page, the scan when needed, and the provenance of the report.
+
+## Where This Method Sits
+
+The procedure is an integration, not a new algorithm. Several established approaches supply parts of it. Collections as Data and the Collections as ML Data checklist treat documentation, provenance, rights, and absences as parts of the research object rather than administrative afterthoughts.[@padilla2019collections; @lee2023collections] The Environmental Scan contextualizes large historical newspaper datasets against the wider publishing landscape and estimates what digitization leaves out.[@beelen2025whosenews] Impresso develops multilingual enrichment and comparison across historical media while retaining links to facsimiles and metadata.[@impresso2026objectives] Computational grounded theory alternates machine-assisted pattern detection with close interpretation and confirmation.[@nelson2020computational] LLM-assisted qualitative coding keeps codebook development and validation under human control while scaling classification.[@dunivin2025scaling; @than2025future] ASReview demonstrates how a machine can prioritize candidates while the researcher retains inclusion decisions and an explicit stopping criterion.[@vandeschoot2021asreview]
+
+This case combines those commitments around a different object: a contested event represented in newspapers written in different languages and produced through different information chains. Its additional contribution is the event crosswalk. It records why two reports may refer to the same occurrence without collapsing their wording, provenance, or political position. It also retains negative searches, source dependence, match confidence, and reopening conditions in one inspectable package.
+
+The claim should remain limited. This workflow does not replace digital source criticism, corpus-level bias analysis, or validated qualitative coding. It supplies a bridge between them for researchers who begin with a focused historical question and work through imperfect public interfaces rather than a clean downloadable corpus.
+
+## Integrity Checkpoint
+
+Three controls kept the comparison within the evidence. First, the manifest preserved the National Library record title even when OCR made the title awkward; a normalized title appeared in a separate field. Second, uncertain personal names, ages, and casualty figures remained marked for manual review. Third, the public example stores metadata, short analytical paraphrases, and links. It does not republish newspaper scans whose publication rights were not established.
+
+Digitized newspaper collections carry their own selection and representation biases. Coverage, scanning quality, OCR accuracy, and interface design shape what researchers can retrieve.[@beelen2023bias] A zero-result query is therefore a result about the search system and the present vocabulary. It is not proof that the term never appeared.
+
+## Save and Reopen
+
+The worked example is available as a small reconstruction package:
+
+- [Source manifest](../examples/mirrored-newspaper-evidence/source-manifest.csv)
+- [Event crosswalk](../examples/mirrored-newspaper-evidence/event-crosswalk.csv)
+- [Search log](../examples/mirrored-newspaper-evidence/search-log.csv)
+- [Readme and field definitions](../examples/mirrored-newspaper-evidence/README.md)
+- [Hebrew presentation](../presentations/mirrored-newspaper-evidence-he.pptx)
+
+Collection stopped when the pilot had produced one confirmed person-event match, one confirmed settlement event, several pipeline-theater matches, an explicit example of source dependence, and a documented set of unresolved searches. It would reopen if a new Arabic title, British police file, unit diary, or improved OCR supplied an independent account of Hanita, a date for the Dana diary entry, or firmer evidence about the civilians injured at Dabburiya.
+
+The package reconstructs the decisions that produced the comparison. That is its principal contribution.
