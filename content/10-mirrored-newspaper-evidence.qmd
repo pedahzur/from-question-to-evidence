@@ -82,6 +82,48 @@ The output becomes a candidate crosswalk. It enters the research record only aft
 
 The procedure is an integration, not a new algorithm. Several established approaches supply parts of it. Collections as Data and the Collections as ML Data checklist treat documentation, provenance, rights, and absences as parts of the research object rather than administrative afterthoughts.[@padilla2019collections; @lee2023collections] The Environmental Scan contextualizes large historical newspaper datasets against the wider publishing landscape and estimates what digitization leaves out.[@beelen2025whosenews] Impresso develops multilingual enrichment and comparison across historical media while retaining links to facsimiles and metadata.[@impresso2026objectives] Computational grounded theory alternates machine-assisted pattern detection with close interpretation and confirmation.[@nelson2020computational] LLM-assisted qualitative coding keeps codebook development and validation under human control while scaling classification.[@dunivin2025scaling; @than2025future] ASReview demonstrates how a machine can prioritize candidates while the researcher retains inclusion decisions and an explicit stopping criterion.[@vandeschoot2021asreview]
 
+### Recent Studies Using the Approaches
+
+Recent applications clarify what each approach contributes and where its responsibility ends.
+
+| Approach | Recent study | What the study did | Lesson for mirrored evidence |
+|---|---|---|---|
+| Collections as Data | *On the Books: Jim Crow and Algorithms of Resistance* | Researchers converted North Carolina legal volumes from 1866–1967 into a documented text corpus and used machine learning to identify laws likely to have sustained Jim Crow.[@henley2023onthebooks] | Corpus construction, metadata, and documentation are parts of the scholarly argument, not merely technical preparation. |
+| Environmental Scan | *Whose News?* | British Newspaper Archive holdings were linked to nineteenth-century press directories to estimate which regions and political positions were over- or underrepresented in the digitized press.[@beelen2025whosenews] | Researchers should evaluate the boundaries and biases of the searchable collection before interpreting retrieved articles. |
+| Impresso | *Transparent Generosity* | A case study compared Swiss and Luxembourgish newspaper coverage of civil and military nuclear technologies using multilingual search, linked entities, topics, n-grams, OCR information, comparison, and close reading.[@during2024transparent] | Semantic enrichment can widen discovery and comparison, but the historian still has to establish the significance and identity of the records. |
+| Computational grounded theory | *A Novel, Human-in-the-Loop Computational Grounded Theory Framework for Big Social Data* | Manual coding, topic modeling, human validation, and interpretive reading of discussions in eighteen Reddit communities were combined to develop a theory of tutors' experiences in the platform economy.[@alqazlan2025human] | Computation can reveal patterns, but explanatory categories emerge through repeated human interpretation and validation. |
+| LLM-assisted qualitative coding | *Scaling Hermeneutics* and *When Investigator Meets Large Language Models* | One study tested nine sociohistorical codes on 232 *New York Times* passages about W. E. B. Du Bois; another compared human, ChatGPT, and Gemini analyses of thirty-three cancer-patient interviews.[@dunivin2025scaling; @shanwetterlevit2025investigator] | Model output depends on codebook design and local validation; thematic coverage does not guarantee preservation of narrative or emotional context. |
+| ASReview | Periodontics and cancer-immunotherapy case studies | In six periodontics topics, all relevant studies were found after screening an average of 39.8 percent of the records. A second study used ASReview to help populate a living database of cancer-immunotherapy trials.[@chan2024screening; @boesen2025screening] | Prioritization can reduce screening work, but inclusion decisions, model training choices, and stopping rules must remain visible. |
+
+These approaches occupy different stages of a research process. Collections as Data prepares and documents the corpus. The Environmental Scan tests the corpus against the wider source environment. Impresso supports discovery and comparison. Computational grounded theory and LLM-assisted coding operate mainly after a corpus has been assembled, helping researchers move from patterns to interpretation or apply validated categories at scale. ASReview orders the screening queue but does not interpret the records.
+
+### Overlap and Distinctive Contribution
+
+The following map describes conceptual overlap, not a quantitative similarity score.
+
+```{mermaid}
+%%| fig-width: 6.5
+%%| fig-height: 3
+%%| out-width: 100%
+flowchart TB
+    C["Shared commitments<br/>transparency, traceability, human validation, source criticism"]
+    D["Corpus layer<br/>Collections as Data: provenance and rights<br/>Environmental Scan: missingness and bias"]
+    R["Discovery layer<br/>Impresso: multilingual retrieval and comparison"]
+    I["Interpretive layer<br/>Computational grounded theory: explanation<br/>LLM-assisted coding: classification at scale"]
+    S["Screening layer<br/>ASReview: prioritization and stopping"]
+    P["Mirrored newspaper evidence<br/>cross-language event crosswalk"]
+
+    C --> D
+    C --> R
+    C --> I
+    C --> S
+
+    D -->|"high: corpus foundations"| P
+    R -->|"high: multilingual retrieval"| P
+    I -->|"medium: interpretive iteration"| P
+    S -->|"partial: triage and stopping"| P
+```
+
 This case combines those commitments around a different object: a contested event represented in newspapers written in different languages and produced through different information chains. Its additional contribution is the event crosswalk. It records why two reports may refer to the same occurrence without collapsing their wording, provenance, or political position. It also retains negative searches, source dependence, match confidence, and reopening conditions in one inspectable package.
 
 The claim should remain limited. This workflow does not replace digital source criticism, corpus-level bias analysis, or validated qualitative coding. It supplies a bridge between them for researchers who begin with a focused historical question and work through imperfect public interfaces rather than a clean downloadable corpus.

@@ -74,3 +74,21 @@ def test_related_methods_and_bilingual_posts_are_present() -> None:
     for post in POSTS:
         word_count = len(post.read_text(encoding="utf-8").split())
         assert 450 <= word_count <= 600
+
+
+def test_chapter_includes_recent_studies_and_overlap_map() -> None:
+    text = CHAPTER.read_text(encoding="utf-8")
+    for citation in (
+        "@henley2023onthebooks",
+        "@beelen2025whosenews",
+        "@during2024transparent",
+        "@alqazlan2025human",
+        "@dunivin2025scaling",
+        "@shanwetterlevit2025investigator",
+        "@chan2024screening",
+        "@boesen2025screening",
+    ):
+        assert citation in text, citation
+    assert "```{mermaid}" in text
+    assert "Mirrored newspaper evidence" in text
+    assert "conceptual overlap, not a quantitative similarity score" in text

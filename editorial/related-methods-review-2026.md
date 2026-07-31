@@ -34,6 +34,17 @@ project page.
 | LLM-assisted qualitative coding | Human-developed codebooks, prompt refinement, gold-standard validation, and scaled application of codes. | Supports information-origin classification and human validation of model suggestions. | Assumes a defined corpus and coding unit; the pilot must first discover and verify the sources themselves. |
 | ASReview and active-learning screening | Machine prioritization, researcher inclusion decisions, saved labels, benchmarks, and stopping criteria. | Closely resembles candidate triage and the preservation of researcher decisions. | Screens research records for relevance, not politically asymmetric accounts of one historical event. |
 
+## Recent applied examples
+
+| Approach | Applied example | Verification and relevance |
+|---|---|---|
+| Collections as Data | Henley et al., *On the Books* (2023) | Peer-reviewed case study. A documented legal corpus and machine learning were used to identify likely Jim Crow laws. |
+| Environmental Scan | Beelen et al., *Whose News?* (2025) | Peer-reviewed defining application. British Newspaper Archive holdings were compared with historical press-directory metadata. |
+| Impresso | Düring, Bunout, and Guido, *Transparent Generosity* (2024) | Peer-reviewed interface study with a worked comparison of Swiss and Luxembourgish press coverage of nuclear technologies. |
+| Computational grounded theory | Alqazlan et al., *A Novel, Human-in-the-Loop Computational Grounded Theory Framework for Big Social Data* (2025) | Peer-reviewed application to discussions in eighteen Reddit communities of tutors in the platform economy. |
+| LLM-assisted qualitative coding | Dunivin, *Scaling Hermeneutics* (2025); Shanwetter Levit and Saban, *When Investigator Meets Large Language Models* (2025) | Peer-reviewed studies using, respectively, 232 newspaper passages about W. E. B. Du Bois and thirty-three cancer-patient interviews. |
+| ASReview | Chan et al., *Assessing the Article Screening Efficiency* (2024); Boesen et al., *Machine-Learning Assisted Screening* (2025) | Peer-reviewed evaluations in periodontics and in the construction of a living cancer-immunotherapy evidence database. |
+
 ## Assessment
 
 The pilot does not claim methodological novelty for multilingual search,
@@ -74,3 +85,17 @@ and test whether the same stopping rule produces comparable corpora.
 - van de Schoot et al., “An Open Source Machine Learning Framework for
   Efficient and Transparent Systematic Reviews” (2021),
   <https://doi.org/10.1038/s42256-020-00287-7>.
+- Henley et al., “On the Books: Jim Crow and Algorithms of Resistance”
+  (2023), <https://doi.org/10.1145/3631128>.
+- Düring, Bunout, and Guido, “Transparent Generosity” (2024),
+  <https://doi.org/10.1080/01615440.2024.2344004>.
+- Alqazlan et al., “A Novel, Human-in-the-Loop Computational Grounded Theory
+  Framework for Big Social Data” (2025),
+  <https://doi.org/10.1177/20539517251347598>.
+- Shanwetter Levit and Saban, “When Investigator Meets Large Language Models”
+  (2025), <https://doi.org/10.1038/s41746-025-01747-3>.
+- Chan et al., “Assessing the Article Screening Efficiency of Artificial
+  Intelligence for Systematic Reviews” (2024),
+  <https://doi.org/10.1016/j.jdent.2024.105259>.
+- Boesen et al., “Machine-Learning Assisted Screening for Evidence Synthesis”
+  (2025), <https://doi.org/10.1017/cts.2025.10173>.
