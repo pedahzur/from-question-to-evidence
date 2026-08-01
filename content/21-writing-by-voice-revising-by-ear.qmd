@@ -40,9 +40,9 @@ This chapter develops a round-trip method. The researcher moves from a brief to 
 spoken draft, from the spoken draft to a verified text, from the verified text to
 a listening copy, and from listening notes to a revised canonical draft. The
 method does not depend on one application. Dated tool cards for
-[Wispr Flow](https://github.com/pedahzur/from-question-to-evidence/blob/main/docs/tool-cards/wispr-flow.md)
+[Wispr Flow](https://github.com/pedahzur/from-question-to-evidence/blob/revise/referee-pass-2026-07-14/docs/tool-cards/wispr-flow.md)
 and
-[Speechify](https://github.com/pedahzur/from-question-to-evidence/blob/main/docs/tool-cards/speechify.md)
+[Speechify](https://github.com/pedahzur/from-question-to-evidence/blob/revise/referee-pass-2026-07-14/docs/tool-cards/speechify.md)
 record current product details separately from the method.
 
 ## Learn
