@@ -5,6 +5,7 @@ project:
   resources:
     - templates/*.xlsx
     - templates/*.docx
+    - templates/*.md
     - assets/evidence-map-pilot.js
     - downloads/*.zip
     - downloads/*.sha256

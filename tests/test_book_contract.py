@@ -29,6 +29,7 @@ CHAPTERS = [
     "content/19-building-event-databases-with-ai.qmd",
     "content/19-ai-research-integrity.qmd",
     "content/20-pkm-and-ai-research-infrastructure.qmd",
+    "content/21-writing-by-voice-revising-by-ear.qmd",
     "content/skills-and-agents-lab.qmd",
     "content/20-next-steps.qmd",
     "content/references.qmd",
@@ -196,6 +197,53 @@ def test_pkm_ai_chapter_is_operational_and_source_audited() -> None:
     assert "readwise content inspected" in register_text
 
 
+def test_voice_writing_chapter_is_auditable_and_multilingual() -> None:
+    chapter = ROOT / "content/21-writing-by-voice-revising-by-ear.qmd"
+    assert chapter.is_file()
+
+    text = chapter.read_text(encoding="utf-8")
+    headings = re.findall(r"^## (.+)$", text, flags=re.MULTILINE)
+    assert headings == STAGE_SECTIONS
+
+    lowered = text.lower()
+    required_language = (
+        "round-trip method",
+        "raw transcript",
+        "corrected transcript",
+        "listening copy",
+        "multilingual",
+        "code-switched",
+        "privacy",
+        "permitted input",
+        "do not provide",
+        "verify",
+        "record",
+    )
+    for phrase in required_language:
+        assert phrase in lowered, phrase
+
+    for citation in (
+        "@liu2022typist",
+        "@lin2024rambler",
+        "@garrison2009tts",
+        "@ugan2024decm",
+        "@kim2025myth",
+    ):
+        assert citation in text, citation
+
+    for relative in (
+        "docs/tool-cards/wispr-flow.md",
+        "docs/tool-cards/speechify.md",
+        "templates/voice-round-trip-log.md",
+    ):
+        assert (ROOT / relative).is_file(), relative
+
+    for card in ("wispr-flow.md", "speechify.md"):
+        card_text = (ROOT / "docs/tool-cards" / card).read_text(encoding="utf-8")
+        assert "last-verified: 2026-08-01" in card_text
+        assert "Next scheduled review: 2026-11-01" in card_text
+
+
 def test_public_project_documents_exist() -> None:
     for relative in (
         "README.md",
@@ -213,7 +261,8 @@ def test_hebrew_table_of_contents_tracks_current_book() -> None:
     text = path.read_text(encoding="utf-8")
     chapter_numbers = re.findall(r"^### (\d+)\.", text, flags=re.MULTILINE)
 
-    assert chapter_numbers == [str(number) for number in range(1, 25)]
+    assert chapter_numbers == [str(number) for number in range(1, 26)]
     assert "direction: rtl" in text
     assert "## חלק ראשון: ממחקר ראשוני למפת ראיות" in text
-    assert "### 22. מעבדת סקילים וסוכנים" in text
+    assert "### 22. כתיבה בקול, עריכה באמצעות האוזן" in text
+    assert "### 23. מעבדת סקילים וסוכנים" in text

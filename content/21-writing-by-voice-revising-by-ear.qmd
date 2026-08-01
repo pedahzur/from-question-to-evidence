@@ -1,0 +1,336 @@
+---
+title: "Writing by Voice, Revising by Ear"
+description: "Use AI dictation and multilingual text-to-speech to capture ideas, inspect prose, and preserve an auditable writing record."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-08-01"
+last-reviewed: "2026-08-01"
+license: "CC BY 4.0"
+---
+
+## Orientation
+
+Academic writing is often described as if it begins at a keyboard and ends on a
+page. This description excludes two valuable modes of work. A researcher can
+speak a draft before typing it, and can listen to a written draft before revising
+it. Current speech-recognition systems have reduced the effort required to turn
+spoken language into editable text. Current text-to-speech systems can read a
+draft aloud in several languages, at different speeds, while the writer follows
+the text on screen.
+
+These two directions perform different scholarly functions. Dictation reduces
+the friction of capture. It can preserve an argument that is easier to explain
+aloud than to type, support writers who think through speech, and make writing
+more accessible when a keyboard is difficult to use. Listening creates distance
+from a familiar draft. It can expose missing words, repetition, overloaded
+sentences, abrupt transitions, and translations that look acceptable on the page
+but sound unnatural.
+
+Neither operation is neutral. Speech recognition interprets sound and may alter
+names, numbers, quotations, punctuation, or specialized terms. Text-to-speech
+interprets written language through pronunciation, pacing, and emphasis. A fluent
+voice can make a weak argument sound finished. A mistaken pronunciation can make
+a correct term sound wrong. Both systems may send text or audio to an external
+service. The operative question is therefore not whether voice tools are fast. It
+is how to use their speed while preserving meaning, privacy, and a visible record
+of revision.
+
+This chapter develops a round-trip method. The researcher moves from a brief to a
+spoken draft, from the spoken draft to a verified text, from the verified text to
+a listening copy, and from listening notes to a revised canonical draft. The
+method does not depend on one application. Dated tool cards for
+[Wispr Flow](https://github.com/pedahzur/from-question-to-evidence/blob/main/docs/tool-cards/wispr-flow.md)
+and
+[Speechify](https://github.com/pedahzur/from-question-to-evidence/blob/main/docs/tool-cards/speechify.md)
+record current product details separately from the method.
+
+## Learn
+
+### Dictation is composition, not automatic transcription of thought
+
+Dictation is often treated as a faster keyboard. In practice, it changes the
+composition task. Spoken drafts tend to include repetition, unfinished syntax,
+late qualifications, and ideas that arrive in a different order from the final
+argument. Research on voice-based text authoring shows that the work extends well
+beyond word recognition. Writers must manage ambiguity, review what the system
+captured, and move between speaking and visible text.[@liu2022typist] Recent work
+on LLM-assisted speech writing reaches a similar conclusion. Speech can produce
+useful material quickly, but the writer still needs control over selection,
+ordering, and revision.[@lin2024rambler]
+
+A productive session therefore begins with a small capture brief. The brief names
+the purpose of the passage, the claim under consideration, the evidence that may
+be used, the material that must not be supplied to the application, and the
+desired length. It does not script every sentence. Its purpose is to keep the
+spoken draft inside a defined scholarly task.
+
+The first transcript should remain a capture artifact. Correction at this stage
+is limited to fidelity: names, dates, technical terms, punctuation that changes
+meaning, and words that the system misheard. Structural revision belongs in a
+separate file or version. This separation prevents a polished paragraph from
+concealing what the researcher originally said and what the software or a later
+AI operation changed.
+
+### Preserve the source and each transformation
+
+A voice-writing session can produce several related objects: a capture brief, an
+audio recording if retention is permitted, the raw recognized text, a corrected
+transcript, a structured draft, a listening copy, listening notes, and the
+revised manuscript. Not every project needs to retain audio. A writer may choose
+live dictation precisely to avoid storing a recording. The record should state
+that choice rather than imply that a source file exists.
+
+The raw transcript and the corrected transcript should not silently replace one
+another. A correction such as changing a misspelled author name is different from
+rewriting an uncertain sentence. The first restores fidelity. The second changes
+the prose. Version history, tracked changes, or a short correction log makes the
+difference visible.
+
+This rule becomes more important when an AI system cleans a transcript. Removal
+of fillers may be harmless in a personal writing draft, but harmful in an
+interview transcript where hesitation, repair, or code-switching carries meaning.
+The research function of the material determines which transformations are
+allowed. A dictated manuscript draft and a participant interview may both begin
+as audio, but they are not governed by the same evidentiary standard.
+
+### Separate capture, correction, structure, and judgment
+
+The round-trip method assigns one main task to each pass. The capture pass records
+ideas without requiring finished prose. The correction pass checks the recognized
+text against what was said. The structure pass turns spoken material into an
+argument. The listening pass identifies audible problems. The judgment pass tests
+claims, evidence, qualifications, and citations.
+
+Combining the passes creates predictable errors. Editing while dictating can
+restore the keyboard bottleneck. Asking an AI system to correct and reorganize at
+the same time can make it impossible to tell whether it repaired recognition or
+changed the argument. Listening for grammar, causal logic, citation support, and
+translation accuracy in one pass divides attention. A staged procedure is slower
+than a single command but faster than reconstructing an undocumented change.
+
+### Listen for a defined class of problems
+
+Text-to-speech is valuable because it reads the visible text rather than the
+sentence the writer remembers intending to write. An experimental study of 51
+first-year college writers found that text-to-speech could support proofreading,
+but did not produce better local or global revision than the comparison
+condition.[@garrison2009tts] Listening should therefore be assigned a limited
+role. It is a diagnostic pass, not peer review and not an argument audit.
+
+Three listening passes serve different purposes. A slow proofing pass can expose
+omitted words, duplicate phrases, punctuation problems, and malformed citations.
+A normal-speed prose pass can reveal sentence length, rhythm, transitions, and
+paragraphs that carry too many claims. A faster argument pass can test whether the
+main line remains intelligible when the listener does not stop to repair it
+mentally. The writer records the location and type of each problem, then revises
+the canonical text after the listening session.
+
+The listening copy may remove footnote markers, long URLs, tables, and reference
+lists that interrupt playback. It is a disposable derivative. The canonical
+manuscript remains unchanged until the writer accepts a revision. This distinction
+also prevents an accessibility copy from becoming an undocumented new edition.
+
+### Treat multilingual use as a benchmarked workflow
+
+Voice tools can help a multilingual scholar draft in the language in which an
+idea arrives and later inspect prose in the publication language. They can also
+read a translated passage aloud to reveal awkward syntax or a borrowed expression
+that does not travel well. They cannot establish that the translation preserves
+meaning. Source and target texts still require comparison, and consequential
+translations require a qualified human reader.
+
+Language switching deserves special caution. Current multilingual recognition
+systems may perform well in each supported language while failing when a speaker
+changes language within an utterance. Code-switched speech remains a distinct
+evaluation problem even for multilingual models.[@ugan2024decm] Names,
+transliterated terms, acronyms, and quotations create similar difficulties. A
+session that alternates among Hebrew, English, and Arabic should not be evaluated
+by the tool's general claim to support all three.
+
+Before adopting a system, the researcher should prepare a small benchmark in each
+working language. It should contain the names, places, citations, dates, technical
+terms, and language switches that occur in the project. The same passage is
+dictated and played back after major application or model changes. Errors are
+recorded by type, not merely counted. A wrong comma and a wrong year do not carry
+the same research cost.
+
+Reading aloud also places different demands on multilingual writers. A recent
+study found that the value of oral revision differed with writers' second-language
+proficiency and the attention required by the task.[@kim2025myth] Listening tools
+should expand the available revision modes, not impose one supposedly universal
+way of hearing good prose.
+
+### Choose the processing environment by the sensitivity of the text
+
+Convenience does not determine whether material may enter a service. Public prose
+and fictional practice text carry fewer constraints than unpublished coauthored
+work. Participant material, identifiable field notes, restricted archives,
+allegations, personnel information, and embargoed findings may be prohibited from
+consumer cloud systems by consent forms, ethics approval, contracts, law, or
+institutional policy.
+
+The decision should be made before dictation or upload. Low-risk material can use
+a commercial service after a current policy check. Unpublished or collaborative
+material requires an explicit agreement about processing and retention. Protected
+research material requires an institutionally approved or local environment, and
+may not be eligible for automated processing at all. Removing names is not enough
+when context can identify a person.
+
+Product settings and policies change more quickly than this method. The dated tool
+cards record current language support, storage, training, and privacy settings.
+The researcher records the policy and settings actually reviewed on the date of
+use.
+
+## Worked Example
+
+A researcher is drafting a methods passage about how newspaper reports become
+candidate records in an event database. The capture brief states that the passage
+must distinguish a report from an event, explain duplicate reporting, and avoid
+making any accuracy claim not supported by the validation results. The researcher
+dictates for four minutes in English, speaking the core distinction before adding
+an example.
+
+The recognition system renders a project name incorrectly, turns “source report”
+into “source support,” and inserts a full stop that changes the qualification at
+the end of a sentence. The researcher preserves the raw capture, checks the three
+errors immediately, and saves a corrected transcript. An AI assistant is then
+asked to identify repeated propositions and propose two possible orders. It is not
+asked to rewrite the passage or add evidence. The researcher chooses one order
+and drafts the paragraph manually.
+
+During the slow listening pass, the synthetic voice exposes a repeated preposition
+and a sentence with two competing subjects. During the normal-speed pass, the
+paragraph sounds persuasive but moves directly from duplicate reports to a claim
+about causal sequence. The listening log marks this as an argument problem, not a
+sound problem. The researcher returns to the evidence register and discovers that
+the paragraph needs an explicit sentence separating event resolution from causal
+inference.
+
+The passage is then translated into Hebrew for discussion with a collaborator.
+Playback reveals that the chosen Hebrew term can mean either a news item or an
+event record. The two authors agree on a more precise term and add it to the
+project glossary. Listening did not validate the method. It made a conceptual
+ambiguity audible and sent the researcher back to the project record.
+
+## Try It
+
+Select a passage of 250 to 400 words that does not contain protected material.
+The passage may be a new explanation, a section of a literature review, or a
+methods note. Use the downloadable
+[voice round-trip log](../templates/voice-round-trip-log.md) to complete four
+short passes.
+
+| Pass | Time | Required result |
+|---|---:|---|
+| Prepare and dictate | 8 minutes | Capture brief and raw recognized text |
+| Verify and structure | 8 minutes | Corrected transcript and structured draft |
+| Listen | 6 minutes | Location-coded listening notes |
+| Judge and revise | 8 minutes | Revised passage and change summary |
+
+At the end, classify every accepted change as recognition correction, prose
+revision, translation correction, or substantive argument revision. If a change
+cannot be classified, inspect the versions until its origin becomes clear.
+
+## Guided AI Workflow
+
+An AI assistant can help organize a personal dictated draft, but its role must be
+narrower than “improve my writing.” Supply the corrected transcript, the capture
+brief, and the required output form. Do not supply audio or text that the chosen
+system is not authorized to process.
+
+**Permitted input:** a corrected personal dictation transcript, a passage purpose,
+a list of required claims, and a list of terms that must remain unchanged.
+
+**Do not provide:** participant speech, restricted records, unpublished coauthor
+text without permission, or references that have not been verified.
+
+Use this instruction:
+
+> Act as a structure analyst for a dictated academic draft. Do not add facts,
+> citations, examples, or interpretations. Identify repeated propositions,
+> unfinished claims, unclear referents, and places where the order obscures the
+> argument. Return: (1) a proposition list using the transcript's own words,
+> (2) two possible orders, (3) a list of text that would be omitted in each
+> order, and (4) questions that require the author's judgment. Quote the source
+> span for every observation. Do not produce polished replacement prose.
+
+**Verify:** compare every quoted span with the corrected transcript. Confirm that
+the proposed orders preserve qualifications and do not detach a claim from its
+evidence. Reject any new content.
+
+**Record:** application or model, date, input version, prompt version, accepted
+suggestions, rejected suggestions, and the researcher who approved the change.
+
+After the listening pass, a second bounded instruction may classify the writer's
+own location-coded notes. It may group problems by type and prepare a checklist.
+It should not decide which substantive revisions to accept.
+
+## Integrity Checkpoint
+
+Before the revised passage becomes canonical, confirm that the voice workflow did
+not change the evidentiary status of the text. Every name, number, quotation, and
+citation remains checked against its source. A fluent spoken rendering is not
+evidence that a sentence is true. A natural translation is not evidence that it
+is equivalent. A confident synthetic pronunciation is not evidence that a proper
+name is correct.
+
+Confirm also that all audio and text processing complied with the project's
+consent, ethics, contractual, and institutional requirements. Record whether the
+service processed data locally or remotely, whether it retained inputs, and which
+settings governed model improvement or synchronization. If these facts cannot be
+established, do not use protected material.
+
+Finally, inspect authorship. Dictation preserves the researcher's speech, but an
+AI restructuring pass may introduce substantial editorial intervention. The
+accepted text remains the authors' responsibility. Project records should state
+where AI changed structure or wording when that information is relevant to the
+venue, collaborator agreement, or research audit.
+
+## Save the Artifact
+
+Save the session as a small, linked package rather than as one repeatedly
+overwritten document. A compact record begins with `voice-session.yml`, which
+records the date, writer, language, tool, settings, and sensitivity class.
+`01-capture-brief.md` states the purpose, required claims, and exclusions.
+`02-raw-transcript.txt` preserves the uncorrected recognized text, while
+`03-corrected-transcript.md` records fidelity corrections and their reasons.
+
+The composition continues in `04-structured-draft.md`. A disposable
+`05-listening-copy.txt` prepares the text for playback without changing the
+manuscript. `06-listening-log.md` records locations, problem types, and proposed
+actions. The candidate manuscript passage appears in `07-revised-passage.md`.
+Finally, `08-change-summary.md` records accepted and rejected changes and the
+reasons for each decision.
+
+The folder belongs beside the project memo or manuscript section it supports. The
+canonical manuscript links to the accepted passage, not to the raw audio. Audio
+retention follows the sensitivity decision made before capture. When the audio is
+deleted, the session record states when and why.
+
+## Advanced Practice
+
+A mature voice workflow can support more than convenience. Researchers can use
+dictation for post-interview memos, fieldwork reflections, rapid explanations of
+figures, and spoken comparison of competing interpretations. Listening can support
+accessibility review, translation workshops, collaborative editing, and preparation
+for talks. Each use should have its own brief, authorized input class, and output
+artifact.
+
+Teams can also maintain a voice benchmark for the project. The benchmark contains
+public or synthetic text representing the project's languages, names, dates,
+specialized vocabulary, citations, and code-switching patterns. A tool change is
+accepted only after the team compares its errors with the prior version. The goal
+is not one universal accuracy score. It is to identify errors that would matter
+for this research.
+
+Future agents may coordinate the sequence by opening a capture file, preserving a
+version, preparing a listening copy, and staging a revision checklist. Their
+authority should stop before substantive acceptance. The agent may expose a
+change. It may not decide that a causal qualification, participant meaning, or
+translation distinction is expendable.
+
+Voice extends the research interface beyond the screen. Used carefully, it gives
+the scholar two productive forms of distance: enough distance from the blank page
+to speak an imperfect first draft, and enough distance from familiar prose to hear
+what the page actually says.

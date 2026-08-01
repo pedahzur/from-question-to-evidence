@@ -51,6 +51,15 @@
 - Use a seven-stage PKM-AI research loop with a named human gate at every consequential transition.
 - Test the method through a candidate register, audit log, coverage memo, and operative chapter exercise.
 
+### Bridge Chapter: Writing by Voice, Revising by Ear
+
+- Treat dictation as a composition method whose recognized text requires verification.
+- Preserve the capture brief, raw recognition, corrected transcript, structured draft, listening copy, listening log, and accepted revision as distinct artifacts.
+- Use text-to-speech for defined diagnostic passes rather than as a substitute for argument review.
+- Benchmark every working language, including names, dates, specialized terms, transliteration, and code-switching.
+- Choose local, institutional, or commercial processing according to the material's sensitivity and authorization.
+- Keep dated product guidance separate from the stable round-trip method.
+
 ## Revision Program for `0.3.0-draft`
 
 The next revision will make the book's methodological position explicit before the first procedural stage. It will state what an evidence map can and cannot claim, explain how the workflow changes when questions remain emergent, and show how judgment becomes open to criticism without pretending that a corpus represents the world.
