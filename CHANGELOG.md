@@ -12,6 +12,11 @@ All notable changes to this project are documented here. Dates use ISO 8601.
 - New *Assisted Annotation* section in *AI and Research Integrity*: model-assisted qualitative coding, its validation requirements, and the skeptical evidence.
 - Active-learning screening and stopping heuristics in *Synthesize, Audit, and Stop* (Learn).
 - Thirty verified bibliography entries supporting the new discussions (all DOIs checked against publisher records).
+- GitHub Actions workflow that renders the manuscript and site, runs the test suite, and publishes to GitHub Pages on every push to main.
+
+### Changed
+
+- Literature-module word ceiling raised from 10,000 to 10,500 to accommodate the computational-methods additions.
 
 ## 0.2.0-draft - 2026-07-13
 

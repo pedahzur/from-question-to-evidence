@@ -101,7 +101,9 @@ def test_literature_module_scope_and_ai_boundaries() -> None:
     paths = ["content/12-literature-as-evidence.qmd", *LITERATURE_STAGES]
     combined = "\n".join((ROOT / path).read_text(encoding="utf-8") for path in paths)
     word_count = len(re.findall(r"\b[\w’'-]+\b", combined))
-    assert 8_000 <= word_count <= 10_000
+    # Ceiling raised from 10,000 on 2026-08-01 (author decision) for the
+    # computational-methods additions in stages 5-6; see CHANGELOG 0.2.1-draft.
+    assert 8_000 <= word_count <= 10_500
     for label in ("Permitted input", "Do not provide", "Verify", "Record"):
         assert combined.count(label) >= len(LITERATURE_STAGES), label
 
