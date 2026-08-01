@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-13"
-last-reviewed: "2026-07-13"
+last-reviewed: "2026-08-01"
 license: "CC BY 4.0"
 ---
 
@@ -39,6 +39,8 @@ Run a **coverage audit** before finalizing. Compare the corpus with the protocol
 Audit expected literatures or perspectives that did not appear. Classify the absence as substantive, terminological, index-related, inaccessible, ethical, or protocol-produced. A failed search does not prove that no scholarship exists.
 
 The stopping rule asks whether additional searching is likely to change the answer needed for the current product. Criteria may include conceptual coverage, representation of principal explanations, route diversity, attention to counterevidence, stabilized vocabulary, diminishing returns in relevant new claims, and completion of verification for load-bearing sources. Stopping is a decision under limits, not a discovery that the literature has ended.
+
+Screening technology has changed the arithmetic of stopping without changing its logic. Active-learning systems rank unscreened records by predicted relevance and re-rank as the researcher labels them; simulation studies across disciplines report that most relevant records surface after a fraction of the corpus has been read.^[See @vandeschoot2021asreview and @ferdinands2023discovery; for the state of the simulation literature, @teijema2025scoping.] The decisions remain human. The researcher labels every included record, and a staged stopping heuristic structures the judgment about when the risk of a missed record no longer justifies further screening; it does not automate that judgment.^[See @boetje2024safe; for comparative evidence on stopping criteria in a social-science field, @campos2024screening; for a discipline-facing tutorial, @futterer2026fasttrack.] Record the classifier, the seed set, the stopping criterion, and the point at which screening stopped, exactly as with any other route.
 
 Add **reopening triggers**. A newly released archive, a major review, a revised dataset, an unsearched language, a credible contrary study, or a change in the research question may justify another cycle. Living scholarship requires a way to change without pretending that every page is continuously current.
 

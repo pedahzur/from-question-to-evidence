@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-12"
-last-reviewed: "2026-07-12"
+last-reviewed: "2026-08-01"
 license: "CC BY 4.0"
 ---
 
@@ -38,6 +38,12 @@ Verification follows the claim. A proposed publication must be located through a
 An AI-generated reference is not a citation. It is a search lead.
 
 The same rule applies to summaries. A model may produce an elegant account of a document while missing a qualification that changes its meaning. Verify against the original and record which passages support the summary.
+
+## Assisted Annotation
+
+A growing literature tests whether language models can apply a researcher's codebook to large text corpora. The early results were striking: on political and media texts, general-purpose models matched or beat crowd workers at a fraction of the cost, and on some tasks matched expert coders.^[See @gilardi2023chatgpt and @tornberg2025coders.] The correction followed. Systematic benchmarks show models trailing fine-tuned classifiers on many labeling tasks, with performance that varies unpredictably across tasks and prompts, and proprietary systems add reproducibility and data-protection problems of their own.^[See @ziems2024llms, @kristensenmclachlan2025chatbots, and @ollion2024dangers.]
+
+The workable division of labor mirrors the rest of this guide. The researcher develops the codebook and revises code descriptions until a model can apply them consistently. The model applies the codes at scale. A human-coded gold standard measures the result before anything enters the analysis, and disagreement between repeated model runs routes cases back to human judgment.^[See @dunivin2025scaling; on hybrid adjudication, @heseltine2024substitute; on validation and reporting standards, @tornberg2024annotation.] Reliability against human coders is a finding to report, not an assumption to make. A model that has not been validated on this task, this corpus, and this codebook has not been validated at all.
 
 ## Bias and Missing Perspectives
 

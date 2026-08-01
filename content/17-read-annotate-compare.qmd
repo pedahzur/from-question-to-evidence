@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-13"
-last-reviewed: "2026-07-13"
+last-reviewed: "2026-08-01"
 license: "CC BY 4.0"
 ---
 
@@ -98,3 +98,5 @@ When the matrix changes substantially, preserve the earlier version so the synth
 Qualitative analysis software can support document-level coding, retrieval, queries, and memos when the corpus warrants it. A spreadsheet may be better for a smaller review whose central operation is cross-source comparison. A database may suit a team handling many claims and relations. Choose the environment from the analytical task, collaboration needs, exportability, and preservation requirements—not from the number of available features.
 
 Large reviews may sample for deep reading while retaining a broader screened corpus. Team projects should calibrate a shared schema while preserving minority interpretations that reveal genuine ambiguity.
+
+When the corpus grows past what close reading alone can order, computational grounded theory offers a documented division of labor: unsupervised pattern detection proposes structure, guided close reading interprets it, and a separate computational step confirms or rejects the interpretation.^[See @nelson2020cgt; for a full-scale application, @nelson2021cycles.] The framework has critics. They argue that unsupervised models do not return natural units of meaning and that interpretation deserves more weight than the original design gave it; that debate is itself useful reading before adopting the workflow.^[See @carlsen2022revisited.] Recent applications show the cycle operating at scale, from half a million forum comments coded through topic models, close reading, and embedding-based confirmation, to human-in-the-loop extensions that add explicit theoretical sampling.^[See @adekunle2025covid and @alqazlan2025hitl.] The three steps map onto the voices of this stage: detection proposes, the reviewer reads, and confirmation tests what the reviewer concluded.

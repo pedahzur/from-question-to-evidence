@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-12"
-last-reviewed: "2026-07-12"
+last-reviewed: "2026-08-01"
 license: "CC BY 4.0"
 ---
 
@@ -20,6 +20,10 @@ Coverage testing compares the developing corpus with the dimensions and source f
 The language of saturation has several meanings and does not fit every qualitative tradition.^[See @saunders2018saturation and @braun2021quality.] Information power offers another way to reason about adequacy: a focused aim, specific material, strong dialogue with the evidence, theoretical support, and an intensive analytic strategy can reduce the amount required.^[See @malterud2016information.] These ideas concern sampling and analysis. An evidence map adapts them cautiously to documentary collection.
 
 Track information yield. A search cycle has high yield when it adds a new source family, changes a definition, reveals a rival explanation, fills an important gap, or alters the interpretation of existing evidence. Yield declines when new records repeat known information from the same underlying sources.
+
+Digitized documentary corpora deserve a coverage test of their own. A newspaper database is a sample of a historical press that had its own structure, and the sampling is rarely documented. The environmental scan formalizes the audit: reconstruct the full press landscape from contemporary directories, then measure what the digitized corpus includes and omits by politics, price, and geography.^[See @beelen2023environmental.] Later work generalized the method into three measurable questions: what was never digitized, how far the sample diverges from the known population, and whether over-represented titles skew the corpus language itself.^[See @beelen2025whosenews.] Interviews with digitization providers explain where the selection came from. Microfilm availability and commercial calculation drove it more often than scholarly priorities did.^[See @hauswedell2020selection.]
+
+Recognition errors compound selection. Optical character recognition failures approach one word in five in some national newspaper archives, and multi-word phrase searches fail more often than they succeed; any count of mentions inherits those errors silently.^[See @burchardt2023ocr.] Datasets derived from such collections by machine learning inherit them a second time.^[See @lee2021compounded.] Infrastructure can be built to expose these limits rather than conceal them. The Impresso project, which enriches multilingual historical newspapers with entity recognition and text-reuse detection, surfaces recognition confidence and corpus composition in its interface so that a researcher can distinguish a historical silence from an artifact of digitization.^[See @duering2024transparent; on the measured performance of entity recognition on historical text, @ehrmann2024survey.]
 
 ## Worked Example
 

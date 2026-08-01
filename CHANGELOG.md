@@ -2,6 +2,17 @@
 
 All notable changes to this project are documented here. Dates use ISO 8601.
 
+## 0.2.1-draft - 2026-08-01
+
+### Added
+
+- Collections-as-data discussion in *Map Source Families* (Advanced Practice): datasheets and publication checklists for digitized collections.
+- Environmental-scan discussion in *Test Coverage* (Learn): auditing digitized newspaper corpora for selection bias, OCR error, and derived-dataset propagation, with the Impresso interface as a transparency example.
+- Computational grounded theory discussion in *Read, Annotate, and Compare* (Advanced Practice).
+- New *Assisted Annotation* section in *AI and Research Integrity*: model-assisted qualitative coding, its validation requirements, and the skeptical evidence.
+- Active-learning screening and stopping heuristics in *Synthesize, Audit, and Stop* (Learn).
+- Thirty verified bibliography entries supporting the new discussions (all DOIs checked against publisher records).
+
 ## 0.2.0-draft - 2026-07-13
 
 ### Added

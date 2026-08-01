@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-12"
-last-reviewed: "2026-07-12"
+last-reviewed: "2026-08-01"
 license: "CC BY 4.0"
 ---
 
@@ -56,3 +56,5 @@ Save the source-family inventory with one row per family and links to the concep
 ## Advanced Practice
 
 Source families can change over time. A newspaper's ownership, a ministry's filing system, or a database's collection vendor may shift within the study period. Treat a family as stable only after checking the institutions that produced it. Where the process changed, create separate records for each phase and mark the transition as part of the evidence.
+
+A parallel discipline has developed where the source family arrives as a digitized collection. The collections-as-data movement asks libraries and archives to publish collections as research datasets with documented provenance, rights, processing steps, and known gaps.^[See @padilla2023vancouver.] Its instruments are practical. Datasheets adapted from machine learning describe how heritage material passed through survival, collection, digitization, and text recognition, each stage adding its own selection.^[See @alkemade2023datasheets.] Checklists specify what an institution should document before releasing a collection for computational use, and what a researcher should document before deriving a dataset or training a model on one.^[See @candela2025checklist and @lee2025mlchecklist.] When a source family arrives as a downloadable corpus, ask for its datasheet. Where none exists, the researcher inherits the documentation burden, and the source-family inventory is the place to carry it.
