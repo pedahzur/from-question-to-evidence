@@ -2,7 +2,9 @@
 
 *A Living Field Guide for Qualitative Research*
 
-This repository contains the English discussion draft, editable resources, and reproducible website source for an open-access field guide by Ami Pedahzur and Jonathan Grossman.
+**Read the guide:** <https://pedahzur.github.io/from-question-to-evidence/>
+
+This repository contains the English discussion draft, editable resources, and reproducible website source for an open-access field guide by Ami Pedahzur and Jonathan Grossman. The site republishes automatically on every push to `main` after the full test suite passes.
 
 The guide helps researchers connect questions, concepts, discovery, collection, evidence, and claims while preserving the decisions that shape a research corpus. Generative AI appears as a bounded research aid. It does not replace source reading, verification, ethical judgment, or responsibility for synthesis.
 
@@ -42,6 +44,8 @@ quarto render --profile site
 ```
 
 The site is written to `build-site/`. The manuscript profile writes DOCX and PDF files to `build-manuscript/`.
+
+Publishing is automated: `.github/workflows/publish.yml` renders both profiles, runs the test suite, and deploys `build-site/` to GitHub Pages on every push to `main`. A failing test blocks deployment.
 
 Reader-resource builders:
 
