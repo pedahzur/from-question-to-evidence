@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title description">
+  <title id="title">The historical evidence chain</title>
+  <desc id="description">Eight linked objects run from source witness through transcription, passage, source-bound observation, declared normalization or inference, source validation, historical claim, and downstream claim audit.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#567482"/>
+    </marker>
+    <style>
+      .connector { fill: none; stroke: #567482; stroke-width: 4; marker-end: url(#arrow); }
+      .primary { fill: #18242f; stroke: #18242f; stroke-width: 2; }
+      .standard { fill: #f7f7f4; stroke: #567482; stroke-width: 2; }
+      .accent { fill: #e7f2ef; stroke: #1f7469; stroke-width: 2; }
+      .primary-text { fill: #ffffff; font: 600 22px system-ui, sans-serif; text-anchor: middle; }
+      .standard-text { fill: #18242f; font: 600 22px system-ui, sans-serif; text-anchor: middle; }
+      .step { fill: #567482; font: 700 15px system-ui, sans-serif; letter-spacing: 0.08em; text-anchor: middle; }
+    </style>
+  </defs>
+
+  <path class="connector" d="M275 125 H315"/>
+  <path class="connector" d="M555 125 H595"/>
+  <path class="connector" d="M835 125 H875"/>
+  <path class="connector" d="M995 180 V285"/>
+  <path class="connector" d="M875 345 H835"/>
+  <path class="connector" d="M595 345 H555"/>
+  <path class="connector" d="M315 345 H275"/>
+
+  <g transform="translate(35 70)">
+    <rect class="primary" width="240" height="110" rx="16"/>
+    <text class="step" x="120" y="30" fill="#9bd5cb">01</text>
+    <text class="primary-text" x="120" y="67">Source witness</text>
+  </g>
+
+  <g transform="translate(315 70)">
+    <rect class="standard" width="240" height="110" rx="16"/>
+    <text class="step" x="120" y="30">02</text>
+    <text class="standard-text" x="120" y="61">
+      <tspan x="120">Diplomatic</tspan>
+      <tspan x="120" dy="28">transcription</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(595 70)">
+    <rect class="standard" width="240" height="110" rx="16"/>
+    <text class="step" x="120" y="30">03</text>
+    <text class="standard-text" x="120" y="67">Passage</text>
+  </g>
+
+  <g transform="translate(875 70)">
+    <rect class="accent" width="240" height="110" rx="16"/>
+    <text class="step" x="120" y="30">04</text>
+    <text class="standard-text" x="120" y="61">
+      <tspan x="120">Source-bound</tspan>
+      <tspan x="120" dy="28">observation</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(875 290)">
+    <rect class="accent" width="240" height="110" rx="16"/>
+    <text class="step" x="120" y="30">05</text>
+    <text class="standard-text" x="120" y="59">
+      <tspan x="120">Normalization</tspan>
+      <tspan x="120" dy="28">or inference</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(595 290)">
+    <rect class="standard" width="240" height="110" rx="16"/>
+    <text class="step" x="120" y="30">06</text>
+    <text class="standard-text" x="120" y="61">
+      <tspan x="120">Source</tspan>
+      <tspan x="120" dy="28">validation</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(315 290)">
+    <rect class="primary" width="240" height="110" rx="16"/>
+    <text class="step" x="120" y="30" fill="#9bd5cb">07</text>
+    <text class="primary-text" x="120" y="61">
+      <tspan x="120">Historical</tspan>
+      <tspan x="120" dy="28">claim</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(35 290)">
+    <rect class="primary" width="240" height="110" rx="16"/>
+    <text class="step" x="120" y="30" fill="#9bd5cb">08</text>
+    <text class="primary-text" x="120" y="58">
+      <tspan x="120">Downstream</tspan>
+      <tspan x="120" dy="27">claim audit</tspan>
+    </text>
+  </g>
+</svg>

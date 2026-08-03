@@ -27,6 +27,7 @@ CHAPTERS = [
     "content/18-synthesize-audit-stop.qmd",
     "content/19-review-articles-and-meta-analysis.qmd",
     "content/19-building-event-databases-with-ai.qmd",
+    "content/20-historical-sources-as-evidence.qmd",
     "content/19-ai-research-integrity.qmd",
     "content/20-pkm-and-ai-research-infrastructure.qmd",
     "content/21-writing-by-voice-revising-by-ear.qmd",
@@ -261,8 +262,9 @@ def test_hebrew_table_of_contents_tracks_current_book() -> None:
     text = path.read_text(encoding="utf-8")
     chapter_numbers = re.findall(r"^### (\d+)\.", text, flags=re.MULTILINE)
 
-    assert chapter_numbers == [str(number) for number in range(1, 26)]
+    assert chapter_numbers == [str(number) for number in range(1, 27)]
     assert "direction: rtl" in text
     assert "## חלק ראשון: ממחקר ראשוני למפת ראיות" in text
-    assert "### 22. כתיבה בקול, עריכה באמצעות האוזן" in text
-    assert "### 23. מעבדת סקילים וסוכנים" in text
+    assert "### 20. מקורות היסטוריים כראיות" in text
+    assert "### 23. כתיבה בקול, עריכה באמצעות האוזן" in text
+    assert "### 24. מעבדת סקילים וסוכנים" in text

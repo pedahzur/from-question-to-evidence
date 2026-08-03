@@ -40,6 +40,8 @@ def test_complete_markdown_export_contains_the_full_current_book() -> None:
 
     assert "Building Event Databases with AI" in text
     assert "Bayesian evidence table" in text
+    assert "Historical Sources as Evidence" in text
+    assert "Historical Evidence Chain Register" in text
     assert "AI and Research Integrity" in text
     assert "References" in text
     assert len(text.split()) >= 23_000
