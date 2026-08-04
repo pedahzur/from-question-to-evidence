@@ -32,9 +32,26 @@
 
 - The 664-word contract states one promise and maps it to all six Parts, including principal durable results.
 - Its audience, contribution, exclusions, pedagogical requirements, word range, and companion boundary match the approved architecture.
-- The promise names all ten lifecycle functions after `discovery` was added explicitly during the audit.
+- The promise spans the full lifecycle, while the six-part learning contract names its functions and durable results.
 - The terminology sheet makes `research lifecycle` the sole reader-facing book-level sequence and defines domain sequences as crosswalked pathways.
 - The record-state vocabulary preserves separate candidate, verified, accepted, and published states.
 - Coverage, gaps, and stopping are defined relative to the declared evidence design rather than the world.
 - Generic terms use sentence case; formal titles, lifecycle labels, resources, and exact schema fields retain title case.
 - No manuscript source file was edited.
+
+## Approved post-review refinements
+
+- State that qualitative evidence is both discovered and co-produced through relationships, institutions, interpretation, and power; present AI as intensifying an older methodological problem.
+- Require inspectable artifacts from core procedural chapters while allowing conceptual chapters to establish the commitments governing those artifacts.
+- Describe the lifecycle as a shared accountability structure that historical, interpretive, comparative, participatory, ethnographic, and case-oriented research can adapt.
+- Define verification as method-appropriate checks of named properties, never as confirmation that a recollection, observation, testimony, or interpretation is true.
+
+## Post-review audit
+
+- The contract now states that evidence is discovered, produced, and interpreted through relationships shaped by institutions, researchers, participants, and power.
+- AI and digital scale are framed as intensifying this older methodological problem.
+- Core procedural chapters produce or revise artifacts; conceptual chapters establish the commitments that govern them.
+- The lifecycle is explicitly adaptable across historical, interpretive, comparative, participatory, ethnographic, and case-oriented research.
+- The verified-record definition now requires named, method-appropriate checks and denies that verification establishes the truth of recollection, testimony, observation, or interpretation.
+- The one-sentence promise remains concise, and the contract remains a one-page working brief at approximately 700 words.
+- All 57 tests pass; no manuscript source file changed.

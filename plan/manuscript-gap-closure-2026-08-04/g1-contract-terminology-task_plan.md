@@ -11,6 +11,8 @@ Produce the one-page book contract and normative terminology/capitalization shee
 - [x] Phase 3: Draft the terminology and capitalization sheet and resolve competing or ambiguous labels.
 - [x] Phase 4: Audit both documents against the architecture plan and current manuscript vocabulary.
 - [x] Phase 5: Verify, commit, publish, and synchronize the project record.
+- [x] Phase 6: Apply the approved broader-textbook refinements to the contract and verification terminology.
+- [ ] Phase 7: Re-audit, verify, commit, publish, and synchronize the refined records.
 
 ## Key Questions
 
@@ -25,6 +27,7 @@ Produce the one-page book contract and normative terminology/capitalization shee
 - The primary audience is graduate qualitative-methods students; the secondary audience is experienced researchers adapting their work to AI-supported research.
 - The numbered book carries stable method. Volatile products, installation instructions, benchmarks, and dated comparisons remain in companion material.
 - The ten-stage research lifecycle is the only book-level sequence. Shorter domain sequences remain named pathways or views, not rival lifecycles.
+- The post-review revision will treat evidence as discovered and co-produced, distinguish procedural artifacts from conceptual commitments, name adaptation across qualitative traditions, and require method-appropriate verification.
 
 ## Errors Encountered
 
@@ -32,4 +35,4 @@ Produce the one-page book contract and normative terminology/capitalization shee
 
 ## Status
 
-**Complete** — the audited contract and terminology sheet match the approved architecture, all 57 tests pass, the feature branch is published, and the Methods Textbook project record is synchronized. No manuscript prose changed. The lifecycle crosswalk and revised roadmap remain the next G1 task.
+**Currently in Phase 7** — the approved refinements are applied and the 57-test suite passes; committing, publishing, and synchronizing the refined records.

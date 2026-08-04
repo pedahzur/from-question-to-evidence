@@ -9,7 +9,7 @@
 
 ## Promise
 
-This book teaches qualitative researchers how to turn a question into a documented and ethically governed chain of evidence that reaches from research position, framing, evidence design, and discovery through collection, preparation, analysis, claim testing, writing, release, and maintenance, while keeping AI assistance bounded, traceable, and subject to human judgment.
+This book teaches qualitative researchers to build a documented and ethically governed chain from question to corpus, analysis, claim, public expression, and maintenance, while keeping AI assistance bounded, traceable, and subject to human judgment.
 
 ## Readers
 
@@ -17,9 +17,9 @@ The primary readers are graduate students learning qualitative research design a
 
 ## Intellectual problem and contribution
 
-Qualitative researchers can now retrieve, transform, and compare more material than they can inspect directly. Scale does not remove judgment. It moves judgment into search systems, inclusion rules, transformations, coding decisions, and release choices that often remain invisible. The book makes those choices visible by requiring a durable artifact at every consequential transition and by preserving the links among question, source, record, corpus, interpretation, and claim.
+Qualitative evidence is discovered, produced, and interpreted through relationships. Institutions shape what gets recorded and preserved. Researchers and participants shape what can be said, observed, refused, or withheld. Power shapes each. Digital systems and generative AI intensify this older problem by letting researchers retrieve and transform more material than they can inspect. Scale does not remove judgment. It moves judgment into relationships, search systems, inclusion rules, transformations, coding, and release choices. The book preserves the links among question, source, encounter, record, corpus, interpretation, and claim.
 
-This is not a standard literature-review manual followed by an AI ethics appendix. It covers the full research lifecycle, treats documentary and participant-produced evidence within one accountable architecture, and shows how bounded AI assistance changes research practice without transferring scholarly authority to a system. Its distinctive method is artifact-first: each chapter ends in a record that another person can inspect, question, reuse, or refuse.
+This is not a standard literature-review manual followed by an AI ethics appendix. It covers the full research lifecycle, treats documentary and participant-produced evidence within one accountable architecture, and shows how bounded AI assistance changes research practice without transferring scholarly authority to a system. Its distinctive method is artifact-first: each core procedural chapter produces or revises an artifact that another person can inspect, question, reuse, or refuse. Conceptual chapters establish the epistemic, ethical, and political commitments that govern those artifacts.
 
 ## Part-level learning contract
 
@@ -34,8 +34,8 @@ This is not a standard literature-review manual followed by an AI ethics appendi
 
 ## Boundaries
 
-The book does not promise exhaustive coverage of a phenomenon, a neutral corpus, or a universal procedure for every qualitative tradition. It does not replace field-specific ethics review, legal advice, community authority, source criticism, close reading, or researcher responsibility. It is not a software manual, product catalog, prompt collection, quantitative-methods encyclopedia, or claim that automation can settle interpretation. Product names, prices, interfaces, installation steps, benchmarks, and other drifting facts belong in dated companion material.
+The lifecycle supplies shared accountability, not a universal recipe. Historical, interpretive, comparative, participatory, ethnographic, and case-oriented projects adapt its artifacts, gates, and stopping conditions to their commitments and authority relations. The book promises neither exhaustive coverage nor a neutral corpus. It does not replace ethics review, legal advice, community authority, source criticism, close reading, or researcher responsibility. It is not a software manual, prompt collection, quantitative-methods encyclopedia, or claim that automation can settle interpretation. Drifting product facts belong in dated companion material.
 
 ## Pedagogical and release test
 
-Every core module must include stated learning objectives, a worked case fragment, an annotated completed artifact, a reusable blank resource, an integrity gate, an advanced route, and a visible completion criterion. The first edition is complete only when the six parts fulfill this contract, the composite municipal oral-history case traverses the lifecycle without real participant data, representative novice and experienced readers have tested the method, scholarly claims have been verified, and every public format passes rights, accessibility, citation, link, and preservation checks.
+Every core module must include stated learning objectives, a worked case fragment, an annotated completed artifact, and a reusable blank resource. It must also provide an integrity gate, an advanced route, and a visible completion criterion. The first edition is complete only when the six parts fulfill this contract and the composite municipal oral-history case traverses the lifecycle without real participant data. Representative novice and experienced readers must have tested the method. Scholarly claims must be verified, and every public format must pass rights, accessibility, citation, link, and preservation checks.
