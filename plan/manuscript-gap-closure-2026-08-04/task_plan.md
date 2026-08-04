@@ -10,7 +10,7 @@ Create a detailed, executable editorial plan that closes the gaps identified in 
 - [x] Phase 2: Convert every blocker and major weakness into a workstream with dependencies and acceptance criteria.
 - [x] Phase 3: Produce a chapter-disposition map, six-part target architecture, pilot program, and release gates.
 - [x] Phase 4: Review the plan for feasibility, sequencing, ownership, and scope control.
-- [ ] Phase 5: Integrate the final plan into the Methods Textbook project record and verify it.
+- [x] Phase 5: Integrate the final plan into the Methods Textbook project record and verify it.
 
 ## Key Questions
 
@@ -26,6 +26,8 @@ Create a detailed, executable editorial plan that closes the gaps identified in 
 - Jonathan is not an active dependency; Ami holds active editorial decision authority.
 - The plan will not line-edit or rewrite manuscript chapters.
 - Work will be sequenced architecture first, missing spine second, pilot third, line edit and publication last.
+- The final effort range is 90–130 focused editorial days plus 6–8 weeks of elapsed pilot time.
+- The target architecture contains 45 content units to be consolidated into approximately 32–36 numbered chapters.
 
 ## Errors Encountered
 
@@ -33,4 +35,4 @@ Create a detailed, executable editorial plan that closes the gaps identified in 
 
 ## Status
 
-**Currently in Phase 5** — integrating the approved planning artifact into the Methods Textbook project record and verifying synchronization.
+**Complete** — the detailed plan, working notes, project Hub, TODO list, daily record, source snapshot, and recovery bundle are synchronized and verified. Execution awaits Ami's architecture decision.
