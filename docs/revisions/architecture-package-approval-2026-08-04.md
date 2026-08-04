@@ -34,8 +34,8 @@
 ## Gate status
 
 - **G0 — Baseline, governance, and preservation:** passed. Editorial authority and the public-release freeze are confirmed; the baseline manifest and verified restorable bundles accompany this record.
-- **G1 — Architecture lock:** in progress. The five-decision architecture package, book contract, and terminology sheet are complete. G1 will pass only after the lifecycle crosswalk and revised roadmap are complete and the full acceptance package is verified.
+- **G1 — Architecture lock:** passed. The five-decision architecture package, book contract, terminology sheet, lifecycle crosswalk, revised roadmap, and acceptance verification form one consistent package. The decision is recorded in `docs/revisions/g1-architecture-lock-verification-2026-08-04.md`.
 
 ## Next authorized action
 
-Complete the lifecycle crosswalk and roadmap update. Manuscript prose remains out of scope until G1 passes.
+Begin WS2 with the specification and source plan for “Judgment, Position, and the Limits of Evidence,” followed by the AI pre-flight gate. No public release or source-file renumbering is authorized.

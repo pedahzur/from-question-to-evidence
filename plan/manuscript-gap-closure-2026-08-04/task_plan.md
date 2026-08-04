@@ -31,6 +31,7 @@ Create a detailed, executable editorial plan that closes the gaps identified in 
 - On 4 August 2026, Ami approved the architecture package as proposed: the six-part structure, chapter-disposition map, ten-stage lifecycle, composite municipal oral-history case, and provisional 75,000–90,000-word body target with a separate companion boundary.
 - Structural implementation will proceed on `feature/manuscript-gap-closure`; Working Edition 0.2 remains frozen.
 - The one-page book contract and terminology/capitalization sheet were completed as working G1 records; they do not alter manuscript prose.
+- The research-lifecycle crosswalk and six-Part roadmap were completed and verified against the full G1 acceptance criteria. G1 passed without changes to manuscript prose.
 
 ## Errors Encountered
 
@@ -39,4 +40,4 @@ Create a detailed, executable editorial plan that closes the gaps identified in 
 
 ## Status
 
-**Architecture approved; G0 passed; WS1/G1 in progress** — the book contract and terminology sheet now join the approved architecture and preservation records. No manuscript prose has changed. The remaining bounded G1 deliverables are the lifecycle crosswalk and revised roadmap; G1 remains open until the full acceptance package is verified.
+**Architecture locked; G0–G1 passed; WS2 is next** — the approved architecture, book contract, terminology sheet, lifecycle crosswalk, revised roadmap, and acceptance record now form the binding package. No manuscript prose changed during G1. The next bounded action is the specification and source plan for the epistemic-position chapter, followed by the AI pre-flight gate.
