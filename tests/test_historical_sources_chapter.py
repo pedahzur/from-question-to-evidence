@@ -53,6 +53,10 @@ def test_historical_evidence_chain_preserves_epistemic_boundaries() -> None:
         "procedurally unsupported",
         "archival page",
         "append-only",
+        "discovery loop",
+        "validation loop",
+        "verification debt",
+        "retrieval is selection",
     )
     for phrase in required_language:
         assert phrase in text, phrase
@@ -70,6 +74,8 @@ def test_historical_sources_chapter_marks_pilot_status_and_sources() -> None:
         "@muehlberger2019transkribus",
         "@beelen2023bias",
         "@lebo2013provo",
+        "@murugaraj2025topicrag",
+        "@zhou2025humanities",
     ):
         assert citation in text, citation
 

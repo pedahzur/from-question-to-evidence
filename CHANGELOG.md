@@ -21,6 +21,7 @@ All notable changes to this project are documented here. Dates use ISO 8601.
 - A Hebrew PowerPoint presentation explaining the mirrored-newspaper method, its research controls, related approaches, and current limits.
 - A chapter on AI dictation and multilingual text-to-speech, including a round-trip writing method, a downloadable session log, dated Wispr Flow and Speechify tool cards, and privacy and language benchmarks.
 - A chapter on historical sources as evidence, including source witnesses, diplomatic transcription, epistemic layers, two-level claim audit, archival silence, human-model comparison, and a downloadable Historical Evidence Chain Register.
+- A coupled discovery-and-validation model for historical research, including verification debt, retrieval audits, stage gates, and three levels of reproducibility.
 
 ### Changed
 

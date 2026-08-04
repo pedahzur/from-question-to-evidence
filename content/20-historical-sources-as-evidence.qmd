@@ -6,7 +6,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-08-03"
-last-reviewed: "2026-08-03"
+last-reviewed: "2026-08-04"
 license: "CC BY 4.0"
 ---
 
@@ -15,6 +15,8 @@ license: "CC BY 4.0"
 An archival page rarely arrives as a fact. It arrives as a material witness: a page, image, recording, catalogue record, or later copy produced for a purpose and preserved through a sequence of decisions. A researcher must identify the document, read its marks, recover its language, determine who made each statement, place the statement in time, compare it with other traces, and decide what claim the surviving evidence can bear. Each move changes the object.
 
 AI can shorten transcription, retrieval, comparison, and preliminary extraction. It can also conceal the moves between them. A fluent response may modernize a name without saying so, turn a warrant into an arrest, join two people because they share a surname, or treat an allegation as an event. The central method of this chapter is therefore simple: keep the source witness, transcription, source-bound observation, normalization, inference, historical claim, and audit decision distinct and linked. A historically correct statement remains procedurally unsupported when the supplied evidence does not support it.
+
+AI changes the tempo of historical research before it changes its logic. It can generate candidate sources, entities, links, patterns, and explanations far faster than a researcher can inspect them. Discovery accelerates more readily than validation. The result is **verification debt**: an expanding queue of plausible outputs whose evidentiary status remains unsettled. A defensible workflow does not pretend to eliminate that debt. It prevents unverified candidates from crossing silently into the argument.
 
 This method adds the historian's discipline to the book's existing chain. The evidence map identifies source families. The event-database chapter converts verified records into resolved events and variables. Historical research requires closer control over the transformations that precede a verified record and the interpretations that follow it. The chapter supplies that control.
 
@@ -37,6 +39,25 @@ Historical expertise does not consist of remembering more dates than a machine. 
 | Claim calibration | What is the strongest claim this evidence can sustain? | Moving from plausible interpretation to asserted conclusion |
 
 These are connected judgments. Provenance without context can identify a creator yet miss the institution that shaped the record. Corroboration without source dependence can count one account several times. A precise transcription without attribution can reproduce words while misrepresenting their status.
+
+### Couple the discovery loop to the validation loop
+
+Historical research does not proceed once through a fixed pipeline. A document changes the question; a failed identity match sends the researcher back to the catalogue; an apparent trend collapses after the corpus boundary is corrected. AI makes these returns faster. It does not make them unnecessary.
+
+The book's seven-stage pathway can therefore be read as two coupled loops. The **discovery loop** frames, searches, extracts, compares, and proposes. The **validation loop** checks provenance, coverage, transformation error, source support, rival explanations, and the limits of the final claim. Every accelerated operation needs a corresponding gate and a durable object that records the decision.
+
+| Research movement | Accelerated operation | Validation gate | Durable object |
+|---|---|---|---|
+| Frame | Generate questions and decompositions | Define scope, rival explanations, and disconfirming evidence | Framing memo |
+| Survey | Map literature and source families | Verify publications, holdings, and the source universe | Claim map and collection plan |
+| Transform | Transcribe, translate, and normalize | Preserve source layers and test stratified samples | Versioned transcription package |
+| Structure | Extract entities and link records | Apply a codebook, field-level provenance, and human adjudication | Staged data register |
+| Retrieve | Run keyword, semantic, and RAG searches | Test known items, alternative vocabularies, and rejected results | Search and retrieval log |
+| Analyze | Detect patterns and generate comparisons | Check denominators, corpus shifts, alternative models, and anomalies | Frozen analytical dataset |
+| Interpret | Propose explanations and objections | Return to passages, seek contrary cases, and calibrate claim size | Claim-evidence ledger |
+| Communicate | Organize and revise prose | Recheck quotations, numbers, citations, and disclosure | Auditable manuscript package |
+
+The validation gate should be set before a result becomes interesting. Otherwise, a striking output will tempt the researcher to lower the standard after seeing it. The more surprising or consequential the proposed finding, the more direct the required return to the source.
 
 ### Preserve the historical evidence chain
 
@@ -74,9 +95,19 @@ Identity resolution requires the same caution. Shared names, titles, residences,
 
 Archives do not preserve a neutral sample of the past. Institutions decide what to record. Power shapes whose speech enters a file and in what form. Survival, cataloguing, digitization, OCR, language, licensing, and search interfaces then shape what a researcher can find. Historical silences can enter at each of these moments.[@trouillot1995silencing] Digitized newspaper collections demonstrate how selection and technical quality alter the apparent record before a query begins.[@beelen2023bias]
 
+The analytical corpus is therefore nested inside a longer sequence: past activity, records created, records preserved, records collected, records catalogued, records digitized, records processed, records retrieved, and records analyzed. Each transition may remove material non-randomly. A large final corpus can still offer a narrow view of the source world from which it was assembled.
+
 A failed search therefore creates a diagnostic question, not a finding of absence. The term may be wrong for the period. The handwriting model may have failed. The relevant volume may remain undigitized. The institution may never have recorded the experience. The record may have been destroyed, closed, or catalogued through the vocabulary of an authority rather than the people under study.
 
 AI can compare catalogues, generate historical terms, and find recurrent gaps. It cannot decide which absence is meaningful without a source history. The search log should record the live alternatives.
+
+### Retrieval is selection, not reading
+
+Semantic search and retrieval-augmented generation can surface passages that keyword searches miss. They can also make a bounded retrieval operation feel like comprehensive reading. A generated answer is conditioned on the records selected, segmented, indexed, ranked, and passed into the model. It may be faithful to those passages and historically incomplete at the same time.
+
+A Topic-RAG study tested a transparent, configurable retrieval design on 4,711 articles from a historical Swiss newspaper corpus and found gains over the baseline used in that study.[@murugaraj2025topicrag] This is evidence that retrieval design matters, not that any RAG answer covers the relevant archive. Researchers should test known items, period vocabulary, spelling variants, alternative queries, the number of returned passages, and records that the system ranked below its cutoff.
+
+Close reading belongs inside this process rather than at its end. A humanities-in-the-loop framework places human annotation, knowledge maintenance, reviewer validation, answer evaluation, and interpretation across the RAG pipeline.[@zhou2025humanities] For historical research, this means preserving the query, retrieved passages, source locators, ranking or inclusion rule, and the researcher's decision about what enters the evidence base.
 
 ### Assign AI the transformations that can be tested
 
@@ -153,6 +184,8 @@ Save a linked package containing the source manifest, immutable transcription, p
 
 Use the downloadable [Historical Evidence Chain Register](../templates/historical-evidence-chain-register.md) to begin a small project. The register separates source witnesses, transformations, claims, and audits while leaving implementation choices open.
 
+Pair the register with a discovery-and-validation log. For each consequential model output, record the operation that produced it, the gate it must pass, its reviewer, its status, and every downstream claim that depends on it. The log converts verification debt from an invisible burden into a reviewable queue. No unresolved item should support a load-bearing claim.
+
 Every release should identify the corpus version, source-manifest version, transcription convention, codebook, prompt or script version, model snapshot, validation protocol, and responsible reviewers. Preserve hashes for restricted local assets when a checksum can support identity without redistributing the file.
 
 The public package should explain what has been withheld and why. It should never imply that a metadata record grants access to a restricted source. The chain remains inspectable at the level that rights, privacy, and ethics permit.
@@ -166,5 +199,7 @@ Agreement needs an error history. Compare independent human coders before reconc
 Confidence requires calibration. A low-confidence label should correspond to a higher rate of error or abstention on adjudicated cases. If it does not, the label carries little research value. Evaluate calibration within the intended period, language, document type, and image condition. A system validated on clean nineteenth-century English correspondence has not been validated on seventeenth-century legal hands or modern Hebrew administrative files.
 
 Historical claims can form dependency networks. One claim may rest on several source-bound assertions and an intermediate chronological claim. Another may depend on the first. Store these relations explicitly so a corrected transcription or disputed identity can identify every downstream claim that requires review.
+
+Reproducibility also has levels. Exact replay attempts to reproduce the same output. Functional reproduction repeats the documented operation and asks whether it yields a research-equivalent result. Auditability asks whether another researcher can identify the corpus, transformations, decisions, error checks, and inferential steps well enough to evaluate the claim. Because model versions and hosted systems change, exact replay may fail even when the project is well documented. Auditability is the minimum condition that historical scholarship cannot surrender.
 
 This is the historian's distinctive contribution to AI-assisted research: disciplined control over transformations, time, attribution, silence, and claim size. It does not slow the system for its own sake. It makes speed answerable to evidence.
