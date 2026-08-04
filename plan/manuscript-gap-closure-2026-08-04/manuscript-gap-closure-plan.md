@@ -822,4 +822,4 @@ The approval is recorded in `docs/revisions/architecture-package-approval-2026-0
 
 ## Immediate Next Action
 
-G0 and G1 have passed. Begin WS2 with the specification and source plan for “Judgment, Position, and the Limits of Evidence,” then prepare the AI pre-flight gate. No public release or source-file renumbering is authorized.
+G0 and G1 have passed. The WS2 chapter specification, bounded source plan, and AI pre-flight record are complete. Next, read and annotate the Priority 1 sources, draft “Judgment, Position, and the Limits of Evidence,” and revise and reposition “AI and Research Integrity.” G2 remains open. No public release or source-file renumbering is authorized.

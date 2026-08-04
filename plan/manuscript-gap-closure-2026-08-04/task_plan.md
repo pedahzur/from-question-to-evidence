@@ -32,6 +32,7 @@ Create a detailed, executable editorial plan that closes the gaps identified in 
 - Structural implementation will proceed on `feature/manuscript-gap-closure`; Working Edition 0.2 remains frozen.
 - The one-page book contract and terminology/capitalization sheet were completed as working G1 records; they do not alter manuscript prose.
 - The research-lifecycle crosswalk and six-Part roadmap were completed and verified against the full G1 acceptance criteria. G1 passed without changes to manuscript prose.
+- WS2 now has an approved chapter specification, a bounded and metadata-verified source plan, and a reusable AI pre-flight record. These records prepare drafting but do not close G2.
 
 ## Errors Encountered
 
@@ -40,4 +41,4 @@ Create a detailed, executable editorial plan that closes the gaps identified in 
 
 ## Status
 
-**Architecture locked; G0–G1 passed; WS2 is next** — the approved architecture, book contract, terminology sheet, lifecycle crosswalk, revised roadmap, and acceptance record now form the binding package. No manuscript prose changed during G1. The next bounded action is the specification and source plan for the epistemic-position chapter, followed by the AI pre-flight gate.
+**Architecture locked; G0–G1 passed; WS2 foundation package complete** — the chapter specification, source plan, and AI pre-flight record now define the next drafting pass. G2 remains open until the epistemic-position and AI-integrity chapters are drafted, positioned, and verified. No manuscript prose changed in this package.

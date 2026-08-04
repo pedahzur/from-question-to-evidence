@@ -193,4 +193,4 @@ Companion material includes the Skills and Agents Lab, dated tool cards, install
 
 ## Current next action
 
-G1 is complete when the lifecycle crosswalk, this roadmap, and the full architecture package pass verification. The next manuscript work is WS2: draft the specification and source plan for “Judgment, Position, and the Limits of Evidence,” then prepare the AI pre-flight gate. No public release or source-file renumbering is authorized.
+The WS2 specification, source plan, and AI pre-flight record are complete. The next manuscript work is to read and annotate the Priority 1 source set, draft “Judgment, Position, and the Limits of Evidence,” and revise “AI and Research Integrity” so the approved gate precedes every guided AI workflow. G2 remains open. No public release or source-file renumbering is authorized.
