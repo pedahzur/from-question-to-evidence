@@ -1,0 +1,17 @@
+search_id,purpose,query,years,result_count,disposition
+S-001,Wingate spelling,وينغيت,1937-1939,0,negative-search
+S-002,Wingate spelling,ونجيت,1937-1939,2,one-relevant-Dabburiya-result
+S-003,Wingate exact phrase,"""الكابتن ونجيت""",1937-1939,1,confirmed-Dabburiya-result
+S-004,Wingate OCR variant,ونجت,1937-1939,14,mostly-false-positive-OCR
+S-005,Special Night Squads,"""الفرق الليلية""",1936-1939,0,negative-search
+S-006,Night patrols,"""الدوريات الليلية""",1937-1939,8,mostly-generic-police-patrols
+S-007,Field Companies,"""فصائل الميدان""",1936-1939,0,negative-search
+S-008,Field Companies,"""فرق الميدان""",1936-1939,0,negative-search
+S-009,Yitzhak Sadeh,"""اسحق سديه""",1936-1939,0,negative-search
+S-010,Hanita spelling,"""حانيتا""",1938-1939,3,two-relevant-results
+S-011,Hanita OCR spelling,"""جانيتا""",1938-1939,1,relevant-result
+S-012,Oil pipeline,"""انابيب البترول""",1938-1939,221,pivot-to-place-and-event-search
+S-013,Dabburiya,"""دبورية""",1938,18,two-central-results
+S-014,Dana and pipeline,"""دانا"" AND ""انابيب""",1938,3,one-relevant-result
+S-015,Pipeline zone,"""منطقة الانابيب""",1938,1,one-relevant-headline
+S-016,Kawkab al-Hawa,"""كوكب الهوى""",1938,36,several-relevant-results

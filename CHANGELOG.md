@@ -16,6 +16,9 @@ All notable changes to this project are documented here. Dates use ISO 8601.
 - Skills and Agents Lab 0.1.0 with a literature-discovery skill, bounded read-only scout agent, project-context packet, three synthetic benchmark cases, candidate-register validator, explicit failure report, deterministic ZIP, checksum, and dedicated feedback routes.
 - A Readwise-derived chapter on the evolution from personal knowledge management to bounded AI research infrastructure, including a seven-stage PKM-AI research loop, human gates, an operative exercise, and an audited source register.
 - An automatic complete-manuscript Markdown export generated after every manuscript render.
+- A multilingual newspaper-evidence case study that reconstructs Hebrew and Arabic reports through logged searches, source-provenance classification, event crosswalks, verification states, and an explicit stopping rule.
+- A downloadable reconstruction package containing the case search log, source manifest, and event crosswalk without republishing newspaper scans.
+- A Hebrew PowerPoint presentation explaining the mirrored-newspaper method, its research controls, related approaches, and current limits.
 - A chapter on AI dictation and multilingual text-to-speech, including a round-trip writing method, a downloadable session log, dated Wispr Flow and Speechify tool cards, and privacy and language benchmarks.
 - A chapter on historical sources as evidence, including source witnesses, diplomatic transcription, epistemic layers, two-level claim audit, archival silence, human-model comparison, and a downloadable Historical Evidence Chain Register.
 

@@ -12,6 +12,20 @@
   rights_basis: CC BY 4.0 author license
   attribution: Ami Pedahzur and Jonathan Grossman
   reviewed_on: 2026-07-12
+- path: examples/mirrored-newspaper-evidence/
+  publish: true
+  creator: Ami Pedahzur and Jonathan Grossman
+  source: Original metadata compilation and analytical crosswalk with links to National Library of Israel records
+  rights_basis: CC BY 4.0 for the compilation and analysis; linked newspaper material is not republished
+  attribution: Ami Pedahzur and Jonathan Grossman
+  reviewed_on: 2026-07-31
+- path: presentations/mirrored-newspaper-evidence-he.pptx
+  publish: true
+  creator: Ami Pedahzur and Jonathan Grossman
+  source: Original Hebrew presentation using editable text and vector shapes; no third-party images
+  rights_basis: CC BY 4.0 author license
+  attribution: Ami Pedahzur and Jonathan Grossman
+  reviewed_on: 2026-07-31
 - path: assets/evidence-map-pathway.svg and assets/evidence-map-pathway.png
   publish: true
   creator: Ami Pedahzur and Jonathan Grossman
