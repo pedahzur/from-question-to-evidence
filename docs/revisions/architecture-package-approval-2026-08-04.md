@@ -33,7 +33,7 @@
 
 ## Gate status
 
-- **G0 — Baseline, governance, and preservation:** in progress. Editorial authority and the public-release freeze are confirmed; the baseline manifest and restorable bundle accompany this record.
+- **G0 — Baseline, governance, and preservation:** passed. Editorial authority and the public-release freeze are confirmed; the baseline manifest and verified restorable bundles accompany this record.
 - **G1 — Architecture lock:** in progress. The five-decision architecture package is approved. G1 will pass only after the book contract, terminology sheet, lifecycle crosswalk, and revised roadmap are complete and verified.
 
 ## Next authorized action

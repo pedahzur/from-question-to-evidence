@@ -31,6 +31,8 @@
 - **Original bundle SHA-256:** `49437cfc8e582bbe4f8abd5140a456f024417ed264e6124f7ecb4c0372ffbfb6`
 - **Recovery requirement:** the bundle must resolve baseline commit `48f8e75ac02a21416aced86584735a7752ed7c3c`
 
+The pre-approval bundle was verified with `git bundle verify` and contains the complete repository history with `48f8e75ac02a21416aced86584735a7752ed7c3c` as its recorded `HEAD`. A second current bundle records the architecture branch while leaving this baseline copy intact.
+
 ## Governance and preservation
 
 - Ami Pedahzur holds active editorial decision authority.
@@ -38,3 +40,4 @@
 - Existing authorship credit is unchanged.
 - Public Working Edition 0.2 and its tag remain unchanged.
 - The architecture-approval turn changes planning and governance records only; it does not rewrite manuscript prose.
+- G0 passed after the baseline identity, decision authority, release freeze, branch, rendered checksums, and both restorable bundles were verified.

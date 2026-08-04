@@ -34,7 +34,8 @@ Create a detailed, executable editorial plan that closes the gaps identified in 
 ## Errors Encountered
 
 - `uv run pytest -q` could not open the default user cache under sandboxed execution. Rerun with a task-specific cache under `/private/tmp`; no project file or test logic was implicated.
+- The first vault-note copy used paths relative to the canonical checkout instead of the staging checkout. The bundle and source-snapshot operations succeeded; the missing note copies were rerun from explicit absolute staging paths, with unrelated vault changes left untouched.
 
 ## Status
 
-**Architecture approved; WS0/G0 in progress** — the formal decision and pre-restructure baseline are recorded on the dedicated revision branch. No manuscript prose has changed. The next bounded deliverables are the book contract and terminology sheet; G1 remains open until its complete acceptance package is verified.
+**Architecture approved; G0 passed; WS1/G1 in progress** — the formal decision, pre-restructure baseline, restorable bundles, dedicated revision branch, and public-release freeze are verified. No manuscript prose has changed. The next bounded deliverables are the book contract and terminology sheet; G1 remains open until its complete acceptance package is verified.
