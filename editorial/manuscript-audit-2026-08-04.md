@@ -1,8 +1,11 @@
 # Manuscript Audit: *From Question to Evidence*
 
-**Reviewed version:** `1a0a401`  
-**Review date:** 4 August 2026  
-**Mode:** Developmental manuscript audit and press-readiness assessment  
+**Reviewed version:** `1a0a401`
+
+**Review date:** 4 August 2026
+
+**Mode:** Developmental manuscript audit and press-readiness assessment
+
 **Scope:** Complete 27-chapter manuscript, rendered Markdown and PDF, project roadmap, fact-check log, rights manifest, templates, and prior referee report
 
 ## Verdict
@@ -135,19 +138,19 @@ The source filenames retain duplicate numeric prefixes (`19-*`, `20-*`) that no 
 
 ### Part I — Judgment, Evidence, and AI
 
-1. Origins and purpose  
-2. Epistemic position, reflexivity, and limits  
-3. AI and research integrity  
+1. Origins and purpose
+2. Epistemic position, reflexivity, and limits
+3. AI and research integrity
 4. The evidence map and master lifecycle
 
 ### Part II — Designing the Evidence Base
 
-5. Frame  
-6. Decompose  
-7. Map source families  
-8. Search  
-9. Evaluate  
-10. Test coverage and stop  
+5. Frame
+6. Decompose
+7. Map source families
+8. Search
+9. Evaluate
+10. Test coverage and stop
 11. Mirrored newspaper case
 
 ### Part III — Literature as Evidence
