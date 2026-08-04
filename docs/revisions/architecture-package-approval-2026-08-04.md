@@ -34,8 +34,8 @@
 ## Gate status
 
 - **G0 — Baseline, governance, and preservation:** passed. Editorial authority and the public-release freeze are confirmed; the baseline manifest and verified restorable bundles accompany this record.
-- **G1 — Architecture lock:** in progress. The five-decision architecture package is approved. G1 will pass only after the book contract, terminology sheet, lifecycle crosswalk, and revised roadmap are complete and verified.
+- **G1 — Architecture lock:** in progress. The five-decision architecture package, book contract, and terminology sheet are complete. G1 will pass only after the lifecycle crosswalk and revised roadmap are complete and the full acceptance package is verified.
 
 ## Next authorized action
 
-Write the one-page book contract and terminology sheet, then complete the lifecycle crosswalk and roadmap update. Manuscript prose remains out of scope until G1 passes.
+Complete the lifecycle crosswalk and roadmap update. Manuscript prose remains out of scope until G1 passes.

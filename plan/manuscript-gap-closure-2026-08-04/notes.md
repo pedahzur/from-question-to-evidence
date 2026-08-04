@@ -10,7 +10,13 @@ Ami approved the proposed architecture package without modification:
 4. The composite municipal oral-history case, using no real participant data.
 5. A provisional 75,000–90,000-word body target, excluding references and companion documentation, with volatile tool material kept outside the numbered book.
 
-The implementation branch is `feature/manuscript-gap-closure`. Working Edition 0.2 remains frozen, Jonathan is not an active dependency, authorship credit is unchanged, and no manuscript prose was rewritten during the approval step. G1 remains open pending the book contract, terminology sheet, lifecycle crosswalk, and revised roadmap.
+The implementation branch is `feature/manuscript-gap-closure`. Working Edition 0.2 remains frozen, Jonathan is not an active dependency, authorship credit is unchanged, and no manuscript prose was rewritten during the approval step. The book contract and terminology sheet are now complete; G1 remains open pending the lifecycle crosswalk and revised roadmap.
+
+## G1 Contract and Terminology Deliverables — 4 August 2026
+
+- `docs/revisions/book-contract-2026-08-04.md` states the audience, one-sentence promise, intellectual contribution, six-part learning contract, boundaries, pedagogical requirements, and first-edition completion test.
+- `docs/revisions/terminology-and-capitalization-sheet-2026-08-04.md` controls the ten-stage lifecycle, domain pathways, evidence-design terms, record states, audit language, AI terms, publication states, and capitalization.
+- These documents are working G1 records. The lifecycle crosswalk and revised roadmap remain outstanding, so G1 is not yet passed.
 
 ## Source Record
 

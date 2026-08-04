@@ -30,6 +30,7 @@ Create a detailed, executable editorial plan that closes the gaps identified in 
 - The target architecture contains 45 content units to be consolidated into approximately 32–36 numbered chapters.
 - On 4 August 2026, Ami approved the architecture package as proposed: the six-part structure, chapter-disposition map, ten-stage lifecycle, composite municipal oral-history case, and provisional 75,000–90,000-word body target with a separate companion boundary.
 - Structural implementation will proceed on `feature/manuscript-gap-closure`; Working Edition 0.2 remains frozen.
+- The one-page book contract and terminology/capitalization sheet were completed as working G1 records; they do not alter manuscript prose.
 
 ## Errors Encountered
 
@@ -38,4 +39,4 @@ Create a detailed, executable editorial plan that closes the gaps identified in 
 
 ## Status
 
-**Architecture approved; G0 passed; WS1/G1 in progress** — the formal decision, pre-restructure baseline, restorable bundles, dedicated revision branch, and public-release freeze are verified. No manuscript prose has changed. The next bounded deliverables are the book contract and terminology sheet; G1 remains open until its complete acceptance package is verified.
+**Architecture approved; G0 passed; WS1/G1 in progress** — the book contract and terminology sheet now join the approved architecture and preservation records. No manuscript prose has changed. The remaining bounded G1 deliverables are the lifecycle crosswalk and revised roadmap; G1 remains open until the full acceptance package is verified.
