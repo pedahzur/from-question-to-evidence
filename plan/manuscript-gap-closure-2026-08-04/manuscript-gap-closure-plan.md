@@ -822,4 +822,4 @@ The approval is recorded in `docs/revisions/architecture-package-approval-2026-0
 
 ## Immediate Next Action
 
-Complete G0 preservation verification, then write the one-page book contract and terminology sheet required for G1. No manuscript rewriting should begin before G1 passes.
+G0 and G1 have passed. Begin WS2 with the specification and source plan for “Judgment, Position, and the Limits of Evidence,” then prepare the AI pre-flight gate. No public release or source-file renumbering is authorized.

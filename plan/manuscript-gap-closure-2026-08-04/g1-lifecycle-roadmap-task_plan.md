@@ -10,7 +10,7 @@ Map every existing and planned domain pathway to the ten-stage research lifecycl
 - [x] Phase 2: Build the lifecycle crosswalk and identify overlaps, omissions, and relocation requirements.
 - [x] Phase 3: Replace the accreted roadmap with the approved architecture, dependencies, gates, and release sequence.
 - [x] Phase 4: Audit the full G1 acceptance package and record the gate decision.
-- [ ] Phase 5: Verify, commit, publish, preserve, and synchronize the project record.
+- [x] Phase 5: Verify, commit, publish, preserve, and synchronize the project record.
 
 ## Key Questions
 
@@ -36,4 +36,4 @@ Map every existing and planned domain pathway to the ten-stage research lifecycl
 
 ## Status
 
-**Phase 4 complete; Phase 5 in progress** — the crosswalk, replacement roadmap, and G1 acceptance record are complete. Verification, version control, preservation, and project-record synchronization remain.
+**Complete** — the crosswalk, replacement roadmap, and G1 acceptance record are verified, committed, pushed, preserved in a complete Git bundle, and synchronized to the Methods Textbook project. G1 passed without manuscript source changes.
