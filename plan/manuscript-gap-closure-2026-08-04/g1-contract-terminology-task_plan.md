@@ -12,7 +12,7 @@ Produce the one-page book contract and normative terminology/capitalization shee
 - [x] Phase 4: Audit both documents against the architecture plan and current manuscript vocabulary.
 - [x] Phase 5: Verify, commit, publish, and synchronize the project record.
 - [x] Phase 6: Apply the approved broader-textbook refinements to the contract and verification terminology.
-- [ ] Phase 7: Re-audit, verify, commit, publish, and synchronize the refined records.
+- [x] Phase 7: Re-audit, verify, commit, publish, and synchronize the refined records.
 
 ## Key Questions
 
@@ -35,4 +35,4 @@ Produce the one-page book contract and normative terminology/capitalization shee
 
 ## Status
 
-**Currently in Phase 7** — the approved refinements are applied and the 57-test suite passes; committing, publishing, and synchronizing the refined records.
+**Complete** — the broader-textbook refinements are applied, the 57-test suite passes, the feature branch is published, and the Methods Textbook project record is synchronized. The lifecycle crosswalk and revised roadmap remain the next G1 task.
