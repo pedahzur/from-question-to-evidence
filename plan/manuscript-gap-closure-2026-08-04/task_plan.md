@@ -28,11 +28,13 @@ Create a detailed, executable editorial plan that closes the gaps identified in 
 - Work will be sequenced architecture first, missing spine second, pilot third, line edit and publication last.
 - The final effort range is 90–130 focused editorial days plus 6–8 weeks of elapsed pilot time.
 - The target architecture contains 45 content units to be consolidated into approximately 32–36 numbered chapters.
+- On 4 August 2026, Ami approved the architecture package as proposed: the six-part structure, chapter-disposition map, ten-stage lifecycle, composite municipal oral-history case, and provisional 75,000–90,000-word body target with a separate companion boundary.
+- Structural implementation will proceed on `feature/manuscript-gap-closure`; Working Edition 0.2 remains frozen.
 
 ## Errors Encountered
 
-- None.
+- `uv run pytest -q` could not open the default user cache under sandboxed execution. Rerun with a task-specific cache under `/private/tmp`; no project file or test logic was implicated.
 
 ## Status
 
-**Complete** — the detailed plan, working notes, project Hub, TODO list, daily record, source snapshot, and recovery bundle are synchronized and verified. Execution awaits Ami's architecture decision.
+**Architecture approved; WS0/G0 in progress** — the formal decision and pre-restructure baseline are recorded on the dedicated revision branch. No manuscript prose has changed. The next bounded deliverables are the book contract and terminology sheet; G1 remains open until its complete acceptance package is verified.

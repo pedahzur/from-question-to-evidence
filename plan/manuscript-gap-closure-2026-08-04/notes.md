@@ -1,5 +1,17 @@
 # Notes: Manuscript Gap-Closure Program
 
+## Architecture Approval — 4 August 2026
+
+Ami approved the proposed architecture package without modification:
+
+1. Six parts: Judgment, Evidence, and AI; Designing the Evidence Base; Literature as Evidence; Collection and Preparation; Analysis and Claim Testing; Writing, Sharing, and Maintaining.
+2. The full chapter-disposition map, including relocation or companion treatment for PKM, Skills and Agents Lab, meta-analysis, and event-database material.
+3. The ten-stage master lifecycle from Position through Release and maintain.
+4. The composite municipal oral-history case, using no real participant data.
+5. A provisional 75,000–90,000-word body target, excluding references and companion documentation, with volatile tool material kept outside the numbered book.
+
+The implementation branch is `feature/manuscript-gap-closure`. Working Edition 0.2 remains frozen, Jonathan is not an active dependency, authorship credit is unchanged, and no manuscript prose was rewritten during the approval step. G1 remains open pending the book contract, terminology sheet, lifecycle crosswalk, and revised roadmap.
+
 ## Source Record
 
 ### Current manuscript

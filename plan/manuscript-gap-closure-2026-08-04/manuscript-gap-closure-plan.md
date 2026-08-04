@@ -7,6 +7,7 @@
 ## Plan status
 
 - **Plan date:** 4 August 2026
+- **Architecture decision:** Approved as proposed by Ami Pedahzur on 4 August 2026
 - **Editorial authority:** Ami Pedahzur
 - **Active coeditor dependency:** None
 - **Manuscript baseline:** `1a0a401`
@@ -794,9 +795,9 @@ The eight-part page pattern may flex. A chapter should not retain a section that
 | Coauthor status later changes | Low/unknown | Credit or approval dispute | Separate governance and authorship record; preserve history | Jonathan returns or requests an authorship/release decision |
 | AI/tool claims age during development | High | Dated book | Stable/volatile separation and review dates | Interface, policy, model, or price claim enters core prose |
 
-## Decision Log Required Before Execution
+## Architecture Decision Log
 
-Ami must explicitly approve these five decisions before structural implementation:
+Ami approved these five decisions as proposed on 4 August 2026:
 
 1. The six-part architecture.
 2. The chapter-disposition map, especially PKM, Skills and Agents Lab, meta-analysis, and event-database material.
@@ -804,7 +805,7 @@ Ami must explicitly approve these five decisions before structural implementatio
 4. The composite municipal oral-history case.
 5. The provisional 75,000–90,000-word body target and companion boundary.
 
-Approval may modify any item. Once recorded, Codex can implement the first sprint without waiting for another collaborator.
+The approval is recorded in `docs/revisions/architecture-package-approval-2026-08-04.md`. Codex may implement the first sprint without waiting for another collaborator. This approval does not change authorship credit or authorize a public release.
 
 ## First Ten Actions After Approval
 
@@ -819,6 +820,6 @@ Approval may modify any item. Once recorded, Codex can implement the first sprin
 9. Prototype one blank and one completed collection artifact.
 10. Render an internal build to test the new Part I–IV navigation before drafting the remainder.
 
-## Immediate Next Decision
+## Immediate Next Action
 
-Approve or revise the architecture package: the six parts, the chapter-disposition map, the ten-stage master lifecycle, the oral-history case, and the provisional word target. No manuscript rewriting should begin before that decision is recorded.
+Complete G0 preservation verification, then write the one-page book contract and terminology sheet required for G1. No manuscript rewriting should begin before G1 passes.
