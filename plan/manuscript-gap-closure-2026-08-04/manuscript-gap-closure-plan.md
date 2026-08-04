@@ -201,10 +201,10 @@ The evidence-map, literature, historical, event-database, and PKM sequences beco
 
 ## WS0 — Baseline, Governance, and Preservation
 
-**Priority:** Immediate  
-**Estimated effort:** 1–2 focused days  
-**Dependencies:** None  
-**Accountable:** Ami  
+**Priority:** Immediate
+**Estimated effort:** 1–2 focused days
+**Dependencies:** None
+**Accountable:** Ami
 **Production support:** Codex
 
 ### Tasks
@@ -231,10 +231,10 @@ The evidence-map, literature, historical, event-database, and PKM sequences beco
 
 ## WS1 — Architecture, Scope, and Terminology
 
-**Priority:** Blocker  
-**Estimated effort:** 3–5 focused days  
-**Dependencies:** G0  
-**Accountable:** Ami  
+**Priority:** Blocker
+**Estimated effort:** 3–5 focused days
+**Dependencies:** G0
+**Accountable:** Ami
 **Production support:** Codex
 
 ### Tasks
@@ -268,10 +268,10 @@ The evidence-map, literature, historical, event-database, and PKM sequences beco
 
 ## WS2 — Epistemic Foundation and Early AI Integrity
 
-**Priority:** Blocker  
-**Estimated effort:** 7–10 focused days  
-**Dependencies:** G1  
-**Accountable:** Ami  
+**Priority:** Blocker
+**Estimated effort:** 7–10 focused days
+**Dependencies:** G1
+**Accountable:** Ami
 **Drafting and source support:** Codex
 
 ### Tasks
@@ -306,10 +306,10 @@ The evidence-map, literature, historical, event-database, and PKM sequences beco
 
 ## WS3 — Composite Oral-History Case and Transfer Test
 
-**Priority:** Blocker  
-**Estimated effort:** 6–9 focused days  
-**Dependencies:** G2  
-**Accountable:** Ami  
+**Priority:** Blocker
+**Estimated effort:** 6–9 focused days
+**Dependencies:** G2
+**Accountable:** Ami
 **Design and artifact support:** Codex
 
 ### Default case
@@ -365,10 +365,10 @@ A composite study of how tenants experienced and remembered municipal housing re
 
 ## WS4 — Collection and Preparation Module
 
-**Priority:** Blocker  
-**Estimated effort:** 15–22 focused days  
-**Dependencies:** G3  
-**Accountable:** Ami  
+**Priority:** Blocker
+**Estimated effort:** 15–22 focused days
+**Dependencies:** G3
+**Accountable:** Ami
 **Drafting, templates, and verification:** Codex
 
 ### Module contract
@@ -439,10 +439,10 @@ A composite study of how tenants experienced and remembered municipal housing re
 
 ## WS5 — Analysis and Claim-Testing Module
 
-**Priority:** Blocker  
-**Estimated effort:** 15–22 focused days  
-**Dependencies:** G4  
-**Accountable:** Ami  
+**Priority:** Blocker
+**Estimated effort:** 15–22 focused days
+**Dependencies:** G4
+**Accountable:** Ami
 **Drafting, examples, and tests:** Codex
 
 ### Module contract
@@ -513,10 +513,10 @@ A composite study of how tenants experienced and remembered municipal housing re
 
 ## WS6 — Writing, Sharing, and Maintenance Module
 
-**Priority:** Blocker  
-**Estimated effort:** 9–14 focused days  
-**Dependencies:** G5  
-**Accountable:** Ami  
+**Priority:** Blocker
+**Estimated effort:** 9–14 focused days
+**Dependencies:** G5
+**Accountable:** Ami
 **Drafting, production, and release support:** Codex
 
 ### Module contract
@@ -556,10 +556,10 @@ A composite study of how tenants experienced and remembered municipal housing re
 
 ## WS7 — Restructure and Integrate Existing Specialist Chapters
 
-**Priority:** Major  
-**Estimated effort:** 8–12 focused days  
-**Dependencies:** G1; final integration after G6  
-**Accountable:** Ami  
+**Priority:** Major
+**Estimated effort:** 8–12 focused days
+**Dependencies:** G1; final integration after G6
+**Accountable:** Ami
 **Editorial and migration support:** Codex
 
 ### Tasks by chapter
@@ -589,10 +589,10 @@ A composite study of how tenants experienced and remembered municipal housing re
 
 ## WS8 — Literature, Citation, Fact, and Rights Audit
 
-**Priority:** Major  
-**Estimated effort:** 10–15 focused days  
-**Dependencies:** Begin after G2; final pass after G7  
-**Accountable:** Ami  
+**Priority:** Major
+**Estimated effort:** 10–15 focused days
+**Dependencies:** Begin after G2; final pass after G7
+**Accountable:** Ami
 **Audit and verification support:** Codex
 
 ### Tasks
@@ -619,11 +619,11 @@ A composite study of how tenants experienced and remembered municipal housing re
 
 ## WS9 — Pedagogical Design and Reader Pilot
 
-**Priority:** Blocker for publication  
-**Estimated effort:** 7–10 focused days plus 6–8 weeks elapsed time  
-**Dependencies:** Pilot materials after G4; full pilot after G6 and G7  
-**Accountable:** Ami  
-**Design and analysis support:** Codex  
+**Priority:** Blocker for publication
+**Estimated effort:** 7–10 focused days plus 6–8 weeks elapsed time
+**Dependencies:** Pilot materials after G4; full pilot after G6 and G7
+**Accountable:** Ami
+**Design and analysis support:** Codex
 **Consulted:** novice and experienced readers
 
 ### Instructor and learner apparatus
@@ -663,10 +663,10 @@ A composite study of how tenants experienced and remembered municipal housing re
 
 ## WS10 — Accessibility, Production, and Release
 
-**Priority:** Final gate  
-**Estimated effort:** 7–11 focused days  
-**Dependencies:** G7, G8, G9  
-**Accountable:** Ami  
+**Priority:** Final gate
+**Estimated effort:** 7–11 focused days
+**Dependencies:** G7, G8, G9
+**Accountable:** Ami
 **Production support:** Codex
 
 ### Tasks
