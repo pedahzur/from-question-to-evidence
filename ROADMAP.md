@@ -42,6 +42,15 @@
 - Validate automated coding on a researcher-coded sample.
 - Use AI for explicit Bayesian arithmetic and sensitivity analysis while researchers retain causal judgment.
 
+### Bridge Chapter: Historical Sources as Evidence
+
+- Preserve the source witness, diplomatic transcription, passage, observation, interpretation, Historical Claim, and audit as distinct linked objects.
+- Separate source-stated, normalized, and inferred content without overwriting earlier forms.
+- Treat attribution, procedural stage, identity, chronology, dependence, and archival silence as historical judgments.
+- Validate source-bound observations before analysis and audit downstream Historical Claims through declared dependencies.
+- Compare human and model work by error type, provenance completeness, and uncertainty calibration.
+- Release an implementation-neutral Historical Evidence Chain Register while keeping the Salem pilot's untested instruments in the companion project.
+
 ### Bridge Chapter: From Notes to Research Infrastructure
 
 - Reconstruct the movement from networked notes to persistent project context.
@@ -50,6 +59,15 @@
 - Preserve negative evidence, transformation history, and prior versions.
 - Use a seven-stage PKM-AI research loop with a named human gate at every consequential transition.
 - Test the method through a candidate register, audit log, coverage memo, and operative chapter exercise.
+
+### Bridge Chapter: Writing by Voice, Revising by Ear
+
+- Treat dictation as a composition method whose recognized text requires verification.
+- Preserve the capture brief, raw recognition, corrected transcript, structured draft, listening copy, listening log, and accepted revision as distinct artifacts.
+- Use text-to-speech for defined diagnostic passes rather than as a substitute for argument review.
+- Benchmark every working language, including names, dates, specialized terms, transliteration, and code-switching.
+- Choose local, institutional, or commercial processing according to the material's sensitivity and authorization.
+- Keep dated product guidance separate from the stable round-trip method.
 
 ## Revision Program for `0.3.0-draft`
 

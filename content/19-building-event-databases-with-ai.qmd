@@ -19,6 +19,8 @@ The resulting speed creates a methodological danger. A fluent extraction can mak
 
 This chapter presents an auditable alternative. AI compresses clerical stages while the researcher preserves a visible chain from source to record, record to event, event to variable, and written evidence to causal inference. Every transition produces an artifact that can be reviewed, corrected, and versioned.
 
+The event record begins after a document has been located and read. Manuscripts, legal records, and other historically situated sources require a finer upstream chain from source witness to transcription and source-bound observation. The next chapter, [Historical Sources as Evidence](20-historical-sources-as-evidence.qmd), supplies that chain and extends it into the audit of historical claims.
+
 ## Learn
 
 ### Begin with the unit, not the model

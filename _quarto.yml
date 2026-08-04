@@ -30,8 +30,10 @@ book:
     - content/18-synthesize-audit-stop.qmd
     - content/19-review-articles-and-meta-analysis.qmd
     - content/19-building-event-databases-with-ai.qmd
+    - content/20-historical-sources-as-evidence.qmd
     - content/19-ai-research-integrity.qmd
     - content/20-pkm-and-ai-research-infrastructure.qmd
+    - content/21-writing-by-voice-revising-by-ear.qmd
     - content/skills-and-agents-lab.qmd
     - content/20-next-steps.qmd
     - content/references.qmd

@@ -7,6 +7,7 @@ project:
     - templates/*.docx
     - examples/**
     - presentations/*.pptx
+    - templates/*.md
     - assets/evidence-map-pilot.js
     - downloads/*.zip
     - downloads/*.sha256

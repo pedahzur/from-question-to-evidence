@@ -26,13 +26,13 @@ The two modules share one architecture at different lengths. The evidence map ru
 
 The evidence map devotes two stages to discovery where the review devotes one, because a collection project separates who could have recorded evidence from how to search for it. The review adds a reading stage because it must interpret what it finds.
 
-The modules also reveal what remains outside the draft. They do not collect an interview, preserve a website, prepare a full archival corpus, or write the final empirical analysis. The synthesis chapter extends the literature workflow into open, living, and quantitative reviews. The bridge chapter on event databases introduces document extraction, dynamic coding, validation, and explicit causal updating. Each still requires fuller treatment across source types and analytical traditions.
+The modules also reveal what remains outside the draft. They do not collect an interview, preserve a website, prepare a full archival corpus, or write the final empirical analysis. The synthesis chapter extends the literature workflow into open, living, and quantitative reviews. The bridge chapter on event databases introduces document extraction, dynamic coding, validation, and explicit causal updating. *Historical Sources as Evidence* adds the finer chain from archival witness to transcription, source-bound observation, historical claim, and downstream audit. Each still requires fuller treatment across source types and analytical traditions.
 
 ## The Full Field Guide
 
 The next module treats collection as evidence. It addresses documents, interviews, observations, images, audio, video, and web material. It connects capture to consent, metadata, storage, naming, backup, preservation, and chain of custody. A composite oral-history case will show where evidence co-produced with participants requires different decisions from retrieved documentary evidence.
 
-A preparation module will extend the event-database chapter across transcription, OCR, translation, coding, memoing, temporal ordering, entity resolution, and other conversions of unstructured records into structured fields. The original project devoted substantial attention to this border between qualitative material and databases. We will reconstruct that contribution around transformations whose lineage remains visible.
+A preparation module will extend the event-database and historical-sources chapters across OCR, translation, coding, memoing, temporal ordering, entity resolution, and other conversions of unstructured records into structured fields. The original project devoted substantial attention to this border between qualitative material and databases. We will reconstruct that contribution around transformations whose lineage remains visible.
 
 An analysis module will resist a false division between qualitative and quantitative work. Researchers move between close reading, comparison, counting, visualization, and model-based inference. The relevant distinction concerns the claim and evidence, not the brand of software.
 

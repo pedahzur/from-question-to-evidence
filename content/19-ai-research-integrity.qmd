@@ -13,6 +13,8 @@ license: "CC BY 4.0"
 
 Generative AI can accelerate parts of evidence mapping. It can propose synonyms, group candidate records, compare definitions, and question a stopping rule. These are acts of assistance. They are not transfers of authorship or responsibility.
 
+The preceding historical evidence chain makes this division concrete. A system may propose a transcription, observation, normalization, or audit decision. The researcher decides which source supports the record, where interpretation enters, and whether the resulting claim belongs in the corpus.
+
 The researcher defines the purpose. The researcher controls the material supplied to the system. The researcher verifies claims and sources. The researcher decides what enters the corpus. The researcher accounts for the result.
 
 This division of labor is necessary because fluent output can contain fabricated references, unsupported inference, privacy disclosure, and bias inherited from training data or the prompt. Current risk guidance treats these as properties that require management across the system's use, not as rare accidents.^[See @autio2024genai.]

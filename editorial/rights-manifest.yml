@@ -33,6 +33,13 @@
   rights_basis: CC BY 4.0 author license
   attribution: Ami Pedahzur and Jonathan Grossman
   reviewed_on: 2026-07-25
+- path: assets/historical-evidence-chain.svg and assets/historical-evidence-chain.png
+  publish: true
+  creator: Ami Pedahzur and Jonathan Grossman
+  source: Original historical evidence-chain diagram
+  rights_basis: CC BY 4.0 author license
+  attribution: Ami Pedahzur and Jonathan Grossman
+  reviewed_on: 2026-08-03
 - path: bibliography/styles/chicago-fullnote-bibliography.csl
   publish: true
   creator: Citation Style Language contributors
