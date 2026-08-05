@@ -10,6 +10,8 @@ ROOT = Path(__file__).resolve().parents[1]
 CHAPTERS = [
     "index.qmd",
     "content/01-origins-and-purpose.qmd",
+    "content/judgment-position-limits.qmd",
+    "content/19-ai-research-integrity.qmd",
     "content/02-evidence-map-overview.qmd",
     "content/03-frame.qmd",
     "content/04-decompose.qmd",
@@ -29,7 +31,6 @@ CHAPTERS = [
     "content/19-review-articles-and-meta-analysis.qmd",
     "content/19-building-event-databases-with-ai.qmd",
     "content/20-historical-sources-as-evidence.qmd",
-    "content/19-ai-research-integrity.qmd",
     "content/20-pkm-and-ai-research-infrastructure.qmd",
     "content/21-writing-by-voice-revising-by-ear.qmd",
     "content/skills-and-agents-lab.qmd",
@@ -263,10 +264,12 @@ def test_hebrew_table_of_contents_tracks_current_book() -> None:
     text = path.read_text(encoding="utf-8")
     chapter_numbers = re.findall(r"^### (\d+)\.", text, flags=re.MULTILINE)
 
-    assert chapter_numbers == [str(number) for number in range(1, 28)]
+    assert chapter_numbers == [str(number) for number in range(1, 29)]
     assert "direction: rtl" in text
-    assert "## חלק ראשון: ממחקר ראשוני למפת ראיות" in text
-    assert "### 11. תמונת־ראי בעיתונות" in text
-    assert "### 21. מקורות היסטוריים כראיות" in text
-    assert "### 24. כתיבה בקול, עריכה באמצעות האוזן" in text
-    assert "### 25. מעבדת סקילים וסוכנים" in text
+    assert "## חלק ראשון: שיפוט, ראיות ובינה מלאכותית" in text
+    assert "### 3. שיפוט, עמדה וגבולות הראיות" in text
+    assert "### 4. בינה מלאכותית ויושרה מחקרית" in text
+    assert "### 13. תמונת־ראי בעיתונות" in text
+    assert "### 23. מקורות היסטוריים כראיות" in text
+    assert "### 25. כתיבה בקול, עריכה באמצעות האוזן" in text
+    assert "### 26. מעבדת סקילים וסוכנים" in text

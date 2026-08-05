@@ -193,4 +193,4 @@ Companion material includes the Skills and Agents Lab, dated tool cards, install
 
 ## Current next action
 
-The WS2 specification, source plan, and AI pre-flight record are complete. The next manuscript work is to read and annotate the Priority 1 source set, draft “Judgment, Position, and the Limits of Evidence,” and revise “AI and Research Integrity” so the approved gate precedes every guided AI workflow. G2 remains open. No public release or source-file renumbering is authorized.
+The WS2 internal manuscript package is drafted and rendered. “Judgment, Position, and the Limits of Evidence” now opens Part I, produces an epistemic-position statement, and hands the reader to the revised AI pre-flight gate before every guided AI workflow. Seven Priority 1 works have page-level claim notes. The exact 2021 third edition of `smith2021decolonizing` remains `PENDING SOURCE ACCESS` and is not cited. The next bounded action is to resolve or formally substitute that source, conduct a skeptical interpretive-methods review of the two-chapter sequence, and record the G2 decision. No public release or source-file renumbering is authorized.

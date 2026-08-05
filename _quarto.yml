@@ -12,6 +12,8 @@ book:
   chapters:
     - index.qmd
     - content/01-origins-and-purpose.qmd
+    - content/judgment-position-limits.qmd
+    - content/19-ai-research-integrity.qmd
     - content/02-evidence-map-overview.qmd
     - content/03-frame.qmd
     - content/04-decompose.qmd
@@ -31,7 +33,6 @@ book:
     - content/19-review-articles-and-meta-analysis.qmd
     - content/19-building-event-databases-with-ai.qmd
     - content/20-historical-sources-as-evidence.qmd
-    - content/19-ai-research-integrity.qmd
     - content/20-pkm-and-ai-research-infrastructure.qmd
     - content/21-writing-by-voice-revising-by-ear.qmd
     - content/skills-and-agents-lab.qmd

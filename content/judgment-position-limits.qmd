@@ -1,0 +1,100 @@
+---
+title: "Judgment, Position, and the Limits of Evidence"
+description: "Locate the researcher, other authorities, and the limits of an inquiry before designing its evidence base."
+author:
+  - "Ami Pedahzur"
+  - "Jonathan Grossman"
+date: "2026-08-05"
+last-reviewed: "2026-08-05"
+license: "CC BY 4.0"
+---
+
+## The Same Question, Different Evidence
+
+::: {.callout-note}
+## Synthetic case protocol
+
+The municipal oral-history study in this chapter is a synthetic and composited case. Its municipality, participants, excerpts, field notes, permissions, and institutional details are invented. The case combines recurring methodological problems without reproducing any person's testimony or any restricted record.
+:::
+
+A researcher wants to understand why a city redevelopment program displaced some tenants while allowing others to remain. The question appears straightforward: how did residents experience the program, and how did the municipality justify its decisions? The researcher begins in the municipal archive. Staff members identify planning minutes, legal notices, relocation forms, and a list of residents whom the city classifies as “affected households.” A retired official agrees to an interview. The resulting evidence is orderly. It follows the institution's chronology and vocabulary.
+
+A second route begins through a tenants' association. Its members reject “affected households” because the label excludes informal occupants, relatives who shared apartments, and shopkeepers whose leases did not fit the residential scheme. One resident declines an interview but permits the researcher to record the refusal and its reason: earlier studies had collected stories without returning results. Another speaks in a language the researcher reads imperfectly and asks that a community interpreter attend. The interpreter explains that the city's term for “voluntary relocation” has no neutral equivalent in local usage. A third participant shares a letter on the condition that it remain unavailable to readers because it identifies a family member with insecure legal status.
+
+The two routes address the same initial question, but they do not produce the same encounters, records, absences, or risks. The archive provides continuity and an institutional decision trail. The tenant network reveals exclusions in the archive's categories and creates evidence through relationships the city does not control. Neither route is a complete view of the redevelopment. Combining them does not make the inquiry complete either. It gives the researcher a better account of how the evidence came into view and why some of it must remain unseen.
+
+Evidence becomes reviewable when researchers document how position, relationships, categories, institutions, and access shape the inquiry. Such documentation exposes judgment to criticism. It does not make judgment neutral, complete, or harmless.
+
+## Knowledge Starts Somewhere
+
+Every inquiry begins from a position. A researcher decides that one problem deserves attention, that certain people or records may illuminate it, and that some form of answer would count as knowledge. These choices may be inherited from a discipline, a funder, an institution, a political commitment, or a personal history. Leaving them unstated does not remove them. It only makes their influence harder to examine.
+
+Position is not a confession. It is a methodological account of what the inquiry seeks to know, what kinds of claims it intends to make, who may authorize or limit the work, and which commitments organize relevance. A useful account includes the researcher's position, but it does not end with identity. It also identifies institutional affiliation, language ability, legal access, technical competence, dependence on gatekeepers, and relationships that affect what can be asked or recognized.
+
+Positionality names the changing social, institutional, political, linguistic, and embodied relations through which a researcher is read and acts. A person may be treated as an insider in one encounter and an outsider in the next. Formal credentials may open an archive and create suspicion in a community meeting. Shared language may increase rapport without producing shared experience. Positionality therefore cannot be settled by a fixed label at the beginning of a project. It changes with setting, relation, and research act.^[On accountable knowledge as partial and located, see @haraway1988situated, 579, 581--90. On positionality as dynamic and contextual, see @soedirgo2020active, 527--30.]
+
+Reflexivity is the repeated examination of how these relations and assumptions affect research decisions and interpretations. It asks what changed after an encounter, whose description became a category, why one contradiction was pursued while another was ignored, and whether the researcher's preferred explanation is directing attention. Personal disclosure can contribute to this examination, but disclosure alone does not show a consequence for method. Reflexivity matters when it changes a question, recruitment route, category, interpretation, protection, or limit.^[Reflexivity includes several practices and should serve the inquiry rather than become an end in itself; see @finlay2002swamp, 212--15, 225--26.]
+
+This is why situated knowledge is not a license for saying that every account is equally adequate. A position creates responsibilities. The researcher must explain why a claim follows from particular evidence, what alternative positions reveal, and which relations make the account possible. Partiality is an invitation to stronger criticism because the route to the claim is visible.
+
+## The Researcher Enters the Evidence Chain
+
+Sources are not evidence by themselves. They become evidence through a documented relation to a question and a claim. Some records exist before the project, but even these reach the researcher through prior decisions about creation, classification, preservation, description, restriction, and retrieval. Other records are produced during the inquiry. An interview transcript, field note, translation, photograph, code, or analytic memo records an encounter shaped by the research design.
+
+In the municipal case, recruitment through the archive is not merely a route to participants. It places the institution near the beginning of the evidence chain. Staff members choose finding aids and describe relevant collections. The retired official responds to questions framed by the city's documentary chronology. The researcher decides when to ask for clarification and which silences to revisit. Each act can alter the record that later appears as a quotation or observation.
+
+The tenant route has its own production conditions. Association leaders may determine who hears about the study. Residents may adjust what they say because a neighbor or interpreter is present. The researcher's affiliation may recall earlier encounters with officials or journalists. Refusal is not empty space. It records a limit on the relationship and may reveal a history that the project is not entitled to overcome.
+
+Translation makes this production especially visible. The researcher could translate the municipal phrase as “voluntary relocation,” preserving the official label. The community interpreter proposes “agreed departure” but warns that residents often use a phrase closer to “leaving under pressure.” None is a mechanical equivalent. The research record should preserve the original expression, the alternatives considered, the person who advised on them, and the reason for the selected wording. The final prose must distinguish an institutional label from the researcher's analytic term and from a participant's description.
+
+Selection continues after the encounter. A researcher decides which passage to transcribe, which contradiction becomes a memo, which names are replaced, and which detail is too identifying to retain. Coding creates another layer. A category such as “choice” may gather statements that participants distinguish sharply. A codebook makes this operation inspectable, but it does not make the category natural. The researcher remains inside provenance because recruitment, interaction, translation, selection, and classification help produce the material being analyzed.^[Field research is intersubjective, and its relations can be reciprocal, asymmetrical, or exploitative; research questions and conduct may change in response. See @england1994personal, 82, 86--88.]
+
+This expanded evidence chain does not deny that documents or events exist beyond the researcher. It distinguishes what happened, what was recorded, what was encountered, and what was inferred. For historical material, silences can enter when facts are created, assembled into archives, retrieved as narratives, and granted retrospective significance. Later diligence cannot reconstruct every unmade or destroyed record, and different silences do not yield to one remedy.^[See @trouillot1995silencing, 24--26.]
+
+## Authority Is Distributed and Unequal
+
+Authority is distributed across research, but it is not distributed equally. Researchers usually retain substantial power over questions, funding, analysis, authorship, and publication. Participants may possess authority over consent, quotation, identification, withdrawal, or community protocols. Archives and rights holders may govern access and reuse. Institutions may approve a protocol or restrict a processing environment. A publisher may control an image license. These forms of authority are different, and none should be hidden under a general claim that the project is collaborative.
+
+Accountability is the obligation to explain and answer for decisions and consequences. It follows authority but does not belong only to the most powerful actor. A researcher remains accountable for a harmful publication even when an archive permitted access. An institution's approval does not substitute for a participant's consent. A participant's willingness to speak does not necessarily authorize the release of information about someone else.
+
+In the municipal case, the researcher cannot convert refusal into permission by describing it reflexively. The unavailable letter may support an internal assessment without becoming a quotation or downloadable record. Its evidentiary role must be described at the level allowed by the participant. A reader may therefore learn that restricted evidence affected the interpretation without receiving enough detail to identify its author or content.
+
+The framing of harm also belongs in this authority structure. A study organized only around injury can make communities legible through damage while overlooking desire, contradiction, survival, and self-determination. Communities may refuse that frame, require a different question, impose conditions on participation, or decline the study. Such actions are not obstacles to be managed away. They are limits on the researcher's authority and information about the history of research relations.^[On damage-centered inquiry, theories of change, desire-based framing, and community refusal or redirection, see @tuck2009suspending, 409--16, 422--24.]
+
+Participation does not automatically redistribute authority. Asking residents to comment on a draft may improve interpretation while leaving the researcher in control of selection and publication. Calling the process “giving voice” can conceal the fact that participants already have voices and that the researcher controls which fragments become public. A reviewable project names the decisions participants or partners can make, the decisions the researcher retains, and the points of disagreement for which no shared authority exists.^[See @england1994personal, 86--88.]
+
+## When the Frame Must Move
+
+The initial municipal question assumes that displacement is a single administrative outcome. The tenant encounters show that the category excludes informal residence, business loss, family separation, and departures that occurred before formal notices. The responsible response is not to protect the original wording merely because it was approved first. The frame may need to move.
+
+Flexible design is not undocumented improvisation. A revision needs a reason, a prior version, and a human gate. The researcher records the observation that challenged the frame, the category or claim that changed, the evidence already collected under the earlier design, and the effect on future collection. If the change alters consent, risk, participant authority, or the release audience, the relevant authority must review it before affected work continues.
+
+Active reflexivity makes this process recurrent. Before an encounter, the researcher records expectations and likely points of misrecognition. After it, the researcher notes how others appeared to read the relationship, which assumptions failed, and whether the research strategy should change. Consultation with participants, peers, interpreters, or local experts can expose what an individual memo misses. The value lies in consequential revision and visible reasoning, not in the volume of self-description.^[See @soedirgo2020active, 529--30.]
+
+Some observations justify reopening the design. Others belong in an unresolved-items record. A contradiction does not always require a new question. A vivid account does not automatically justify expanding the claim. The human gate asks for the smallest defensible change and preserves rejected alternatives. This discipline allows discovery without disguising drift.
+
+## What Auditability Cannot Do
+
+Auditability is the ability to reconstruct and question declared decisions, states, transformations, and dependencies. An audit trail can show when the municipal category entered the project, why it was challenged, who advised on a translation, which evidence remained restricted, and how the question changed. It allows another person to examine the decision chain without pretending to reproduce the relationship that produced it.
+
+Auditability is not neutrality. A complete log can document a harmful decision perfectly. It can expose the researcher's judgment to criticism, but it cannot remove unequal power, guarantee adequate interpretation, or prove that a conclusion is true. The record is valuable because it permits informed disagreement and correction.
+
+Transparency is a related but variable practice. It makes specified information available to a named audience under ethical, legal, and political limits. Full public disclosure is not the standard for every qualitative project. Participant protection, community rules, archival restrictions, and the risk created by aggregation may justify controlled access, abstraction, or non-release. The project should document how evidence was generated, analyzed, and protected even when it cannot share the underlying material.^[Qualitative traditions differ in what can and should be made public. Ethical protection may outweigh maximal sharing, while documentation of access, evidence generation, position, analysis, and changed plans can still support scrutiny. See @jacobs2021qtd, 174, 177--83.]
+
+Coverage is not representation. Coverage asks whether the corpus is adequate relative to a declared evidence design. It can show that the municipal study sought both institutional and tenant routes and recorded failed access. Representation is a separate claim about how the corpus relates to a population, process, experience, or world. Two access routes may improve coverage while still excluding undocumented residents, people who left the city, or those who refuse all research contact.
+
+Verification has a limit as well. A researcher can verify that a quotation matches a transcript, that a translation was reviewed, or that a document belongs to a dated file. Those checks do not establish that a speaker remembered accurately, that a translation exhausts meaning, or that the surviving file represents administrative practice. Verification supports a specified link in the evidence chain. It does not confer truth on the entire interpretation.
+
+Reflexivity carries similar dangers. A detailed personal account may center the researcher, claim authority through apparent candor, or divert attention from participants and evidence. A methods log may become ritual compliance. The remedy is not to abandon documentation. It is to ask what criticism the record enables, what decision it changed, and who remains unable to contest the account.^[For the uses and hazards of reflexive disclosure and methodological logs, see @finlay2002swamp, 215, 225--26.]
+
+The standard, then, is not total visibility. It is proportionate evaluability: enough information for the relevant audience to assess the claim and decision chain without violating the authority or safety of those who made the evidence possible. What cannot be released should be named at a permitted level. What cannot be known should remain a limit, not become a confident inference.
+
+## Save the Position
+
+Before framing the evidence base, complete an [epistemic-position statement](../templates/epistemic-position-statement.md). The statement records the inquiry and intended answer, knowledge commitments, researcher roles and dependencies, other authorities, evidence-producing relationships, provisional categories, likely silences, claim limits, and conditions for reopening or withdrawal. It is a working research artifact, not a biographical preface.
+
+Version the statement. Review it when the question, participant authority, source universe, claim type, researcher role, or release audience changes. Preserve earlier versions so a reader can reconstruct the movement of the design. Name the human gate that approves the position and the people or bodies that may require consultation or abstention.
+
+Then ask a peer to identify one hidden authority relation, one unexamined category, one likely silence, and one claim the evidence design cannot support. The exercise is complete when the statement names the intended claim type, the researcher and other authorities, the main evidence-producing relationships, at least one limit, at least one reopening trigger, and the decision maker who approves it. A generic identity list does not pass.
+
+Any unresolved authority, consent, safety, or rights question becomes a stop condition for the affected work. If AI assistance is proposed, carry the approved position into the [AI pre-flight record](../templates/ai-preflight-record.md). The next chapter turns these commitments into a gate that must pass before the first guided AI workflow.

@@ -2,9 +2,13 @@
 
 All notable changes to this project are documented here. Dates use ISO 8601.
 
-## Unreleased - 2026-07-26
+## Unreleased - 2026-08-05
 
 ### Added
+
+- An opening Part I chapter on judgment, position, authority, reflexivity, evidence production, and the limits of auditability, supported by a synthetic municipal oral-history case.
+- A versioned epistemic-position statement for recording knowledge commitments, authority relations, provisional categories, evidence-producing relationships, limits, and reopening conditions.
+- Page-level claim notes for seven verified Priority 1 sources, with the unavailable exact edition of the eighth source recorded as an unresolved source-access condition rather than cited.
 
 - Interactive seven-stage pathway and worked evidence-map explorer for the web edition.
 - Keyboard-accessible stage navigation, layer filters, node inspection, and responsive map connections.
@@ -24,6 +28,9 @@ All notable changes to this project are documented here. Dates use ISO 8601.
 - A coupled discovery-and-validation model for historical research, including verification debt, retrieval audits, stage gates, and three levels of reproducibility.
 
 ### Changed
+
+- AI and Research Integrity now appears before the first procedural workflow and requires an approved epistemic-position statement, AI pre-flight record, prohibited-delegation rule, stop condition, and gate decision.
+- The English book sequence and Hebrew table of contents now reflect the 28-chapter internal development structure while Working Edition 0.2 remains frozen.
 
 - Site styling now compiles through Quarto's theme pipeline.
 - Citation styling is stored locally, and the PDF profile uses XeLaTeX for reproducible offline builds.

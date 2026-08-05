@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-12"
-last-reviewed: "2026-07-28"
+last-reviewed: "2026-08-05"
 license: "CC BY 4.0"
 ---
 
@@ -13,11 +13,23 @@ license: "CC BY 4.0"
 
 Generative AI can accelerate parts of evidence mapping. It can propose synonyms, group candidate records, compare definitions, and question a stopping rule. These are acts of assistance. They are not transfers of authorship or responsibility.
 
-The preceding historical evidence chain makes this division concrete. A system may propose a transcription, observation, normalization, or audit decision. The researcher decides which source supports the record, where interpretation enters, and whether the resulting claim belongs in the corpus.
+The preceding chapter located the researcher, participants, communities, archives, institutions, and rights holders inside the evidence chain. This chapter applies that position to AI use. A system may propose a transcription, observation, normalization, or audit decision. The researcher decides which source supports the record, where interpretation enters, and whether the resulting claim belongs in the corpus.
 
 The researcher defines the purpose. The researcher controls the material supplied to the system. The researcher verifies claims and sources. The researcher decides what enters the corpus. The researcher accounts for the result.
 
 This division of labor is necessary because fluent output can contain fabricated references, unsupported inference, privacy disclosure, and bias inherited from training data or the prompt. Current risk guidance treats these as properties that require management across the system's use, not as rare accidents.^[See @autio2024genai.]
+
+## The Pre-Flight Gate
+
+Do not begin a guided AI workflow with a prompt. Begin with an approved [epistemic-position statement](../templates/epistemic-position-statement.md). It identifies the inquiry, the authorities and relationships that govern it, the claims outside scope, and the judgments that remain human responsibilities.
+
+For each bounded AI task, complete an [AI pre-flight record](../templates/ai-preflight-record.md). The record tests purpose, necessity, authority, material sensitivity, processing conditions, input minimization, validation, logging, and escalation. Complete a new record when the task, material, system, access route, or release audience changes.
+
+The record must name prohibited delegation. An AI system cannot authorize consent, override a participant or community restriction, make the final decision about source credibility, determine whether protected material may be released, or accept responsibility for an interpretation. It may generate candidates or challenges only within the role that the human gate approves.
+
+The record must also name a stop condition. Unresolved authority, consent, rights, data classification, processing terms, validation, or disproportionate harm stops the affected use. So does any proposed transfer of interpretive, causal, authorship, or release authority to the system. A deadline or convenient interface does not convert a stop condition into permission.
+
+The gate decision is recorded as approved, approved with restrictions, deferred, or prohibited. It identifies the task, material, environment, controls, approver, and review date. Approval is not permanent. Consequential changes reopen the gate, and failed validation can withdraw it.
 
 ## Model-Neutral Workflows
 
@@ -27,11 +39,11 @@ A useful prompt gives the system a bounded role. “Identify candidate dimension
 
 Run more than one pass when the task matters. The first pass generates. The second challenges. The third compares the output with the evidence map. Repetition does not guarantee truth, but role separation makes error easier to see.
 
-Model neutrality has a limit worth stating. The verification-heavy workflows in this guide assume access to a capable model, and capable models often cost money. The privacy fallback assumes a local or institutional system that many researchers do not have. Capability also varies by tool, language, and region. For these reasons the method does not depend on AI. The map, the search log, the evidence register, and the stopping rule stand on their own. A researcher without access to a frontier model loses an assistant, not the method.
+Model neutrality has a limit worth stating. The verification-heavy workflows in this guide assume access to a capable model, and capable models often cost money. The privacy fallback assumes a local or institutional system that many researchers do not have. Capability also varies by tool, language, and region. For these reasons the method does not depend on AI. The map, the search log, the evidence register, and the stopping rule stand on their own. A researcher without access to a high-capability model loses an assistant, not the method.
 
 ## Privacy and Data Minimization
 
-Do not place material into an external system merely because it accepts text. Interview transcripts, archival restrictions, personal data, allegations, unpublished findings, and partner-owned datasets may carry legal and ethical limits. Removing names does not lift those limits. De-identification of qualitative data is unreliable, and re-identification is often possible from context alone. Under most data-protection regimes and ethics approvals, pseudonymized participant data remains regulated personal data, and many approvals and data agreements forbid sending it to a third-party processor at all. Consumer tools may also retain inputs or train on them. Before any participant-derived material enters an external system, confirm that the ethics approval and the data agreements permit third-party processing. Use an abstract description when the full record is unnecessary. Prefer a local or institutionally approved system when protection requires it. When in doubt, do not upload, and consult the ethics board or the data-protection officer.
+Do not place material into an external system merely because it accepts text. Interview transcripts, archival restrictions, personal data, allegations, unpublished findings, and partner-owned datasets may carry legal and ethical limits. Removing names does not lift those limits, and contextual detail may permit re-identification. An ethics approval, consent agreement, community rule, archive condition, or data agreement may prohibit third-party processing. Before participant-derived, restricted, or unpublished material enters any AI system, verify the applicable authority and the approved processing environment. Use an abstract description when the full record is unnecessary. When authorization or processing terms remain unclear, stop and consult the responsible ethics, data-protection, archival, community, or institutional authority.
 
 The audit log records what category of material entered the system. It need not reproduce protected content. It should record the model, date, task, input description, relevant settings, output disposition, and human reviewer.
 
@@ -47,7 +59,7 @@ The same rule applies to summaries. A model may produce an elegant account of a 
 
 Models can reproduce the visibility structure of their training material. Well-indexed English-language institutions may appear central because they are easier for the system to name. Local archives, non-English terms, and informal records may disappear from the response. This weakness makes AI useful as one critic among several, never as the sole designer of a source map.
 
-Bias can also appear as a stable direction of judgment rather than as an omitted perspective. In a zero-shot comparison with aggregated V-Dem expert ratings, GPT-4o tended to assign lower democracy scores while Llama-3.1-70B tended to assign higher ones; the differences grew for countries on which human coders disagreed most.[@weidmann2026democracy, 20--22] The direction was model-specific and not known in advance. Do not assume that replacing one model with another removes bias. Benchmark the actual model and version on locally relevant, researcher-coded cases, inspect directional differences by subgroup and difficulty, and retain the individual results when models are combined.
+Bias can also appear as a stable direction of judgment rather than as an omitted perspective. In one zero-shot comparison with aggregated expert ratings, two language models tended to assign democracy scores in opposite directions; the differences grew for countries on which human coders disagreed most.[@weidmann2026democracy, 20--22] The direction was model-specific and not known in advance. Do not assume that replacing one model with another removes bias. Benchmark the actual model and version on locally relevant, researcher-coded cases, inspect directional differences by subgroup and difficulty, and retain the individual results when models are combined.
 
 Ask what position the response assumes. Ask which actors it treats as authoritative. Ask which language and region dominate its suggestions. Then use domain expertise and human consultation to correct the map.
 
@@ -59,4 +71,4 @@ Preserve consequential outputs when terms permit. Record accepted and rejected s
 
 ## The Standard
 
-AI use is defensible when it makes judgment more visible. It fails when it hides judgment behind convenience.
+AI use is defensible when its pre-flight gate passes, its bounded contribution makes judgment more visible, and its output survives the declared human validation. It fails when it hides judgment behind convenience or proceeds through an unresolved stop condition.
