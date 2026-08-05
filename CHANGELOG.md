@@ -6,6 +6,11 @@ All notable changes to this project are documented here. Dates use ISO 8601.
 
 ### Added
 
+- A unified historical big-data and LLM program that joins the 2020 structured/unstructured data argument, the 2022 networked source-management argument, and the Historical Evidence Chain implementation within the existing ten-stage lifecycle.
+- A versioned internal Historical Evidence Chain companion containing the research-design article, codebooks, human coding form, prompts, controlled vocabularies, and Airtable and REDCap specifications, with source commit and rights boundary preserved.
+- An English-first bilingual publication strategy covering stable chapter identifiers, translation status, terminology governance, citation parity, accessibility, and right-to-left testing.
+- A source-review memo documenting the two foundational papers' arguments, writing patterns, and editorial consequences.
+
 - An opening Part I chapter on judgment, position, authority, reflexivity, evidence production, and the limits of auditability, supported by a synthetic municipal oral-history case.
 - A versioned epistemic-position statement for recording knowledge commitments, authority relations, provisional categories, evidence-producing relationships, limits, and reopening conditions.
 - Page-level claim notes for seven verified Priority 1 sources, with the unavailable exact edition of the eighth source recorded as an unresolved source-access condition rather than cited.
@@ -28,6 +33,9 @@ All notable changes to this project are documented here. Dates use ISO 8601.
 - A coupled discovery-and-validation model for historical research, including verification debt, retrieval audits, stage gates, and three levels of reproducibility.
 
 ### Changed
+
+- The book contract, opening, roadmap, and Hebrew table-of-contents subtitle now define the project as a complete historically grounded social-research cycle using big data and bounded large language models.
+- The foundational 2020 and 2022 papers are cited in the origins, historical-source, and PKM chapters at the points where their arguments guide the method.
 
 - AI and Research Integrity now appears before the first procedural workflow and requires an approved epistemic-position statement, AI pre-flight record, prohibited-delegation rule, stop condition, and gate decision.
 - The English book sequence and Hebrew table of contents now reflect the 28-chapter internal development structure while Working Edition 0.2 remains frozen.

@@ -40,6 +40,13 @@
   rights_basis: CC BY 4.0 author license
   attribution: Ami Pedahzur and Jonathan Grossman
   reviewed_on: 2026-08-03
+- path: lab/historical-evidence-chain/
+  publish: false
+  creator: Ami Pedahzur
+  source: Historical Evidence Chain repository at imported commit 488aa604ba8f0ec4fb76232f15d3f15835749c62
+  rights_basis: Upstream license decision pending; excluded from the general CC BY 4.0 grant
+  attribution: Ami Pedahzur
+  reviewed_on: 2026-08-05
 - path: bibliography/styles/chicago-fullnote-bibliography.csl
   publish: true
   creator: Citation Style Language contributors

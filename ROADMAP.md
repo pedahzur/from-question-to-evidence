@@ -2,9 +2,9 @@
 
 ## Project contract
 
-*From Question to Evidence* is a long-form, open-access, versioned field guide for graduate qualitative-methods students and experienced researchers adapting established practice to large, multilingual, multimodal, or AI-assisted projects.
+*From Question to Evidence* is a long-form, open-access, versioned field guide for graduate students and experienced researchers completing historically grounded qualitative research with large, multilingual, multimodal, or AI-assisted source collections. English is the source edition during development; Hebrew follows as a governed parallel edition.
 
-The book teaches researchers to build a documented and ethically governed chain from question to corpus, analysis, claim, public expression, and maintenance, while keeping AI assistance bounded, traceable, and subject to human judgment.
+The book teaches researchers to build a documented and ethically governed chain from question to corpus, analysis, claim, public expression, and maintenance. It joins three contributions: the distinction between structured and unstructured big data, networked research memory for high-volume digital sources, and the Historical Evidence Chain from source witness to audited claim. Large language models assist with bounded discovery, transformation, comparison, and challenge while authority over evidence, ethics, causal judgment, and release remains human.
 
 The planned body is approximately 75,000–90,000 words, excluding references and companion documentation. Stable method belongs in the numbered book. Dated tool guidance, installation instructions, product comparisons, benchmarks, extended implementations, and the Skills and Agents Lab belong in companion material.
 
@@ -16,6 +16,7 @@ The planned body is approximately 75,000–90,000 words, excluding references an
 - Existing authorship credit is unchanged. Authorship or credit changes require a separate decision record.
 - No source files will be renumbered until the target table of contents and renumbering map are complete.
 - Internal builds and candidates are not public Working Editions.
+- The Historical Evidence Chain companion remains internal until a separate reuse license is recorded and the rights manifest permits publication.
 
 ## Binding architecture
 

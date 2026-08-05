@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-27"
-last-reviewed: "2026-07-27"
+last-reviewed: "2026-08-05"
 license: "CC BY 4.0"
 ---
 
@@ -23,6 +23,15 @@ code, and partial arguments. The problem is not only how to store these material
 It is how to recover the right piece at the right time, reconstruct why it
 mattered, connect it to a changing question, and preserve the line from source to
 claim.
+
+This problem predates the current generation of AI. Our earlier work distinguished
+structured data from unstructured sources and argued that scale is useful only
+when theory, context, source criticism, and a return path to the original remain
+intact.[@grossman2020bigdata] We later described the pre-analytical problem as a
+paradox of plenty: digital collections make more material searchable while making
+systematic retrieval, comparison, and long-term intellectual continuity harder.
+The proposed response was a networked research memory connecting sources,
+annotations, concepts, and projects.[@grossman2022digitalsources]
 
 AI entered the same library within days. The early items treated it as a
 knowledge-aware writing assistant and an unusually productive partner for idea
@@ -60,7 +69,10 @@ The proposed remedy was to externalize memory. Notes would become smaller,
 searchable, and linked. Daily writing would reduce the cost of capture. Backlinks
 would allow an idea recorded for one purpose to reappear in another.
 
-This was a major improvement over a hierarchy of project folders. A folder asks
+This was a major improvement over a hierarchy of project folders. The networked
+model proposed for high-volume political research treated hierarchical and linked
+organization as complementary rather than mutually exclusive
+[@grossman2022digitalsources]. A folder asks
 where a note belongs. A network asks what the note is related to. That difference
 matters in social research because the same source can perform several jobs. An
 interview may provide evidence about an event, reveal an actor’s vocabulary, expose

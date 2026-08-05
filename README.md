@@ -1,10 +1,10 @@
 # From Question to Evidence
 
-*A Living Field Guide for Qualitative Research*
+*A Living Field Guide for Historically Grounded Social Research*
 
-This repository contains the English first-edition source, editable resources, and reproducible website for an open-access field guide by Ami Pedahzur and Jonathan Grossman.
+This repository contains the English source edition, editable resources, and reproducible website for an open-access field guide by Ami Pedahzur and Jonathan Grossman. A governed Hebrew edition will follow the same stable methods, artifacts, and citations.
 
-The guide follows a qualitative project from its first question to a documented corpus, an analysis, and a public claim. It treats the research record as a scholarly Second Brain: a system that connects capture, organization, distillation, and expression while preserving the decisions that shape a corpus. Generative AI appears as a bounded research aid. It does not replace source reading, verification, ethical judgment, or responsibility for synthesis.
+The guide follows an entire historically grounded qualitative research cycle from its first question to a documented corpus, analysis, tested claim, and maintained release. It is designed for archival, documentary, interview, event, and mixed-evidence projects working under conditions of big data and large language models. It treats the research record as a scholarly Second Brain: a system that connects capture, organization, distillation, and expression while preserving the decisions that shape a corpus. AI appears as a bounded research aid. It does not replace source reading, verification, ethical judgment, causal reasoning, or responsibility for synthesis.
 
 ## Publication Route
 
@@ -19,7 +19,7 @@ Version `0.2.0-draft` contains the first two complete modules:
 1. **From Question to Evidence Map** — seven stages from framing to a collection strategy and stopping rule.
 2. **Literature as Evidence** — six stages from review protocol to synthesis, coverage audit, and stopping rule.
 
-The working branch now opens Part I with **Judgment, Position, and the Limits of Evidence**, followed by a revised **AI and Research Integrity** chapter and its pre-flight gate. It also contains **Review Articles and Meta-Analysis in Transition**, **Building Event Databases with AI**, **Historical Sources as Evidence**, **From Notes to Research Infrastructure**, and **Writing by Voice, Revising by Ear**. The next revision work resolves the remaining Priority 1 source gap, reviews the new Part I sequence, carries the composite oral-history case through the method, supplies complete artifact specimens, and adds the Collection as Evidence module. See [ROADMAP.md](ROADMAP.md).
+The working branch now opens Part I with **Judgment, Position, and the Limits of Evidence**, followed by a revised **AI and Research Integrity** chapter and its pre-flight gate. It also contains **Review Articles and Meta-Analysis in Transition**, **Building Event Databases with AI**, **Historical Sources as Evidence**, **From Notes to Research Infrastructure**, and **Writing by Voice, Revising by Ear**. The Historical Evidence Chain companion adds a complete source-to-claim implementation with codebooks, prompts, human coding forms, controlled vocabularies, and database specifications. The next revision work resolves the remaining Priority 1 source gap, reviews the new Part I sequence, carries the composite oral-history case through the method, supplies complete artifact specimens, and adds the Collection as Evidence module. See [ROADMAP.md](ROADMAP.md).
 
 The current 28-chapter development structure is also available as a working [Hebrew table of contents](docs/hebrew-table-of-contents.md). It includes a documented case study of mirrored Arabic and Hebrew newspaper evidence, with a downloadable search log, source manifest, and event crosswalk. It will remain synchronized with the English-first living edition while the full Hebrew edition is developed. Working Edition 0.2 remains frozen while this internal revision proceeds.
 
@@ -29,6 +29,7 @@ The latest discussion-draft release packages the manuscript as both Word and PDF
 
 - `content/` — canonical Quarto manuscript pages.
 - `lab/` — versioned skills, agents, context templates, synthetic benchmarks, and failure reports.
+- `lab/historical-evidence-chain/` — an internal, versioned specialist implementation for historical sources; publication awaits a recorded license decision.
 - `downloads/` — deterministic public release archives and checksums.
 - `templates/` — editable DOCX and XLSX reader resources.
 - `scripts/` — content checks and deterministic resource builders.

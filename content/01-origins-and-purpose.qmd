@@ -5,7 +5,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-07-12"
-last-reviewed: "2026-07-26"
+last-reviewed: "2026-08-05"
 license: "CC BY 4.0"
 ---
 
@@ -17,11 +17,13 @@ What should be collected? How should it be named? Which metadata should travel w
 
 Our early drafts tried to answer these questions by following the research process. They moved from literature review to field collection, from unstructured material to a working database, and from analysis to public communication. Some passages remain useful. Others read like records of a vanished software market. Product descriptions aged faster than the methodological problems they were meant to solve.
 
+Two papers recorded the durable argument beneath those drafts. The first distinguished structured data from unstructured sources and argued that political research needs both. Structure permits systematic comparison, but it reduces context; unstructured material preserves sequence, attribution, and meaning, but demands disciplined retrieval and interpretation.[@grossman2020bigdata] The second moved earlier in the research cycle. It described the paradox of digital abundance and proposed a networked research memory that could connect sources, excerpts, annotations, concepts, and projects without confusing personal knowledge management with reference management or archiving.[@grossman2022digitalsources] The papers did not yet have today's language-model infrastructure. They supplied the problem definition and the research discipline that infrastructure must now serve.
+
 This failure taught us something. A book organized around tools will inherit their expiration dates. A book organized around research decisions can survive them.
 
 ## The New Pressure
 
-Large language models supply some of the processing power the original workflow lacked. They change the scale of the problem, but not its nature. A researcher has always relied on aids to memory and classification. Indexes, catalogues, research assistants, codebooks, and bibliographies all extend individual capacity. The new systems differ in three respects. They respond in natural language. They infer patterns across large bodies of text. They produce answers whose fluency can hide the weakness of their evidentiary basis.
+Large language models supply some of the processing power the original workflow lacked. They change the feasible scale of the problem, but not its nature. A researcher has always relied on aids to memory and classification. Indexes, catalogues, research assistants, codebooks, and bibliographies all extend individual capacity. The new systems differ in three respects. They respond in natural language. They infer patterns across large bodies of text. They produce answers whose fluency can hide the weakness of their evidentiary basis.
 
 The practical temptation is easy to understand. A researcher facing two hundred articles may ask a model for the dominant themes. A scholar entering an unfamiliar archive may request names, dates, and likely repositories. A doctoral student may ask for missing literature. Each request can produce a useful lead. Each can also collapse the distinction between a plausible sentence and a supported claim.
 
@@ -49,7 +51,7 @@ The two paths remain on the same page. We do not divide readers into permanent c
 
 ## What This Draft Does
 
-This project is a full living field guide published in reviewed modules. The current manuscript contains the first two. One moves from a question to an evidence map and collection plan. The other turns the scholarly source family into a literature corpus, synthesis, coverage audit, and stopping rule. Both use the same page pattern, preserve consequential decisions, and assign AI bounded roles.
+This project is a full, bilingual living field guide published in reviewed modules. English is the source edition during development; Hebrew will be a governed parallel edition with stable chapter identifiers, terminology review, citation parity, and right-to-left testing. The book is written for students completing an entire historically grounded qualitative research cycle with large, heterogeneous source collections. The current manuscript contains the first two complete modules. One moves from a question to an evidence map and collection plan. The other turns the scholarly source family into a literature corpus, synthesis, coverage audit, and stopping rule. Both use the same page pattern, preserve consequential decisions, and assign AI bounded roles.
 
 These modules are the first tested layers of the book, not its final boundary. The next revision makes the guide's epistemological position explicit, adds a composite oral-history case, and carries the collection plan into a documented research corpus. Later modules will address preparation, analysis, claim testing, writing, responsible sharing, and maintenance.
 

@@ -6,7 +6,7 @@ author:
   - "Ami Pedahzur"
   - "Jonathan Grossman"
 date: "2026-08-03"
-last-reviewed: "2026-08-04"
+last-reviewed: "2026-08-05"
 license: "CC BY 4.0"
 ---
 
@@ -18,7 +18,7 @@ AI can shorten transcription, retrieval, comparison, and preliminary extraction.
 
 AI changes the tempo of historical research before it changes its logic. It can generate candidate sources, entities, links, patterns, and explanations far faster than a researcher can inspect them. Discovery accelerates more readily than validation. The result is **verification debt**: an expanding queue of plausible outputs whose evidentiary status remains unsettled. A defensible workflow does not pretend to eliminate that debt. It prevents unverified candidates from crossing silently into the argument.
 
-This method adds the historian's discipline to the book's existing chain. The evidence map identifies source families. The event-database chapter converts verified records into resolved events and variables. Historical research requires closer control over the transformations that precede a verified record and the interpretations that follow it. The chapter supplies that control.
+This method adds the historian's discipline to the book's existing chain. Large unstructured collections can reveal temporal sequence, institutional change, causal mechanisms, and alternative explanations that disappear when evidence is reduced too early to rows and variables.[@grossman2020bigdata] Yet digital abundance also makes it harder to retain the route among repositories, source files, excerpts, concepts, and evolving interpretations. A networked research memory supplies that continuity without replacing close reading or archival expertise.[@grossman2022digitalsources] The evidence map identifies source families. The event-database chapter converts verified records into resolved events and variables. Historical research requires closer control over the transformations that precede a verified record and the interpretations that follow it. The chapter supplies that control.
 
 The design adapts the companion *Historical Evidence Chain* pilot, which uses legal records associated with the Salem witch trials to test transcription, extraction, and claim audit.[@pedahzur2026historical] The pilot is a research design, not a completed experiment. It contains no empirical findings, and this chapter makes none on its behalf. Its contribution here is a portable method that applies beyond Salem and beyond handwritten documents.
 
@@ -183,6 +183,8 @@ The final checkpoint concerns correction. Keep the analytical record append-only
 Save a linked package containing the source manifest, immutable transcription, passage register, source-bound observations, normalization and inference log, Claim in Source table, Historical Claim dependency table, validation decisions, adjudication record, and change log. The package may use a relational database, a research data platform, a set of linked files, or a versioned knowledge base. Stable identifiers matter more than the product.
 
 Use the downloadable [Historical Evidence Chain Register](../templates/historical-evidence-chain-register.md) to begin a small project. The register separates source witnesses, transformations, claims, and audits while leaving implementation choices open.
+
+An extended Historical Evidence Chain companion is maintained with the project source. It includes the full research-design article, a Salem-specific codebook, a parallel human coding form, versioned transcription, extraction, and audit prompts, controlled vocabularies, and Airtable and REDCap specifications. It is an implementation lab rather than a claim of completed findings. Its public release remains pending until its separate reuse license is recorded.
 
 Pair the register with a discovery-and-validation log. For each consequential model output, record the operation that produced it, the gate it must pass, its reviewer, its status, and every downstream claim that depends on it. The log converts verification debt from an invisible burden into a reviewable queue. No unresolved item should support a load-bearing claim.
 
