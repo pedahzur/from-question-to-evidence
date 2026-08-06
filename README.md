@@ -23,6 +23,8 @@ The working branch now opens Part I with **Judgment, Position, and the Limits of
 
 The current 28-chapter development structure is also available as a working [Hebrew table of contents](docs/hebrew-table-of-contents.md). It includes a documented case study of mirrored Arabic and Hebrew newspaper evidence, with a downloadable search log, source manifest, and event crosswalk. It will remain synchronized with the English-first living edition while the full Hebrew edition is developed. Working Edition 0.2 remains frozen while this internal revision proceeds.
 
+A concise, student-facing account of the book as it currently stands is available as a [five-page Hebrew summary](docs/hebrew-five-page-summary-2026-08-06.md). Its source preserves explicit right-to-left layout and five controlled page boundaries; the accompanying builder creates an accessible RTL Word edition for review and sharing.
+
 The latest discussion-draft release packages the manuscript as both Word and PDF, together with a browsable site preview and a reproducible source archive: [v0.2.0-draft](https://github.com/pedahzur/from-question-to-evidence/releases/tag/v0.2.0-draft).
 
 ## Repository Layout
@@ -60,6 +62,7 @@ Reader-resource builders:
 node scripts/build_templates.mjs
 node scripts/build_question_worksheet.mjs
 node scripts/build_literature_protocol.mjs
+node scripts/build_hebrew_summary.mjs
 uv run python scripts/build_lab_package.py
 ```
 

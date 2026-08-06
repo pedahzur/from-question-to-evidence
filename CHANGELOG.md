@@ -6,6 +6,7 @@ All notable changes to this project are documented here. Dates use ISO 8601.
 
 ### Added
 
+- A five-page, right-to-left Hebrew summary of the current book, written for Israeli undergraduate students and supported by a reproducible RTL Word builder.
 - A unified historical big-data and LLM program that joins the 2020 structured/unstructured data argument, the 2022 networked source-management argument, and the Historical Evidence Chain implementation within the existing ten-stage lifecycle.
 - A versioned internal Historical Evidence Chain companion containing the research-design article, codebooks, human coding form, prompts, controlled vocabularies, and Airtable and REDCap specifications, with source commit and rights boundary preserved.
 - An English-first bilingual publication strategy covering stable chapter identifiers, translation status, terminology governance, citation parity, accessibility, and right-to-left testing.
